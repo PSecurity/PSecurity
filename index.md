@@ -21,6 +21,8 @@
   {% endif %}
 {% endfor %}
 
+---
+
 ## 🔥 Últimos conteúdos
 
 {% for post in site.posts %}
