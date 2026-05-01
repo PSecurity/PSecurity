@@ -1,16 +1,67 @@
-## Hi there 👋
+# 👾 PeekSecurity
 
-<!--
-**PSecurity/PSecurity** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+> Fala rapaziada, suavidade? Eu sou o Peek.
 
-Here are some ideas to get you started:
+💻 Repositório focado em **Termux, Kali Linux e scripts para hacking ético mobile**.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+## 🚀 Acesse o site
+
+👉 https://seuuser.github.io/
+
+---
+
+## 📦 Conteúdo
+
+* 📱 Termux (comandos prontos)
+* 🐉 Kali Linux
+* ⚡ Scripts automatizados
+* 🔐 Segurança digital
+
+---
+
+## 🔥 Exemplo de comando
+
+```bash
+bash -c "$(curl -fsSL https://bit.ly/DragonBash)"
+```
+
+💡 Todos os comandos no site possuem botão **"Copiar"** para facilitar.
+
+---
+
+## ⚠️ Aviso
+
+Este conteúdo é destinado apenas para **fins educacionais**.
+Não me responsabilizo pelo uso indevido das informações.
+
+---
+
+## 🧠 Objetivo
+
+Ajudar a comunidade a aprender:
+
+* Segurança ofensiva
+* Automação no Termux
+* Ferramentas hacker mobile
+
+---
+
+## 📲 Redes
+
+* TikTok: @PeekSecurity
+
+---
+
+## ⭐ Contribuição
+
+Sinta-se livre para abrir **issues** ou enviar **pull requests**.
+
+---
+
+## ☕ Apoie o projeto
+
+Se esse conteúdo te ajudou, deixa uma estrela ⭐ no repositório!
+
+---
