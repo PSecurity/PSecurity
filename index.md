@@ -8,4 +8,6 @@ Fala rapaziada, suavidade? Eu sou o Peek.
 
 ## 🔥 Últimos conteúdos
 
-- [Instalar script Dragon Bash](posts/dragonbash.html)
+{% for post in site.posts %}
+  <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+{% endfor %}
