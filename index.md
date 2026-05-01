@@ -1,5 +1,3 @@
-# 👾 PeekSecurity
-
 ## 📱 Termux
 {% for post in site.posts %}
   {% if post.category == "termux" %}
@@ -7,7 +5,6 @@
   {% endif %}
 {% endfor %}
 
----
 
 ## 🐉 Kali Linux
 {% for post in site.posts %}
@@ -16,7 +13,6 @@
   {% endif %}
 {% endfor %}
 
----
 
 ## ⚡ Scripts
 {% for post in site.posts %}
