@@ -1,48 +1,145 @@
-nav {
-  text-align: center;
-  padding: 10px;
-  border-bottom: 1px solid #00ff9c33;
+/* RESET BÁSICO */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-nav a {
-  margin: 0 10px;
-  color: #00ff9c;
-  font-weight: bold;
-}
+/* BODY */
 body {
   background: #0d1117;
-  color: #00ff9c;
-  font-family: monospace;
-  margin: 0;
+  color: #c9d1d9; /* melhor leitura */
+  font-family: 'Share Tech Mono', monospace;
 }
 
+/* HEADER */
 .header {
   text-align: center;
   padding: 30px;
   border-bottom: 1px solid #00ff9c33;
 }
 
+.header h1 {
+  color: #00ff9c;
+  text-shadow: 0 0 8px #00ff9c;
+}
+
+.header p {
+  color: #8b949e;
+}
+
+/* NAVBAR */
+nav {
+  text-align: center;
+  padding: 12px;
+  border-bottom: 1px solid #00ff9c33;
+}
+
+nav a {
+  margin: 0 15px;
+  color: #00ff9c;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  text-shadow: 0 0 10px #00ff9c;
+}
+
+/* CONTAINER CENTRAL */
 .container {
   max-width: 900px;
-  margin: auto;
+  margin: 30px auto;
   padding: 20px;
+  background: #161b22;
+  border-radius: 12px;
+  box-shadow: 0 0 20px #000;
 }
 
+/* TÍTULOS */
 h1, h2, h3 {
   color: #00ff9c;
+  text-shadow: 0 0 5px #00ff9c55;
+  margin-bottom: 10px;
 }
 
+/* LINKS GERAIS */
 a {
   color: #00ff9c;
   text-decoration: none;
 }
 
 a:hover {
-  text-shadow: 0 0 5px #00ff9c;
+  text-shadow: 0 0 8px #00ff9c;
 }
+
+/* PARÁGRAFOS */
+p {
+  margin: 10px 0;
+  line-height: 1.6;
+}
+
+/* DIVIDER (linha verde hacker) */
 .divider {
   border: none;
   height: 2px;
-  background: linear-gradient(90deg, transparent, #00ff9c, transparent);
+  background: #00ff9c;
+  box-shadow: 0 0 10px #00ff9c, 0 0 20px #00ff9c;
   margin: 30px 0;
+}
+
+/* BLOCO DE CÓDIGO */
+.code-box {
+  position: relative;
+  background: #0d1117;
+  border: 1px solid #00ff9c33;
+  padding: 15px;
+  border-radius: 10px;
+  margin-top: 15px;
+  overflow-x: auto;
+}
+
+/* TEXTO DO CÓDIGO */
+.code-box code {
+  color: #00ff9c;
+}
+
+/* BOTÃO COPIAR */
+.code-box button {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: #00ff9c;
+  color: #000;
+  border: none;
+  padding: 5px 12px;
+  cursor: pointer;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+/* HOVER BOTÃO */
+.code-box button:hover {
+  box-shadow: 0 0 10px #00ff9c;
+}
+
+/* EFEITO TERMINAL */
+pre {
+  margin: 0;
+  font-family: 'Share Tech Mono', monospace;
+}
+
+/* RESPONSIVO */
+@media (max-width: 600px) {
+  .container {
+    margin: 10px;
+    padding: 15px;
+  }
+
+  nav a {
+    display: inline-block;
+    margin: 5px;
+  }
 }
