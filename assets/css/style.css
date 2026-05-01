@@ -1,3 +1,14 @@
+nav {
+  text-align: center;
+  padding: 10px;
+  border-bottom: 1px solid #00ff9c33;
+}
+
+nav a {
+  margin: 0 10px;
+  color: #00ff9c;
+  font-weight: bold;
+}
 body {
   background: #0d1117;
   color: #00ff9c;
