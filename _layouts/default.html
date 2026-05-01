@@ -1,8 +1,20 @@
-<script>
-function copyCode(button) {
-  const code = button.nextElementSibling.innerText;
-  navigator.clipboard.writeText(code);
-  button.innerText = "Copiado!";
-  setTimeout(() => button.innerText = "Copiar", 2000);
-}
-</script>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+
+<header class="header">
+  <h1>👾 PeekSecurity</h1>
+  <p>Termux • Kali • Scripts • Segurança</p>
+</header>
+
+<main class="container">
+  {{ content }}
+</main>
+
+</body>
+</html>
