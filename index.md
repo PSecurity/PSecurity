@@ -21,7 +21,7 @@
   {% endif %}
 {% endfor %}
 
----
+<div class="divider"></div>
 
 ## 🔥 Últimos conteúdos
 
