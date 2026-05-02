@@ -143,3 +143,28 @@ pre {
     margin: 5px;
   }
 }
+.posts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 15px;
+  margin: 20px 0;
+}
+
+.post-card {
+  background: #161b22;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid #00ff9c33;
+  transition: 0.3s;
+}
+
+.post-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 15px #00ff9c33;
+}
+
+.post-card h3 {
+  color: #00ff9c;
+  margin: 0;
+}
+
