@@ -1,32 +1,59 @@
+---
+layout: default
+title: Home
+---
+
 <div class="divider"></div>
 
 ## 📱 Termux
+<div class="posts-grid">
 {% for post in site.posts %}
   {% if post.category == "termux" %}
-    - <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    <div class="post-card">
+      <a href="{{ post.url | relative_url }}">
+        <h3>{{ post.title }}</h3>
+      </a>
+    </div>
   {% endif %}
 {% endfor %}
+</div>
 
 ## 🐉 Kali Linux
+<div class="posts-grid">
 {% for post in site.posts %}
   {% if post.category == "kali" %}
-    - <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    <div class="post-card">
+      <a href="{{ post.url | relative_url }}">
+        <h3>{{ post.title }}</h3>
+      </a>
+    </div>
   {% endif %}
 {% endfor %}
+</div>
 
 ## ⚡ Scripts
+<div class="posts-grid">
 {% for post in site.posts %}
   {% if post.category == "scripts" %}
-    - <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    <div class="post-card">
+      <a href="{{ post.url | relative_url }}">
+        <h3>{{ post.title }}</h3>
+      </a>
+    </div>
   {% endif %}
 {% endfor %}
+</div>
 
 <div class="divider"></div>
 
 ## 🔥 Últimos conteúdos
 
-{% for post in site.posts %}
-  <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+<div class="posts-grid">
+{% for post in site.posts limit:6 %}
+  <div class="post-card">
+    <a href="{{ post.url | relative_url }}">
+      <h3>{{ post.title }}</h3>
+    </a>
+  </div>
 {% endfor %}
-
-<div class="divider"></div>
+</div>
