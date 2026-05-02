@@ -1,3 +1,5 @@
+<a href="{{ post.url | relative_url }}">
+
 <div class="divider"></div>
 
 ## 📱 Termux
