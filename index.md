@@ -1,5 +1,3 @@
-<a href="{{ post.url | relative_url }}">
-
 <div class="divider"></div>
 
 ## 📱 Termux
@@ -30,7 +28,7 @@
 ## 🔥 Últimos conteúdos
 
 {% for post in site.posts %}
-  <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+  <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
 {% endfor %}
 
 <div class="divider"></div>
