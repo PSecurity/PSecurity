@@ -24,7 +24,7 @@
 ## 🔥 Exemplo de comando
 
 ```bash
-git clone https://psecurity.github.com/PSecurity
+git clone https://psecurity.github.com/PSecurity](https://github.com/PSecurity/ps.ngrok
 ```
 
 💡 Todos os comandos no site possuem botão **"Copiar"** para facilitar.
