@@ -24,7 +24,7 @@
 ## 🔥 Exemplo de comando
 
 ```bash
-bash -c "$(curl -fsSL https://bit.ly/DragonBash)"
+git clone https://psecurity.github.com/PSecurity
 ```
 
 💡 Todos os comandos no site possuem botão **"Copiar"** para facilitar.
