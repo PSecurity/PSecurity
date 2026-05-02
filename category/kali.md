@@ -5,8 +5,12 @@ title: Kali Linux
 
 # 🐉 Kali Linux
 
-{% for post in site.posts %}
-  {% if post.category == "kali" %}
-    <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-  {% endif %}
+<div class="posts-grid">
+{% for post in site.categories.kali %}
+  <div class="post-card">
+    <a href="{{ post.url | relative_url }}">
+      <h3>{{ post.title }}</h3>
+    </a>
+  </div>
 {% endfor %}
+</div>
