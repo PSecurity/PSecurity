@@ -14,6 +14,7 @@ Neste tutorial, vamos mostrar como configurar o **Git** no **Termux**, realizar 
 
 ---
 
+
 ### 1. **Instalar o Git no Termux**
 
 Antes de tudo, você precisa instalar o **Git** no Termux. Abra o Termux e execute os seguintes comandos:
@@ -26,6 +27,7 @@ Antes de tudo, você precisa instalar o **Git** no Termux. Abra o Termux e execu
 Isso vai garantir que o **Git** esteja instalado e pronto para uso no seu dispositivo Android.
 
 ---
+
 
 ### 2. **Configurar o Git**
 
@@ -41,6 +43,7 @@ Esses dados serão usados sempre que você realizar um commit para registrar que
 
 ---
 
+
 ### 3. **Clonar um Repositório do GitHub**
 
 Agora que o Git está configurado, você pode clonar qualquer repositório do **GitHub**. Para clonar o repositório, use o comando `git clone`, seguido pela URL do repositório:
@@ -54,6 +57,7 @@ cd repository</code></pre>
 Substitua `usuario/repository` pela URL do repositório que você deseja clonar. O diretório do repositório será copiado para o seu dispositivo Android, pronto para ser editado.
 
 ---
+
 
 ### 4. **Editar Arquivos com o Vim ou Nano**
 
@@ -75,6 +79,7 @@ Agora que você tem o repositório clonado, você pode editar os arquivos direta
 
 ---
 
+
 ### 5. **Adicionar e Comitar Alterações**
 
 Após editar os arquivos, você precisa **adicionar** as mudanças e **comitar** com uma mensagem explicando o que foi alterado:
@@ -90,6 +95,7 @@ git commit -m "Mensagem do commit"</code></pre>
 
 ---
 
+
 ### 6. **Subir para o GitHub**
 
 Depois de fazer o commit, é hora de **subir suas alterações** para o **GitHub**:
@@ -102,6 +108,7 @@ Depois de fazer o commit, é hora de **subir suas alterações** para o **GitHub
 Caso esteja usando uma branch diferente, substitua `main` pelo nome da sua branch.
 
 ---
+
 
 ### 7. **Atualizar o Repositório Local**
 
@@ -116,6 +123,7 @@ Isso irá trazer as mudanças feitas por outras pessoas ou por você em outro di
 
 ---
 
+
 ### 8. **Configurar SSH para Evitar Digitar Senha**
 
 Se você preferir não digitar sua senha toda vez que fizer um `git push`, você pode configurar a autenticação SSH. Para configurar o SSH no **Termux**, execute o seguinte comando:
@@ -129,6 +137,7 @@ Isso criará uma chave SSH. Em seguida, siga as instruções para adicionar sua 
 
 ---
 
+
 ### 9. **Dicas Adicionais**
 
 - **Gerenciar múltiplos repositórios**: Caso trabalhe com múltiplos repositórios ao mesmo tempo, você pode configurar diferentes **SSH Keys** para cada repositório e assim garantir mais segurança e organização no seu fluxo de trabalho.
@@ -139,6 +148,7 @@ Isso criará uma chave SSH. Em seguida, siga as instruções para adicionar sua 
 
 ---
 
+
 ## 🔥 Conclusão
 
 Agora você já sabe como **editar repositórios do GitHub diretamente no Termux**. Com esses passos, você pode facilmente clonar repositórios, editar código, comitar suas alterações e contribuir com projetos, tudo direto no seu **dispositivo Android**.
@@ -146,6 +156,7 @@ Agora você já sabe como **editar repositórios do GitHub diretamente no Termux
 Se você gostou do tutorial, compartilhe com outros desenvolvedores ou entre em contato para mais dicas de segurança e produtividade no **Termux**!
 
 ---
+
 
 **PeekSecurity** | *Transformando o Termux em uma ferramenta poderosa para desenvolvedores e hackers*  
 **TikTok**: [@peeksecurity](https://www.tiktok.com/@peeksecurity)  
