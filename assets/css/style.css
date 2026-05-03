@@ -7,7 +7,7 @@
 
 /* BODY */
 body {
-  background: #0d1117; /* Fundo mais próximo ao da imagem 1000000786.jpg */
+  background: #0d1117; /* Fundo */
   color: #c9d1d9; 
   font-family: 'Share Tech Mono', monospace;
 }
@@ -52,7 +52,7 @@ nav a:hover {
   max-width: 900px;
   margin: 30px auto;
   padding: 20px;
-  background: #110922; /* Elevando o tom do fundo para contraste */
+  background: #110922; /* Tom do fundo */
   border-radius: 12px;
   box-shadow: 0 0 25px #000;
   border: 1px solid #bc13fe22;
