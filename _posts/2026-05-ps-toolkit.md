@@ -2,7 +2,7 @@
 title: "PS.Toolkit - PeekSecurity"
 date: 2026-05-03
 author: Peek
-categories: [security, termux, toolkit]
+category: Termux
 tags: [ps-toolkit, psecurity, termux, bash, recon, nmap]
 layout: post
 ---
