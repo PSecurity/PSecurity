@@ -144,3 +144,43 @@ p {
   color: #bc13fe;
   margin: 0;
 }
+
+/* --- INÍCIO DA TRANSIÇÃO PARA O ROXO PEEK SECURITY --- */
+
+/* Força o fundo escuro e texto cinza */
+body, html {
+  background-color: #08080a !important;
+  color: #e5e5e5 !important;
+}
+
+/* Troca o verde neon pelo ROXO neon nos títulos */
+h1, h2, h3, h4, h5, h6, .site-title, .post-title {
+  color: #bc13fe !important;
+  text-shadow: 0 0 10px rgba(188, 19, 254, 0.3) !important;
+}
+
+/* Ajusta os links para não sumirem no fundo escuro */
+a {
+  color: #bc13fe !important;
+  text-decoration: none !important;
+}
+
+a:hover {
+  color: #fff !important;
+  text-shadow: 0 0 8px #bc13fe !important;
+}
+
+/* Estiliza os blocos de código com a borda roxa da sua ferramenta */
+pre, code, .highlighter-rouge, .highlight {
+  background-color: #121214 !important;
+  border-left: 3px solid #bc13fe !important;
+  color: #e5e5e5 !important;
+}
+
+/* Botões e cabeçalhos que costumam ser verdes nos temas do GitHub */
+header, .header, .nav, footer {
+  border-bottom: 1px solid #4a0e6e !important;
+  background-color: #0f0f12 !important;
+}
+
+/* --- FIM DA TRANSIÇÃO --- */
