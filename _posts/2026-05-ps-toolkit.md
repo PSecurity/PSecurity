@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: "PS.Toolkit - PeekSecurity"
 date: 2026-05-03
 category: termux
