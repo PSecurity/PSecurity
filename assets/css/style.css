@@ -247,3 +247,88 @@ header, .header, .nav, footer {
 }
 
 /* --- FIM DA TRANSIÇÃO --- */
+
+/* ── HOME LAYOUT COM SIDEBAR ── */
+.home-wrapper {
+  display: flex;
+  gap: 24px;
+  align-items: flex-start;
+}
+
+.main-content {
+  flex: 1;
+  min-width: 0;
+}
+
+/* SIDEBAR FIXA */
+.sidebar-latest {
+  width: 220px;
+  flex-shrink: 0;
+  position: sticky;
+  top: 16px;
+  background: #0f0018;
+  border: 1px solid #6b00c8;
+  box-shadow: 0 0 16px #6b00c830;
+}
+
+.sidebar-header {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 0.8rem;
+  color: #c084fc;
+  padding: 10px 14px;
+  border-bottom: 1px solid #6b00c8;
+  letter-spacing: 1px;
+  text-shadow: 0 0 8px #a855f7;
+}
+
+.sidebar-list {
+  list-style: none;
+  padding: 8px 0;
+  margin: 0;
+}
+
+.sidebar-item {
+  border-bottom: 1px solid #6b00c820;
+}
+
+.sidebar-item a {
+  display: flex;
+  flex-direction: column;
+  padding: 8px 14px;
+  text-decoration: none;
+  transition: background 0.15s;
+}
+
+.sidebar-item a:hover {
+  background: #6b00c815;
+}
+
+.sidebar-category {
+  font-size: 0.6rem;
+  color: #7c3aed;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 2px;
+}
+
+.sidebar-title {
+  font-size: 0.75rem;
+  color: #d8b4fe;
+  line-height: 1.3;
+}
+
+.sidebar-item a:hover .sidebar-title {
+  color: #c084fc;
+  text-shadow: 0 0 6px #a855f7;
+}
+
+/* Mobile: sidebar vai pra baixo */
+@media (max-width: 700px) {
+  .home-wrapper {
+    flex-direction: column;
+  }
+  .sidebar-latest {
+    width: 100%;
+    position: static;
+  }
+}
