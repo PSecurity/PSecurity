@@ -145,30 +145,66 @@ p {
   margin: 0;
 }
 
-/* --- INÍCIO DA TRANSIÇÃO PARA O ROXO PEEK SECURITY --- */
+/* --- PEEK SECURITY: THE ORGANIC PURPLE UPDATE --- */
 
-/* Força o fundo escuro e texto cinza */
-body, html {
-  background-color: #08080a !important;
-  color: #e5e5e5 !important;
+/* Fundo com leve gradiente para não ser um preto "morto" */
+body {
+  background: radial-gradient(circle at top center, #11081a 0%, #050505 100%) !important;
+  color: #b0b0b0 !important; /* Cinza suave para leitura */
+  font-family: 'JetBrains Mono', monospace !important;
 }
 
-/* Troca o verde neon pelo ROXO neon nos títulos */
-h1, h2, h3, h4, h5, h6, .site-title, .post-title {
-  color: #bc13fe !important;
-  text-shadow: 0 0 10px rgba(188, 19, 254, 0.3) !important;
+/* Títulos mais discretos e elegantes */
+h1, h2, h3 {
+  color: #fff !important;
+  border-left: 4px solid #bc13fe !important;
+  padding-left: 15px !important;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5) !important;
+  letter-spacing: -0.5px !important;
 }
 
-/* Ajusta os links para não sumirem no fundo escuro */
+/* --- AS CAIXAS DE CÓDIGO (COPIAR E COLAR) --- */
+/* Removendo o visual "bloco pesado" e deixando mais fluído */
+pre, code, .highlighter-rouge, .highlight {
+  background: rgba(20, 20, 25, 0.7) !important; /* Transparência orgânica */
+  backdrop-filter: blur(4px); /* Efeito de vidro fosco se o navegador permitir */
+  border: 1px solid rgba(188, 19, 254, 0.2) !important; /* Borda roxa quase invisível */
+  border-left: 4px solid #bc13fe !important; /* O acento principal */
+  border-radius: 8px !important;
+  padding: 1.2em !important;
+  color: #d1d1d1 !important;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5) !important;
+  transition: all 0.3s ease !important;
+}
+
+/* Efeito ao passar o mouse na caixa de código */
+pre:hover {
+  border-color: rgba(188, 19, 254, 0.5) !important;
+  box-shadow: 0 0 20px rgba(188, 19, 254, 0.1) !important;
+}
+
+/* Links orgânicos: sem sublinhado, apenas cor e transição */
 a {
   color: #bc13fe !important;
+  transition: opacity 0.2s !important;
   text-decoration: none !important;
 }
 
 a:hover {
-  color: #fff !important;
-  text-shadow: 0 0 8px #bc13fe !important;
+  opacity: 0.8 !important;
+  text-shadow: 0 0 10px rgba(188, 19, 254, 0.4) !important;
 }
+
+/* Ajuste de scrollbar para ficar "escondida" e roxa */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-thumb {
+  background: #331a4d !important;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover { background: #bc13fe !important; }
+
+/* --- FIM DO PROTOCOLO --- */
+
 
 /* Estiliza os blocos de código com a borda roxa da sua ferramenta */
 pre, code, .highlighter-rouge, .highlight {
