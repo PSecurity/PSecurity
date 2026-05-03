@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Editando Repositórios GitHub no Termux"
 date: 2026-05-03
 category: tutoriais
