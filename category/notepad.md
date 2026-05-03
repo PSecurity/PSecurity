@@ -1,3 +1,8 @@
+---
+layout: default
+title: Notepad
+---
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
