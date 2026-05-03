@@ -16,7 +16,7 @@ O **PS.Toolkit** é uma ferramenta desenvolvida pela equipe **PeekSecurity** com
 📦 Repositório oficial:  
 https://github.com/PSecurity/pstoolkit
 
----
+<div class="divider"></div>
 
 ## ⚠️ Aviso importante
 
@@ -26,7 +26,7 @@ Este projeto foi desenvolvido exclusivamente para fins educacionais.
 - Nunca utilize em sistemas sem autorização  
 - O autor não se responsabiliza pelo uso indevido  
 
----
+<div class="divider"></div>
 
 ## 🚀 O que é o PS.Toolkit?
 
@@ -37,13 +37,13 @@ O PS.Toolkit funciona como um conjunto de utilitários modulares para Termux, pe
 - Auxílio em análise de rede
 - Base extensível para novos módulos
 
----
+<div class="divider"></div>
 
 ## 🧠 Filosofia do projeto
 
 > “Aprender fazendo, não apenas lendo.”
 
----
+<div class="divider"></div>
 
 ## 🖥️ Instalação
 
@@ -54,7 +54,7 @@ chmod +x install.sh
 bash install.sh
 ```
 
----
+<div class="divider"></div>
 
 ## 🔮 Futuras melhorias
 
@@ -63,7 +63,7 @@ bash install.sh
 * Integração com outras ferramentas PSecurity
 * Expansão do toolkit modular
 
----
+<div class="divider"></div>
 
 ## 👾 Autor
 
