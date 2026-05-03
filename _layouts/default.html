@@ -1,14 +1,11 @@
 <!DOCTYPE html>
-<a href="{{ post.url | relative_url }}">
-<link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/PSecurity/assets/css/style.css">
-<link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
-<link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <title>{{ page.title }}</title>
-  <link rel="stylesheet" href="/assets/css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }} — PeekSecurity</title>
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
 <body>
 
@@ -18,19 +15,17 @@
 </header>
 
 <nav>
-  <a href="/PSecurity/">Home</a> |
-  <a href="/PSecurity/category/termux">Termux</a> |
-  <a href="/PSecurity/category/kali">Kali</a> |
-  <a href="/PSecurity/category/scripts">Scripts</a> |
-  <a href="/PSecurity/category/tutoriais">Tutoriais</a> |
-  <a href="/PSecurity/category/notepad">Notepad</a>
+  <a href="{{ '/' | relative_url }}">Home</a> |
+  <a href="{{ '/category/termux' | relative_url }}">Termux</a> |
+  <a href="{{ '/category/kali' | relative_url }}">Kali</a> |
+  <a href="{{ '/category/scripts' | relative_url }}">Scripts</a> |
+  <a href="{{ '/category/tutoriais' | relative_url }}">Tutoriais</a> |
+  <a href="{{ '/category/notepad' | relative_url }}">📝 Notepad</a>
 </nav>
-  
+
 <main class="container">
   {{ content }}
 </main>
 
 </body>
 </html>
-
-
