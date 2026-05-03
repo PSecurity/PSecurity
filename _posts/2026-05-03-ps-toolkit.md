@@ -18,6 +18,7 @@ https://github.com/PSecurity/pstoolkit
 
 <div class="divider"></div>
 
+
 ## ⚠️ Aviso importante
 
 Este projeto foi desenvolvido exclusivamente para fins educacionais.
@@ -27,6 +28,7 @@ Este projeto foi desenvolvido exclusivamente para fins educacionais.
 - O autor não se responsabiliza pelo uso indevido  
 
 <div class="divider"></div>
+
 
 ## 🚀 O que é o PS.Toolkit?
 
@@ -39,11 +41,13 @@ O PS.Toolkit funciona como um conjunto de utilitários modulares para Termux, pe
 
 <div class="divider"></div>
 
+
 ## 🧠 Filosofia do projeto
 
 > “Aprender fazendo, não apenas lendo.”
 
 <div class="divider"></div>
+
 
 ## 🖥️ Instalação
 
@@ -57,6 +61,7 @@ bash install.sh</code></pre>
 
 <div class="divider"></div>
 
+
 ## 🔮 Futuras melhorias
 
 * Novos módulos de recon
@@ -65,6 +70,7 @@ bash install.sh</code></pre>
 * Expansão do toolkit modular
 
 <div class="divider"></div>
+
 
 ## 👾 Autor
 
