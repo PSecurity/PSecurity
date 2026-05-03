@@ -1,5 +1,6 @@
 /* ══════════════════════════════════════════
    PEEKSECURITY — style.css
+   Mobile-first • Roxo Neon
    ══════════════════════════════════════════ */
 
 /* ── RESET ── */
@@ -15,20 +16,18 @@ body {
   background-color: #050505;
   color: #b0b0b0;
   font-family: 'Share Tech Mono', monospace;
+  font-size: 15px;
 }
 
 /* ── SCROLLBAR ── */
 ::-webkit-scrollbar { width: 6px; }
-::-webkit-scrollbar-thumb {
-  background: #331a4d;
-  border-radius: 10px;
-}
+::-webkit-scrollbar-thumb { background: #331a4d; border-radius: 10px; }
 ::-webkit-scrollbar-thumb:hover { background: #bc13fe; }
 
 /* ── HEADER ── */
 .header, header {
   text-align: center;
-  padding: 30px;
+  padding: 20px 16px;
   background-color: #0f0f12;
   border-bottom: 1px solid #4a0e6e;
 }
@@ -36,51 +35,59 @@ body {
 .header h1, header h1 {
   color: #bc13fe;
   text-shadow: 0 0 12px #bc13fe;
+  font-size: 1.4rem;
 }
 
 .header p, header p {
   color: #8b949e;
+  font-size: 0.85rem;
+  margin-top: 4px;
 }
 
 /* ── NAVBAR ── */
 nav {
   text-align: center;
-  padding: 12px;
+  padding: 10px 8px;
   background-color: #0f0f12;
   border-bottom: 1px solid #4a0e6e;
+  flex-wrap: wrap;
 }
 
 nav a {
-  margin: 0 15px;
+  display: inline-block;
+  margin: 4px 8px;
   color: #bc13fe;
   font-weight: bold;
+  font-size: 0.85rem;
   text-decoration: none;
   transition: opacity 0.2s;
 }
 
 nav a:hover {
-  opacity: 0.8;
+  opacity: 0.75;
   text-shadow: 0 0 10px rgba(188, 19, 254, 0.4);
 }
 
 /* ── CONTAINER ── */
 .container {
-  max-width: 900px;
-  margin: 30px auto;
-  padding: 20px;
-  background: #161b22;
-  border-radius: 12px;
-  box-shadow: 0 0 25px #000;
-  border: 1px solid #bc13fe22;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 16px;
 }
 
 /* ── TÍTULOS ── */
 h1, h2, h3 {
   color: #fff;
   border-left: 4px solid #bc13fe;
-  padding-left: 15px;
-  margin-bottom: 10px;
+  padding-left: 12px;
+  margin-bottom: 12px;
+  line-height: 1.3;
 }
+
+h1 { font-size: 1.2rem; }
+h2 { font-size: 1rem; }
+h3 { font-size: 0.9rem; }
 
 h1, h2 {
   text-shadow: 0 0 10px rgba(188, 19, 254, 0.2);
@@ -95,13 +102,13 @@ a {
 
 a:hover {
   opacity: 0.8;
-  text-shadow: 0 0 10px rgba(188, 19, 254, 0.4);
+  text-shadow: 0 0 8px rgba(188, 19, 254, 0.4);
 }
 
 /* ── PARÁGRAFOS ── */
 p {
   margin: 10px 0;
-  line-height: 1.6;
+  line-height: 1.7;
 }
 
 /* ── DIVIDER ── */
@@ -110,20 +117,24 @@ p {
   height: 2px;
   background: #bc13fe;
   box-shadow: 0 0 10px #bc13fe, 0 0 20px #bc13fe;
-  margin: 30px 0;
+  margin: 20px 0;
 }
 
 /* ── CÓDIGO ── */
-pre, code, .highlight, .highlighter-rouge, .highlighter-rouge pre {
+pre, code,
+.highlight, .highlighter-rouge,
+.highlighter-rouge pre {
   background-color: #121214;
   border: 1px solid rgba(188, 19, 254, 0.2);
   border-left: 4px solid #bc13fe;
   border-radius: 4px;
-  padding: 1.2em;
+  padding: 12px;
   color: #e5e5e5;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
-  transition: all 0.3s ease;
   overflow-x: auto;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+  transition: border-color 0.3s;
+  font-size: 0.85rem;
+  line-height: 1.6;
 }
 
 pre code {
@@ -131,11 +142,11 @@ pre code {
   border: none;
   padding: 0;
   color: inherit;
+  box-shadow: none;
 }
 
 pre:hover {
   border-color: rgba(188, 19, 254, 0.5);
-  box-shadow: 0 0 20px rgba(188, 19, 254, 0.1);
 }
 
 /* ── CODE BOX (botão copiar) ── */
@@ -144,15 +155,13 @@ pre:hover {
   background: #05020a;
   border: 1px solid #bc13fe44;
   border-left: 4px solid #bc13fe;
-  padding: 15px;
-  border-radius: 10px;
-  margin-top: 15px;
+  padding: 14px;
+  border-radius: 8px;
+  margin-top: 14px;
   overflow-x: auto;
 }
 
-.code-box code {
-  color: #bc13fe;
-}
+.code-box code { color: #e5e5e5; }
 
 .code-box button {
   position: absolute;
@@ -161,77 +170,93 @@ pre:hover {
   background: #bc13fe;
   color: #fff;
   border: none;
-  padding: 5px 12px;
+  padding: 4px 10px;
   cursor: pointer;
   border-radius: 6px;
   font-weight: bold;
-  transition: 0.3s;
+  font-size: 0.75rem;
   font-family: 'Share Tech Mono', monospace;
+  transition: 0.2s;
 }
 
 .code-box button:hover {
   background: #e040fb;
-  box-shadow: 0 0 15px #bc13fe;
+  box-shadow: 0 0 12px #bc13fe;
 }
 
-/* ── POST CARDS ── */
+/* ── CATEGORY SECTION ── */
+.category-section {
+  margin-bottom: 24px;
+}
+
+/* ── POSTS GRID ── */
 .posts-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: 16px;
-  margin: 16px 0 30px 0;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-top: 10px;
 }
 
+/* ── POST CARD ── */
 .post-card {
   background: #110922;
-  padding: 15px;
-  border-radius: 10px;
+  padding: 12px 14px;
+  border-radius: 8px;
   border: 1px solid #bc13fe33;
-  transition: 0.3s;
+  transition: 0.25s;
+  display: flex;
+  align-items: center;
 }
 
 .post-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 0 20px #bc13fe33;
+  transform: translateY(-3px);
+  box-shadow: 0 0 16px #bc13fe33;
   border-color: #bc13fe;
 }
 
-.post-card h3 {
-  color: #bc13fe;
-  margin: 0;
-  border: none;
-  padding-left: 0;
-  text-shadow: none;
+.post-card a {
+  color: #e0aaff;
+  font-size: 0.82rem;
+  line-height: 1.4;
+  width: 100%;
 }
 
-/* ── HOME LAYOUT COM SIDEBAR ── */
+.post-card a:hover {
+  color: #bc13fe;
+  text-shadow: none;
+  opacity: 1;
+}
+
+/* ── HOME WRAPPER ── */
 .home-wrapper {
   display: flex;
-  gap: 24px;
-  align-items: flex-start;
+  flex-direction: column;
+  gap: 0;
+  padding: 0;
 }
 
 .main-content {
   flex: 1;
   min-width: 0;
+  padding: 16px;
 }
 
-/* ── SIDEBAR ── */
+/* ── SIDEBAR — mobile: aparece PRIMEIRO (topo) ── */
 .sidebar-latest {
-  width: 220px;
-  flex-shrink: 0;
-  position: sticky;
-  top: 16px;
+  order: -1;
+  width: 100%;
   background: #0f0018;
-  border: 1px solid #6b00c8;
+  border-top: 2px solid #bc13fe;
+  border-bottom: 1px solid #6b00c8;
   box-shadow: 0 0 16px #6b00c830;
+  margin-bottom: 4px;
 }
 
 .sidebar-header {
   font-family: 'Share Tech Mono', monospace;
-  font-size: 0.8rem;
+  font-size: 0.85rem;
   color: #c084fc;
-  padding: 10px 14px;
+  padding: 10px 16px;
   border-bottom: 1px solid #6b00c8;
   letter-spacing: 1px;
   text-shadow: 0 0 8px #a855f7;
@@ -239,18 +264,22 @@ pre:hover {
 
 .sidebar-list {
   list-style: none;
-  padding: 8px 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0;
+  padding: 8px;
   margin: 0;
 }
 
 .sidebar-item {
+  width: 50%;
   border-bottom: 1px solid #6b00c820;
 }
 
 .sidebar-item a {
   display: flex;
   flex-direction: column;
-  padding: 8px 14px;
+  padding: 8px;
   text-decoration: none;
   transition: background 0.15s;
   opacity: 1;
@@ -262,8 +291,8 @@ pre:hover {
 }
 
 .sidebar-category {
-  font-size: 0.6rem;
-  color: #7c3aed;
+  font-size: 0.58rem;
+  color: #9b30ff;
   text-transform: uppercase;
   letter-spacing: 1px;
   margin-bottom: 2px;
@@ -277,26 +306,44 @@ pre:hover {
 
 .sidebar-item a:hover .sidebar-title {
   color: #c084fc;
-  text-shadow: 0 0 6px #a855f7;
 }
 
-/* ── MOBILE ── */
-@media (max-width: 700px) {
+/* ── TABLET / PC ── */
+@media (min-width: 700px) {
+
   .home-wrapper {
-    flex-direction: column;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 20px;
   }
 
+  .main-content {
+    padding: 0;
+  }
+
+  /* Sidebar volta pra direita no PC */
   .sidebar-latest {
+    order: 0;
+    width: 220px;
+    flex-shrink: 0;
+    position: sticky;
+    top: 16px;
+    border-top: 1px solid #6b00c8;
+    margin-bottom: 0;
+  }
+
+  .sidebar-list {
+    flex-direction: column;
+    padding: 4px 0;
+    gap: 0;
+  }
+
+  .sidebar-item {
     width: 100%;
-    position: static;
   }
 
   .posts-grid {
-    grid-template-columns: 1fr;
-  }
-
-  nav a {
-    margin: 0 8px;
-    font-size: 0.85rem;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
   }
 }
