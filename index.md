@@ -1,8 +1,3 @@
----
-layout: default
-title: Home
----
-
 <div class="divider"></div>
 
 ## 📱 Termux
@@ -45,7 +40,6 @@ title: Home
 </div>
 
 ## 📝 Tutoriais
-
 <div class="posts-grid">
 {% for post in site.posts %}
   {% if post.category == "tutoriais" %}
@@ -59,15 +53,3 @@ title: Home
 </div>
 
 <div class="divider"></div>
-
-## 🔥 Últimos conteúdos
-
-<div class="posts-grid">
-{% for post in site.posts limit:6 %}
-  <div class="post-card">
-    <a href="{{ post.url | relative_url }}">
-      <h3>{{ post.title }}</h3>
-    </a>
-  </div>
-{% endfor %}
-</div>
