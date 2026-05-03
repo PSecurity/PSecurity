@@ -13,7 +13,7 @@ Se você é um desenvolvedor ou entusiasta de segurança e utiliza **Termux** no
 Neste tutorial, vamos mostrar como configurar o **Git** no **Termux**, realizar modificações e enviar suas contribuições para repositórios no **GitHub**.
 
 
----
+<div class="divider"></div>
 
 
 ### 1. **Instalar o Git no Termux**
