@@ -1,3 +1,8 @@
+---
+layout: default
+title: Tutoriais
+---
+
 # 📝 Tutoriais
 
 <div class="posts-grid">
