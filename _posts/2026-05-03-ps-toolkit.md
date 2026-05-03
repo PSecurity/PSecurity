@@ -47,12 +47,13 @@ O PS.Toolkit funciona como um conjunto de utilitários modulares para Termux, pe
 
 ## 🖥️ Instalação
 
-```bash
-git clone https://github.com/PSecurity/pstoolkit
+<div class="code-box">
+<button onclick="copyCode(this)">Copiar</button>
+<pre><code>git clone https://github.com/PSecurity/pstoolkit
 cd pstoolkit
 chmod +x install.sh
-bash install.sh
-```
+bash install.sh</code></pre>
+</div>
 
 <div class="divider"></div>
 
