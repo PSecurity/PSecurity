@@ -145,29 +145,56 @@ p {
   margin: 0;
 }
 
-/* --- PEEK SECURITY: THE ORGANIC PURPLE UPDATE --- */
+/* --- PEEK SECURITY: ORGANIC & ALIGNED UPDATE --- */
 
-/* Fundo com leve gradiente para não ser um preto "morto" */
+/* Fundo e Texto Base */
 body {
-  background: radial-gradient(circle at top center, #11081a 0%, #050505 100%) !important;
-  color: #b0b0b0 !important; /* Cinza suave para leitura */
-  font-family: 'JetBrains Mono', monospace !important;
+  background-color: #050505 !important;
+  color: #b0b0b0 !important;
 }
 
-/* Títulos mais discretos e elegantes */
+/* Títulos: Mantendo o alinhamento original, mudando só a cor e a borda */
 h1, h2, h3 {
   color: #fff !important;
   border-left: 4px solid #bc13fe !important;
   padding-left: 15px !important;
-  text-shadow: 2px 2px 4px rgba(0,0,0,0.5) !important;
-  letter-spacing: -0.5px !important;
 }
 
-/* --- AS CAIXAS DE CÓDIGO (COPIAR E COLAR) --- */
-/* Removendo o visual "bloco pesado" e deixando mais fluído */
-pre, code, .highlighter-rouge, .highlight {
-  background: rgba(20, 20, 25, 0.7) !important; /* Transparência orgânica */
-  backdrop-filter: blur(4px); /* Efeito de vidro fosco se o navegador permitir */
+/* --- CAIXAS DE CÓDIGO (FIX ALIGNMENT) --- */
+/* Aqui focamos em não mexer no 'display' ou 'position' para não desalinhar */
+pre, code, .highlight, .highlighter-rouge pre {
+  background-color: #0d0d0f !important; /* Fundo sólido e escuro para não bugar */
+  border: 1px solid #1a1a1c !important;
+  border-left: 4px solid #bc13fe !important;
+  border-radius: 4px !important;
+  /* Preservando o padding original do seu tema */
+  color: #d1d1d1 !important;
+}
+
+/* Garante que o texto dentro das caixas não fique colado nas bordas */
+pre code {
+  background: transparent !important;
+  border: none !important;
+  padding: 0 !important;
+}
+
+/* Links */
+a {
+  color: #bc13fe !important;
+  text-decoration: none !important;
+}
+
+/* Remove qualquer brilho excessivo que cause "blur" em textos pequenos */
+* {
+  text-shadow: none !important;
+}
+
+h1, h2 {
+  text-shadow: 0 0 10px rgba(188, 19, 254, 0.2) !important;
+}
+
+/* --- FIM --- */
+
   border: 1px solid rgba(188, 19, 254, 0.2) !important; /* Borda roxa quase invisível */
   border-left: 4px solid #bc13fe !important; /* O acento principal */
   border-radius: 8px !important;
