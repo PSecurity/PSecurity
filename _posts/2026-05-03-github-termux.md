@@ -17,7 +17,8 @@ Se você usa o Termux no Android, aqui está um guia rápido para clonar, editar
 Para instalar o **Git** no Termux, execute o comando:
 
 ```bash
-pkg update && pkg install git```
+pkg update && pkg install git
+
 
 ---
 
