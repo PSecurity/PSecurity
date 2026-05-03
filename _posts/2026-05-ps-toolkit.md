@@ -4,7 +4,6 @@ date: 2026-05-03
 author: Peek
 category: termux
 tags: [ps-toolkit, psecurity, termux, bash, recon, nmap]
-layout: post
 ---
 
 # 🛠️ PS.Toolkit - PeekSecurity
