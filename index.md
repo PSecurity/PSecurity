@@ -10,7 +10,7 @@ title: Home
 
     <div class="divider"></div>
 
-    ## 📱 Termux
+    ### 📱 Termux
     <div class="posts-grid">
     {% for post in site.posts %}
       {% if post.category == "termux" %}
