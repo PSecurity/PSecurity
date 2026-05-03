@@ -38,23 +38,18 @@ title: Notepad
     overflow-x: hidden;
   }
 
-  /* Scanlines */
   body::before {
     content: '';
     position: fixed;
     inset: 0;
     background: repeating-linear-gradient(
-      0deg,
-      transparent,
-      transparent 2px,
-      var(--scan) 2px,
-      var(--scan) 4px
+      0deg, transparent, transparent 2px,
+      var(--scan) 2px, var(--scan) 4px
     );
     pointer-events: none;
     z-index: 9999;
   }
 
-  /* CRT vignette */
   body::after {
     content: '';
     position: fixed;
@@ -64,7 +59,6 @@ title: Notepad
     z-index: 9998;
   }
 
-  /* ── HEADER ── */
   header {
     display: flex;
     align-items: center;
@@ -85,7 +79,6 @@ title: Notepad
     text-shadow: 0 0 12px var(--glow), 0 0 30px var(--glow2);
     letter-spacing: 2px;
   }
-
   .logo span { color: var(--glow); }
 
   .header-controls {
@@ -95,7 +88,6 @@ title: Notepad
     flex-wrap: wrap;
   }
 
-  /* ── BUTTONS ── */
   .btn {
     font-family: 'Share Tech Mono', monospace;
     font-size: 0.75rem;
@@ -109,37 +101,16 @@ title: Notepad
     position: relative;
     overflow: hidden;
   }
-  .btn::before {
-    content: '';
-    position: absolute;
-    inset: 0;
-    background: var(--glow2);
-    opacity: 0;
-    transition: opacity 0.15s;
-  }
-  .btn:hover { border-color: var(--glow); color: #fff; text-shadow: 0 0 8px var(--glow); box-shadow: 0 0 12px var(--glow2)40; }
-  .btn:hover::before { opacity: 0.12; }
+  .btn:hover { border-color: var(--glow); color: #fff; text-shadow: 0 0 8px var(--glow); box-shadow: 0 0 12px #7c3aed40; }
   .btn:active { transform: scale(0.97); }
-
-  .btn-primary {
-    border-color: var(--glow);
-    color: var(--accent);
-    box-shadow: inset 0 0 8px #6b00c830;
-  }
+  .btn-primary { border-color: var(--glow); color: var(--accent); box-shadow: inset 0 0 8px #6b00c830; }
   .btn-primary:hover { background: #6b00c820; box-shadow: 0 0 16px var(--glow); }
-
   .btn-danger { border-color: var(--red); color: var(--red); }
   .btn-danger:hover { box-shadow: 0 0 12px #f8717140; background: #f8717110; }
-
   .btn-success { border-color: var(--green); color: var(--green); }
   .btn-success:hover { box-shadow: 0 0 12px #4ade8040; background: #4ade8010; }
+  .btn-split { font-size: 0.7rem; padding: 5px 10px; }
 
-  .btn-split {
-    font-size: 0.7rem;
-    padding: 5px 10px;
-  }
-
-  /* ── SPLIT TOGGLE ── */
   .split-badge {
     font-size: 0.65rem;
     padding: 3px 8px;
@@ -154,7 +125,6 @@ title: Notepad
     50%      { box-shadow: 0 0 12px var(--glow); }
   }
 
-  /* ── STATUS BAR ── */
   .statusbar {
     display: flex;
     align-items: center;
@@ -170,7 +140,6 @@ title: Notepad
   .dot { width: 6px; height: 6px; border-radius: 50%; background: var(--green); box-shadow: 0 0 6px var(--green); animation: blink 1.5s infinite; }
   @keyframes blink { 0%,100%{opacity:1} 50%{opacity:0.3} }
 
-  /* ── WORKSPACE ── */
   #workspace {
     display: flex;
     gap: 0;
@@ -178,7 +147,6 @@ title: Notepad
     overflow: hidden;
   }
 
-  /* ── PANEL ── */
   .panel {
     display: flex;
     flex-direction: column;
@@ -190,7 +158,6 @@ title: Notepad
   }
   .panel:last-child { border-right: none; }
 
-  /* Panel title bar */
   .panel-titlebar {
     display: flex;
     align-items: center;
@@ -202,18 +169,12 @@ title: Notepad
     gap: 8px;
   }
 
-  .panel-dots {
-    display: flex;
-    gap: 5px;
-  }
-  .panel-dot {
-    width: 8px; height: 8px; border-radius: 50%;
-    cursor: pointer; transition: transform 0.15s, box-shadow 0.15s;
-  }
+  .panel-dots { display: flex; gap: 5px; }
+  .panel-dot { width: 8px; height: 8px; border-radius: 50%; cursor: pointer; transition: transform 0.15s; }
   .panel-dot:hover { transform: scale(1.3); }
-  .dot-close   { background: #f87171; box-shadow: 0 0 6px #f87171; }
-  .dot-min     { background: #fbbf24; box-shadow: 0 0 6px #fbbf24; }
-  .dot-max     { background: #4ade80; box-shadow: 0 0 6px #4ade80; }
+  .dot-close { background: #f87171; box-shadow: 0 0 6px #f87171; }
+  .dot-min   { background: #fbbf24; box-shadow: 0 0 6px #fbbf24; }
+  .dot-max   { background: #4ade80; box-shadow: 0 0 6px #4ade80; }
 
   .panel-title-input {
     flex: 1;
@@ -230,16 +191,8 @@ title: Notepad
   }
   .panel-title-input:focus { border-color: var(--glow); text-shadow: 0 0 6px var(--glow); }
 
-  .panel-meta {
-    font-size: 0.6rem;
-    color: var(--dim);
-    white-space: nowrap;
-    display: flex;
-    gap: 8px;
-    align-items: center;
-  }
+  .panel-meta { font-size: 0.6rem; color: var(--dim); white-space: nowrap; display: flex; gap: 8px; align-items: center; }
 
-  /* Toolbar */
   .panel-toolbar {
     display: flex;
     align-items: center;
@@ -250,13 +203,7 @@ title: Notepad
     flex-wrap: wrap;
   }
 
-  .tool-sep {
-    width: 1px;
-    height: 16px;
-    background: var(--border);
-    margin: 0 2px;
-    opacity: 0.5;
-  }
+  .tool-sep { width: 1px; height: 16px; background: var(--border); margin: 0 2px; opacity: 0.5; }
 
   .lang-select {
     font-family: 'Share Tech Mono', monospace;
@@ -270,7 +217,6 @@ title: Notepad
   }
   .lang-select option { background: var(--bg2); }
 
-  /* Editor area */
   .editor-wrap {
     flex: 1;
     display: flex;
@@ -292,7 +238,6 @@ title: Notepad
     flex-shrink: 0;
   }
   .line-numbers div { padding-right: 8px; }
-  .line-numbers div.active { color: var(--accent); }
 
   .editor-textarea {
     flex: 1;
@@ -308,60 +253,15 @@ title: Notepad
     overflow-y: auto;
     tab-size: 2;
     white-space: pre;
-    word-wrap: off;
     scrollbar-width: thin;
     scrollbar-color: var(--border) transparent;
     caret-color: var(--glow);
   }
   .editor-textarea::selection { background: #6b00c840; }
-
-  /* Scrollbar */
   .editor-textarea::-webkit-scrollbar { width: 5px; height: 5px; }
-  .editor-textarea::-webkit-scrollbar-track { background: transparent; }
   .editor-textarea::-webkit-scrollbar-thumb { background: var(--border2); border-radius: 2px; }
-
-  /* Ghost cursor blink */
   .editor-textarea:focus { box-shadow: inset 2px 0 0 var(--glow2); }
 
-  /* Footer panel */
-  .panel-footer {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 4px 12px;
-    font-size: 0.6rem;
-    color: #6b00c870;
-    background: var(--bg2);
-    border-top: 1px solid #6b00c830;
-    gap: 8px;
-    flex-wrap: wrap;
-  }
-  .panel-footer .cursor-pos { color: var(--accent); }
-
-  /* ── DIVIDER ── */
-  .divider {
-    width: 5px;
-    background: var(--border);
-    cursor: col-resize;
-    flex-shrink: 0;
-    position: relative;
-    transition: background 0.2s;
-    display: none;
-    box-shadow: 0 0 8px var(--glow2);
-  }
-  .divider:hover, .divider.dragging { background: var(--glow); box-shadow: 0 0 16px var(--glow); }
-  .divider::after {
-    content: '⋮';
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: var(--glow);
-    font-size: 1rem;
-    pointer-events: none;
-  }
-
-  /* ── GLOW BACKGROUND EFFECT ── */
   .editor-wrap::before {
     content: '';
     position: absolute;
@@ -377,11 +277,44 @@ title: Notepad
     100% { top: 100%; opacity: 0; }
   }
 
-  /* ── TOAST ── */
+  .panel-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4px 12px;
+    font-size: 0.6rem;
+    color: #6b00c870;
+    background: var(--bg2);
+    border-top: 1px solid #6b00c830;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+  .panel-footer .cursor-pos { color: var(--accent); }
+
+  .divider {
+    width: 5px;
+    background: var(--border);
+    cursor: col-resize;
+    flex-shrink: 0;
+    position: relative;
+    transition: background 0.2s;
+    display: none;
+    box-shadow: 0 0 8px var(--glow2);
+  }
+  .divider:hover, .divider.dragging { background: var(--glow); box-shadow: 0 0 16px var(--glow); }
+  .divider::after {
+    content: '⋮';
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--glow);
+    font-size: 1rem;
+    pointer-events: none;
+  }
+
   #toast {
     position: fixed;
-    bottom: 20px;
-    right: 20px;
+    bottom: 20px; right: 20px;
     padding: 8px 16px;
     background: var(--bg2);
     border: 1px solid var(--glow);
@@ -398,7 +331,6 @@ title: Notepad
   }
   #toast.show { opacity: 1; transform: translateY(0); }
 
-  /* ── MODAL SAVE ── */
   #modal-overlay {
     position: fixed; inset: 0;
     background: #00000099;
@@ -443,11 +375,9 @@ title: Notepad
   .modal-list li .del-note { color: var(--red); padding: 0 4px; font-size: 0.8rem; }
   .modal-actions { display: flex; gap: 8px; justify-content: flex-end; }
 
-  /* ── CORNER DECORATION ── */
   .corner-decor {
     position: fixed;
-    bottom: 10px;
-    left: 16px;
+    bottom: 10px; left: 16px;
     font-family: 'VT323', monospace;
     font-size: 1rem;
     color: #6b00c840;
@@ -455,17 +385,10 @@ title: Notepad
     z-index: 9990;
     letter-spacing: 1px;
   }
-
-  /* ── RESPONSIVE ── */
-  @media (max-width: 640px) {
-    #workspace.split .panel { min-width: 100%; }
-    .panel-toolbar { gap: 3px; }
-  }
 </style>
 </head>
 <body>
 
-<!-- HEADER -->
 <header>
   <div class="logo">👾 PS.<span>NOTES</span></div>
   <div class="header-controls">
@@ -478,7 +401,6 @@ title: Notepad
   </div>
 </header>
 
-<!-- STATUS BAR -->
 <div class="statusbar">
   <span><i class="dot"></i> ONLINE</span>
   <span id="sb-time">--:--:--</span>
@@ -487,14 +409,13 @@ title: Notepad
   <span id="sb-active-panel">PAINEL: A</span>
 </div>
 
-<!-- WORKSPACE -->
 <div id="workspace">
 
   <!-- PANEL A -->
   <div class="panel" id="panel-a">
     <div class="panel-titlebar">
       <div class="panel-dots">
-        <div class="panel-dot dot-close" title="Fechar painel" onclick="closePanel('a')"></div>
+        <div class="panel-dot dot-close" onclick="closePanel('a')"></div>
         <div class="panel-dot dot-min"></div>
         <div class="panel-dot dot-max"></div>
       </div>
@@ -508,8 +429,8 @@ title: Notepad
     <div class="panel-toolbar">
       <button class="btn" style="font-size:0.65rem;padding:3px 8px" onclick="insertSnippet('a','#!/bin/bash\n\n')">#!/bin/bash</button>
       <button class="btn" style="font-size:0.65rem;padding:3px 8px" onclick="insertSnippet('a','# TODO: \n')">TODO</button>
-      <button class="btn" style="font-size:0.65rem;padding:3px 8px" onclick="insertSnippet('a','echo \"\"\n')">echo</button>
-      <button class="btn" style="font-size:0.65rem;padding:3px 8px" onclick="insertSnippet('a','# ═══════════════════════════════\n')">━━━</button>
+      <button class="btn" style="font-size:0.65rem;padding:3px 8px" onclick="insertSnippet('a','echo &quot;&quot;\n')">echo</button>
+      <button class="btn" style="font-size:0.65rem;padding:3px 8px" onclick="insertSnippet('a','# ═══════════════════\n')">━━━</button>
       <div class="tool-sep"></div>
       <select class="lang-select" id="lang-a" onchange="updateLang('a')">
         <option value="sh">bash/sh</option>
@@ -528,7 +449,6 @@ title: Notepad
       <div class="line-numbers" id="lnum-a"></div>
       <textarea class="editor-textarea" id="editor-a"
         spellcheck="false"
-        placeholder="# PeekSecurity PS.Notes&#10;# Digite seu código ou anotação aqui..."
         oninput="onEdit('a')"
         onkeydown="handleTab(event,'a')"
         onscroll="syncScroll('a')"
@@ -545,14 +465,13 @@ title: Notepad
     </div>
   </div>
 
-  <!-- DIVIDER -->
   <div class="divider" id="divider" onmousedown="startDrag(event)"></div>
 
   <!-- PANEL B -->
   <div class="panel" id="panel-b" style="display:none">
     <div class="panel-titlebar">
       <div class="panel-dots">
-        <div class="panel-dot dot-close" title="Fechar painel" onclick="closePanel('b')"></div>
+        <div class="panel-dot dot-close" onclick="closePanel('b')"></div>
         <div class="panel-dot dot-min"></div>
         <div class="panel-dot dot-max"></div>
       </div>
@@ -566,8 +485,8 @@ title: Notepad
     <div class="panel-toolbar">
       <button class="btn" style="font-size:0.65rem;padding:3px 8px" onclick="insertSnippet('b','#!/bin/bash\n\n')">#!/bin/bash</button>
       <button class="btn" style="font-size:0.65rem;padding:3px 8px" onclick="insertSnippet('b','# TODO: \n')">TODO</button>
-      <button class="btn" style="font-size:0.65rem;padding:3px 8px" onclick="insertSnippet('b','echo \"\"\n')">echo</button>
-      <button class="btn" style="font-size:0.65rem;padding:3px 8px" onclick="insertSnippet('b','# ═══════════════════════════════\n')">━━━</button>
+      <button class="btn" style="font-size:0.65rem;padding:3px 8px" onclick="insertSnippet('b','echo &quot;&quot;\n')">echo</button>
+      <button class="btn" style="font-size:0.65rem;padding:3px 8px" onclick="insertSnippet('b','# ═══════════════════\n')">━━━</button>
       <div class="tool-sep"></div>
       <select class="lang-select" id="lang-b" onchange="updateLang('b')">
         <option value="sh">bash/sh</option>
@@ -586,7 +505,6 @@ title: Notepad
       <div class="line-numbers" id="lnum-b"></div>
       <textarea class="editor-textarea" id="editor-b"
         spellcheck="false"
-        placeholder="# Painel B — compare código aqui..."
         oninput="onEdit('b')"
         onkeydown="handleTab(event,'b')"
         onscroll="syncScroll('b')"
@@ -603,15 +521,11 @@ title: Notepad
     </div>
   </div>
 
-</div><!-- /workspace -->
+</div>
 
-<!-- TOAST -->
 <div id="toast"></div>
-
-<!-- CORNER -->
 <div class="corner-decor">PSECURITY // NOTES // 2026</div>
 
-<!-- MODAL -->
 <div id="modal-overlay">
   <div class="modal">
     <h2>💾 NOTAS SALVAS</h2>
@@ -627,40 +541,71 @@ title: Notepad
 // ── STATE ──
 let splitMode   = false;
 let activePanel = 'a';
-let notes       = JSON.parse(localStorage.getItem('ps_notes') || '{}');
+let notes       = {};
+
+// Carrega notas do localStorage com segurança
+try {
+  notes = JSON.parse(localStorage.getItem('ps_notes') || '{}');
+} catch(e) { notes = {}; }
 
 // ── INIT ──
 updateLineNumbers('a');
 updateLineNumbers('b');
-updateStatus();
+
+// Placeholder manual (evita bug de HTML no atributo)
+function setPlaceholder(p) {
+  const ta = document.getElementById('editor-' + p);
+  if (!ta.value) {
+    ta.style.color = '#6b00c860';
+    ta._placeholder = true;
+    ta.value = p === 'a'
+      ? '# PeekSecurity PS.Notes\n# Digite seu código ou anotação aqui...'
+      : '# Painel B — compare código aqui...';
+  }
+}
+function clearPlaceholder(p) {
+  const ta = document.getElementById('editor-' + p);
+  if (ta._placeholder) {
+    ta.value = '';
+    ta.style.color = '';
+    ta._placeholder = false;
+  }
+}
+
+setPlaceholder('a');
+setPlaceholder('b');
+
+document.getElementById('editor-a').addEventListener('focus', () => clearPlaceholder('a'));
+document.getElementById('editor-b').addEventListener('focus', () => clearPlaceholder('b'));
+document.getElementById('editor-a').addEventListener('blur',  () => { if (!document.getElementById('editor-a').value) setPlaceholder('a'); });
+document.getElementById('editor-b').addEventListener('blur',  () => { if (!document.getElementById('editor-b').value) setPlaceholder('b'); });
+
 setInterval(updateClock, 1000);
 updateClock();
 updateNotesCount();
+restoreDrafts();
+setActive('a');
 
-// ── ACTIVE PANEL ──
 function setActive(p) {
   activePanel = p;
   document.querySelectorAll('.panel').forEach(el => el.style.outline = 'none');
   document.getElementById('panel-' + p).style.outline = '1px solid #6b00c880';
   document.getElementById('sb-active-panel').textContent = 'PAINEL: ' + p.toUpperCase();
 }
-setActive('a');
 
-// ── SPLIT TOGGLE ──
 function toggleSplit() {
   splitMode = !splitMode;
-  const pb   = document.getElementById('panel-b');
-  const div  = document.getElementById('divider');
-  const btn  = document.getElementById('split-btn');
-  const badge= document.getElementById('mode-badge');
-
+  const pb    = document.getElementById('panel-b');
+  const div   = document.getElementById('divider');
+  const btn   = document.getElementById('split-btn');
+  const badge = document.getElementById('mode-badge');
   if (splitMode) {
     pb.style.display  = 'flex';
     div.style.display = 'block';
     btn.textContent   = '◼ SINGLE VIEW';
     badge.textContent = '⫿ SPLIT';
     badge.style.color = '#4ade80';
-    toast('SPLIT VIEW ATIVADO — compare os painéis');
+    toast('SPLIT VIEW ATIVADO');
   } else {
     pb.style.display  = 'none';
     div.style.display = 'none';
@@ -671,22 +616,21 @@ function toggleSplit() {
   }
 }
 
-// ── CLOSE PANEL ──
 function closePanel(p) {
-  if (p === 'b') { if (splitMode) toggleSplit(); return; }
+  if (p === 'b' && splitMode) { toggleSplit(); return; }
   if (p === 'a' && splitMode) {
-    // swap B into A
     document.getElementById('editor-a').value = document.getElementById('editor-b').value;
     document.getElementById('title-a').value  = document.getElementById('title-b').value;
     document.getElementById('editor-b').value = '';
     onEdit('a'); onEdit('b');
     toggleSplit();
-    toast('PAINEL A fechado — B promovido');
+    toast('PAINEL B promovido para A');
   }
 }
 
-// ── EDIT HANDLERS ──
 function onEdit(p) {
+  const ta = document.getElementById('editor-' + p);
+  if (ta._placeholder) return;
   updateLineNumbers(p);
   updateStatus(p);
   updateCursor(p);
@@ -696,12 +640,15 @@ function onEdit(p) {
 function updateLineNumbers(p) {
   const ta    = document.getElementById('editor-' + p);
   const lnDiv = document.getElementById('lnum-' + p);
-  const lines = ta.value.split('\n').length;
+  const val   = ta._placeholder ? '' : ta.value;
+  const lines = val ? val.split('\n').length : 1;
   let html = '';
-  for (let i = 1; i <= lines; i++) html += `<div>${i}</div>`;
+  for (let i = 1; i <= lines; i++) html += '<div>' + i + '</div>';
   lnDiv.innerHTML = html;
-  document.getElementById('lines-' + p).textContent = lines + ' ln';
-  document.getElementById('chars-' + p).textContent = ta.value.length + ' chars';
+  if (!ta._placeholder) {
+    document.getElementById('lines-' + p).textContent = lines + ' ln';
+    document.getElementById('chars-' + p).textContent = ta.value.length + ' chars';
+  }
 }
 
 function syncScroll(p) {
@@ -712,39 +659,44 @@ function syncScroll(p) {
 
 function updateCursor(p) {
   const ta  = document.getElementById('editor-' + p);
+  if (ta._placeholder) return;
   const val = ta.value.substring(0, ta.selectionStart);
   const ln  = val.split('\n').length;
   const col = val.split('\n').pop().length + 1;
-  document.getElementById('cursor-' + p).textContent = `LN ${ln}, COL ${col}`;
+  document.getElementById('cursor-' + p).textContent = 'LN ' + ln + ', COL ' + col;
 }
 
-function updateStatus(p) {
+function updateStatus() {
   ['a','b'].forEach(x => {
-    const val = document.getElementById('editor-' + x).value;
-    const bytes = new Blob([val]).size;
-    document.getElementById('size-' + x).textContent = bytes < 1024
-      ? bytes + ' B' : (bytes/1024).toFixed(1) + ' KB';
+    const ta  = document.getElementById('editor-' + x);
+    if (ta._placeholder) { document.getElementById('size-' + x).textContent = '0 B'; return; }
+    const bytes = new Blob([ta.value]).size;
+    document.getElementById('size-' + x).textContent =
+      bytes < 1024 ? bytes + ' B' : (bytes/1024).toFixed(1) + ' KB';
   });
 }
 
 function handleTab(e, p) {
   if (e.key === 'Tab') {
     e.preventDefault();
+    clearPlaceholder(p);
     const ta    = document.getElementById('editor-' + p);
     const start = ta.selectionStart;
-    const end   = ta.selectionEnd;
-    ta.value = ta.value.substring(0, start) + '  ' + ta.value.substring(end);
+    ta.value = ta.value.substring(0, start) + '  ' + ta.value.substring(ta.selectionEnd);
     ta.selectionStart = ta.selectionEnd = start + 2;
     onEdit(p);
   }
 }
 
 function insertSnippet(p, text) {
+  clearPlaceholder(p);
   const ta    = document.getElementById('editor-' + p);
   const start = ta.selectionStart;
   ta.focus();
-  ta.value = ta.value.substring(0, start) + text + ta.value.substring(ta.selectionEnd);
-  ta.selectionStart = ta.selectionEnd = start + text.length;
+  // Converte \n literal em quebra de linha real
+  const realText = text.replace(/\\n/g, '\n');
+  ta.value = ta.value.substring(0, start) + realText + ta.value.substring(ta.selectionEnd);
+  ta.selectionStart = ta.selectionEnd = start + realText.length;
   onEdit(p);
 }
 
@@ -753,46 +705,48 @@ function updateLang(p) {
   document.getElementById('lang-label-' + p).textContent = 'LANG: ' + lang;
 }
 
-// ── COPY ──
 function copyPanel(p) {
-  const text = document.getElementById('editor-' + p).value;
-  if (!text) { toast('⚠ PAINEL VAZIO'); return; }
-  navigator.clipboard.writeText(text).then(() => toast('📋 COPIADO — ' + text.length + ' chars'));
+  const ta = document.getElementById('editor-' + p);
+  if (!ta.value || ta._placeholder) { toast('PAINEL VAZIO'); return; }
+  navigator.clipboard.writeText(ta.value).then(() => toast('COPIADO — ' + ta.value.length + ' chars'));
 }
 
-// ── CLEAR ──
 function clearActive() {
   const ta = document.getElementById('editor-' + activePanel);
-  if (!ta.value) { toast('⚠ JÁ ESTÁ VAZIO'); return; }
+  if (!ta.value || ta._placeholder) { toast('JA ESTA VAZIO'); return; }
   if (confirm('Limpar painel ' + activePanel.toUpperCase() + '?')) {
     ta.value = '';
+    ta._placeholder = false;
     onEdit(activePanel);
-    toast('🗑 PAINEL ' + activePanel.toUpperCase() + ' LIMPO');
+    setPlaceholder(activePanel);
+    toast('PAINEL ' + activePanel.toUpperCase() + ' LIMPO');
   }
 }
 
-// ── SAVE / LOAD ──
 function saveCurrentNote() {
   const p     = activePanel;
+  const ta    = document.getElementById('editor-' + p);
+  if (!ta.value || ta._placeholder) { toast('NADA PARA SALVAR'); return; }
   const title = document.getElementById('title-' + p).value.trim() || 'nota_' + Date.now();
-  const text  = document.getElementById('editor-' + p).value;
-  if (!text) { toast('⚠ NADA PARA SALVAR'); return; }
-  notes[title] = { text, lang: document.getElementById('lang-' + p).value, ts: Date.now() };
+  notes[title] = { text: ta.value, lang: document.getElementById('lang-' + p).value, ts: Date.now() };
   localStorage.setItem('ps_notes', JSON.stringify(notes));
   updateNotesCount();
-  toast('💾 SALVO — ' + title);
+  toast('SALVO — ' + title);
 }
 
 function loadNote(key) {
   const n  = notes[key];
   const p  = activePanel;
-  document.getElementById('editor-' + p).value  = n.text;
-  document.getElementById('title-' + p).value   = key;
-  document.getElementById('lang-' + p).value    = n.lang || 'sh';
+  const ta = document.getElementById('editor-' + p);
+  ta._placeholder = false;
+  ta.style.color  = '';
+  ta.value = n.text;
+  document.getElementById('title-' + p).value = key;
+  document.getElementById('lang-' + p).value  = n.lang || 'sh';
   updateLang(p);
   onEdit(p);
   closeModal();
-  toast('📂 CARREGADO — ' + key);
+  toast('CARREGADO — ' + key);
 }
 
 function deleteNote(key, e) {
@@ -802,17 +756,28 @@ function deleteNote(key, e) {
   localStorage.setItem('ps_notes', JSON.stringify(notes));
   updateNotesCount();
   renderModalList();
-  toast('🗑 DELETADO — ' + key);
+  toast('DELETADO — ' + key);
 }
 
 function autosaveDraft(p) {
-  const key = '__draft_' + p;
-  notes[key] = {
-    text: document.getElementById('editor-' + p).value,
-    lang: document.getElementById('lang-' + p).value,
-    ts: Date.now()
-  };
+  const ta = document.getElementById('editor-' + p);
+  if (ta._placeholder) return;
+  notes['__draft_' + p] = { text: ta.value, lang: document.getElementById('lang-' + p).value, ts: Date.now() };
   localStorage.setItem('ps_notes', JSON.stringify(notes));
+}
+
+function restoreDrafts() {
+  ['a','b'].forEach(p => {
+    const d  = notes['__draft_' + p];
+    const ta = document.getElementById('editor-' + p);
+    if (d && d.text) {
+      ta._placeholder = false;
+      ta.style.color  = '';
+      ta.value = d.text;
+      if (d.lang) { document.getElementById('lang-' + p).value = d.lang; updateLang(p); }
+      onEdit(p);
+    }
+  });
 }
 
 function updateNotesCount() {
@@ -820,28 +785,21 @@ function updateNotesCount() {
   document.getElementById('sb-notes-count').textContent = real + ' NOTAS SALVAS';
 }
 
-// ── EXPORT ──
 function exportNote() {
-  const p     = activePanel;
-  const text  = document.getElementById('editor-' + p).value;
+  const p  = activePanel;
+  const ta = document.getElementById('editor-' + p);
+  if (!ta.value || ta._placeholder) { toast('PAINEL VAZIO'); return; }
   const title = document.getElementById('title-' + p).value || 'nota';
-  if (!text) { toast('⚠ PAINEL VAZIO'); return; }
-  const blob = new Blob([text], {type: 'text/plain'});
-  const a    = document.createElement('a');
-  a.href     = URL.createObjectURL(blob);
-  a.download = title;
+  const blob  = new Blob([ta.value], {type: 'text/plain'});
+  const a     = document.createElement('a');
+  a.href      = URL.createObjectURL(blob);
+  a.download  = title;
   a.click();
-  toast('⬇ EXPORTADO — ' + title);
+  toast('EXPORTADO — ' + title);
 }
 
-// ── MODAL ──
-function openSaveModal() {
-  renderModalList();
-  document.getElementById('modal-overlay').classList.add('open');
-}
-function closeModal() {
-  document.getElementById('modal-overlay').classList.remove('open');
-}
+function openSaveModal() { renderModalList(); document.getElementById('modal-overlay').classList.add('open'); }
+function closeModal()    { document.getElementById('modal-overlay').classList.remove('open'); }
 document.getElementById('modal-overlay').addEventListener('click', e => {
   if (e.target === document.getElementById('modal-overlay')) closeModal();
 });
@@ -857,17 +815,15 @@ function renderModalList() {
     const n   = notes[k];
     const ts  = n.ts ? new Date(n.ts).toLocaleString('pt-BR') : '';
     const pre = (n.text || '').substring(0, 40).replace(/</g,'&lt;');
-    return `<li onclick="loadNote('${k.replace(/'/g,"\\'")}')">
-      <div>
-        <div style="color:var(--accent)">${k}</div>
-        <div style="font-size:0.6rem;color:#6b00c880">${ts} · ${pre}…</div>
-      </div>
-      <span class="del-note" onclick="deleteNote('${k.replace(/'/g,"\\'")}', event)" title="Deletar">✕</span>
-    </li>`;
+    return '<li onclick="loadNote(\'' + k.replace(/'/g,"\\'") + '\')">'
+      + '<div><div style="color:var(--accent)">' + k + '</div>'
+      + '<div style="font-size:0.6rem;color:#6b00c880">' + ts + ' · ' + pre + '…</div></div>'
+      + '<span class="del-note" onclick="deleteNote(\'' + k.replace(/'/g,"\\'") + '\', event)" title="Deletar">✕</span>'
+      + '</li>';
   }).join('');
 }
 
-// ── DRAG DIVIDER ──
+// Drag divider
 let dragging = false;
 function startDrag(e) {
   dragging = true;
@@ -879,8 +835,7 @@ function doDrag(e) {
   if (!dragging) return;
   const ws   = document.getElementById('workspace');
   const rect = ws.getBoundingClientRect();
-  const divW = 5;
-  let aFlex  = ((e.clientX - rect.left) / (rect.width - divW)) * 100;
+  let aFlex  = ((e.clientX - rect.left) / (rect.width - 5)) * 100;
   aFlex = Math.max(20, Math.min(80, aFlex));
   document.getElementById('panel-a').style.flex = aFlex + ' 1 0';
   document.getElementById('panel-b').style.flex = (100 - aFlex) + ' 1 0';
@@ -892,12 +847,10 @@ function stopDrag() {
   document.removeEventListener('mouseup', stopDrag);
 }
 
-// ── CLOCK ──
 function updateClock() {
   document.getElementById('sb-time').textContent = new Date().toLocaleTimeString('pt-BR');
 }
 
-// ── TOAST ──
 function toast(msg) {
   const t = document.getElementById('toast');
   t.textContent = msg;
@@ -906,26 +859,9 @@ function toast(msg) {
   t._t = setTimeout(() => t.classList.remove('show'), 2500);
 }
 
-// ── RESTORE DRAFTS ──
-['a','b'].forEach(p => {
-  const d = notes['__draft_' + p];
-  if (d && d.text) {
-    document.getElementById('editor-' + p).value = d.text;
-    if (d.lang) { document.getElementById('lang-' + p).value = d.lang; updateLang(p); }
-    onEdit(p);
-  }
-});
-
-// ── KEYBOARD SHORTCUTS ──
 document.addEventListener('keydown', e => {
-  if ((e.ctrlKey || e.metaKey) && e.key === 's') {
-    e.preventDefault();
-    saveCurrentNote();
-  }
-  if ((e.ctrlKey || e.metaKey) && e.key === '\\') {
-    e.preventDefault();
-    toggleSplit();
-  }
+  if ((e.ctrlKey || e.metaKey) && e.key === 's') { e.preventDefault(); saveCurrentNote(); }
+  if ((e.ctrlKey || e.metaKey) && e.key === '\\') { e.preventDefault(); toggleSplit(); }
 });
 </script>
 </body>
