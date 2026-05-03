@@ -28,7 +28,7 @@ Antes de tudo, você precisa instalar o **Git** no Termux. Abra o Termux e execu
 Isso vai garantir que o **Git** esteja instalado e pronto para uso no seu dispositivo Android.
 
 
----
+<div class="divider"></div>
 
 
 ### 2. **Configurar o Git**
@@ -44,7 +44,7 @@ git config --global user.email "seuemail@dominio.com"</code></pre>
 Esses dados serão usados sempre que você realizar um commit para registrar quem fez as alterações.
 
 
----
+<div class="divider"></div>
 
 
 ### 3. **Clonar um Repositório do GitHub**
@@ -60,7 +60,7 @@ cd repository</code></pre>
 Substitua `usuario/repository` pela URL do repositório que você deseja clonar. O diretório do repositório será copiado para o seu dispositivo Android, pronto para ser editado.
 
 
----
+<div class="divider"></div>
 
 
 ### 4. **Editar Arquivos com o Vim ou Nano**
@@ -82,7 +82,7 @@ Agora que você tem o repositório clonado, você pode editar os arquivos direta
 </div>
 
 
----
+<div class="divider"></div>
 
 
 ### 5. **Adicionar e Comitar Alterações**
@@ -99,7 +99,7 @@ git commit -m "Mensagem do commit"</code></pre>
 - `git commit -m "Mensagem do commit"` cria um novo commit com a mensagem de descrição.
 
 
----
+<div class="divider"></div>
 
 
 ### 6. **Subir para o GitHub**
@@ -114,7 +114,7 @@ Depois de fazer o commit, é hora de **subir suas alterações** para o **GitHub
 Caso esteja usando uma branch diferente, substitua `main` pelo nome da sua branch.
 
 
----
+<div class="divider"></div>
 
 
 ### 7. **Atualizar o Repositório Local**
@@ -129,7 +129,7 @@ Para pegar as últimas atualizações de um repositório remoto, você pode exec
 Isso irá trazer as mudanças feitas por outras pessoas ou por você em outro dispositivo, mantendo seu repositório local atualizado.
 
 
----
+<div class="divider"></div>
 
 
 ### 8. **Configurar SSH para Evitar Digitar Senha**
@@ -144,7 +144,7 @@ Se você preferir não digitar sua senha toda vez que fizer um `git push`, você
 Isso criará uma chave SSH. Em seguida, siga as instruções para adicionar sua chave SSH no GitHub. Acesse sua conta no GitHub e vá até **Settings > SSH and GPG keys** e adicione sua chave pública.
 
 
----
+<div class="divider"></div>
 
 
 ### 9. **Dicas Adicionais**
@@ -156,7 +156,7 @@ Isso criará uma chave SSH. Em seguida, siga as instruções para adicionar sua 
 - **Revisões de código**: Para melhorar a colaboração, utilize ferramentas como **pull requests** e faça revisões de código antes de aceitar alterações.
 
 
----
+<div class="divider"></div>
 
 
 ## 🔥 Conclusão
@@ -166,7 +166,7 @@ Agora você já sabe como **editar repositórios do GitHub diretamente no Termux
 Se você gostou do tutorial, compartilhe com outros desenvolvedores ou entre em contato para mais dicas de segurança e produtividade no **Termux**!
 
 
----
+<div class="divider"></div>
 
 
 **PeekSecurity** | *Transformando o Termux em uma ferramenta poderosa para desenvolvedores e hackers*  
