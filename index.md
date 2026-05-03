@@ -9,7 +9,7 @@ title: Home
   <div class="main-content">
 
     <div class="divider"></div>
-</div>
+
     ## 📱 Termux
     <div class="posts-grid">
     {% for post in site.posts %}
@@ -64,7 +64,7 @@ title: Home
 
     <div class="divider"></div>
 
-  <!-- /main-content -->
+  </div><!-- /main-content -->
 
   <!-- SIDEBAR FIXA DIREITA -->
   <aside class="sidebar-latest">
