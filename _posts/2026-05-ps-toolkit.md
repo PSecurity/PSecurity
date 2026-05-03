@@ -54,4 +54,19 @@ chmod +x install.sh
 bash install.sh
 ```
 
+---
+
+## 🔮 Futuras melhorias
+
+* Novos módulos de recon
+* Interface mais interativa
+* Integração com outras ferramentas PSecurity
+* Expansão do toolkit modular
+
+---
+
+## 👾 Autor
+
+Peek | PeekSecurity
+Ferramenta educacional para estudo de segurança e automação.
 
