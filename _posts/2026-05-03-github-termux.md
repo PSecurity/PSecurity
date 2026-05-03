@@ -1,7 +1,7 @@
 ---
 title: "Editando Repositórios GitHub no Termux"
 date: 2026-05-03
-categories: [tutorial, termux, git]
+categories: tutoriais
 tags: [github, termux, git, android]
 author: Peek
 ---
