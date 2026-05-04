@@ -1,6 +1,6 @@
 ---
 layout: post
-title: PS.Metasploit - Automação e Exploração no Termux e Kali
+title: PS.Metasploit - Automação e Exploração no Termux
 category: termux
 tags: [metasploit, pentest, hacking, termux, kali]
 author: Peek
