@@ -1,6 +1,6 @@
 ---
 layout: post
-title: PS.Phisher - Ferramenta de Phishing Educacional no Termux e Kali
+title: PS.Phisher - Ferramenta de Phishing Educacional
 category: termux
 tags: [phishing, engenharia social, hacking, termux, kali]
 author: Peek
