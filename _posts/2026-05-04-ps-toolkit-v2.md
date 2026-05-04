@@ -1,6 +1,6 @@
 ---
 layout: post
-title: PS.Toolkit v2 - Toolkit Completo de Segurança para Termux e Kali
+title: PS.Toolkit v2 - Toolkit Completo de Segurança
 category: termux
 tags: [toolkit, hacking, pentest, termux, kali, automação]
 author: Peek
