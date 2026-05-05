@@ -35,11 +35,11 @@ python3 ps.chat-adm.py
 
 > ⚠️ A primeira execução cria a senha padrão PeekAdmin2025. Altere imediatamente no painel!
 
-Uso básico
+**Uso básico**
 
 1. Acesse o painel admin via navegador:
 
-http://localhost:5000/admin/login
+`http://localhost:5000/admin/login`
 
 
 2. Faça login, crie salas e copie os tokens
@@ -55,50 +55,50 @@ http://localhost:5000/admin/login
 
 ---
 
-💻 PS.Chat CLI
+## 💻 PS.Chat CLI
 
 O PS.Chat-CLI é o cliente Python que permite participar das salas criadas pelo PS.Chat-Admin via terminal.
 
 Funcionalidades principais
 
-🔒 Mensagens E2EE – comunicação segura, privada e anônima
+🔒 **Mensagens E2EE** – comunicação segura, privada e anônima
 
-👑 Admin e moderação – use a senha do painel para privilégios de moderação
+👑 **Admin e moderação** – use a senha do painel para privilégios de moderação
 
-📩 Mensagens diretas (DM) – criptografadas individualmente
+📩 **Mensagens diretas (DM)** – criptografadas individualmente
 
-⚡ Mensagens efêmeras – /sumir
+⚡ **Mensagens efêmeras*? – /sumir
 
-📎 Envio de arquivos – /send arquivo.txt (até 5 MB)
+📎 **Envio de arquivos** – /send arquivo.txt (até 5 MB)
 
-📜 Histórico local criptografado – /log on/off/show + /export
+📜 **Histórico local criptografado** – /log on/off/show + /export
 
-🎯 Filtragem de subcanais – /filter <tag>
+🎯 ?*Filtragem de subcanais** – /filter <tag>
 
-🤫 Modo anônimo – gera chaves temporárias e nome aleatório
+🤫 **Modo anônimo** – gera chaves temporárias e nome aleatório
 
-🌐 Descoberta automática – mDNS encontra o servidor na rede
+🌐 **Descoberta automática** – mDNS encontra o servidor na rede
 
 
-Instalação
-
+**Instalação**
+```
 git clone https://github.com/PSecurity/ps.chat-cli
 cd ps.chat-cli
 pip install -r requirements.txt
 python3 pschat.py
+```
 
 > 💡 No Termux, instale python-cryptography antes do pip install.
 
 
+**Uso básico**
 
-Uso básico
-
-python3 pschat.py
+`python3 pschat.py`
 
 1. Escolha entrar como anônimo ou não
 
 
-2. Informe IP do servidor e porta (padrão 5000)
+2. Informe IP do servidor e porta (padrão `5000`)
 
 
 3. Informe token da sala e senha de admin, se aplicável
