@@ -31,10 +31,9 @@ git clone https://github.com/PSecurity/ps.chat-admin
 cd ps.chat-admin
 pip install -r requirements.txt
 python3 ps.chat-adm.py
+```
 
 > ⚠️ A primeira execução cria a senha padrão PeekAdmin2025. Altere imediatamente no painel!
-
-
 
 Uso básico
 
