@@ -8,7 +8,7 @@ tags: [PSecurity, PS.Chat, Admin, CLI, Python, Terminal, E2EE]
 
 Fala rapaziada, suavidade? Eu sou o Peek. Hoje vou apresentar duas ferramentas essenciais que desenvolvi para comunicação offline segura: **PS.Chat-Admin** e **PS.Chat-CLI**. Elas funcionam juntas para criar chats privados, criptografados e totalmente controlados via terminal.
 
----
+<hr class="divider">
 
 ## 👾 PS.Chat Admin
 
@@ -37,23 +37,15 @@ python3 ps.chat-adm.py
 
 **Uso básico**
 
-1. Acesse o painel admin via navegador:
-
-`http://localhost:5000/admin/login`
-
+1. Acesse o painel admin via navegador: `http://localhost:5000/admin/login`
 
 2. Faça login, crie salas e copie os tokens
 
-
 3. Gerencie participantes e moderação diretamente pelo painel
-
 
 4. Configure segurança extra com pergunta de segurança e 2FA offline
 
-
-
-
----
+<hr class="divider">
 
 ## 💻 PS.Chat CLI
 
@@ -90,7 +82,6 @@ python3 pschat.py
 
 > 💡 No Termux, instale python-cryptography antes do pip install.
 
-
 **Uso básico**
 
 `python3 pschat.py`
@@ -106,12 +97,10 @@ python3 pschat.py
 
 4. Comece a conversar com segurança total
 
+## Comandos mais importantes
 
-
-Comandos mais importantes
-
-Comando	Descrição
-
+**Comando	Descrição**
+```
 /help	Lista todos os comandos disponíveis
 /dm <Usuário> <mensagem>	Mensagem direta criptografada
 /send <arquivo>	Envia arquivo até 5 MB
@@ -119,14 +108,12 @@ Comando	Descrição
 /promote / /demote / /kick / /mute / /unmute / /ban	Comandos de moderação (admin/mod)
 /log on/off/show	Ativa/desativa/exibe histórico local criptografado
 /verify <Usuário>	Verificação de identidade criptográfica
+```
+<hr class="divider">
 
+## 🔒 Segurança
 
-
----
-
-🔒 Segurança
-
-Ambas ferramentas foram desenvolvidas para máxima segurança:
+**Ambas ferramentas foram desenvolvidas para máxima segurança:**
 
 Criptografia ponta a ponta: servidor não lê mensagens
 
@@ -140,14 +127,12 @@ Autenticação e verificação de identidade para admins
 
 Modo anônimo para não deixar rastros
 
+<hr class="divider">
 
-
----
-
-🧩 Estrutura resumida dos projetos
+## 🧩 Estrutura resumida dos projetos
 
 PS.Chat-Admin:
-
+```
 ps.chat-admin/
 ├── ps.chat-adm.py
 ├── requirements.txt
@@ -157,9 +142,9 @@ ps.chat-admin/
 ├── banned_devices.json
 ├── historico/
 └── templates/
-
+```
 PS.Chat-CLI:
-
+```
 ps.chat-cli/
 ├── pschat.py
 ├── requirements.txt
@@ -167,11 +152,10 @@ ps.chat-cli/
     ├── keys.json
     ├── device_id
     └── history/
+```
+<hr class="divider">
 
-
----
-
-🤝 Contribuindo
+## 🤝 Contribuindo
 
 1. Faça um fork
 
@@ -187,19 +171,15 @@ ps.chat-cli/
 
 5. Abra Pull Request
 
+<hr class="divider">
 
-
-
----
-
-📄 Licença
+## 📄 Licença
 
 MIT – veja LICENSE em cada repositório.
 
+<hr class="divider">
 
----
-
-Desenvolvido por PeekSecurity – comunicação offline, segura e leve, direto no terminal.
+**Desenvolvido por PeekSecurity – comunicação offline, segura e leve, direto no terminal.**
 GitHub: PS.Chat-Admin | PS.Chat-CLI
 
----
+<hr class="divider">
