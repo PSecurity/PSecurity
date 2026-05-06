@@ -68,7 +68,7 @@ Funcionalidades principais
 
 📜 **Histórico local criptografado** – /log on/off/show + /export
 
-🎯 ?*Filtragem de subcanais** – /filter <tag>
+🎯 **Filtragem de subcanais** – /filter <tag>
 
 🤫 **Modo anônimo** – gera chaves temporárias e nome aleatório
 
