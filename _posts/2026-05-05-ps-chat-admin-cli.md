@@ -24,6 +24,7 @@ O **PS.Chat-Admin** é o servidor central para suas salas de chat privadas, com 
 - ⚡ **Salas efêmeras** – desaparecem quando todos saem  
 - 🧪 **Testado em Termux, Linux, Windows e macOS**
 
+
 ### Instalação
 
 ```bash
