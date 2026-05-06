@@ -27,12 +27,14 @@ O **PS.Chat-Admin** é o servidor central para suas salas de chat privadas, com 
 
 ### Instalação
 
-```bash
-git clone https://github.com/PSecurity/ps.chat-admin
+<div class="code-box">
+<button onclick="copyCode(this)">Copiar</button>
+<pre><code>git clone https://github.com/PSecurity/ps.chat-admin
 cd ps.chat-admin
 pip install -r requirements.txt
 python3 ps.chat-adm.py
-```
+</code></pre>
+</div>
 
 > ⚠️ A primeira execução cria a senha padrão PeekAdmin2025. Altere imediatamente no painel!
 
@@ -74,12 +76,15 @@ Funcionalidades principais
 
 
 **Instalação**
-```
-git clone https://github.com/PSecurity/ps.chat-cli
+
+<div class="code-box">
+<button onclick="copyCode(this)">Copiar</button>
+<pre><code>git clone https://github.com/PSecurity/ps.chat-cli
 cd ps.chat-cli
 pip install -r requirements.txt
 python3 pschat.py
-```
+</code></pre>
+</div>
 
 > 💡 No Termux, instale python-cryptography antes do pip install.
 
