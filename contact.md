@@ -20,9 +20,9 @@ permalink: /contact/
     <span>GitHub</span>
     <strong>github.com/PSecurity</strong>
   </a>
-  <a class="contact-card" href="https://tiktok.com/@PeekSecurity" target="_blank" rel="noopener">
+  <a class="contact-card" href="https://tiktok.com/@peeksecurity" target="_blank" rel="noopener">
     <span>TikTok</span>
-    <strong>@PeekSecurity</strong>
+    <strong>@peeksecurity</strong>
   </a>
   <a class="contact-card" href="https://www.youtube.com/@PeekSecurity" target="_blank" rel="noopener">
     <span>YouTube</span>

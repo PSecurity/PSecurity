@@ -1,43 +1,32 @@
-# 👾 PeekSecurity
+# PeekSecurity
 
-Portfólio técnico de **Gilberto Martins** e base pública da **PeekSecurity**.
+Portfólio técnico de **Gilberto Martins**, criador da PeekSecurity.
 
-> Tecnologia • Segurança da Informação • Termux • Android • Automação • Ferramentas Educacionais
+Site: https://psecurity.github.io/PSecurity/
 
-Acesse: https://psecurity.github.io/PSecurity/
+## Foco
 
-## Conteúdo
+- Segurança da informação
+- Termux e Kali Linux
+- Automação e ferramentas CLI
+- Android/Kotlin
+- Python/Flask
+- Shell Script
+- C++/ESP32
+- Documentação técnica
+- Projetos educacionais para ambientes autorizados
 
-- Portfólio profissional
-- Projetos autorais PeekSecurity
-- PS.Notes, bloco de notas autoral estilo terminal
-- Conteúdos sobre Termux, Kali Linux, scripts e tutoriais
-- Currículo profissional em PDF
+## Ferramentas e projetos em destaque
 
-## Estrutura principal
-
-```text
-_config.yml
-_layouts/default.html
-_layouts/post.html
-index.md
-projects.md
-about.md
-curriculo.md
-contact.md
-category/notepad.md
-category/termux.md
-category/kali.md
-category/scripts.md
-category/tutoriais.md
-assets/css/style.css
-assets/css/ps-notes.css
-assets/js/main.js
-assets/js/ps-notes.js
-assets/cv/curriculo-gilberto-victor-ferreira-martins.pdf
-_posts/
-```
+- PS.Chat Admin / CLI
+- PS.Toolkit v2
+- PS.Notes
+- PS.Nmap
+- PS.Ngrok
+- PS.Thumbnails
+- DoomStickC M5StickC Plus2
+- PS.Guardian / PS.Pentester
 
 ## Uso responsável
 
-Os conteúdos e ferramentas são voltados a aprendizado, documentação técnica, automação e segurança em ambientes autorizados. Não utilize comandos, scripts ou técnicas em sistemas de terceiros sem permissão explícita.
+Os conteúdos e ferramentas são destinados a aprendizado, documentação técnica e testes em ambientes próprios ou com autorização explícita.

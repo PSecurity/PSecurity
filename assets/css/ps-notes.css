@@ -1,4 +1,4 @@
-/* PS.Notes v1.1 — integração ao portfólio PeekSecurity preservando a base autoral */
+/* PS.Notes v1.2 — integração ao portfólio PeekSecurity preservando a base autoral */
 .notes-intro { margin-bottom: 24px; }
 
 .ps-notes-app {
@@ -28,7 +28,7 @@
     linear-gradient(180deg, var(--notes-bg2), var(--notes-bg));
   box-shadow: 0 24px 90px rgba(0,0,0,0.55), inset 0 0 80px rgba(124,58,237,0.08);
   color: var(--notes-text);
-  font-family: 'Share Tech Mono', monospace;
+  font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Consolas, monospace;
 }
 
 .ps-notes-app::before {
@@ -64,7 +64,7 @@
 }
 
 .ps-notes-app .logo {
-  font-family: 'Orbitron', monospace;
+  font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Consolas, monospace;
   font-weight: 900;
   font-size: 1.02rem;
   color: var(--notes-accent);
@@ -80,7 +80,7 @@
   align-items: center;
   justify-content: center;
   min-height: 0;
-  font-family: 'Share Tech Mono', monospace;
+  font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Consolas, monospace;
   font-size: 0.7rem;
   padding: 5px 10px;
   border: 1px solid var(--notes-border);
@@ -175,7 +175,7 @@
   border: none;
   border-bottom: 1px solid #6b00c850;
   color: var(--notes-accent);
-  font-family: 'Share Tech Mono', monospace;
+  font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Consolas, monospace;
   font-size: 0.75rem;
   padding: 2px 6px;
   outline: none;
@@ -196,7 +196,7 @@
 }
 .ps-notes-app .tool-sep { width: 1px; height: 16px; background: var(--notes-border); margin: 0 2px; opacity: 0.5; }
 .ps-notes-app .lang-select {
-  font-family: 'Share Tech Mono', monospace;
+  font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Consolas, monospace;
   font-size: 0.65rem;
   background: transparent;
   border: 1px solid var(--notes-border);
@@ -227,7 +227,7 @@
   background: transparent;
   border: none;
   color: var(--notes-text2);
-  font-family: 'Share Tech Mono', monospace;
+  font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Consolas, monospace;
   font-size: 0.82rem;
   line-height: 1.6;
   padding: 14px;
@@ -298,7 +298,7 @@
   transition: all 0.3s;
   pointer-events: none;
   z-index: 20;
-  font-family: 'Share Tech Mono', monospace;
+  font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Consolas, monospace;
 }
 .ps-notes-app #toast.show { opacity: 1; transform: translateY(0); }
 
@@ -319,10 +319,10 @@
   padding: 24px;
   min-width: 320px;
   max-width: 90vw;
-  font-family: 'Share Tech Mono', monospace;
+  font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Consolas, monospace;
 }
 .ps-notes-app .modal h2 {
-  font-family: 'Orbitron', monospace;
+  font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Consolas, monospace;
   color: var(--notes-accent);
   font-size: 0.9rem;
   margin-bottom: 16px;
@@ -372,17 +372,4 @@
   .ps-notes-app .divider { width: 100%; height: 5px; cursor: row-resize; }
   .ps-notes-app #panel-b { border-top: 1px solid #6b00c840; }
   .ps-notes-app .panel-meta { display: none; }
-}
-
-/* PS.Notes v1.2 — official PeekSecurity/PS.Guardian icon integration */
-.ps-notes-app .ps-notes-brand {
-  display: inline-flex;
-  align-items: center;
-  gap: 9px;
-}
-.ps-notes-app .ps-notes-brand img {
-  width: 28px;
-  height: 28px;
-  border-radius: 9px;
-  box-shadow: 0 0 0 1px rgba(192,132,252,.28), 0 0 18px rgba(168,85,247,.35);
 }

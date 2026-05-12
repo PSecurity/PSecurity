@@ -14,7 +14,6 @@
 ./_posts/2026-05-04-ps-toolkit-v2.md
 ./_posts/2026-05-05-ps-chat-admin-cli.md
 ./about.md
-./apple-touch-icon.png
 ./assets/css/ps-notes.css
 ./assets/css/style.css
 ./assets/cv/curriculo-gilberto-victor-ferreira-martins.pdf
@@ -24,15 +23,17 @@
 ./assets/img/favicon.ico
 ./assets/img/favicon.png
 ./assets/img/favicon.svg
+./assets/img/peeksecurity-icon-16.png
 ./assets/img/peeksecurity-icon-180.png
 ./assets/img/peeksecurity-icon-192.png
+./assets/img/peeksecurity-icon-32.png
+./assets/img/peeksecurity-icon-48.png
 ./assets/img/peeksecurity-icon-512.png
+./assets/img/peeksecurity-icon-96.png
 ./assets/img/peeksecurity-icon.png
 ./assets/img/peeksecurity-icon.svg
 ./assets/img/peeksecurity-og-card.png
 ./assets/img/psguardian-brand-icon.png
-./assets/img/psguardian-brand-icon.svg
-./assets/img/psguardian-icon-source.png
 ./assets/js/main.js
 ./assets/js/ps-notes.js
 ./category/kali.md
@@ -42,8 +43,6 @@
 ./category/tutoriais.md
 ./contact.md
 ./curriculo.md
-./favicon.ico
-./favicon.png
 ./index.md
 ./projects.md
 ./site.webmanifest
