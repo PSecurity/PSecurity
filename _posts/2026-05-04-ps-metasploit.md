@@ -13,7 +13,7 @@ O **PS.Metasploit** é uma ferramenta desenvolvida para automatizar o uso do **M
 
 O objetivo é simples: **reduzir a complexidade do Metasploit** e permitir que qualquer pessoa consiga rodar testes de forma prática e rápida.
 
-> O Metasploit é um dos frameworks mais usados no mundo para testes de invasão, permitindo explorar vulnerabilidades reais em sistemas. :contentReference[oaicite:0]{index=0}
+> O Metasploit é um dos frameworks mais usados no mundo para testes de invasão, permitindo explorar vulnerabilidades reais em sistemas.
 
 <hr class="divider">
 
@@ -58,7 +58,7 @@ Na prática, ele encaixa exatamente no fluxo de pentest:
 2. Enumeração
 3. Exploração (Metasploit)
 
-Esse tipo de abordagem é padrão em testes reais de segurança. :contentReference[oaicite:1]{index=1}
+Esse tipo de abordagem é padrão em testes reais de segurança.
 
 <hr class="divider">
 
@@ -100,7 +100,7 @@ Exemplo:
 
 Depois usar os dados no Metasploit para exploração.
 
-O Nmap ajuda a identificar portas e serviços, enquanto o Metasploit realiza os ataques baseados nessas informações. :contentReference[oaicite:2]{index=2}
+O Nmap ajuda a identificar portas e serviços, enquanto o Metasploit realiza os ataques baseados nessas informações.
 
 <hr class="divider">
 
