@@ -19,6 +19,10 @@ description: Portfólio profissional de Gilberto Martins, criador da PeekSecurit
   </div>
   <aside class="hero-card terminal-card" aria-label="Resumo profissional">
     <div class="terminal-card__top"><span></span><span></span><span></span></div>
+    <div class="terminal-card__brand">
+      <img src="{{ '/assets/img/peeksecurity-icon.svg' | relative_url }}" alt="Ícone PeekSecurity">
+      <span class="logo-chip">PeekSecurity Standard</span>
+    </div>
     <code>$ whoami</code>
     <strong>Gilberto Martins / PeekSecurity</strong>
     <p>Segurança mobile, Termux, Linux, Android, Python, Shell Script, C++, documentação técnica, automação e ferramentas autorais.</p>
