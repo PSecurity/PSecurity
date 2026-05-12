@@ -22,12 +22,24 @@ description: Portfólio profissional de Gilberto Martins, criador da PeekSecurit
     <code>$ whoami</code>
     <strong>Gilberto Martins / PeekSecurity</strong>
     <p>Segurança mobile, Termux, Linux, Android, Python, Shell Script, C++, documentação técnica, automação e ferramentas autorais.</p>
-    <div class="terminal-lines" aria-label="Resumo de atuação">
-      <p><span>formação</span>Engenharia de Computação — UNINTER, em andamento</p>
-      <p><span>experiência</span>Suporte N3, atendimento especializado e casos sensíveis</p>
-      <p><span>segurança</span>Prevenção a fraudes, análise de risco e documentoscopia</p>
-      <p><span>portfólio</span>Termux, Android, Linux, Python, Shell Script, C++ e ESP32</p>
-    </div>
+    <dl class="terminal-list" aria-label="Resumo de atuação">
+      <div class="terminal-line">
+        <dt>Formação</dt>
+        <dd>Engenharia de Computação — UNINTER, em andamento</dd>
+      </div>
+      <div class="terminal-line">
+        <dt>Experiência</dt>
+        <dd>Suporte N3, atendimento especializado e casos sensíveis</dd>
+      </div>
+      <div class="terminal-line">
+        <dt>Segurança</dt>
+        <dd>Prevenção a fraudes, análise de risco e documentoscopia</dd>
+      </div>
+      <div class="terminal-line">
+        <dt>Portfólio</dt>
+        <dd>Termux, Android, Linux, Python, Shell Script, C++ e ESP32</dd>
+      </div>
+    </dl>
   </aside>
 </section>
 
@@ -87,42 +99,42 @@ description: Portfólio profissional de Gilberto Martins, criador da PeekSecurit
 
   <div class="project-grid">
     <article class="project-card featured">
-      <p class="project-card__stack">Python · Segurança · CLI</p>
+      <div class="tech-stack" aria-label="Stack do projeto"><span>Python</span><span>Segurança</span><span>CLI</span></div>
       <h3>PS.Chat Admin / CLI</h3>
       <p>Ecossistema de comunicação privada/offline com cliente terminal, painel administrativo, comandos de moderação, descoberta em rede local, histórico local criptografado e recursos de E2EE.</p>
       <a href="https://github.com/PSecurity/ps.chat-cli" target="_blank" rel="noopener">Ver repositório</a>
     </article>
 
     <article class="project-card featured">
-      <p class="project-card__stack">Python · Flask · Termux</p>
+      <div class="tech-stack" aria-label="Stack do projeto"><span>Python</span><span>Flask</span><span>Termux</span></div>
       <h3>PS.Toolkit v2</h3>
       <p>Toolkit web educacional para rodar no Termux, com módulos de automação, Nmap, DNS, hash, senhas, notas, túneis, Linux manager e ferramentas de apoio técnico.</p>
       <a href="https://github.com/PSecurity/ps.toolkit-v2" target="_blank" rel="noopener">Ver repositório</a>
     </article>
 
     <article class="project-card featured">
-      <p class="project-card__stack">HTML · CSS · JavaScript</p>
+      <div class="tech-stack" aria-label="Stack do projeto"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
       <h3>PS.Notes</h3>
       <p>Bloco de notas autoral desenvolvido do zero, com editor, split view, snippets, salvamento no navegador, copiar, exportar e organização rápida para comandos e estudos.</p>
       <a href="{{ '/category/notepad/' | relative_url }}">Abrir ferramenta</a>
     </article>
 
     <article class="project-card">
-      <p class="project-card__stack">C++ · ESP32 · PlatformIO</p>
+      <div class="tech-stack" aria-label="Stack do projeto"><span>C++</span><span>ESP32</span><span>PlatformIO</span></div>
       <h3>DoomStickC M5StickC Plus2</h3>
       <p>Protótipo retro FPS para M5StickC Plus2 com renderização, HUD, áudio, mapas, controles por botões/IMU, armas, inimigos e arquitetura modular.</p>
       <a href="https://github.com/PSecurity/doomstickc-m5stickc-plus2" target="_blank" rel="noopener">Ver repositório</a>
     </article>
 
     <article class="project-card">
-      <p class="project-card__stack">Shell Script · Nmap · Recon</p>
+      <div class="tech-stack" aria-label="Stack do projeto"><span>Shell Script</span><span>Nmap</span><span>Recon</span></div>
       <h3>PS.Nmap</h3>
       <p>Ferramenta educacional de reconhecimento de rede no Termux com menus para host discovery, varredura de portas, versões, sistema operacional, scripts NSE e scans personalizados.</p>
       <a href="https://github.com/PSecurity/ps.nmap" target="_blank" rel="noopener">Ver repositório</a>
     </article>
 
     <article class="project-card">
-      <p class="project-card__stack">Android · Kotlin · Auditoria</p>
+      <div class="tech-stack" aria-label="Stack do projeto"><span>Android</span><span>Kotlin</span><span>Auditoria</span></div>
       <h3>PS.Guardian / PS.Pentester</h3>
       <p>Projetos Android em desenvolvimento para fluxo profissional de auditoria, evidências, findings, relatórios técnicos e apoio a ambientes autorizados.</p>
       <a href="{{ '/projects/' | relative_url }}#android">Ver detalhes</a>

@@ -62,7 +62,7 @@ Funcionalidades principais
 
 📩 **Mensagens diretas (DM)** – criptografadas individualmente
 
-⚡ **Mensagens efêmeras?** – /sumir
+⚡ **Mensagens efêmeras*? – /sumir
 
 📎 **Envio de arquivos** – /send arquivo.txt (até 5 MB)
 

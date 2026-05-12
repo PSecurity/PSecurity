@@ -597,3 +597,167 @@ pre {
   .brand__text strong { font-size: 1.08rem; }
   .btn { padding-inline: 14px; }
 }
+
+/* PeekSecurity Portfolio v2.8 — mobile text integrity and professional typography pass */
+body {
+  font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  letter-spacing: -0.01em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3,
+.brand__text strong {
+  letter-spacing: 0.01em;
+}
+
+pre, code,
+.terminal-card code,
+.terminal-line dt {
+  font-family: "JetBrains Mono", "Share Tech Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+}
+
+.terminal-card strong {
+  margin-bottom: 10px;
+  line-height: 1.25;
+}
+
+.terminal-card > p {
+  margin: 0 0 14px;
+  line-height: 1.62;
+}
+
+.terminal-list {
+  display: grid;
+  gap: 0;
+  margin: 18px 0 0;
+  padding: 0;
+}
+
+.terminal-line {
+  display: grid;
+  grid-template-columns: minmax(110px, 0.34fr) 1fr;
+  gap: 16px;
+  align-items: start;
+  padding: 12px 0;
+  border-top: 1px solid rgba(168, 85, 247, 0.14);
+}
+
+.terminal-line:first-child {
+  border-top-color: rgba(168, 85, 247, 0.22);
+}
+
+.terminal-line dt,
+.terminal-line dd {
+  min-width: 0;
+}
+
+.terminal-line dt {
+  margin: 0;
+  color: var(--green);
+  font-size: 0.74rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  white-space: nowrap;
+}
+
+.terminal-line dd {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.55;
+  overflow-wrap: break-word;
+  word-break: normal;
+}
+
+.tech-stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0 0 16px;
+}
+
+.tech-stack span {
+  display: inline-flex;
+  align-items: center;
+  min-height: 28px;
+  padding: 5px 10px;
+  border: 1px solid rgba(168, 85, 247, 0.22);
+  border-radius: 999px;
+  background: rgba(168, 85, 247, 0.08);
+  color: #e9d5ff;
+  font-size: 0.76rem;
+  font-weight: 800;
+  line-height: 1.1;
+  letter-spacing: 0.01em;
+  white-space: nowrap;
+}
+
+.case-card__head .tech-stack {
+  margin-bottom: 10px;
+}
+
+.project-card__stack {
+  display: none;
+}
+
+.hero__subtitle,
+.hero__text,
+.terminal-card p,
+.info-card p,
+.project-card p,
+.post-card p,
+.category-card span,
+.contact-card strong,
+.contact-card span,
+.case-card__grid p {
+  word-spacing: 0.03em;
+}
+
+@media (max-width: 760px) {
+  .terminal-list {
+    gap: 8px;
+  }
+
+  .terminal-line {
+    grid-template-columns: 1fr;
+    gap: 5px;
+    padding: 12px 0;
+  }
+
+  .terminal-line dt {
+    white-space: normal;
+  }
+
+  .terminal-line dd {
+    line-height: 1.55;
+  }
+
+  .tech-stack {
+    gap: 7px;
+  }
+
+  .tech-stack span {
+    font-size: 0.72rem;
+    padding-inline: 9px;
+  }
+}
+
+@media (max-width: 420px) {
+  .terminal-card {
+    padding: 20px;
+  }
+
+  .terminal-card strong {
+    font-size: 1.08rem;
+  }
+
+  .terminal-card > p,
+  .terminal-line dd {
+    font-size: 0.94rem;
+  }
+
+  .hero {
+    padding-inline: 20px;
+  }
+}
