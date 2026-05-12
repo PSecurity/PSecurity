@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">PeekSecurity icon</title>
+  <desc id="desc">Minimal cyberpunk purple hexagon terminal icon with greater-than underscore symbol.</desc>
+  <defs>
+    <radialGradient id="bgGlow" cx="50%" cy="35%" r="75%">
+      <stop offset="0%" stop-color="#251040"/>
+      <stop offset="48%" stop-color="#090313"/>
+      <stop offset="100%" stop-color="#020106"/>
+    </radialGradient>
+    <linearGradient id="purpleStroke" x1="92" y1="78" x2="420" y2="434" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#f0abfc"/>
+      <stop offset="42%" stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#6d28d9"/>
+    </linearGradient>
+    <linearGradient id="terminalText" x1="166" y1="205" x2="346" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#d8b4fe"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0.66 0 0 0 0.1 0 0.25 0 0 0.05 0 0 1 0 0.95 0 0 0 0.85 0" result="purpleGlow"/>
+      <feMerge>
+        <feMergeNode in="purpleGlow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="softShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="18" stdDeviation="20" flood-color="#000000" flood-opacity="0.55"/>
+    </filter>
+  </defs>
+
+  <rect width="512" height="512" rx="116" fill="url(#bgGlow)"/>
+  <path d="M69 394V118M443 118v276" stroke="#a855f7" stroke-opacity="0.12" stroke-width="2"/>
+  <path d="M118 73h276M118 439h276" stroke="#c084fc" stroke-opacity="0.10" stroke-width="2"/>
+  <g opacity="0.22">
+    <path d="M80 168h352M80 256h352M80 344h352" stroke="#a855f7" stroke-width="1"/>
+    <path d="M168 80v352M256 80v352M344 80v352" stroke="#a855f7" stroke-width="1"/>
+  </g>
+
+  <g filter="url(#softShadow)">
+    <path d="M256 76 393 155v202L256 436 119 357V155L256 76Z" fill="#090313" fill-opacity="0.58"/>
+    <path d="M256 76 393 155v202L256 436 119 357V155L256 76Z" fill="none" stroke="url(#purpleStroke)" stroke-width="18" stroke-linejoin="round" filter="url(#glow)"/>
+    <path d="M256 112 361 173v166L256 400 151 339V173L256 112Z" fill="none" stroke="#ffffff" stroke-opacity="0.08" stroke-width="3" stroke-linejoin="round"/>
+  </g>
+
+  <g filter="url(#glow)">
+    <path d="M183 218 247 256 183 294" fill="none" stroke="url(#terminalText)" stroke-width="30" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M280 302h73" stroke="url(#terminalText)" stroke-width="30" stroke-linecap="round"/>
+  </g>
+</svg>
