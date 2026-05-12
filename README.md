@@ -1,67 +1,43 @@
 # 👾 PeekSecurity
 
-> Fala rapaziada, suavidade? Eu sou o Peek.
+Portfólio técnico de **Gilberto Martins** e base pública da **PeekSecurity**.
 
-💻 Repositório focado em **Termux, Kali Linux e scripts para hacking ético mobile**.
+> Tecnologia • Segurança da Informação • Termux • Android • Automação • Ferramentas Educacionais
 
----
+Acesse: https://psecurity.github.io/PSecurity/
 
-## 🚀 Acesse o site
+## Conteúdo
 
-👉 https://psecurity.github.io/PSecurity/
+- Portfólio profissional
+- Projetos autorais PeekSecurity
+- PS.Notes, bloco de notas autoral estilo terminal
+- Conteúdos sobre Termux, Kali Linux, scripts e tutoriais
+- Currículo profissional em PDF
 
----
+## Estrutura principal
 
-## 📦 Conteúdo
-
-* 📱 Termux (comandos prontos)
-* 🐉 Kali Linux
-* ⚡ Scripts automatizados
-* 🔐 Segurança digital
-
----
-
-## 🔥 Exemplo de comando
-
-```bash
-git clone https://github.com/PSecurity/ps.ngrok
+```text
+_config.yml
+_layouts/default.html
+_layouts/post.html
+index.md
+projects.md
+about.md
+curriculo.md
+contact.md
+category/notepad.md
+category/termux.md
+category/kali.md
+category/scripts.md
+category/tutoriais.md
+assets/css/style.css
+assets/css/ps-notes.css
+assets/js/main.js
+assets/js/ps-notes.js
+assets/cv/curriculo-gilberto-victor-ferreira-martins.pdf
+_posts/
 ```
 
-💡 Todos os comandos no site possuem botão **"Copiar"** para facilitar.
+## Uso responsável
 
----
-
-## ⚠️ Aviso
-
-Este conteúdo é destinado apenas para **fins educacionais**.
-Não me responsabilizo pelo uso indevido das informações.
-
----
-
-## 🧠 Objetivo
-
-Ajudar a comunidade a aprender:
-
-* Segurança ofensiva
-* Automação no Termux
-* Ferramentas hacker mobile
-
----
-
-## 📲 Redes
-
-* TikTok: @PeekSecurity
-
----
-
-## ⭐ Contribuição
-
-Sinta-se livre para abrir **issues** ou enviar **pull requests**.
-
----
-
-## ☕ Apoie o projeto
-
-Se esse conteúdo te ajudou, deixa uma estrela ⭐ no repositório!
-
----
+Os conteúdos e ferramentas são voltados a aprendizado, documentação técnica, automação e segurança em ambientes autorizados. Não utilize comandos, scripts ou técnicas em sistemas de terceiros sem permissão explícita.

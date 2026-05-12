@@ -8,7 +8,7 @@ permalink: /projects/
 <section class="page-hero compact">
   <p class="eyebrow">Portfólio técnico</p>
   <h1>Projetos PeekSecurity</h1>
-  <p>Seleção de ferramentas, estudos e aplicações desenvolvidas com foco em segurança digital, automação, Termux, Android, Linux, CLI, web local e dispositivos embarcados.</p>
+  <p>Seleção de ferramentas, estudos e aplicações desenvolvidas com foco em segurança digital, automação, Termux, Android, Linux, CLI, web local, dispositivos embarcados e documentação técnica.</p>
 </section>
 
 <section class="section-block">
@@ -29,6 +29,15 @@ permalink: /projects/
         <p>Interface web local para Termux com módulos de apoio técnico: Nmap, DNS, hash, encode/decode, senhas, notas, túneis, gerenciamento de Linux e ferramentas educacionais de segurança.</p>
       </div>
       <a class="btn btn-secondary" href="https://github.com/PSecurity/ps.toolkit-v2" target="_blank" rel="noopener">Repositório</a>
+    </article>
+
+    <article class="project-row">
+      <div>
+        <p class="eyebrow">HTML · CSS · JavaScript</p>
+        <h2>PS.Notes</h2>
+        <p>Bloco de notas autoral desenvolvido do zero com identidade PeekSecurity, visual terminal/cyberpunk, split view, snippets, salvamento local no navegador, cópia, exportação e contador técnico.</p>
+      </div>
+      <a class="btn btn-secondary" href="{{ '/category/notepad/' | relative_url }}">Abrir ferramenta</a>
     </article>
 
     <article class="project-row">

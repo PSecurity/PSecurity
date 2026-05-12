@@ -1,5 +1,5 @@
 title: PeekSecurity
-description: Portfólio técnico de Gilberto Martins - tecnologia, segurança da informação, Termux, Android, automação e ferramentas educacionais.
+description: Portfólio técnico de Gilberto Martins — tecnologia, segurança da informação, Termux, Android, automação e ferramentas educacionais.
 baseurl: "/PSecurity"
 url: "https://psecurity.github.io"
 lang: pt-BR
@@ -10,7 +10,7 @@ author:
   role: Tecnologia | Segurança da Informação | Automação | Android
   email: gilbertoferreirasp@gmail.com
   github: https://github.com/PSecurity
-  tiktok: https://tiktok.com/@PeekSecurity
+  tiktok: https://tiktok.com/@peeksecurity
   youtube: https://www.youtube.com/@PeekSecurity
   portfolio: https://psecurity.github.io/PSecurity/
 
@@ -19,5 +19,7 @@ markdown: kramdown
 kramdown:
   input: GFM
   hard_wrap: false
+  syntax_highlighter_opts:
+    disable: true
 
 plugins: []
