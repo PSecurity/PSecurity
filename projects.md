@@ -21,7 +21,7 @@ permalink: /projects/
     <article class="case-card">
       <div class="case-card__head">
         <div>
-          <p class="project-card__stack">Python · CLI · Segurança</p>
+          <div class="stack-tags stack-tags--compact" aria-label="Stack: Python, CLI e Segurança"><span>Python</span><span>CLI</span><span>Segurança</span></div>
           <h2>PS.Chat Admin / PS.Chat CLI</h2>
         </div>
         <a class="btn btn-secondary" href="https://github.com/PSecurity/ps.chat-cli" target="_blank" rel="noopener">Ver GitHub</a>
@@ -36,7 +36,7 @@ permalink: /projects/
     <article class="case-card">
       <div class="case-card__head">
         <div>
-          <p class="project-card__stack">Python · Flask · Termux</p>
+          <div class="stack-tags stack-tags--compact" aria-label="Stack: Python, Flask e Termux"><span>Python</span><span>Flask</span><span>Termux</span></div>
           <h2>PS.Toolkit v2</h2>
         </div>
         <a class="btn btn-secondary" href="https://github.com/PSecurity/ps.toolkit-v2" target="_blank" rel="noopener">Ver GitHub</a>
@@ -51,7 +51,7 @@ permalink: /projects/
     <article class="case-card">
       <div class="case-card__head">
         <div>
-          <p class="project-card__stack">HTML · CSS · JavaScript</p>
+          <div class="stack-tags stack-tags--compact" aria-label="Stack: HTML, CSS e JavaScript"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
           <h2>PS.Notes</h2>
         </div>
         <a class="btn btn-secondary" href="{{ '/category/notepad/' | relative_url }}">Abrir PS.Notes</a>
@@ -66,7 +66,7 @@ permalink: /projects/
     <article class="case-card">
       <div class="case-card__head">
         <div>
-          <p class="project-card__stack">C++ · ESP32 · PlatformIO</p>
+          <div class="stack-tags stack-tags--compact" aria-label="Stack: C++, ESP32 e PlatformIO"><span>C++</span><span>ESP32</span><span>PlatformIO</span></div>
           <h2>DoomStickC M5StickC Plus2</h2>
         </div>
         <a class="btn btn-secondary" href="https://github.com/PSecurity/doomstickc-m5stickc-plus2" target="_blank" rel="noopener">Ver GitHub</a>
@@ -81,7 +81,7 @@ permalink: /projects/
     <article class="case-card">
       <div class="case-card__head">
         <div>
-          <p class="project-card__stack">Shell Script · Nmap · Termux</p>
+          <div class="stack-tags stack-tags--compact" aria-label="Stack: Shell Script, Nmap e Termux"><span>Shell Script</span><span>Nmap</span><span>Termux</span></div>
           <h2>PS.Nmap</h2>
         </div>
         <a class="btn btn-secondary" href="https://github.com/PSecurity/ps.nmap" target="_blank" rel="noopener">Ver GitHub</a>
@@ -96,7 +96,7 @@ permalink: /projects/
     <article class="case-card">
       <div class="case-card__head">
         <div>
-          <p class="project-card__stack">Android · Kotlin · Auditoria</p>
+          <div class="stack-tags stack-tags--compact" aria-label="Stack: Android, Kotlin e Auditoria"><span>Android</span><span>Kotlin</span><span>Auditoria</span></div>
           <h2 id="android">PS.Guardian / PS.Pentester</h2>
         </div>
         <a class="btn btn-secondary" href="mailto:gilbertoferreirasp@gmail.com">Solicitar detalhes</a>

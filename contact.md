@@ -34,3 +34,12 @@ permalink: /contact/
   <h2>Direção profissional</h2>
   <p>Os conteúdos e ferramentas da PeekSecurity são voltados a aprendizado, documentação técnica, automação e segurança em ambientes autorizados. A comunicação profissional pode ser feita por e-mail ou GitHub.</p>
 </section>
+
+<section class="section-block cta-panel">
+  <p class="eyebrow">Currículo e oportunidades</p>
+  <h2>Disponível para conversas profissionais em tecnologia, segurança da informação, suporte técnico, prevenção a fraudes e desenvolvimento de ferramentas.</h2>
+  <div class="hero__actions">
+    <a class="btn btn-primary" href="{{ '/assets/cv/curriculo-gilberto-victor-ferreira-martins.pdf' | relative_url }}" target="_blank" rel="noopener">Baixar Currículo</a>
+    <a class="btn btn-secondary" href="mailto:gilbertoferreirasp@gmail.com">Enviar E-mail</a>
+  </div>
+</section>

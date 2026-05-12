@@ -609,3 +609,72 @@ pre {
 }
 
 /* PeekSecurity Portfolio v2.9 — restore approved green terminal style, fix label/value spacing only */
+
+/* PeekSecurity Portfolio v3.0 — final quality pass without changing approved identity */
+.stack-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0 0 16px;
+}
+.stack-tags span {
+  display: inline-flex;
+  align-items: center;
+  min-height: 26px;
+  padding: 5px 9px;
+  border: 1px solid rgba(34, 197, 94, 0.24);
+  border-radius: 999px;
+  background: rgba(34, 197, 94, 0.07);
+  color: #86efac;
+  font-family: "Share Tech Mono", monospace;
+  font-size: 0.75rem;
+  line-height: 1;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+.stack-tags--compact { margin-bottom: 10px; }
+.availability-panel {
+  border-color: rgba(34, 197, 94, 0.18);
+  background: linear-gradient(180deg, rgba(17, 10, 31, 0.76), rgba(6, 16, 10, 0.42));
+}
+.availability-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+}
+.availability-card {
+  border: 1px solid rgba(168, 85, 247, 0.18);
+  border-radius: var(--radius-sm);
+  background: rgba(17, 10, 31, 0.72);
+  padding: 18px;
+}
+.availability-card strong {
+  display: block;
+  margin-bottom: 8px;
+  color: var(--text);
+  font-size: 1.04rem;
+}
+.availability-card span {
+  display: block;
+  color: var(--muted);
+  line-height: 1.55;
+}
+.footer-copy {
+  display: grid;
+  gap: 8px;
+  max-width: 760px;
+}
+.footer-ethics {
+  color: var(--muted-2);
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+@media (max-width: 980px) {
+  .availability-grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 760px) {
+  .availability-grid { grid-template-columns: 1fr; }
+  .stack-tags { gap: 7px; }
+  .stack-tags span { font-size: 0.7rem; }
+}

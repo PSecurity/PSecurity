@@ -76,6 +76,31 @@ description: Portfólio profissional de Gilberto Martins, criador da PeekSecurit
   </div>
 </section>
 
+<section class="section-block availability-panel">
+  <div class="section-heading">
+    <p class="eyebrow">Disponível para</p>
+    <h2>Oportunidades onde experiência operacional e prática técnica geram valor</h2>
+  </div>
+  <div class="availability-grid">
+    <article class="availability-card">
+      <strong>Suporte Técnico</strong>
+      <span>N1, N2, N3, atendimento especializado, análise de demandas e resolução de problemas.</span>
+    </article>
+    <article class="availability-card">
+      <strong>Segurança da Informação</strong>
+      <span>Laboratórios autorizados, documentação técnica, reconhecimento, evidências e boas práticas.</span>
+    </article>
+    <article class="availability-card">
+      <strong>Prevenção a Fraudes</strong>
+      <span>Análise de risco, casos sensíveis, documentoscopia e visão investigativa aplicada.</span>
+    </article>
+    <article class="availability-card">
+      <strong>Desenvolvimento e Automação</strong>
+      <span>Python, Flask, Shell Script, Android/Kotlin, Termux, Linux, C++ e ferramentas autorais.</span>
+    </article>
+  </div>
+</section>
+
 <section class="section-block" id="projetos">
   <div class="section-heading section-heading--inline">
     <div>
@@ -87,42 +112,42 @@ description: Portfólio profissional de Gilberto Martins, criador da PeekSecurit
 
   <div class="project-grid">
     <article class="project-card featured">
-      <p class="project-card__stack">Python · Segurança · CLI</p>
+      <div class="stack-tags" aria-label="Stack: Python, Segurança e CLI"><span>Python</span><span>Segurança</span><span>CLI</span></div>
       <h3>PS.Chat Admin / CLI</h3>
       <p>Ecossistema de comunicação privada/offline com cliente terminal, painel administrativo, comandos de moderação, descoberta em rede local, histórico local criptografado e recursos de E2EE.</p>
       <a href="https://github.com/PSecurity/ps.chat-cli" target="_blank" rel="noopener">Ver repositório</a>
     </article>
 
     <article class="project-card featured">
-      <p class="project-card__stack">Python · Flask · Termux</p>
+      <div class="stack-tags" aria-label="Stack: Python, Flask e Termux"><span>Python</span><span>Flask</span><span>Termux</span></div>
       <h3>PS.Toolkit v2</h3>
       <p>Toolkit web educacional para rodar no Termux, com módulos de automação, Nmap, DNS, hash, senhas, notas, túneis, Linux manager e ferramentas de apoio técnico.</p>
       <a href="https://github.com/PSecurity/ps.toolkit-v2" target="_blank" rel="noopener">Ver repositório</a>
     </article>
 
     <article class="project-card featured">
-      <p class="project-card__stack">HTML · CSS · JavaScript</p>
+      <div class="stack-tags" aria-label="Stack: HTML, CSS e JavaScript"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
       <h3>PS.Notes</h3>
       <p>Bloco de notas autoral desenvolvido do zero, com editor, split view, snippets, salvamento no navegador, copiar, exportar e organização rápida para comandos e estudos.</p>
       <a href="{{ '/category/notepad/' | relative_url }}">Abrir ferramenta</a>
     </article>
 
     <article class="project-card">
-      <p class="project-card__stack">C++ · ESP32 · PlatformIO</p>
+      <div class="stack-tags" aria-label="Stack: C++, ESP32 e PlatformIO"><span>C++</span><span>ESP32</span><span>PlatformIO</span></div>
       <h3>DoomStickC M5StickC Plus2</h3>
       <p>Protótipo retro FPS para M5StickC Plus2 com renderização, HUD, áudio, mapas, controles por botões/IMU, armas, inimigos e arquitetura modular.</p>
       <a href="https://github.com/PSecurity/doomstickc-m5stickc-plus2" target="_blank" rel="noopener">Ver repositório</a>
     </article>
 
     <article class="project-card">
-      <p class="project-card__stack">Shell Script · Nmap · Recon</p>
+      <div class="stack-tags" aria-label="Stack: Shell Script, Nmap e Reconhecimento"><span>Shell Script</span><span>Nmap</span><span>Recon</span></div>
       <h3>PS.Nmap</h3>
       <p>Ferramenta educacional de reconhecimento de rede no Termux com menus para host discovery, varredura de portas, versões, sistema operacional, scripts NSE e scans personalizados.</p>
       <a href="https://github.com/PSecurity/ps.nmap" target="_blank" rel="noopener">Ver repositório</a>
     </article>
 
     <article class="project-card">
-      <p class="project-card__stack">Android · Kotlin · Auditoria</p>
+      <div class="stack-tags" aria-label="Stack: Android, Kotlin e Auditoria"><span>Android</span><span>Kotlin</span><span>Auditoria</span></div>
       <h3>PS.Guardian / PS.Pentester</h3>
       <p>Projetos Android em desenvolvimento para fluxo profissional de auditoria, evidências, findings, relatórios técnicos e apoio a ambientes autorizados.</p>
       <a href="{{ '/projects/' | relative_url }}#android">Ver detalhes</a>
@@ -192,7 +217,8 @@ description: Portfólio profissional de Gilberto Martins, criador da PeekSecurit
   <h2>Aberto a oportunidades em tecnologia, segurança da informação, suporte técnico, prevenção a fraudes e desenvolvimento de ferramentas.</h2>
   <p>Este portfólio reúne projetos, conteúdos e ferramentas criadas para aprendizado, documentação técnica e uso responsável em ambientes autorizados.</p>
   <div class="hero__actions">
-    <a class="btn btn-primary" href="mailto:gilbertoferreirasp@gmail.com">Entrar em Contato</a>
-    <a class="btn btn-secondary" href="{{ '/curriculo/' | relative_url }}">Ver Currículo</a>
+    <a class="btn btn-primary" href="{{ '/assets/cv/curriculo-gilberto-victor-ferreira-martins.pdf' | relative_url }}" target="_blank" rel="noopener">Baixar Currículo</a>
+    <a class="btn btn-secondary" href="mailto:gilbertoferreirasp@gmail.com">Entrar em Contato</a>
+    <a class="btn btn-ghost" href="{{ '/projects/' | relative_url }}">Ver Projetos</a>
   </div>
 </section>
