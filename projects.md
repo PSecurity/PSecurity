@@ -17,7 +17,7 @@ permalink: /projects/
       <div>
         <p class="eyebrow">Python · CLI · Segurança</p>
         <h2>PS.Chat Admin / PS.Chat CLI</h2>
-        <p>Ecossistema de comunicação privada/offline com cliente terminal, painel administrativo, moderação, descoberta em rede local, histórico local criptografado e recursos de comunicação segura.</p>
+        <p>Ecossistema de comunicação privada/offline com cliente terminal, painel administrativo, recursos de moderação, descoberta em rede local, histórico local criptografado e proposta de comunicação segura.</p>
       </div>
       <a class="btn btn-secondary" href="https://github.com/PSecurity/ps.chat-cli" target="_blank" rel="noopener">Repositório</a>
     </article>
@@ -35,7 +35,7 @@ permalink: /projects/
       <div>
         <p class="eyebrow">HTML · CSS · JavaScript</p>
         <h2>PS.Notes</h2>
-        <p>Bloco de notas autoral criado do zero com identidade PeekSecurity, visual terminal/cyberpunk, split view, snippets, salvamento local no navegador, cópia, exportação e contador técnico.</p>
+        <p>Bloco de notas autoral desenvolvido do zero com identidade PeekSecurity, visual terminal/cyberpunk, split view, snippets, salvamento local no navegador, cópia, exportação e contador técnico.</p>
       </div>
       <a class="btn btn-secondary" href="{{ '/category/notepad/' | relative_url }}">Abrir ferramenta</a>
     </article>
@@ -53,7 +53,7 @@ permalink: /projects/
       <div>
         <p class="eyebrow">Shell Script · Nmap · Termux</p>
         <h2>PS.Nmap</h2>
-        <p>Ferramenta educacional para reconhecimento autorizado com Nmap no Termux, reunindo scans de hosts, portas, versões, sistema operacional, scripts NSE e parâmetros personalizados.</p>
+        <p>Ferramenta educacional para reconhecimento autorizado com Nmap no Termux, reunindo scans de hosts, portas, versões, sistema operacional, NSE e parâmetros personalizados.</p>
       </div>
       <a class="btn btn-secondary" href="https://github.com/PSecurity/ps.nmap" target="_blank" rel="noopener">Repositório</a>
     </article>

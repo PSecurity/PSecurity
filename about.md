@@ -13,19 +13,19 @@ permalink: /about/
 
 <section class="section-block text-panel">
   <h2>Trajetória</h2>
-  <p>Minha base profissional foi construída em atendimento especializado, suporte N1, N2 e N3, análise de crédito, prevenção a fraudes, atualização cadastral e tratamento de casos sensíveis. Essa vivência fortaleceu minha atenção a detalhes, responsabilidade com dados, visão analítica e comunicação em cenários críticos.</p>
-  <p>Em paralelo, desenvolvo projetos técnicos com foco em segurança digital, Termux, Kali Linux, Android, automação, ferramentas CLI, aplicações web locais, dispositivos embarcados e documentação técnica. A PeekSecurity nasceu dessa combinação entre prática operacional, estudo contínuo e criação de ferramentas úteis para a comunidade.</p>
+  <p>Minha base profissional foi construída em atendimento especializado, suporte N1, N2 e N3, análise de crédito, prevenção a fraudes, atualização cadastral e tratamento de casos sensíveis. Essa vivência me deu visão analítica, responsabilidade com dados, comunicação clara e atenção a detalhes.</p>
+  <p>Em paralelo, desenvolvo projetos técnicos com foco em segurança digital, Termux, Kali Linux, Android, automação, ferramentas CLI, aplicações web locais e documentação técnica. A PeekSecurity nasceu dessa combinação entre prática operacional, estudo contínuo e vontade de criar ferramentas úteis para a comunidade.</p>
 </section>
 
 <section class="section-block">
   <div class="split-grid">
     <article class="info-card">
       <h3>Como penso</h3>
-      <p>Procuro entender o problema antes da solução, organizar informações, testar hipóteses e transformar complexidade em fluxos mais claros, seguros e documentados.</p>
+      <p>Gosto de entender o problema por trás da demanda, organizar as informações, testar hipóteses e construir soluções que realmente ajudem no fluxo de trabalho.</p>
     </article>
     <article class="info-card">
       <h3>Como trabalho</h3>
-      <p>Valorizo evolução incremental, documentação, validação prática, responsabilidade e consistência visual/técnica. Prefiro construir com segurança e melhorar continuamente.</p>
+      <p>Busco clareza, documentação, responsabilidade e evolução incremental. Prefiro construir com segurança, validar e melhorar continuamente.</p>
     </article>
     <article class="info-card">
       <h3>Onde quero atuar</h3>

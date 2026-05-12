@@ -15,7 +15,7 @@ wide: true
 
 <section class="ps-notes-app" id="ps-notes-app" aria-label="PS.Notes editor">
   <div class="ps-notes-header">
-    <div class="logo">👾 PS.<span>NOTES</span></div>
+    <div class="logo"><img src="{{ '/assets/img/peeksecurity-icon-192.png' | relative_url }}" alt="" width="24" height="24"><span class="logo-text">PS.<span>NOTES</span></span></div>
     <div class="header-controls">
       <span class="split-badge" id="mode-badge">◼ SINGLE</span>
       <button class="btn btn-split btn-primary" onclick="toggleSplit()" id="split-btn" type="button">⫿ SPLIT VIEW</button>

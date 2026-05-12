@@ -17,14 +17,14 @@ permalink: /curriculo/
 
 <section class="section-block text-panel">
   <h2>Resumo profissional</h2>
-  <p>Profissional com experiência em suporte especializado N3, atendimento crítico, prevenção a fraudes, análise de crédito e tratamento de casos sensíveis. Graduando em Engenharia de Computação, desenvolvo projetos autorais na área de tecnologia e segurança por meio da PeekSecurity.</p>
+  <p>Profissional com experiência em suporte especializado, atendimento N3, prevenção a fraudes, análise de crédito e tratamento de casos sensíveis. Graduando em Engenharia de Computação, desenvolvo projetos autorais na área de tecnologia e segurança por meio da PeekSecurity.</p>
 </section>
 
 <section class="section-block">
   <div class="split-grid">
     <article class="info-card">
       <h3>Experiência</h3>
-      <p>Suporte N1/N2/N3, atendimento a clientes, executivos e lojistas, análise de propostas, prevenção a fraudes, atualização cadastral e comunicação em cenários sensíveis.</p>
+      <p>Suporte N1/N2/N3, atendimento a clientes, executivos e lojistas, análise de propostas, prevenção a fraudes e atualização cadastral.</p>
     </article>
     <article class="info-card">
       <h3>Formação</h3>
@@ -32,7 +32,7 @@ permalink: /curriculo/
     </article>
     <article class="info-card">
       <h3>Portfólio</h3>
-      <p>Projetos em Python, Flask, Shell Script, Termux, Kali Linux, Android/Kotlin, C++, ESP32, ferramentas CLI e documentação técnica.</p>
+      <p>Projetos em Python, Flask, Shell Script, Termux, Kali Linux, Android/Kotlin, C++, ESP32 e documentação técnica.</p>
     </article>
   </div>
 </section>
