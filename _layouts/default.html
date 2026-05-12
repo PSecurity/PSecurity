@@ -10,10 +10,12 @@
   <meta property="og:title" content="{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}">
   <meta property="og:description" content="{{ page.description | default: site.description }}">
   <meta property="og:type" content="website">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Share+Tech+Mono&family=Urbanist:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Orbitron:wght@500;700;900&family=Share+Tech+Mono&family=Urbanist:wght@400;500;600;700;800&family=VT323&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  {% if page.notepad %}<link rel="stylesheet" href="{{ '/assets/css/ps-notes.css' | relative_url }}">{% endif %}
 </head>
 <body>
   <div class="background-grid" aria-hidden="true"></div>
@@ -30,9 +32,10 @@
 
       <button class="nav-toggle" type="button" aria-label="Abrir menu" data-nav-toggle>Menu</button>
 
-      <nav class="nav" data-nav>
+      <nav class="nav" data-nav aria-label="Menu principal">
         <a href="{{ '/' | relative_url }}">Início</a>
         <a href="{{ '/projects/' | relative_url }}">Projetos</a>
+        <a href="{{ '/category/notepad/' | relative_url }}">PS.Notes</a>
         <a href="{{ '/about/' | relative_url }}">Sobre</a>
         <a href="{{ '/curriculo/' | relative_url }}">Currículo</a>
         <a href="{{ '/contact/' | relative_url }}">Contato</a>
@@ -44,16 +47,16 @@
     </div>
   </header>
 
-  <main class="page-shell">
+  <main class="page-shell{% if page.wide %} page-shell--wide{% endif %}">
     {{ content }}
   </main>
 
   <footer class="site-footer">
     <div class="site-footer__inner">
-      <p><strong>PeekSecurity</strong> - tecnologia, segurança da informação e ferramentas educacionais para ambientes autorizados.</p>
+      <p><strong>PeekSecurity</strong> — tecnologia, segurança da informação e ferramentas educacionais para ambientes autorizados.</p>
       <div class="footer-links">
         <a href="https://github.com/PSecurity" target="_blank" rel="noopener">GitHub</a>
-        <a href="https://tiktok.com/@PeekSecurity" target="_blank" rel="noopener">TikTok</a>
+        <a href="https://tiktok.com/@peeksecurity" target="_blank" rel="noopener">TikTok</a>
         <a href="https://www.youtube.com/@PeekSecurity" target="_blank" rel="noopener">YouTube</a>
         <a href="mailto:gilbertoferreirasp@gmail.com">E-mail</a>
       </div>
@@ -61,5 +64,6 @@
   </footer>
 
   <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
+  {% if page.notepad %}<script src="{{ '/assets/js/ps-notes.js' | relative_url }}"></script>{% endif %}
 </body>
 </html>
