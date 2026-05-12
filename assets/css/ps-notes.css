@@ -373,3 +373,16 @@
   .ps-notes-app #panel-b { border-top: 1px solid #6b00c840; }
   .ps-notes-app .panel-meta { display: none; }
 }
+
+/* PS.Notes v1.2 — official PeekSecurity/PS.Guardian icon integration */
+.ps-notes-app .ps-notes-brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+}
+.ps-notes-app .ps-notes-brand img {
+  width: 28px;
+  height: 28px;
+  border-radius: 9px;
+  box-shadow: 0 0 0 1px rgba(192,132,252,.28), 0 0 18px rgba(168,85,247,.35);
+}
