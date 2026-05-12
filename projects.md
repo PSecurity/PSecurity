@@ -12,77 +12,100 @@ permalink: /projects/
 </section>
 
 <section class="section-block">
-  <div class="project-list">
-    <article class="project-row">
-      <div>
-        <p class="eyebrow">Python · CLI · Segurança</p>
-        <h2>PS.Chat Admin / PS.Chat CLI</h2>
-        <p>Ecossistema de comunicação privada/offline com cliente terminal, painel administrativo, recursos de moderação, descoberta em rede local, histórico local criptografado e proposta de comunicação segura.</p>
+  <div class="section-heading">
+    <p class="eyebrow">Case studies</p>
+    <h2>Projetos apresentados por problema, solução e stack</h2>
+  </div>
+
+  <div class="case-study-list">
+    <article class="case-card">
+      <div class="case-card__head">
+        <div>
+          <p class="project-card__stack">Python · CLI · Segurança</p>
+          <h2>PS.Chat Admin / PS.Chat CLI</h2>
+        </div>
+        <a class="btn btn-secondary" href="https://github.com/PSecurity/ps.chat-cli" target="_blank" rel="noopener">Ver GitHub</a>
       </div>
-      <a class="btn btn-secondary" href="https://github.com/PSecurity/ps.chat-cli" target="_blank" rel="noopener">Repositório</a>
+      <div class="case-card__grid">
+        <div><strong>Problema</strong><p>Organizar comunicação privada em ambiente local/offline com controle, moderação e foco em segurança.</p></div>
+        <div><strong>Solução</strong><p>Ecossistema com servidor administrativo e cliente terminal, incluindo salas, comandos, descoberta em rede local, histórico local criptografado e recursos de E2EE.</p></div>
+        <div><strong>Demonstra</strong><p>Python, arquitetura cliente-servidor, ferramentas CLI, segurança aplicada, documentação técnica e visão de produto.</p></div>
+      </div>
     </article>
 
-    <article class="project-row">
-      <div>
-        <p class="eyebrow">Python · Flask · Termux</p>
-        <h2>PS.Toolkit v2</h2>
-        <p>Interface web local para Termux com módulos de apoio técnico: Nmap, DNS, hash, encode/decode, senhas, notas, túneis, gerenciamento de Linux e ferramentas educacionais de segurança.</p>
+    <article class="case-card">
+      <div class="case-card__head">
+        <div>
+          <p class="project-card__stack">Python · Flask · Termux</p>
+          <h2>PS.Toolkit v2</h2>
+        </div>
+        <a class="btn btn-secondary" href="https://github.com/PSecurity/ps.toolkit-v2" target="_blank" rel="noopener">Ver GitHub</a>
       </div>
-      <a class="btn btn-secondary" href="https://github.com/PSecurity/ps.toolkit-v2" target="_blank" rel="noopener">Repositório</a>
+      <div class="case-card__grid">
+        <div><strong>Problema</strong><p>Centralizar utilitários técnicos usados em estudos, automação e segurança mobile sem depender de várias interfaces diferentes.</p></div>
+        <div><strong>Solução</strong><p>Toolkit web local para Termux com módulos de Nmap, DNS, hash, senhas, notas, túneis, Linux manager e apoio técnico.</p></div>
+        <div><strong>Demonstra</strong><p>Python, Flask, Termux, automação, organização modular, experiência de usuário e documentação de ferramenta.</p></div>
+      </div>
     </article>
 
-    <article class="project-row">
-      <div>
-        <p class="eyebrow">HTML · CSS · JavaScript</p>
-        <h2>PS.Notes</h2>
-        <p>Bloco de notas autoral desenvolvido do zero com identidade PeekSecurity, visual terminal/cyberpunk, split view, snippets, salvamento local no navegador, cópia, exportação e contador técnico.</p>
+    <article class="case-card">
+      <div class="case-card__head">
+        <div>
+          <p class="project-card__stack">HTML · CSS · JavaScript</p>
+          <h2>PS.Notes</h2>
+        </div>
+        <a class="btn btn-secondary" href="{{ '/category/notepad/' | relative_url }}">Abrir PS.Notes</a>
       </div>
-      <a class="btn btn-secondary" href="{{ '/category/notepad/' | relative_url }}">Abrir ferramenta</a>
+      <div class="case-card__grid">
+        <div><strong>Problema</strong><p>Registrar comandos, snippets, estudos e rascunhos técnicos com rapidez durante fluxos de trabalho em terminal.</p></div>
+        <div><strong>Solução</strong><p>Bloco de notas autoral criado do zero, com visual terminal/cyberpunk, split view, snippets, salvamento local, cópia e exportação.</p></div>
+        <div><strong>Demonstra</strong><p>HTML, CSS, JavaScript, UI autoral, interação no navegador, localStorage e identidade visual PeekSecurity.</p></div>
+      </div>
     </article>
 
-    <article class="project-row">
-      <div>
-        <p class="eyebrow">C++ · ESP32 · M5StickC Plus2</p>
-        <h2>DoomStickC M5StickC Plus2</h2>
-        <p>Projeto embarcado em C++ com PlatformIO, M5Unified, renderização por framebuffer, HUD, áudio, mapas, armas, inimigos, controles por botões/IMU e estrutura modular.</p>
+    <article class="case-card">
+      <div class="case-card__head">
+        <div>
+          <p class="project-card__stack">C++ · ESP32 · PlatformIO</p>
+          <h2>DoomStickC M5StickC Plus2</h2>
+        </div>
+        <a class="btn btn-secondary" href="https://github.com/PSecurity/doomstickc-m5stickc-plus2" target="_blank" rel="noopener">Ver GitHub</a>
       </div>
-      <a class="btn btn-secondary" href="https://github.com/PSecurity/doomstickc-m5stickc-plus2" target="_blank" rel="noopener">Repositório</a>
+      <div class="case-card__grid">
+        <div><strong>Problema</strong><p>Explorar limites de dispositivo embarcado pequeno com renderização, controles físicos, IMU, áudio e lógica interativa.</p></div>
+        <div><strong>Solução</strong><p>Protótipo retro FPS em C++ para M5StickC Plus2, com mapas, HUD, inimigos, armas, áudio e estrutura modular.</p></div>
+        <div><strong>Demonstra</strong><p>C++, PlatformIO, ESP32, M5Unified, framebuffer, organização de módulos, lógica de jogo e hardware.</p></div>
+      </div>
     </article>
 
-    <article class="project-row">
-      <div>
-        <p class="eyebrow">Shell Script · Nmap · Termux</p>
-        <h2>PS.Nmap</h2>
-        <p>Ferramenta educacional para reconhecimento autorizado com Nmap no Termux, reunindo scans de hosts, portas, versões, sistema operacional, NSE e parâmetros personalizados.</p>
+    <article class="case-card">
+      <div class="case-card__head">
+        <div>
+          <p class="project-card__stack">Shell Script · Nmap · Termux</p>
+          <h2>PS.Nmap</h2>
+        </div>
+        <a class="btn btn-secondary" href="https://github.com/PSecurity/ps.nmap" target="_blank" rel="noopener">Ver GitHub</a>
       </div>
-      <a class="btn btn-secondary" href="https://github.com/PSecurity/ps.nmap" target="_blank" rel="noopener">Repositório</a>
+      <div class="case-card__grid">
+        <div><strong>Problema</strong><p>Facilitar estudos de reconhecimento de rede em ambientes móveis e autorizados sem exigir memorização de muitos comandos.</p></div>
+        <div><strong>Solução</strong><p>Menu educacional para Nmap no Termux, com host discovery, portas, versões, sistema operacional, NSE e scans personalizados.</p></div>
+        <div><strong>Demonstra</strong><p>Shell Script, Linux mobile, Nmap, automação, segurança defensiva/ofensiva educacional e clareza de uso.</p></div>
+      </div>
     </article>
 
-    <article class="project-row">
-      <div>
-        <p class="eyebrow">Shell Script · Kali · Termux</p>
-        <h2>PS.Ngrok / PeekSecurity Installer</h2>
-        <p>Automação para setup inicial de ambientes em Termux e Kali Linux, incluindo dependências, configuração de túneis, authtoken e fluxo interativo.</p>
+    <article class="case-card">
+      <div class="case-card__head">
+        <div>
+          <p class="project-card__stack">Android · Kotlin · Auditoria</p>
+          <h2 id="android">PS.Guardian / PS.Pentester</h2>
+        </div>
+        <a class="btn btn-secondary" href="mailto:gilbertoferreirasp@gmail.com">Solicitar detalhes</a>
       </div>
-      <a class="btn btn-secondary" href="https://github.com/PSecurity/ps.ngrok" target="_blank" rel="noopener">Repositório</a>
-    </article>
-
-    <article class="project-row">
-      <div>
-        <p class="eyebrow">HTML · CSS · JavaScript</p>
-        <h2>PS.Thumbnails</h2>
-        <p>Engine visual para criação de thumbnails técnicas em proporção vertical, com identidade cyberpunk, edição em tempo real e exportação em PNG.</p>
+      <div class="case-card__grid">
+        <div><strong>Problema</strong><p>Organizar auditorias, evidências, relatórios e fluxos técnicos em uma experiência mobile mais profissional.</p></div>
+        <div><strong>Solução</strong><p>Projetos Android em Kotlin para gestão de evidências, findings, sessões de auditoria, relatórios, checklists e apoio a ambientes autorizados.</p></div>
+        <div><strong>Demonstra</strong><p>Android Studio, Kotlin, UX de produto, fluxo de auditoria, segurança, relatórios técnicos e identidade visual consistente.</p></div>
       </div>
-      <a class="btn btn-secondary" href="https://github.com/PSecurity/ps-thumbnails" target="_blank" rel="noopener">Repositório</a>
-    </article>
-
-    <article class="project-row" id="android">
-      <div>
-        <p class="eyebrow">Android · Kotlin · Auditoria</p>
-        <h2>PS.Guardian / PS.Pentester</h2>
-        <p>Projetos Android em desenvolvimento com foco em fluxo profissional de auditoria, gestão de evidências, findings, relatórios, apoio a pentest autorizado e organização de entregáveis técnicos.</p>
-      </div>
-      <a class="btn btn-secondary" href="mailto:gilbertoferreirasp@gmail.com">Solicitar detalhes</a>
     </article>
   </div>
 </section>

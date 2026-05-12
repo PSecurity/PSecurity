@@ -8,7 +8,7 @@ permalink: /contact/
 <section class="page-hero compact">
   <p class="eyebrow">Contato</p>
   <h1>Vamos conversar?</h1>
-  <p>Contato profissional para oportunidades, projetos, tecnologia, segurança da informação, suporte técnico e desenvolvimento de ferramentas.</p>
+  <p>Aberto a oportunidades em tecnologia, segurança da informação, suporte técnico, prevenção a fraudes e desenvolvimento de ferramentas. Também estou disponível para conversar sobre projetos, portfólio técnico e iniciativas educacionais da PeekSecurity.</p>
 </section>
 
 <section class="section-block contact-grid">
@@ -31,6 +31,6 @@ permalink: /contact/
 </section>
 
 <section class="section-block notice-card">
-  <h2>Observação</h2>
-  <p>Os conteúdos e ferramentas da PeekSecurity são voltados a aprendizado, documentação técnica, automação e segurança em ambientes autorizados.</p>
+  <h2>Direção profissional</h2>
+  <p>Os conteúdos e ferramentas da PeekSecurity são voltados a aprendizado, documentação técnica, automação e segurança em ambientes autorizados. A comunicação profissional pode ser feita por e-mail ou GitHub.</p>
 </section>

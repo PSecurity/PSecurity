@@ -10,8 +10,8 @@ permalink: /curriculo/
   <h1>Gilberto Victor Ferreira Martins</h1>
   <p>Tecnologia · Segurança da Informação · Suporte N3 · Prevenção a Fraudes · Desenvolvimento de Ferramentas</p>
   <div class="hero__actions">
-    <a class="btn btn-primary" href="{{ '/assets/cv/curriculo-gilberto-victor-ferreira-martins.pdf' | relative_url }}" target="_blank" rel="noopener">Baixar currículo em PDF</a>
-    <a class="btn btn-secondary" href="mailto:gilbertoferreirasp@gmail.com">Contato por e-mail</a>
+    <a class="btn btn-primary" href="{{ '/assets/cv/curriculo-gilberto-victor-ferreira-martins.pdf' | relative_url }}" target="_blank" rel="noopener">Baixar Currículo em PDF</a>
+    <a class="btn btn-secondary" href="mailto:gilbertoferreirasp@gmail.com">Contato por E-mail</a>
   </div>
 </section>
 
