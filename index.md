@@ -4,11 +4,11 @@ title: Gilberto Martins - PeekSecurity
 description: Portfólio profissional de Gilberto Martins, criador da PeekSecurity, com projetos em segurança da informação, Termux, Android, automação, ferramentas educacionais e PS.Notes.
 ---
 
-<section class="hero section-glow">
+<section class="hero hero--brand section-glow">
   <div class="hero__content">
     <p class="eyebrow">Portfólio técnico · Segurança da Informação · Automação</p>
     <h1>Gilberto Martins</h1>
-    <p class="hero__subtitle">Criador da <strong>PeekSecurity</strong> — projetos em tecnologia, segurança digital, Termux, Android, Linux, automação e ferramentas educacionais.</p>
+    <p class="hero__subtitle">Criador da <strong>PeekSecurity</strong> — projetos autorais em tecnologia, segurança digital, Termux, Android, Linux, automação e ferramentas educacionais.</p>
     <p class="hero__text">Graduando em Engenharia de Computação, com experiência profissional em suporte especializado, atendimento N3, análise de crédito, prevenção a fraudes e tratamento de casos sensíveis. Minha atuação une visão operacional, análise de risco e desenvolvimento prático de soluções técnicas.</p>
     <div class="hero__actions">
       <a class="btn btn-primary" href="https://github.com/PSecurity" target="_blank" rel="noopener">Ver GitHub</a>
@@ -17,22 +17,24 @@ description: Portfólio profissional de Gilberto Martins, criador da PeekSecurit
       <a class="btn btn-ghost" href="{{ '/assets/cv/curriculo-gilberto-victor-ferreira-martins.pdf' | relative_url }}" target="_blank" rel="noopener">Baixar currículo</a>
     </div>
   </div>
-  <aside class="hero-card terminal-card" aria-label="Resumo profissional">
-    <div class="terminal-card__top"><span></span><span></span><span></span></div>
-    <div class="terminal-card__brand">
-      <img src="{{ '/assets/img/peeksecurity-icon.svg' | relative_url }}" alt="Ícone PeekSecurity">
-      <span class="logo-chip">PeekSecurity Standard</span>
+
+  <aside class="brand-showcase" aria-label="Identidade PeekSecurity">
+    <div class="brand-showcase__icon">
+      <img src="{{ '/assets/img/peeksecurity-icon-512.png' | relative_url }}" alt="Ícone oficial PeekSecurity inspirado no padrão aprovado do PS.Guardian">
     </div>
-    <code>$ whoami</code>
-    <strong>Gilberto Martins / PeekSecurity</strong>
-    <p>Segurança mobile, Termux, Linux, Android, Python, Shell Script, C++, documentação técnica, automação e ferramentas autorais.</p>
-    <div class="status-list">
-      <span>Engenharia de Computação</span>
-      <span>Suporte N3</span>
-      <span>Prevenção a Fraudes</span>
-      <span>Projetos autorais</span>
+    <div class="brand-showcase__content">
+      <code>PeekSecurity // Portfolio</code>
+      <strong>Identidade oficial</strong>
+      <p>Hexágono, terminal e paleta roxa cyberpunk como padrão visual para site, apps, GitHub e projetos da marca.</p>
     </div>
   </aside>
+</section>
+
+<section class="section-block trust-strip" aria-label="Resumo de atuação">
+  <div><strong>Engenharia de Computação</strong><span>UNINTER · em andamento</span></div>
+  <div><strong>Suporte N3</strong><span>Atendimento especializado e casos sensíveis</span></div>
+  <div><strong>Prevenção a Fraudes</strong><span>Análise, risco e documentoscopia</span></div>
+  <div><strong>Projetos Autorais</strong><span>Termux, Android, Linux, Python e C++</span></div>
 </section>
 
 <section class="section-block">
@@ -104,7 +106,7 @@ description: Portfólio profissional de Gilberto Martins, criador da PeekSecurit
       <a href="https://github.com/PSecurity/ps.toolkit-v2" target="_blank" rel="noopener">Ver repositório</a>
     </article>
 
-    <article class="project-card featured">
+    <article class="project-card featured project-card--notes">
       <div class="project-card__meta"><span>HTML</span><span>CSS</span><span>JS</span></div>
       <h3>PS.Notes</h3>
       <p>Bloco de notas autoral estilo terminal/cyberpunk, com editor, split view, snippets, salvar no navegador, copiar, exportar e organização rápida para comandos e estudos.</p>
@@ -121,7 +123,7 @@ description: Portfólio profissional de Gilberto Martins, criador da PeekSecurit
     <article class="project-card">
       <div class="project-card__meta"><span>Shell</span><span>Nmap</span><span>Recon</span></div>
       <h3>PS.Nmap</h3>
-      <p>Ferramenta educacional de reconhecimento de rede no Termux com menus para host discovery, varredura de portas, versões, SO, scripts NSE e scans personalizados.</p>
+      <p>Ferramenta educacional de reconhecimento de rede no Termux com menus para host discovery, varredura de portas, versões, sistema operacional, scripts NSE e scans personalizados.</p>
       <a href="https://github.com/PSecurity/ps.nmap" target="_blank" rel="noopener">Ver repositório</a>
     </article>
 
@@ -164,7 +166,7 @@ description: Portfólio profissional de Gilberto Martins, criador da PeekSecurit
     <a class="category-card" href="{{ '/category/kali/' | relative_url }}"><strong>Kali Linux</strong><span>Laboratórios, comandos e ambiente técnico</span></a>
     <a class="category-card" href="{{ '/category/scripts/' | relative_url }}"><strong>Scripts</strong><span>Ferramentas, automações e utilitários</span></a>
     <a class="category-card" href="{{ '/category/tutoriais/' | relative_url }}"><strong>Tutoriais</strong><span>Guias práticos e conteúdo educativo</span></a>
-    <a class="category-card" href="{{ '/category/notepad/' | relative_url }}"><strong>PS.Notes</strong><span>Bloco de notas autoral para comandos e estudos</span></a>
+    <a class="category-card category-card--notes" href="{{ '/category/notepad/' | relative_url }}"><strong>PS.Notes</strong><span>Bloco de notas autoral para comandos e estudos</span></a>
   </div>
 </section>
 
