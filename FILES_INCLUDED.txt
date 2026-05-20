@@ -1,4 +1,3 @@
-FILES_INCLUDED.txt
 README.md
 README_INSTALACAO.md
 _config.yml
@@ -13,6 +12,7 @@ _posts/2026-05-04-ps-phisher.md
 _posts/2026-05-04-ps-thumbnails.md
 _posts/2026-05-04-ps-toolkit-v2.md
 _posts/2026-05-05-ps-chat-admin-cli.md
+_posts/2026-05-20-ps-block-v1.md
 about.md
 assets/css/ps-notes.css
 assets/css/style.css
@@ -29,6 +29,7 @@ assets/img/peeksecurity-icon.png
 assets/img/peeksecurity-og-card.png
 assets/js/main.js
 assets/js/ps-notes.js
+category/android.md
 category/kali.md
 category/notepad.md
 category/scripts.md
