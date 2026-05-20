@@ -1,11 +1,11 @@
 {
   "name": "PeekSecurity Portfolio",
   "short_name": "PeekSecurity",
-  "description": "Portfólio técnico de Gilberto Martins — tecnologia, segurança da informação e ferramentas autorais.",
+  "description": "Portfólio profissional de Gilberto Martins — PeekSecurity, apps oficiais, segurança mobile e ferramentas autorais.",
   "start_url": "/PSecurity/",
   "display": "standalone",
-  "background_color": "#05030a",
-  "theme_color": "#7c3aed",
+  "background_color": "#070a12",
+  "theme_color": "#6d28d9",
   "icons": [
     { "src": "/PSecurity/assets/img/peeksecurity-icon-192.png", "sizes": "192x192", "type": "image/png" },
     { "src": "/PSecurity/assets/img/peeksecurity-icon-512.png", "sizes": "512x512", "type": "image/png" }

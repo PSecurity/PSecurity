@@ -678,3 +678,410 @@ pre {
   .stack-tags { gap: 7px; }
   .stack-tags span { font-size: 0.7rem; }
 }
+
+/* PeekSecurity Portfolio v4.0 — Official Apps & Enterprise Identity Refresh */
+:root {
+  --bg: #06080d;
+  --bg-soft: #0a0d14;
+  --bg-card: rgba(15, 20, 31, 0.86);
+  --bg-card-strong: rgba(18, 24, 38, 0.96);
+  --border: rgba(148, 163, 184, 0.16);
+  --border-strong: rgba(124, 58, 237, 0.38);
+  --purple: #8b5cf6;
+  --purple-strong: #6d28d9;
+  --purple-soft: #c4b5fd;
+  --green: #22c55e;
+  --yellow: #f59e0b;
+  --red: #dc2626;
+  --text: #f8fafc;
+  --muted: #b6c0d1;
+  --muted-2: #8792a6;
+  --shadow: 0 18px 52px rgba(0, 0, 0, 0.42);
+  --radius: 16px;
+  --radius-sm: 12px;
+}
+
+body {
+  background:
+    radial-gradient(circle at 18% -8%, rgba(109, 40, 217, 0.22), transparent 34rem),
+    radial-gradient(circle at 92% 4%, rgba(34, 197, 94, 0.055), transparent 24rem),
+    linear-gradient(180deg, #080b12 0%, #06080d 48%, #03050a 100%);
+  font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  line-height: 1.62;
+}
+
+.background-grid {
+  opacity: 0.16;
+  background-image:
+    linear-gradient(rgba(148, 163, 184, 0.09) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(148, 163, 184, 0.09) 1px, transparent 1px);
+  background-size: 48px 48px;
+}
+
+.site-header {
+  border-bottom: 1px solid rgba(148, 163, 184, 0.14);
+  background: rgba(6, 8, 13, 0.88);
+}
+
+.brand__mark {
+  border-radius: 12px;
+  box-shadow: 0 0 0 1px rgba(124, 58, 237, 0.18), 0 14px 34px rgba(0, 0, 0, 0.34);
+}
+
+.brand__text strong {
+  font-family: Inter, system-ui, sans-serif;
+  font-size: 1.08rem;
+  letter-spacing: -0.01em;
+  text-transform: none;
+}
+
+.brand__text small {
+  color: var(--muted-2);
+  font-size: 0.78rem;
+}
+
+.nav a {
+  border-radius: 10px;
+  font-weight: 650;
+}
+
+.nav a:hover {
+  background: rgba(148, 163, 184, 0.08);
+}
+
+.hero,
+.section-block,
+.page-hero {
+  border: 1px solid rgba(148, 163, 184, 0.14);
+  border-radius: var(--radius);
+  background: linear-gradient(180deg, rgba(15, 20, 31, 0.82), rgba(8, 11, 18, 0.76));
+  box-shadow: var(--shadow);
+}
+
+.hero {
+  align-items: stretch;
+}
+
+.hero::before,
+.section-glow::before {
+  background: radial-gradient(circle at 16% 12%, rgba(124, 58, 237, 0.16), transparent 30rem);
+}
+
+.eyebrow {
+  color: var(--purple-soft);
+  letter-spacing: 0.12em;
+  font-weight: 750;
+}
+
+h1,
+h2,
+h3 {
+  font-family: Inter, system-ui, sans-serif;
+  letter-spacing: -0.035em;
+}
+
+h1 {
+  font-size: clamp(2.85rem, 7vw, 5.6rem);
+  font-weight: 800;
+  text-transform: none;
+}
+
+h2 { font-weight: 780; }
+h3 { font-weight: 760; }
+
+.hero__subtitle {
+  color: #eef2ff;
+}
+
+.btn {
+  border-radius: 12px;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+
+.btn-primary {
+  color: #ffffff;
+  background: linear-gradient(180deg, #7c3aed, #6d28d9);
+  border-color: rgba(196, 181, 253, 0.24);
+  box-shadow: 0 14px 34px rgba(109, 40, 217, 0.24);
+}
+
+.btn-secondary {
+  color: var(--text);
+  border-color: rgba(148, 163, 184, 0.22);
+  background: rgba(30, 41, 59, 0.58);
+}
+
+.btn-ghost {
+  color: #dbe4f0;
+  border-color: rgba(148, 163, 184, 0.16);
+  background: rgba(15, 23, 42, 0.38);
+}
+
+.btn:hover { transform: translateY(-1px); }
+
+.terminal-card {
+  border-radius: 14px;
+  border-color: rgba(34, 197, 94, 0.22);
+  background: linear-gradient(180deg, rgba(3, 7, 12, 0.92), rgba(6, 13, 10, 0.78));
+  box-shadow: inset 0 0 38px rgba(34, 197, 94, 0.045), 0 18px 44px rgba(0, 0, 0, 0.38);
+}
+
+.terminal-card__top span {
+  background: #475569;
+  box-shadow: none;
+}
+
+.terminal-card__top span:nth-child(2) { background: var(--yellow); }
+.terminal-card__top span:nth-child(3) { background: var(--green); }
+
+.terminal-card code,
+.terminal-label,
+pre,
+code,
+.stack-tags span {
+  font-family: "JetBrains Mono", "Share Tech Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+
+.terminal-card code,
+.terminal-label {
+  color: #86efac;
+}
+
+.info-card,
+.project-card,
+.post-card,
+.category-card,
+.contact-card,
+.notice-card,
+.text-panel,
+.project-row,
+.case-card,
+.availability-card {
+  border-radius: 13px;
+  border-color: rgba(148, 163, 184, 0.14);
+  background: rgba(15, 20, 31, 0.74);
+}
+
+.project-card.featured,
+.project-card--official {
+  border-color: rgba(124, 58, 237, 0.28);
+  background: linear-gradient(180deg, rgba(30, 27, 75, 0.38), rgba(15, 20, 31, 0.82));
+}
+
+.project-card:hover,
+.post-card:hover,
+.category-card:hover,
+.contact-card:hover,
+.project-row:hover,
+.case-card:hover {
+  border-color: rgba(196, 181, 253, 0.36);
+}
+
+.skill-cloud span {
+  color: #dbe4f0;
+  border-color: rgba(148, 163, 184, 0.16);
+  background: rgba(30, 41, 59, 0.46);
+  font-weight: 650;
+}
+
+.stack-tags span {
+  border-radius: 7px;
+  border-color: rgba(34, 197, 94, 0.22);
+  background: rgba(34, 197, 94, 0.075);
+  color: #86efac;
+  letter-spacing: 0.015em;
+  text-transform: none;
+}
+
+.status-pill {
+  display: inline-flex;
+  align-items: center;
+  min-height: 28px;
+  padding: 5px 10px;
+  border: 1px solid rgba(148, 163, 184, 0.18);
+  border-radius: 8px;
+  background: rgba(30, 41, 59, 0.46);
+  color: #dbe4f0;
+  font-size: 0.74rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.status-pill--success {
+  color: #bbf7d0;
+  border-color: rgba(34, 197, 94, 0.26);
+  background: rgba(34, 197, 94, 0.08);
+}
+
+.status-pill--warning {
+  color: #fcd34d;
+  border-color: rgba(245, 158, 11, 0.28);
+  background: rgba(245, 158, 11, 0.08);
+}
+
+.official-apps-panel {
+  border-color: rgba(124, 58, 237, 0.22);
+  background:
+    linear-gradient(180deg, rgba(15, 20, 31, 0.86), rgba(8, 11, 18, 0.82));
+}
+
+.official-app-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.25fr) minmax(0, 0.95fr);
+  gap: 16px;
+}
+
+.official-app-card {
+  border: 1px solid rgba(148, 163, 184, 0.16);
+  border-radius: 14px;
+  padding: clamp(20px, 3vw, 28px);
+  background: rgba(15, 20, 31, 0.78);
+}
+
+.official-app-card--release {
+  border-color: rgba(34, 197, 94, 0.24);
+  background:
+    radial-gradient(circle at 0% 0%, rgba(34, 197, 94, 0.08), transparent 20rem),
+    rgba(15, 20, 31, 0.82);
+}
+
+.official-app-card--next {
+  border-color: rgba(245, 158, 11, 0.22);
+  background:
+    radial-gradient(circle at 0% 0%, rgba(245, 158, 11, 0.07), transparent 18rem),
+    rgba(15, 20, 31, 0.78);
+}
+
+.app-card__header {
+  display: flex;
+  justify-content: space-between;
+  gap: 18px;
+  align-items: flex-start;
+  margin-bottom: 12px;
+}
+
+.app-card__header h3 {
+  margin: 12px 0 0;
+  font-size: clamp(1.7rem, 3vw, 2.35rem);
+}
+
+.app-card__version {
+  flex: 0 0 auto;
+  color: var(--muted-2);
+  border: 1px solid rgba(148, 163, 184, 0.14);
+  border-radius: 8px;
+  padding: 5px 9px;
+  background: rgba(15, 23, 42, 0.48);
+  font-family: "JetBrains Mono", monospace;
+  font-size: 0.74rem;
+}
+
+.app-card__actions,
+.case-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 18px;
+}
+
+.case-card--release {
+  border-color: rgba(34, 197, 94, 0.24);
+}
+
+.case-card--next {
+  border-color: rgba(245, 158, 11, 0.22);
+}
+
+.case-card__grid > div {
+  border-radius: 10px;
+  border-color: rgba(148, 163, 184, 0.14);
+  background: rgba(15, 23, 42, 0.42);
+}
+
+.case-card__grid strong {
+  color: #e2e8f0;
+  letter-spacing: 0.08em;
+}
+
+.availability-panel {
+  border-color: rgba(34, 197, 94, 0.16);
+  background: linear-gradient(180deg, rgba(15, 20, 31, 0.84), rgba(6, 13, 10, 0.38));
+}
+
+.notice-card {
+  border-color: rgba(245, 158, 11, 0.22);
+  background: rgba(245, 158, 11, 0.055);
+}
+
+.notice-card--responsible {
+  border-color: rgba(34, 197, 94, 0.18);
+  background: rgba(34, 197, 94, 0.055);
+}
+
+.enterprise-cta {
+  border-color: rgba(124, 58, 237, 0.28);
+  background:
+    radial-gradient(circle at 8% 0%, rgba(124, 58, 237, 0.18), transparent 24rem),
+    linear-gradient(180deg, rgba(30, 27, 75, 0.36), rgba(15, 20, 31, 0.86));
+}
+
+.post-card--release {
+  border-color: rgba(34, 197, 94, 0.22);
+}
+
+.footer-ethics {
+  color: #94a3b8;
+}
+
+@media (max-width: 980px) {
+  .official-app-grid { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 760px) {
+  h1 { font-size: clamp(2.55rem, 15vw, 4rem); }
+  .section-heading--inline { align-items: flex-start; flex-direction: column; }
+  .app-card__header { flex-direction: column; }
+  .app-card__actions .btn,
+  .case-actions .btn { width: 100%; }
+}
+
+
+/* PeekSecurity Portfolio v4.0.1 — Jekyll/front-matter and text-integrity fix */
+.terminal-lines p {
+  grid-template-columns: minmax(116px, max-content) minmax(0, 1fr);
+  column-gap: 14px;
+}
+.terminal-label {
+  min-width: 0;
+}
+.terminal-value {
+  padding-left: 0;
+}
+.stack-tags {
+  row-gap: 8px;
+}
+.stack-tags span + span {
+  margin-left: 0;
+}
+.case-card__head .stack-tags,
+.project-card .stack-tags,
+.official-app-card .stack-tags {
+  max-width: 100%;
+}
+@media (max-width: 760px) {
+  .terminal-lines p {
+    grid-template-columns: 1fr;
+    row-gap: 4px;
+  }
+  .terminal-label {
+    margin-bottom: 0;
+  }
+  .terminal-value {
+    line-height: 1.58;
+  }
+  .stack-tags {
+    gap: 7px;
+  }
+}
