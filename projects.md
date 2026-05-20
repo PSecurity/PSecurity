@@ -4,7 +4,6 @@ title: Projetos
 description: Projetos técnicos da PeekSecurity desenvolvidos por Gilberto Martins, incluindo apps oficiais, ferramentas de segurança, automação, PS.Notes e pesquisas com embarcados.
 permalink: /projects/
 ---
-
 <section class="page-hero compact">
   <p class="eyebrow">Portfólio técnico</p>
   <h1>Projetos PeekSecurity</h1>
@@ -22,7 +21,7 @@ permalink: /projects/
       <div class="case-card__head">
         <div>
           <span class="status-pill status-pill--success">First public release</span>
-          <div class="stack-tags stack-tags--compact" aria-label="Stack: Android, Kotlin, Mobile Security, Device Admin, Watchdog"><span>Android</span><span>Kotlin</span><span>Mobile Security</span><span>Device Admin</span><span>Watchdog</span></div>
+          <div class="stack-tags stack-tags--compact" aria-label="Stack: Android, Kotlin, Mobile Security, Device Admin, Watchdog"><span>Android</span> <span>Kotlin</span> <span>Mobile Security</span> <span>Device Admin</span> <span>Watchdog</span></div>
           <h2>PS.Block v1.0.0</h2>
         </div>
         <div class="case-actions">
@@ -41,7 +40,7 @@ permalink: /projects/
       <div class="case-card__head">
         <div>
           <span class="status-pill status-pill--warning">Next official product</span>
-          <div class="stack-tags stack-tags--compact" aria-label="Stack: Android, Kotlin, Auditoria, Evidências, Relatórios"><span>Android</span><span>Kotlin</span><span>Auditoria</span><span>Evidências</span><span>Relatórios</span></div>
+          <div class="stack-tags stack-tags--compact" aria-label="Stack: Android, Kotlin, Auditoria, Evidências, Relatórios"><span>Android</span> <span>Kotlin</span> <span>Auditoria</span> <span>Evidências</span> <span>Relatórios</span></div>
           <h2>PS.Guardian</h2>
         </div>
         <a class="btn btn-secondary" href="{{ '/contact/' | relative_url }}">Acompanhar evolução</a>
@@ -65,7 +64,7 @@ permalink: /projects/
     <article class="case-card">
       <div class="case-card__head">
         <div>
-          <div class="stack-tags stack-tags--compact" aria-label="Stack: Python, CLI e Segurança"><span>Python</span><span>CLI</span><span>Segurança</span></div>
+          <div class="stack-tags stack-tags--compact" aria-label="Stack: Python, CLI e Segurança"><span>Python</span> <span>CLI</span> <span>Segurança</span></div>
           <h2>PS.Chat Admin / PS.Chat CLI</h2>
         </div>
         <a class="btn btn-secondary" href="https://github.com/PSecurity/ps.chat-cli" target="_blank" rel="noopener">Ver GitHub</a>
@@ -80,7 +79,7 @@ permalink: /projects/
     <article class="case-card">
       <div class="case-card__head">
         <div>
-          <div class="stack-tags stack-tags--compact" aria-label="Stack: Python, Flask e Termux"><span>Python</span><span>Flask</span><span>Termux</span></div>
+          <div class="stack-tags stack-tags--compact" aria-label="Stack: Python, Flask e Termux"><span>Python</span> <span>Flask</span> <span>Termux</span></div>
           <h2>PS.Toolkit v2</h2>
         </div>
         <a class="btn btn-secondary" href="https://github.com/PSecurity/ps.toolkit-v2" target="_blank" rel="noopener">Ver GitHub</a>
@@ -95,7 +94,7 @@ permalink: /projects/
     <article class="case-card">
       <div class="case-card__head">
         <div>
-          <div class="stack-tags stack-tags--compact" aria-label="Stack: Shell Script, Nmap e Reconhecimento"><span>Shell Script</span><span>Nmap</span><span>Recon</span></div>
+          <div class="stack-tags stack-tags--compact" aria-label="Stack: Shell Script, Nmap e Reconhecimento"><span>Shell Script</span> <span>Nmap</span> <span>Recon</span></div>
           <h2>PS.Nmap</h2>
         </div>
         <a class="btn btn-secondary" href="https://github.com/PSecurity/ps.nmap" target="_blank" rel="noopener">Ver GitHub</a>
@@ -110,7 +109,7 @@ permalink: /projects/
     <article class="case-card">
       <div class="case-card__head">
         <div>
-          <div class="stack-tags stack-tags--compact" aria-label="Stack: Shell Script, Termux e Kali"><span>Shell Script</span><span>Termux</span><span>Kali</span></div>
+          <div class="stack-tags stack-tags--compact" aria-label="Stack: Shell Script, Termux e Kali"><span>Shell Script</span> <span>Termux</span> <span>Kali</span></div>
           <h2>PS.Ngrok / PeekSecurity Installer</h2>
         </div>
         <a class="btn btn-secondary" href="https://github.com/PSecurity/ps.ngrok" target="_blank" rel="noopener">Ver GitHub</a>
@@ -132,14 +131,14 @@ permalink: /projects/
 
   <div class="project-grid">
     <article class="project-card featured">
-      <div class="stack-tags" aria-label="Stack: HTML, CSS, JavaScript"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+      <div class="stack-tags" aria-label="Stack: HTML, CSS, JavaScript"><span>HTML</span> <span>CSS</span> <span>JavaScript</span></div>
       <h3>PS.Notes</h3>
       <p>Bloco de notas autoral desenvolvido do zero para organização de comandos, snippets, estudos e fluxo de trabalho técnico dentro da identidade PeekSecurity.</p>
       <a href="{{ '/category/notepad/' | relative_url }}">Abrir PS.Notes</a>
     </article>
 
     <article class="project-card">
-      <div class="stack-tags" aria-label="Stack: Web, Design, Conteúdo"><span>Web</span><span>Design</span><span>Conteúdo</span></div>
+      <div class="stack-tags" aria-label="Stack: Web, Design, Conteúdo"><span>Web</span> <span>Design</span> <span>Conteúdo</span></div>
       <h3>PS.Thumbnails</h3>
       <p>Ferramenta visual para criação de thumbnails e materiais de conteúdo técnico, mantendo consistência da marca PeekSecurity.</p>
       <a href="https://github.com/PSecurity/ps-thumbnails" target="_blank" rel="noopener">Ver GitHub</a>
@@ -155,14 +154,14 @@ permalink: /projects/
 
   <div class="project-grid">
     <article class="project-card">
-      <div class="stack-tags" aria-label="Stack: C++, ESP32 e PlatformIO"><span>C++</span><span>ESP32</span><span>PlatformIO</span></div>
+      <div class="stack-tags" aria-label="Stack: C++, ESP32 e PlatformIO"><span>C++</span> <span>ESP32</span> <span>PlatformIO</span></div>
       <h3>DoomStickC M5StickC Plus2</h3>
       <p>Protótipo retro FPS para M5StickC Plus2 com renderização, HUD, áudio, controles por botões/IMU, mapas e estrutura modular.</p>
       <a href="https://github.com/PSecurity/doomstickc-m5stickc-plus2" target="_blank" rel="noopener">Ver GitHub</a>
     </article>
 
     <article class="project-card">
-      <div class="stack-tags" aria-label="Stack: C++, ESP32, WAD"><span>C++</span><span>ESP32</span><span>WAD</span></div>
+      <div class="stack-tags" aria-label="Stack: C++, ESP32, WAD"><span>C++</span> <span>ESP32</span> <span>WAD</span></div>
       <h3>DoomWAD M5StickC Plus2</h3>
       <p>Pesquisa incremental para integração de WAD real em hardware M5StickC Plus2, com foco em validações controladas, leitura de lumps, memória e gates seguros.</p>
       <a href="{{ '/contact/' | relative_url }}">Projeto em evolução</a>

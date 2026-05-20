@@ -1,63 +1,35 @@
-# PeekSecurity Portfolio v4.0 — Official Apps & Enterprise Identity Refresh
+# PeekSecurity Portfolio v4.0.1 — Fix de Integridade Visual e Jekyll
 
-Esta versão atualiza o portfólio para refletir a nova fase da PeekSecurity:
+Esta versão corrige a v4.0 mantendo o escopo aprovado: PS.Block como primeiro app oficial open source, PS.Guardian como próximo produto oficial e identidade Enterprise Typography v5.
 
-- PS.Block v1.0.0 como primeiro app Android open source oficial.
-- PS.Guardian como próximo produto oficial em desenvolvimento.
-- Visual mais alinhado ao padrão PeekSecurity / PS.Guardian Enterprise Typography.
-- README reformulado para funcionar como entrada técnica do repositório.
-- Home preservando o início aprovado com `$ whoami`.
-- PS.Notes preservado como ferramenta autoral.
+## Correções aplicadas
 
-## Aplicação recomendada
+- Front matter das páginas principais regravado em formato Jekyll seguro.
+- Correção de chips técnicos para evitar textos grudados como `C++ESP32 PlatformIO`.
+- Correção do bloco `$ whoami` para evitar `formaçãoEngenharia` / `experiênciaSuporte`.
+- Labels técnicos mantidos verdes e no estilo terminal aprovado.
+- Visual da v4.0 preservado, sem redesign.
+- PS.Notes preservado.
+- README reformulado da v4.0 preservado.
+- PS.Block e PS.Guardian mantidos como destaques oficiais.
+
+## Como aplicar
+
+Crie uma branch de correção em cima da branch v4.0:
 
 ```bash
-git checkout -b portfolio-v4-official-apps-enterprise-refresh
+git checkout portfolio-v4-official-apps-enterprise-refresh
+git checkout -b portfolio-v4-0-1-fixes
 ```
 
-Extraia o ZIP na raiz do repositório, substituindo os arquivos quando solicitado.
+Extraia este ZIP na raiz do repositório, substituindo os arquivos.
 
 Depois rode:
 
 ```bash
 git add .
-git commit -m "feat: refresh portfolio with official apps and enterprise identity"
-git push origin portfolio-v4-official-apps-enterprise-refresh
+git commit -m "fix: correct portfolio v4 text spacing and Jekyll front matter"
+git push origin portfolio-v4-0-1-fixes
 ```
 
-## Arquivos principais alterados
-
-```text
-_config.yml
-README.md
-README_INSTALACAO.md
-FILES_INCLUDED.txt
-_layouts/default.html
-index.md
-projects.md
-about.md
-contact.md
-category/android.md
-_posts/2026-05-20-ps-block-v1.md
-assets/css/style.css
-assets/img/peeksecurity-og-card.png
-site.webmanifest
-```
-
-## Áreas preservadas
-
-```text
-PS.Notes funcional
-assets/js/ps-notes.js
-assets/css/ps-notes.css
-posts antigos
-categorias antigas
-currículo PDF
-ícones oficiais pequenos existentes
-```
-
-## Observações
-
-- O visual foi refinado para ser mais dark corporate/security workspace, com menos glow e menos aparência de template.
-- A lógica de cores segue a disciplina aprovada: roxo para marca/ação principal, verde para status positivo/readout técnico, âmbar para atenção, vermelho somente para risco/destrutivo.
-- Monospace permanece em áreas técnicas como `$ whoami`, chips técnicos, código e PS.Notes.
+Após validar no GitHub Pages/preview, faça merge na `main`.

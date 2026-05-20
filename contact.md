@@ -4,7 +4,6 @@ title: Contato
 description: Contato profissional de Gilberto Martins e PeekSecurity.
 permalink: /contact/
 ---
-
 <section class="page-hero compact">
   <p class="eyebrow">Contato</p>
   <h1>Vamos conversar?</h1>

@@ -1046,3 +1046,42 @@ code,
   .app-card__actions .btn,
   .case-actions .btn { width: 100%; }
 }
+
+
+/* PeekSecurity Portfolio v4.0.1 — Jekyll/front-matter and text-integrity fix */
+.terminal-lines p {
+  grid-template-columns: minmax(116px, max-content) minmax(0, 1fr);
+  column-gap: 14px;
+}
+.terminal-label {
+  min-width: 0;
+}
+.terminal-value {
+  padding-left: 0;
+}
+.stack-tags {
+  row-gap: 8px;
+}
+.stack-tags span + span {
+  margin-left: 0;
+}
+.case-card__head .stack-tags,
+.project-card .stack-tags,
+.official-app-card .stack-tags {
+  max-width: 100%;
+}
+@media (max-width: 760px) {
+  .terminal-lines p {
+    grid-template-columns: 1fr;
+    row-gap: 4px;
+  }
+  .terminal-label {
+    margin-bottom: 0;
+  }
+  .terminal-value {
+    line-height: 1.58;
+  }
+  .stack-tags {
+    gap: 7px;
+  }
+}

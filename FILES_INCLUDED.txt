@@ -1,3 +1,4 @@
+FILES_INCLUDED.txt
 README.md
 README_INSTALACAO.md
 _config.yml

@@ -4,7 +4,6 @@ title: Sobre
 description: Sobre Gilberto Martins, a trajetória por trás da PeekSecurity e o ecossistema de apps, ferramentas e conteúdos técnicos.
 permalink: /about/
 ---
-
 <section class="page-hero compact">
   <p class="eyebrow">Sobre</p>
   <h1>Gilberto Martins</h1>
