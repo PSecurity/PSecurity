@@ -1,51 +1,35 @@
-# PeekSecurity Portfolio v4.1 — Enterprise Security Console Refinement
+# PeekSecurity Portfolio v4.0.1 — Fix de Integridade Visual e Jekyll
 
-Esta versão refina a v4.0.1 para reduzir a sensação de landing page/template e aproximar o portfólio da identidade visual aplicada em PS.Block e PS.Guardian.
+Esta versão corrige a v4.0 mantendo o escopo aprovado: PS.Block como primeiro app oficial open source, PS.Guardian como próximo produto oficial e identidade Enterprise Typography v5.
 
-## Objetivo
+## Correções aplicadas
 
-Transformar a página em um workspace técnico de segurança:
+- Front matter das páginas principais regravado em formato Jekyll seguro.
+- Correção de chips técnicos para evitar textos grudados como `C++ESP32 PlatformIO`.
+- Correção do bloco `$ whoami` para evitar `formaçãoEngenharia` / `experiênciaSuporte`.
+- Labels técnicos mantidos verdes e no estilo terminal aprovado.
+- Visual da v4.0 preservado, sem redesign.
+- PS.Notes preservado.
+- README reformulado da v4.0 preservado.
+- PS.Block e PS.Guardian mantidos como destaques oficiais.
 
-- menos hero promocional;
-- menos cards decorativos;
-- mais painéis graphite/slate;
-- inventário técnico com status, stack e objetivo;
-- botões com hierarquia clara;
-- roxo usado com moderação;
-- verde/âmbar/vermelho apenas como estado;
-- monospace apenas em readouts técnicos.
+## Como aplicar
 
-## Arquivos alterados
-
-- `index.md`
-- `projects.md`
-- `README.md`
-- `_layouts/default.html`
-- `assets/css/style.css`
-- `assets/img/peeksecurity-og-card.png`
-
-## Arquivos preservados
-
-- PS.Notes e sua lógica funcional;
-- posts antigos;
-- currículo PDF;
-- ícones oficiais pequenos;
-- estrutura Jekyll base;
-- categorias existentes.
-
-## Aplicação sugerida
+Crie uma branch de correção em cima da branch v4.0:
 
 ```bash
-git checkout portfolio-v4-0-1-fixes
-git checkout -b portfolio-v4-1-enterprise-console
+git checkout portfolio-v4-official-apps-enterprise-refresh
+git checkout -b portfolio-v4-0-1-fixes
 ```
 
-Extraia o ZIP na raiz do repositório e depois:
+Extraia este ZIP na raiz do repositório, substituindo os arquivos.
+
+Depois rode:
 
 ```bash
 git add .
-git commit -m "style: refine portfolio as enterprise security console"
-git push origin portfolio-v4-1-enterprise-console
+git commit -m "fix: correct portfolio v4 text spacing and Jekyll front matter"
+git push origin portfolio-v4-0-1-fixes
 ```
 
-Valide no GitHub Pages, especialmente no celular e em aba anônima.
+Após validar no GitHub Pages/preview, faça merge na `main`.
