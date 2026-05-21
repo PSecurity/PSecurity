@@ -1,15 +1,15 @@
 <div align="center">
 
-# PeekSecurity
+# 👾 PeekSecurity
 
-### Gilberto Martins · Segurança Mobile · Android · Termux · Automação · Ferramentas Educacionais
+### Gilberto Martins · Segurança da Informação · Android · Termux · Automação · Ferramentas Educacionais
 
-Portfólio profissional, console público de projetos e base técnica da PeekSecurity.
+**Portfólio profissional, laboratório público e base de projetos autorais da PeekSecurity.**
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-psecurity.github.io-7c3aed?style=for-the-badge)](https://psecurity.github.io/PSecurity/)
 [![GitHub](https://img.shields.io/badge/GitHub-PSecurity-111827?style=for-the-badge&logo=github)](https://github.com/PSecurity)
-[![PS.Block](https://img.shields.io/badge/Official_App-PS.Block-7c3aed?style=for-the-badge&logo=android)](https://github.com/PSecurity/ps.block)
-[![PS.Notes](https://img.shields.io/badge/Tool-PS.Notes-111827?style=for-the-badge)](https://psecurity.github.io/PSecurity/category/notepad/)
+[![PS.Block](https://img.shields.io/badge/PS.Block-v1.0.0-7c3aed?style=for-the-badge&logo=android)](https://github.com/PSecurity/ps.block)
+[![TikTok](https://img.shields.io/badge/TikTok-@PeekSecurity-111827?style=for-the-badge&logo=tiktok)](https://tiktok.com/@PeekSecurity)
 
 </div>
 
@@ -18,98 +18,48 @@ Portfólio profissional, console público de projetos e base técnica da PeekSec
 ## `$ whoami`
 
 ```text
-peek@security:~$ whoami
 Gilberto Martins / PeekSecurity
-Graduando em Engenharia de Computação, criador de apps Android, ferramentas educacionais e laboratórios técnicos voltados a segurança mobile, automação, Termux, Linux e documentação profissional.
+Graduando em Engenharia de Computação, com experiência em suporte especializado, prevenção a fraudes, análise de risco e desenvolvimento de ferramentas autorais para segurança, Android, Termux, Linux e automação.
 ```
-
-Este repositório contém o código-fonte do portfólio público da PeekSecurity, publicado via GitHub Pages:
-
-```text
-https://psecurity.github.io/PSecurity/
-```
-
----
 
 ## Official Apps
 
-### PS.Block v1.0.0
-
-**Primeiro aplicativo Android open source oficial da PeekSecurity.**
-
-App Android de proteção local para dispositivos próprios ou ambientes autorizados, com foco em privacidade de sensores, controle defensivo de recursos sensíveis, Device Admin, watchdog, app lock, logs locais e políticas de proteção.
-
-Links:
-
-- Repositório: https://github.com/PSecurity/ps.block
-- Release v1.0.0: https://github.com/PSecurity/ps.block/releases/tag/v1.0.0
-
-### PS.Guardian
-
-**Próximo aplicativo oficial da PeekSecurity.**
-
-App Android em desenvolvimento para auditoria, evidências, relatórios técnicos, status de segurança e experiência profissional de segurança mobile.
-
----
+| App | Status | Foco |
+|---|---|---|
+| [PS.Block](https://github.com/PSecurity/ps.block) | Released v1.0.0 | Proteção local Android, sensores, Device Admin, watchdog e logs locais |
+| PS.Guardian | In development | Auditoria, evidências, relatórios técnicos e segurança mobile |
 
 ## Tools & Labs
 
-| Projeto | Área | Stack / Foco |
-| --- | --- | --- |
-| **PS.Toolkit v2** | Automação / Termux | Python, Flask, Linux, ferramentas locais |
-| **PS.Nmap** | Reconhecimento autorizado | Shell, Nmap, Termux |
-| **PS.Ngrok** | Setup / túneis | Shell, Kali, Termux, automação de ambiente |
-| **PS.Chat CLI / Admin** | Comunicação técnica | Python, CLI, administração e segurança |
-| **PS.Notes** | Utilitário autoral | HTML, CSS, JavaScript, notas técnicas |
-| **PS.Thumbnails** | Conteúdo / marca | Web, identidade visual, materiais técnicos |
-| **DoomStickC** | Embarcados | C++, ESP32, PlatformIO, M5StickC Plus2 |
-| **DoomWAD** | Pesquisa incremental | C++, ESP32, WAD, validações controladas |
-
----
+| Projeto | Área |
+|---|---|
+| PS.Toolkit v2 | Termux, Python, Flask e automação |
+| PS.Nmap | Reconhecimento de rede em ambientes autorizados |
+| PS.Ngrok | Automação de setup em Termux/Kali |
+| PS.Chat CLI/Admin | Comunicação privada/offline e segurança aplicada |
+| PS.Notes | Bloco de notas autoral para comandos, estudos e snippets |
+| DoomStickC | C++, ESP32, PlatformIO e pesquisa embarcada |
 
 ## Estrutura do repositório
 
 ```text
 _config.yml        Configuração do Jekyll/GitHub Pages
+_layouts/          Layouts do site
 index.md           Página inicial do portfólio
-projects.md        Inventário técnico e projetos
+projects.md        Projetos e case studies
 about.md           Sobre Gilberto Martins / PeekSecurity
-curriculo.md       Página com currículo profissional
 contact.md         Contato profissional
-category/          Categorias de conteúdo técnico e PS.Notes
-_posts/            Posts e publicações técnicas
-assets/css/        Estilos do portfólio e PS.Notes
-assets/js/         Scripts do portfólio e PS.Notes
-assets/img/        Ícones, favicon e preview social
-assets/cv/         Currículo em PDF
+category/          Categorias de conteúdo técnico
+_posts/            Publicações técnicas
+assets/            CSS, JS, imagens, currículo e recursos visuais
 ```
-
----
-
-## Stack principal
-
-```text
-Linguagens:        Python · Shell Script · Kotlin · C++ · JavaScript · HTML · CSS
-Ambientes:         Termux · Kali Linux · Linux · Android · GitHub Pages
-Frameworks:        Flask · Android Studio · PlatformIO · Jekyll
-Segurança:         Nmap · automação · OSINT · auditoria · proteção mobile
-Hardware:          ESP32 · M5StickC Plus2 · projetos embarcados
-Documentação:      README · guias de uso · tutoriais · posts técnicos
-```
----
 
 ## Uso responsável
 
 Todos os projetos, scripts, apps e conteúdos da PeekSecurity são voltados a aprendizado, documentação técnica, automação, proteção, auditoria e uso em ambientes próprios ou explicitamente autorizados.
 
-Não utilize comandos, scripts, técnicas ou aplicativos para monitorar, controlar, testar ou interferir em sistemas e dispositivos de terceiros sem autorização explícita.
+Não utilize comandos, técnicas ou ferramentas em sistemas de terceiros sem autorização explícita.
 
 ---
 
-## Licença e créditos
-
-Este repositório representa o portfólio público da PeekSecurity.
-
 Desenvolvido por **Gilberto Martins — PeekSecurity**.
-
-> Tecnologia com propósito. Segurança com responsabilidade.

@@ -1,43 +1,13 @@
-FILES_INCLUDED.txt
-README.md
-README_INSTALACAO.md
-_config.yml
-_layouts/default.html
-_layouts/post.html
-_posts/2026-05-02-ps-ngrok.md
-_posts/2026-05-02-ps-nmap.md
-_posts/2026-05-03-github-termux.md
-_posts/2026-05-03-ps-toolkit.md
-_posts/2026-05-04-ps-metasploit.md
-_posts/2026-05-04-ps-phisher.md
-_posts/2026-05-04-ps-thumbnails.md
-_posts/2026-05-04-ps-toolkit-v2.md
-_posts/2026-05-05-ps-chat-admin-cli.md
-_posts/2026-05-20-ps-block-v1.md
-about.md
-assets/css/ps-notes.css
-assets/css/style.css
-assets/cv/curriculo-gilberto-victor-ferreira-martins.pdf
-assets/img/apple-touch-icon.png
-assets/img/favicon-16.png
-assets/img/favicon-32.png
-assets/img/favicon.ico
-assets/img/favicon.png
-assets/img/peeksecurity-icon-180.png
-assets/img/peeksecurity-icon-192.png
-assets/img/peeksecurity-icon-512.png
-assets/img/peeksecurity-icon.png
-assets/img/peeksecurity-og-card.png
-assets/js/main.js
-assets/js/ps-notes.js
-category/android.md
-category/kali.md
-category/notepad.md
-category/scripts.md
-category/termux.md
-category/tutoriais.md
-contact.md
-curriculo.md
-index.md
-projects.md
-site.webmanifest
+PeekSecurity Portfolio v3.1 Stable + PS.Block Update
+
+Base: v3.0 Final Quality Pass aprovada visualmente.
+
+Arquivos incluídos:
+- index.md
+- projects.md
+- README.md
+- _config.yml
+- category/android.md
+- _posts/2026-05-20-ps-block-v1.md
+- assets/css/style.css
+- demais arquivos preservados da base v3.0

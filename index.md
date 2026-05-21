@@ -1,14 +1,15 @@
 ---
 layout: default
 title: Gilberto Martins - PeekSecurity
-description: Portfólio profissional de Gilberto Martins, criador da PeekSecurity, com apps oficiais, segurança mobile, Termux, Android, automação, ferramentas educacionais e PS.Notes.
+description: Portfólio profissional de Gilberto Martins, criador da PeekSecurity, com projetos em segurança da informação, Android, Termux, automação, apps open source, ferramentas educacionais e PS.Notes.
 ---
+
 <section class="hero section-glow">
   <div class="hero__content">
-    <p class="eyebrow">Portfólio profissional · Segurança mobile · Android · Automação</p>
+    <p class="eyebrow">Portfólio técnico · Segurança da Informação · Automação</p>
     <h1>Gilberto Martins</h1>
-    <p class="hero__subtitle">Criador da <strong>PeekSecurity</strong> — ecossistema de apps, ferramentas e conteúdos técnicos voltados a segurança digital, Android, Termux, Linux, automação e documentação profissional.</p>
-    <p class="hero__text">Graduando em Engenharia de Computação, com experiência em suporte especializado, atendimento N3, análise de crédito, prevenção a fraudes e tratamento de casos sensíveis. Minha atuação une visão operacional, análise de risco e desenvolvimento prático de soluções técnicas.</p>
+    <p class="hero__subtitle">Criador da <strong>PeekSecurity</strong> — projetos em tecnologia, segurança digital, Termux, Android, Linux, automação e ferramentas educacionais.</p>
+    <p class="hero__text">Graduando em Engenharia de Computação, com experiência profissional em suporte especializado, atendimento N3, análise de crédito, prevenção a fraudes e tratamento de casos sensíveis. Minha atuação une visão operacional, análise de risco e desenvolvimento prático de soluções técnicas.</p>
     <div class="hero__actions">
       <a class="btn btn-primary" href="https://github.com/PSecurity" target="_blank" rel="noopener">Ver GitHub</a>
       <a class="btn btn-secondary" href="{{ '/projects/' | relative_url }}">Ver Projetos</a>
@@ -17,66 +18,43 @@ description: Portfólio profissional de Gilberto Martins, criador da PeekSecurit
     </div>
   </div>
   <aside class="hero-card terminal-card" aria-label="Resumo profissional">
-    <div class="terminal-card__top"><span></span> <span></span> <span></span></div>
+    <div class="terminal-card__top"><span></span><span></span><span></span></div>
     <code>$ whoami</code>
     <strong>Gilberto Martins / PeekSecurity</strong>
-    <p>Segurança mobile, Android, Termux, Linux, Python, Shell Script, Kotlin, documentação técnica, automação e ferramentas autorais.</p>
+    <p>Segurança mobile, Termux, Linux, Android, Python, Shell Script, C++, documentação técnica, automação e ferramentas autorais.</p>
     <div class="terminal-lines" aria-label="Resumo de atuação">
-      <p><span class="terminal-label">formação:</span> <span class="terminal-value">Engenharia de Computação — UNINTER, em andamento</span></p>
-      <p><span class="terminal-label">experiência:</span> <span class="terminal-value">Suporte N3, atendimento especializado e casos sensíveis</span></p>
-      <p><span class="terminal-label">segurança:</span> <span class="terminal-value">Prevenção a fraudes, análise de risco e documentoscopia</span></p>
-      <p><span class="terminal-label">portfolio:</span> <span class="terminal-value">Apps Android, Termux, Linux, Python, Shell Script, C++ e ESP32</span></p>
+      <p><span class="terminal-label">formação</span><span class="terminal-value">Engenharia de Computação — UNINTER, em andamento</span></p>
+      <p><span class="terminal-label">experiência</span><span class="terminal-value">Suporte N3, atendimento especializado e casos sensíveis</span></p>
+      <p><span class="terminal-label">segurança</span><span class="terminal-value">Prevenção a fraudes, análise de risco e documentoscopia</span></p>
+      <p><span class="terminal-label">portfólio</span><span class="terminal-value">Termux, Android, Linux, Python, Shell Script, C++ e ESP32</span></p>
     </div>
   </aside>
 </section>
 
-<section class="section-block official-apps-panel" id="official-apps">
+<section class="section-block official-apps-section">
   <div class="section-heading section-heading--inline">
     <div>
-      <p class="eyebrow">Official apps</p>
-      <h2>Primeiro app oficial lançado e próximo produto em desenvolvimento</h2>
+      <p class="eyebrow">Official release</p>
+      <h2>PS.Block v1.0.0</h2>
     </div>
-    <span class="status-pill status-pill--success">PeekSecurity ecosystem</span>
+    <span class="section-note">Primeiro app open source oficial da PeekSecurity.</span>
   </div>
 
-  <div class="official-app-grid">
-    <article class="official-app-card official-app-card--release">
-      <div class="app-card__header">
-        <div>
-          <span class="status-pill status-pill--success">Official release</span>
-          <h3>PS.Block v1.0.0</h3>
-        </div>
-        <span class="app-card__version">open source</span>
+  <article class="official-release-panel">
+    <div class="official-release-panel__content">
+      <div class="stack-tags" aria-label="Status: Android, Kotlin, Open Source e Mobile Security">
+        <span>Android</span><span>Kotlin</span><span>Open Source</span><span>Mobile Security</span>
       </div>
-      <p>Primeiro aplicativo Android open source oficial da PeekSecurity, focado em proteção local, privacidade de sensores e controle defensivo de recursos sensíveis em dispositivos próprios ou ambientes autorizados.</p>
-      <div class="stack-tags" aria-label="Stack: Android, Kotlin, Mobile Security, Device Admin, Watchdog, Local Logs, Open Source">
-        <span>Android</span> <span>Kotlin</span> <span>Mobile Security</span> <span>Device Admin</span> <span>Watchdog</span> <span>Local Logs</span> <span>Open Source</span>
-      </div>
-      <div class="app-card__actions">
-        <a class="btn btn-primary" href="https://github.com/PSecurity/ps.block" target="_blank" rel="noopener">Ver PS.Block</a>
-        <a class="btn btn-secondary" href="https://github.com/PSecurity/ps.block/releases/tag/v1.0.0" target="_blank" rel="noopener">Ver Release</a>
-        <a class="btn btn-ghost" href="https://github.com/PSecurity/ps.block/blob/main/README.md" target="_blank" rel="noopener">Documentação</a>
-      </div>
-    </article>
-
-    <article class="official-app-card official-app-card--next">
-      <div class="app-card__header">
-        <div>
-          <span class="status-pill status-pill--warning">Next official product</span>
-          <h3>PS.Guardian</h3>
-        </div>
-        <span class="app-card__version">in development</span>
-      </div>
-      <p>Próximo aplicativo oficial da PeekSecurity, em desenvolvimento para auditoria, evidências, relatórios técnicos e experiência profissional de segurança mobile.</p>
-      <div class="stack-tags" aria-label="Stack: Android, Kotlin, Auditoria, Evidências, Relatórios, Segurança Mobile">
-        <span>Android</span> <span>Kotlin</span> <span>Auditoria</span> <span>Evidências</span> <span>Relatórios</span> <span>Security UX</span>
-      </div>
-      <div class="app-card__actions">
-        <a class="btn btn-primary" href="{{ '/projects/' | relative_url }}#psguardian">Ver no portfólio</a>
-        <a class="btn btn-secondary" href="{{ '/contact/' | relative_url }}">Acompanhar evolução</a>
-      </div>
-    </article>
-  </div>
+      <h3>Proteção local, privacidade de sensores e controle defensivo</h3>
+      <p>PS.Block é o primeiro aplicativo Android open source oficial da PeekSecurity, voltado a dispositivos próprios, ambientes autorizados e estudo controlado de recursos sensíveis do Android.</p>
+      <p>O projeto demonstra entrega real de produto: código público, documentação, licença, política de privacidade, suporte, release com APK e verificação SHA256.</p>
+    </div>
+    <div class="official-release-panel__actions">
+      <a class="btn btn-primary" href="https://github.com/PSecurity/ps.block" target="_blank" rel="noopener">Ver PS.Block</a>
+      <a class="btn btn-secondary" href="https://github.com/PSecurity/ps.block/releases" target="_blank" rel="noopener">Ver Release</a>
+      <a class="btn btn-ghost" href="{{ '/android/ps-block-v1/' | relative_url }}">Ler anúncio</a>
+    </div>
+  </article>
 </section>
 
 <section class="section-block">
@@ -90,8 +68,8 @@ description: Portfólio profissional de Gilberto Martins, criador da PeekSecurit
       <p>Atuação em atendimento especializado, suporte N1/N2/N3, análise de crédito, atualização cadastral, prevenção a fraudes e tratamento de situações sensíveis com foco em qualidade, clareza e responsabilidade.</p>
     </article>
     <article class="info-card">
-      <h3>Apps e ferramentas</h3>
-      <p>Desenvolvimento de apps Android, scripts, aplicações web locais, ferramentas CLI, documentação técnica e laboratórios educacionais voltados a segurança, automação e uso autorizado.</p>
+      <h3>Prática técnica</h3>
+      <p>Desenvolvimento de ferramentas, scripts, aplicações web locais, projetos Android, documentação técnica e laboratórios educacionais voltados a segurança, automação e uso autorizado.</p>
     </article>
     <article class="info-card">
       <h3>Visão de segurança</h3>
@@ -106,20 +84,19 @@ description: Portfólio profissional de Gilberto Martins, criador da PeekSecurit
     <h2>Habilidades em destaque</h2>
   </div>
   <div class="skill-cloud">
-    <span>Android / Kotlin</span>
-    <span>Segurança Mobile</span>
-    <span>Device Admin</span>
+    <span>Segurança da Informação</span>
+    <span>Prevenção a Fraudes</span>
     <span>Termux</span>
     <span>Kali Linux</span>
     <span>Python</span>
     <span>Flask</span>
     <span>Shell Script</span>
+    <span>Android / Kotlin</span>
     <span>Git / GitHub</span>
     <span>Nmap</span>
-    <span>Prevenção a Fraudes</span>
-    <span>Documentoscopia</span>
     <span>C++</span>
     <span>ESP32 / M5StickC</span>
+    <span>CLI Tools</span>
     <span>Documentação Técnica</span>
     <span>Automação</span>
   </div>
@@ -145,7 +122,7 @@ description: Portfólio profissional de Gilberto Martins, criador da PeekSecurit
     </article>
     <article class="availability-card">
       <strong>Desenvolvimento e Automação</strong>
-      <span>Android/Kotlin, Python, Flask, Shell Script, Termux, Linux, C++ e ferramentas autorais.</span>
+      <span>Python, Flask, Shell Script, Android/Kotlin, Termux, Linux, C++ e ferramentas autorais.</span>
     </article>
   </div>
 </section>
@@ -161,45 +138,52 @@ description: Portfólio profissional de Gilberto Martins, criador da PeekSecurit
 
   <div class="project-grid">
     <article class="project-card featured project-card--official">
-      <div class="stack-tags" aria-label="Stack: Android, Kotlin e Segurança Mobile"><span>Android</span> <span>Kotlin</span> <span>Mobile Security</span></div>
+      <div class="stack-tags" aria-label="Stack: Android, Kotlin e Segurança Mobile"><span>Android</span><span>Kotlin</span><span>Segurança Mobile</span></div>
       <h3>PS.Block</h3>
-      <p>Primeiro app Android open source oficial da PeekSecurity para proteção local, privacidade de sensores e controle defensivo em dispositivos próprios ou autorizados.</p>
+      <p>Primeiro app Android open source oficial da PeekSecurity, focado em proteção local, privacidade de sensores, Device Admin, watchdog, app lock, logs locais e uso responsável.</p>
       <a href="https://github.com/PSecurity/ps.block" target="_blank" rel="noopener">Ver repositório</a>
     </article>
 
     <article class="project-card featured">
-      <div class="stack-tags" aria-label="Stack: Python, Segurança e CLI"><span>Python</span> <span>Segurança</span> <span>CLI</span></div>
+      <div class="stack-tags" aria-label="Stack: Python, Segurança e CLI"><span>Python</span><span>Segurança</span><span>CLI</span></div>
       <h3>PS.Chat Admin / CLI</h3>
       <p>Ecossistema de comunicação privada/offline com cliente terminal, painel administrativo, comandos de moderação, descoberta em rede local, histórico local criptografado e recursos de E2EE.</p>
       <a href="https://github.com/PSecurity/ps.chat-cli" target="_blank" rel="noopener">Ver repositório</a>
     </article>
 
     <article class="project-card featured">
-      <div class="stack-tags" aria-label="Stack: HTML, CSS e JavaScript"><span>HTML</span> <span>CSS</span> <span>JavaScript</span></div>
+      <div class="stack-tags" aria-label="Stack: Python, Flask e Termux"><span>Python</span><span>Flask</span><span>Termux</span></div>
+      <h3>PS.Toolkit v2</h3>
+      <p>Toolkit web educacional para rodar no Termux, com módulos de automação, Nmap, DNS, hash, senhas, notas, túneis, Linux manager e ferramentas de apoio técnico.</p>
+      <a href="https://github.com/PSecurity/ps.toolkit-v2" target="_blank" rel="noopener">Ver repositório</a>
+    </article>
+
+    <article class="project-card featured">
+      <div class="stack-tags" aria-label="Stack: HTML, CSS e JavaScript"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
       <h3>PS.Notes</h3>
       <p>Bloco de notas autoral desenvolvido do zero, com editor, split view, snippets, salvamento no navegador, copiar, exportar e organização rápida para comandos e estudos.</p>
       <a href="{{ '/category/notepad/' | relative_url }}">Abrir ferramenta</a>
     </article>
 
     <article class="project-card">
-      <div class="stack-tags" aria-label="Stack: Python, Flask e Termux"><span>Python</span> <span>Flask</span> <span>Termux</span></div>
-      <h3>PS.Toolkit v2</h3>
-      <p>Toolkit web educacional para rodar no Termux, com módulos de automação, Nmap, DNS, hash, senhas, notas, túneis, Linux manager e ferramentas de apoio técnico.</p>
-      <a href="https://github.com/PSecurity/ps.toolkit-v2" target="_blank" rel="noopener">Ver repositório</a>
-    </article>
-
-    <article class="project-card">
-      <div class="stack-tags" aria-label="Stack: C++, ESP32 e PlatformIO"><span>C++</span> <span>ESP32</span> <span>PlatformIO</span></div>
+      <div class="stack-tags" aria-label="Stack: C++, ESP32 e PlatformIO"><span>C++</span><span>ESP32</span><span>PlatformIO</span></div>
       <h3>DoomStickC M5StickC Plus2</h3>
       <p>Protótipo retro FPS para M5StickC Plus2 com renderização, HUD, áudio, mapas, controles por botões/IMU, armas, inimigos e arquitetura modular.</p>
       <a href="https://github.com/PSecurity/doomstickc-m5stickc-plus2" target="_blank" rel="noopener">Ver repositório</a>
     </article>
 
-    <article class="project-card" id="psguardian-card">
-      <div class="stack-tags" aria-label="Stack: Android, Kotlin e Auditoria"><span>Android</span> <span>Kotlin</span> <span>Auditoria</span></div>
-      <h3>PS.Guardian / PS.Pentester</h3>
-      <p>Projetos Android em desenvolvimento para fluxo profissional de auditoria, evidências, findings, relatórios técnicos e apoio a ambientes autorizados.</p>
-      <a href="{{ '/projects/' | relative_url }}#psguardian">Ver detalhes</a>
+    <article class="project-card">
+      <div class="stack-tags" aria-label="Stack: Shell Script, Nmap e Reconhecimento"><span>Shell Script</span><span>Nmap</span><span>Recon</span></div>
+      <h3>PS.Nmap</h3>
+      <p>Ferramenta educacional de reconhecimento de rede no Termux com menus para host discovery, varredura de portas, versões, sistema operacional, scripts NSE e scans personalizados.</p>
+      <a href="https://github.com/PSecurity/ps.nmap" target="_blank" rel="noopener">Ver repositório</a>
+    </article>
+
+    <article class="project-card">
+      <div class="stack-tags" aria-label="Stack: Android, Kotlin e Auditoria"><span>Android</span><span>Kotlin</span><span>Auditoria</span></div>
+      <h3>PS.Guardian</h3>
+      <p>Próximo app oficial PeekSecurity em desenvolvimento, voltado a auditoria, evidências, relatórios técnicos e experiência profissional de segurança mobile.</p>
+      <a href="{{ '/projects/' | relative_url }}#android">Ver detalhes</a>
     </article>
   </div>
 </section>
@@ -214,11 +198,6 @@ description: Portfólio profissional de Gilberto Martins, criador da PeekSecurit
   </div>
 
   <div class="post-grid">
-    <article class="post-card post-card--release">
-      <span>android</span>
-      <h3><a href="{{ '/android/ps-block-v1/' | relative_url }}">PS.Block v1.0.0</a></h3>
-      <p>Primeiro app Android open source oficial da PeekSecurity.</p>
-    </article>
     <article class="post-card">
       <span>termux</span>
       <h3><a href="{{ '/termux/ps-chat-admin-cli/' | relative_url }}">PS.Chat Admin & CLI</a></h3>
@@ -234,15 +213,45 @@ description: Portfólio profissional de Gilberto Martins, criador da PeekSecurit
       <h3><a href="{{ '/scripts/ps-nmap/' | relative_url }}">PS.Nmap</a></h3>
       <p>Reconhecimento de rede com foco em estudo e ambientes autorizados.</p>
     </article>
+    <article class="post-card">
+      <span>scripts</span>
+      <h3><a href="{{ '/scripts/ps-ngrok/' | relative_url }}">PS.Ngrok</a></h3>
+      <p>Automação de ambiente para Termux e Kali Linux.</p>
+    </article>
+    <article class="post-card">
+      <span>scripts</span>
+      <h3><a href="{{ '/scripts/ps-thumbnails/' | relative_url }}">PS.Thumbnails</a></h3>
+      <p>Ferramenta visual para criação de thumbnails técnicas.</p>
+    </article>
+    <article class="post-card">
+      <span>tutoriais</span>
+      <h3><a href="{{ '/tutoriais/github-termux/' | relative_url }}">GitHub no Termux</a></h3>
+      <p>Fluxo de edição, versionamento e publicação direto pelo Android.</p>
+    </article>
   </div>
 </section>
 
-<section class="section-block cta-panel enterprise-cta">
-  <p class="eyebrow">Próximo passo</p>
-  <h2>Portfólio, currículo e projetos autorais reunidos em uma identidade técnica e profissional.</h2>
-  <p>Todos os projetos são apresentados com foco em estudo, proteção, documentação técnica e uso responsável em ambientes próprios ou explicitamente autorizados.</p>
+<section class="section-block categories-section">
+  <div class="section-heading">
+    <p class="eyebrow">Categorias</p>
+    <h2>Navegue por área</h2>
+  </div>
+  <div class="category-grid">
+    <a class="category-card" href="{{ '/category/termux/' | relative_url }}"><strong>Termux</strong><span>Android, automação e terminal mobile</span></a>
+    <a class="category-card" href="{{ '/category/kali/' | relative_url }}"><strong>Kali Linux</strong><span>Laboratórios, comandos e ambiente técnico</span></a>
+    <a class="category-card" href="{{ '/category/scripts/' | relative_url }}"><strong>Scripts</strong><span>Ferramentas, automações e utilitários</span></a>
+    <a class="category-card" href="{{ '/category/tutoriais/' | relative_url }}"><strong>Tutoriais</strong><span>Guias práticos e conteúdo educativo</span></a>
+    <a class="category-card" href="{{ '/category/notepad/' | relative_url }}"><strong>PS.Notes</strong><span>Bloco de notas autoral para comandos e estudos</span></a>
+  </div>
+</section>
+
+<section class="section-block cta-panel">
+  <p class="eyebrow">Contato profissional</p>
+  <h2>Aberto a oportunidades em tecnologia, segurança da informação, suporte técnico, prevenção a fraudes e desenvolvimento de ferramentas.</h2>
+  <p>Este portfólio reúne projetos, conteúdos e ferramentas criadas para aprendizado, documentação técnica e uso responsável em ambientes autorizados.</p>
   <div class="hero__actions">
     <a class="btn btn-primary" href="{{ '/assets/cv/curriculo-gilberto-victor-ferreira-martins.pdf' | relative_url }}" target="_blank" rel="noopener">Baixar Currículo</a>
-    <a class="btn btn-secondary" href="{{ '/contact/' | relative_url }}">Entrar em contato</a>
+    <a class="btn btn-secondary" href="mailto:gilbertoferreirasp@gmail.com">Entrar em Contato</a>
+    <a class="btn btn-ghost" href="{{ '/projects/' | relative_url }}">Ver Projetos</a>
   </div>
 </section>

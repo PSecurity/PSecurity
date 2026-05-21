@@ -1,35 +1,32 @@
-# PeekSecurity Portfolio v4.0.1 — Fix de Integridade Visual e Jekyll
+# PeekSecurity Portfolio v3.1 Stable + PS.Block Update
 
-Esta versão corrige a v4.0 mantendo o escopo aprovado: PS.Block como primeiro app oficial open source, PS.Guardian como próximo produto oficial e identidade Enterprise Typography v5.
+Esta versão volta para a base visual v3.0 aprovada e adiciona somente o conteúdo necessário do PS.Block/PS.Guardian.
 
-## Correções aplicadas
+## Objetivo
 
-- Front matter das páginas principais regravado em formato Jekyll seguro.
-- Correção de chips técnicos para evitar textos grudados como `C++ESP32 PlatformIO`.
-- Correção do bloco `$ whoami` para evitar `formaçãoEngenharia` / `experiênciaSuporte`.
-- Labels técnicos mantidos verdes e no estilo terminal aprovado.
-- Visual da v4.0 preservado, sem redesign.
-- PS.Notes preservado.
-- README reformulado da v4.0 preservado.
-- PS.Block e PS.Guardian mantidos como destaques oficiais.
+- Restaurar a identidade visual aprovada.
+- Adicionar PS.Block como primeiro app oficial open source.
+- Manter PS.Guardian como próximo app oficial.
+- Preservar PS.Notes sem alteração funcional.
+- Atualizar README de forma limpa.
 
-## Como aplicar
+## Aplicação
 
-Crie uma branch de correção em cima da branch v4.0:
+Extraia o ZIP na raiz do repositório e revise antes do merge.
 
-```bash
-git checkout portfolio-v4-official-apps-enterprise-refresh
-git checkout -b portfolio-v4-0-1-fixes
+Sugestão de branch:
+
+```powershell
+git checkout main
+git pull origin main
+git checkout -b portfolio-v3-1-stable-psblock-update
 ```
 
-Extraia este ZIP na raiz do repositório, substituindo os arquivos.
+Depois de extrair:
 
-Depois rode:
-
-```bash
+```powershell
+git status
 git add .
-git commit -m "fix: correct portfolio v4 text spacing and Jekyll front matter"
-git push origin portfolio-v4-0-1-fixes
+git commit -m "feat: restore stable portfolio and add PS.Block official release"
+git push -u origin portfolio-v3-1-stable-psblock-update
 ```
-
-Após validar no GitHub Pages/preview, faça merge na `main`.
