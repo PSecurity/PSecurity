@@ -1,35 +1,39 @@
-# PeekSecurity Portfolio v4.0.1 — Fix de Integridade Visual e Jekyll
+# PeekSecurity Portfolio v4.2 — Restore Approved Identity + Official Apps Polish
 
-Esta versão corrige a v4.0 mantendo o escopo aprovado: PS.Block como primeiro app oficial open source, PS.Guardian como próximo produto oficial e identidade Enterprise Typography v5.
+Esta versão parte da base boa `portfolio-v4-0-1-fixes` e descarta a direção visual da v4.1.
 
-## Correções aplicadas
+## Objetivo
 
-- Front matter das páginas principais regravado em formato Jekyll seguro.
-- Correção de chips técnicos para evitar textos grudados como `C++ESP32 PlatformIO`.
-- Correção do bloco `$ whoami` para evitar `formaçãoEngenharia` / `experiênciaSuporte`.
-- Labels técnicos mantidos verdes e no estilo terminal aprovado.
-- Visual da v4.0 preservado, sem redesign.
-- PS.Notes preservado.
-- README reformulado da v4.0 preservado.
-- PS.Block e PS.Guardian mantidos como destaques oficiais.
+- Restaurar a identidade aprovada com `$ whoami`.
+- Manter PS.Block como primeiro app oficial open source.
+- Manter PS.Guardian como próximo app oficial.
+- Reduzir aparência de template/landing page genérica.
+- Manter visual dark, técnico, autoral e alinhado ao PS.Block/PS.Guardian.
+- Preservar PS.Notes, posts antigos, currículo e estrutura Jekyll.
 
-## Como aplicar
+## Principais ajustes
 
-Crie uma branch de correção em cima da branch v4.0:
+- CSS refeito para ficar mais sóbrio, compacto e consistente.
+- Header simplificado, removendo categorias do menu principal para reduzir poluição visual.
+- Ícone oficial mantido apenas como marca pequena.
+- Hero preservado, sem virar dashboard fake ou banner genérico.
+- Official Apps preservado, porém tratado como painel técnico discreto.
+- Tipografia: sans-serif para UI geral, monospace apenas em readouts, tags técnicas, código e terminal.
 
-```bash
-git checkout portfolio-v4-official-apps-enterprise-refresh
-git checkout -b portfolio-v4-0-1-fixes
+## Aplicação sugerida
+
+```powershell
+git checkout portfolio-v4-0-1-fixes
+git pull origin portfolio-v4-0-1-fixes
+git checkout -b portfolio-v4-2-restore-approved-identity
 ```
 
-Extraia este ZIP na raiz do repositório, substituindo os arquivos.
+Extraia o ZIP na raiz do repositório e rode:
 
-Depois rode:
-
-```bash
+```powershell
 git add .
-git commit -m "fix: correct portfolio v4 text spacing and Jekyll front matter"
-git push origin portfolio-v4-0-1-fixes
+git commit -m "fix: restore approved identity and polish official apps"
+git push origin portfolio-v4-2-restore-approved-identity
 ```
 
-Após validar no GitHub Pages/preview, faça merge na `main`.
+Depois abra um Pull Request e valide no GitHub Pages, principalmente no celular.
