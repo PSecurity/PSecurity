@@ -1,51 +1,32 @@
-# PeekSecurity Portfolio v4.1 — Enterprise Security Console Refinement
+# PeekSecurity Portfolio v3.1 Stable + PS.Block Update
 
-Esta versão refina a v4.0.1 para reduzir a sensação de landing page/template e aproximar o portfólio da identidade visual aplicada em PS.Block e PS.Guardian.
+Esta versão volta para a base visual v3.0 aprovada e adiciona somente o conteúdo necessário do PS.Block/PS.Guardian.
 
 ## Objetivo
 
-Transformar a página em um workspace técnico de segurança:
+- Restaurar a identidade visual aprovada.
+- Adicionar PS.Block como primeiro app oficial open source.
+- Manter PS.Guardian como próximo app oficial.
+- Preservar PS.Notes sem alteração funcional.
+- Atualizar README de forma limpa.
 
-- menos hero promocional;
-- menos cards decorativos;
-- mais painéis graphite/slate;
-- inventário técnico com status, stack e objetivo;
-- botões com hierarquia clara;
-- roxo usado com moderação;
-- verde/âmbar/vermelho apenas como estado;
-- monospace apenas em readouts técnicos.
+## Aplicação
 
-## Arquivos alterados
+Extraia o ZIP na raiz do repositório e revise antes do merge.
 
-- `index.md`
-- `projects.md`
-- `README.md`
-- `_layouts/default.html`
-- `assets/css/style.css`
-- `assets/img/peeksecurity-og-card.png`
+Sugestão de branch:
 
-## Arquivos preservados
-
-- PS.Notes e sua lógica funcional;
-- posts antigos;
-- currículo PDF;
-- ícones oficiais pequenos;
-- estrutura Jekyll base;
-- categorias existentes.
-
-## Aplicação sugerida
-
-```bash
-git checkout portfolio-v4-0-1-fixes
-git checkout -b portfolio-v4-1-enterprise-console
+```powershell
+git checkout main
+git pull origin main
+git checkout -b portfolio-v3-1-stable-psblock-update
 ```
 
-Extraia o ZIP na raiz do repositório e depois:
+Depois de extrair:
 
-```bash
+```powershell
+git status
 git add .
-git commit -m "style: refine portfolio as enterprise security console"
-git push origin portfolio-v4-1-enterprise-console
+git commit -m "feat: restore stable portfolio and add PS.Block official release"
+git push -u origin portfolio-v3-1-stable-psblock-update
 ```
-
-Valide no GitHub Pages, especialmente no celular e em aba anônima.
