@@ -2,15 +2,14 @@
 
 # PeekSecurity
 
-### Gilberto Martins · Segurança da Informação · Android · Termux · Automação · Ferramentas Educacionais
+### Gilberto Martins · Segurança Mobile · Android · Termux · Automação · Ferramentas Educacionais
 
-Portfólio profissional, laboratório público e base de projetos autorais da PeekSecurity.
+Portfólio profissional, console público de projetos e base técnica da PeekSecurity.
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-psecurity.github.io-7c3aed?style=for-the-badge)](https://psecurity.github.io/PSecurity/)
 [![GitHub](https://img.shields.io/badge/GitHub-PSecurity-111827?style=for-the-badge&logo=github)](https://github.com/PSecurity)
 [![PS.Block](https://img.shields.io/badge/Official_App-PS.Block-7c3aed?style=for-the-badge&logo=android)](https://github.com/PSecurity/ps.block)
-[![TikTok](https://img.shields.io/badge/TikTok-@PeekSecurity-111827?style=for-the-badge&logo=tiktok)](https://tiktok.com/@PeekSecurity)
-[![YouTube](https://img.shields.io/badge/YouTube-@PeekSecurity-111827?style=for-the-badge&logo=youtube)](https://www.youtube.com/@PeekSecurity)
+[![PS.Notes](https://img.shields.io/badge/Tool-PS.Notes-111827?style=for-the-badge)](https://psecurity.github.io/PSecurity/category/notepad/)
 
 </div>
 
@@ -21,10 +20,10 @@ Portfólio profissional, laboratório público e base de projetos autorais da Pe
 ```text
 peek@security:~$ whoami
 Gilberto Martins / PeekSecurity
-Graduando em Engenharia de Computação, criador de ferramentas educacionais e apps Android voltados a segurança mobile, automação, Termux, Linux e documentação técnica.
+Graduando em Engenharia de Computação, criador de apps Android, ferramentas educacionais e laboratórios técnicos voltados a segurança mobile, automação, Termux, Linux e documentação profissional.
 ```
 
-Este repositório contém o código-fonte do site público da PeekSecurity, publicado via GitHub Pages em:
+Este repositório contém o código-fonte do portfólio público da PeekSecurity, publicado via GitHub Pages:
 
 ```text
 https://psecurity.github.io/PSecurity/
@@ -38,7 +37,7 @@ https://psecurity.github.io/PSecurity/
 
 **Primeiro aplicativo Android open source oficial da PeekSecurity.**
 
-O PS.Block é um app Android de proteção local para dispositivos próprios ou ambientes autorizados, com foco em privacidade de sensores, controle defensivo de recursos sensíveis, Device Admin, watchdog, app lock, logs locais e políticas de proteção.
+App Android de proteção local para dispositivos próprios ou ambientes autorizados, com foco em privacidade de sensores, controle defensivo de recursos sensíveis, Device Admin, watchdog, app lock, logs locais e políticas de proteção.
 
 Links:
 
@@ -49,28 +48,22 @@ Links:
 
 **Próximo aplicativo oficial da PeekSecurity.**
 
-App Android em desenvolvimento com foco em auditoria, evidências, relatórios técnicos, status de segurança e experiência profissional de segurança mobile.
+App Android em desenvolvimento para auditoria, evidências, relatórios técnicos, status de segurança e experiência profissional de segurança mobile.
 
 ---
 
 ## Tools & Labs
 
-### Security Tools & Automation
-
-- **PS.Toolkit v2** — toolkit web/local em Python e Flask para Termux, automação e apoio técnico.
-- **PS.Nmap** — ferramenta educacional de reconhecimento com Nmap para ambientes autorizados.
-- **PS.Ngrok** — automação de setup em Termux/Kali para túneis, dependências e configuração.
-- **PS.Chat CLI / Admin** — ecossistema de comunicação terminal/local com administração e foco em segurança.
-
-### Creative / Utility Tools
-
-- **PS.Notes** — bloco de notas autoral para comandos, snippets, estudos e fluxo de trabalho técnico.
-- **PS.Thumbnails** — ferramenta visual para criação de thumbnails e materiais no padrão PeekSecurity.
-
-### Embedded / Research
-
-- **DoomStickC** — protótipo retro FPS para M5StickC Plus2 com C++, ESP32 e PlatformIO.
-- **DoomWAD** — pesquisa incremental para integração de WAD real em M5StickC Plus2.
+| Projeto | Área | Stack / Foco |
+| --- | --- | --- |
+| **PS.Toolkit v2** | Automação / Termux | Python, Flask, Linux, ferramentas locais |
+| **PS.Nmap** | Reconhecimento autorizado | Shell, Nmap, Termux |
+| **PS.Ngrok** | Setup / túneis | Shell, Kali, Termux, automação de ambiente |
+| **PS.Chat CLI / Admin** | Comunicação técnica | Python, CLI, administração e segurança |
+| **PS.Notes** | Utilitário autoral | HTML, CSS, JavaScript, notas técnicas |
+| **PS.Thumbnails** | Conteúdo / marca | Web, identidade visual, materiais técnicos |
+| **DoomStickC** | Embarcados | C++, ESP32, PlatformIO, M5StickC Plus2 |
+| **DoomWAD** | Pesquisa incremental | C++, ESP32, WAD, validações controladas |
 
 ---
 
@@ -79,7 +72,7 @@ App Android em desenvolvimento com foco em auditoria, evidências, relatórios t
 ```text
 _config.yml        Configuração do Jekyll/GitHub Pages
 index.md           Página inicial do portfólio
-projects.md        Página de projetos e cases
+projects.md        Inventário técnico e projetos
 about.md           Sobre Gilberto Martins / PeekSecurity
 curriculo.md       Página com currículo profissional
 contact.md         Contato profissional
@@ -95,15 +88,16 @@ assets/cv/         Currículo em PDF
 
 ## Identidade visual
 
-A identidade visual segue a linha **PeekSecurity / PS.Guardian Enterprise Typography**:
+A v4.1 segue uma direção de **enterprise security console**, alinhada à identidade PeekSecurity / PS.Guardian Enterprise Typography:
 
 - dark corporate security workspace;
 - UI técnica, sóbria, premium e funcional;
-- roxo como marca e ação principal;
-- verde apenas para status positivo ou readouts técnicos;
-- âmbar para aviso, revisão ou atenção;
+- painéis graphite/slate em vez de cards decorativos;
+- roxo apenas como marca e ação principal;
+- verde somente para status positivo ou readouts técnicos;
+- âmbar para atenção, revisão ou status em andamento;
 - vermelho apenas para risco real ou ação destrutiva;
-- sans-serif para UI, textos e botões;
+- sans-serif para leitura geral, UI e botões;
 - monospace apenas para terminal, comandos, logs, hashes, paths e blocos técnicos.
 
 ---
