@@ -13,7 +13,7 @@ author: Peek
 
 O **PS.Toolkit** é uma ferramenta desenvolvida pela equipe **PeekSecurity** com foco em educação em segurança cibernética, automação de tarefas e utilitários para Termux.
 
-📦 Repositório oficial:  
+📦 Repositório oficial:
 https://github.com/PSecurity/pstoolkit
 
 <div class="divider"></div>
@@ -23,9 +23,9 @@ https://github.com/PSecurity/pstoolkit
 
 Este projeto foi desenvolvido exclusivamente para fins educacionais.
 
-- Use apenas em ambientes controlados  
-- Nunca utilize em sistemas sem autorização  
-- O autor não se responsabiliza pelo uso indevido  
+- Use apenas em ambientes controlados
+- Nunca utilize em sistemas sem autorização
+- O autor não se responsabiliza pelo uso indevido
 
 <div class="divider"></div>
 

@@ -1,9 +1,10 @@
 ---
 layout: default
 title: Sobre
-description: Sobre Gilberto Martins, a trajetória por trás da PeekSecurity e o ecossistema de apps, ferramentas e conteúdos técnicos.
+description: Sobre Gilberto Martins, criador da PeekSecurity, com trajetória em suporte especializado, prevenção a fraudes, Engenharia de Computação e segurança digital.
 permalink: /about/
 ---
+
 <section class="page-hero compact">
   <p class="eyebrow">Sobre</p>
   <h1>Gilberto Martins</h1>

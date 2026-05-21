@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Scripts
-description: Scripts, automações e ferramentas PeekSecurity.
+description: Scripts, automações e ferramentas autorais da PeekSecurity.
 permalink: /category/scripts/
 ---
 

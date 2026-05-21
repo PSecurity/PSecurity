@@ -91,8 +91,8 @@ Simples e direto.
 Consistência visual é tudo.
 
 Se todos os seus vídeos tiverem o mesmo estilo:
-👉 sua marca cresce mais rápido  
-👉 seu conteúdo fica reconhecível  
+👉 sua marca cresce mais rápido
+👉 seu conteúdo fica reconhecível
 
 <hr class="divider">
 
@@ -118,7 +118,7 @@ Você vai perceber a diferença no clique 😏
 
 ---
 
-**PeekSecurity**  
-*Fala rapaziada, suavidade? Eu sou o Peek.* 😈  
-TikTok: @peeksecurity  
+**PeekSecurity**
+*Fala rapaziada, suavidade? Eu sou o Peek.* 😈
+TikTok: @peeksecurity
 YouTube: PeekSecurity

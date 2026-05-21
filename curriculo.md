@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Currículo - Gilberto Victor Ferreira Martins
-description: Currículo profissional de Gilberto Victor Ferreira Martins.
+description: Currículo profissional de Gilberto Victor Ferreira Martins com foco em tecnologia, segurança da informação, suporte N3, prevenção a fraudes e projetos autorais.
 permalink: /curriculo/
 ---
 

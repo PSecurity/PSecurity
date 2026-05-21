@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Tutoriais
-description: Tutoriais práticos sobre GitHub, Termux, Linux e tecnologia.
+description: Tutoriais técnicos da PeekSecurity sobre segurança, automação, Termux, Linux e ferramentas.
 permalink: /category/tutoriais/
 ---
 

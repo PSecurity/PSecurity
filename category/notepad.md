@@ -1,10 +1,9 @@
 ---
 layout: default
 title: PS.Notes
-description: PS.Notes, bloco de notas autoral da PeekSecurity criado por Gilberto Martins para comandos, estudos e snippets.
+description: PS.Notes, ferramenta autoral da PeekSecurity para anotações técnicas, comandos, snippets e estudos.
 permalink: /category/notepad/
 notepad: true
-wide: true
 ---
 
 <section class="page-hero compact notes-intro">

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Termux
-description: Conteúdos sobre Termux, automação e terminal mobile.
+description: Conteúdos, ferramentas e automações da PeekSecurity para Termux.
 permalink: /category/termux/
 ---
 

@@ -16,12 +16,12 @@ O **PS.Chat-Admin** é o servidor central para suas salas de chat privadas, com 
 
 ### Funcionalidades principais
 
-- 🔒 **Criptografia ponta a ponta (E2EE)** – X25519 + AES‑GCM + Ed25519  
-- 👑 **Painel administrativo completo** – criar salas, gerir membros, promover/rebaixar usuários  
-- 🛡️ **Moderação avançada** – kick, mute, unmute, ban (por dispositivo e chave pública)  
-- 📜 **Logs de acesso e moderação** – histórico persistente para auditoria  
-- 🌐 **Descoberta automática de rede** – mDNS detecta clientes na mesma rede  
-- ⚡ **Salas efêmeras** – desaparecem quando todos saem  
+- 🔒 **Criptografia ponta a ponta (E2EE)** – X25519 + AES‑GCM + Ed25519
+- 👑 **Painel administrativo completo** – criar salas, gerir membros, promover/rebaixar usuários
+- 🛡️ **Moderação avançada** – kick, mute, unmute, ban (por dispositivo e chave pública)
+- 📜 **Logs de acesso e moderação** – histórico persistente para auditoria
+- 🌐 **Descoberta automática de rede** – mDNS detecta clientes na mesma rede
+- ⚡ **Salas efêmeras** – desaparecem quando todos saem
 - 🧪 **Testado em Termux, Linux, Windows e macOS**
 
 

@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Android
+description: Conteúdos sobre Android, segurança mobile e apps oficiais PeekSecurity.
 permalink: /category/android/
 ---
 

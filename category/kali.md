@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Kali Linux
-description: Conteúdos sobre Kali Linux, laboratórios e estudos técnicos.
+description: Conteúdos, ferramentas e automações da PeekSecurity para Kali Linux.
 permalink: /category/kali/
 ---
 

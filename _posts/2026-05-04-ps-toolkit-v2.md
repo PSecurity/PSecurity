@@ -98,8 +98,8 @@ Depois é só navegar pelo menu.
 
 Se você tá começando:
 
-👉 Começa pelo **PS.Toolkit**  
-👉 Depois aprofunda em cada ferramenta separadamente  
+👉 Começa pelo **PS.Toolkit**
+👉 Depois aprofunda em cada ferramenta separadamente
 
 Isso te dá visão geral + prática rápida.
 
@@ -119,7 +119,7 @@ Esse aqui é tipo teu “painel hacker” no Termux 😈
 
 ---
 
-**PeekSecurity**  
-*Fala rapaziada, suavidade? Eu sou o Peek.* 😈  
-TikTok: @peeksecurity  
+**PeekSecurity**
+*Fala rapaziada, suavidade? Eu sou o Peek.* 😈
+TikTok: @peeksecurity
 YouTube: PeekSecurity

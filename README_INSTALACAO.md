@@ -1,39 +1,40 @@
-# PeekSecurity Portfolio v4.2 — Restore Approved Identity + Official Apps Polish
+# PeekSecurity Portfolio v4.2.1 — Structural Jekyll + Markdown Fix
 
-Esta versão parte da base boa `portfolio-v4-0-1-fixes` e descarta a direção visual da v4.1.
+Esta versão mantém a identidade aprovada da v4.2 e corrige a estrutura dos arquivos antes do merge.
 
 ## Objetivo
 
-- Restaurar a identidade aprovada com `$ whoami`.
+- Preservar a identidade aprovada com `$ whoami`.
 - Manter PS.Block como primeiro app oficial open source.
 - Manter PS.Guardian como próximo app oficial.
-- Reduzir aparência de template/landing page genérica.
-- Manter visual dark, técnico, autoral e alinhado ao PS.Block/PS.Guardian.
-- Preservar PS.Notes, posts antigos, currículo e estrutura Jekyll.
+- Preservar PS.Notes sem alteração funcional.
+- Corrigir front matter das páginas principais em formato Jekyll seguro.
+- Normalizar README, Markdown, HTML, quebras de linha e espaçamentos.
+- Evitar textos grudados em chips, labels e readouts técnicos.
 
-## Principais ajustes
-
-- CSS refeito para ficar mais sóbrio, compacto e consistente.
-- Header simplificado, removendo categorias do menu principal para reduzir poluição visual.
-- Ícone oficial mantido apenas como marca pequena.
-- Hero preservado, sem virar dashboard fake ou banner genérico.
-- Official Apps preservado, porém tratado como painel técnico discreto.
-- Tipografia: sans-serif para UI geral, monospace apenas em readouts, tags técnicas, código e terminal.
-
-## Aplicação sugerida
+## Aplicação recomendada
 
 ```powershell
-git checkout portfolio-v4-0-1-fixes
-git pull origin portfolio-v4-0-1-fixes
-git checkout -b portfolio-v4-2-restore-approved-identity
+git checkout portfolio-v4-2-restore-approved-identity
+git checkout -b portfolio-v4-2-1-structural-fix
 ```
 
-Extraia o ZIP na raiz do repositório e rode:
+Extraia este ZIP na raiz do repositório `PSecurity/PSecurity`, substituindo os arquivos quando solicitado.
+
+Depois rode:
 
 ```powershell
 git add .
-git commit -m "fix: restore approved identity and polish official apps"
-git push origin portfolio-v4-2-restore-approved-identity
+git commit -m "fix: correct portfolio v4.2 structure and markdown"
+git push origin portfolio-v4-2-1-structural-fix
 ```
 
-Depois abra um Pull Request e valide no GitHub Pages, principalmente no celular.
+## Validações feitas
+
+- Front matter em múltiplas linhas nas páginas principais.
+- `_layouts/default.html` preservado com HTML completo.
+- README em Markdown legível.
+- Nenhum padrão conhecido de texto grudado encontrado.
+- PS.Notes preservado.
+- Posts antigos preservados.
+- Currículo preservado.

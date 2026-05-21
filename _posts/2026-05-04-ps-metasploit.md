@@ -140,7 +140,7 @@ Se aparecer exploit funcionando… já sabe 😏
 
 ---
 
-**PeekSecurity**  
-*Fala rapaziada, suavidade? Eu sou o Peek.* 😈  
-TikTok: @peeksecurity  
+**PeekSecurity**
+*Fala rapaziada, suavidade? Eu sou o Peek.* 😈
+TikTok: @peeksecurity
 YouTube: PeekSecurity

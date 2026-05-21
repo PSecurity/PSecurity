@@ -4,6 +4,7 @@ title: Projetos
 description: Projetos técnicos da PeekSecurity desenvolvidos por Gilberto Martins, incluindo apps oficiais, ferramentas de segurança, automação, PS.Notes e pesquisas com embarcados.
 permalink: /projects/
 ---
+
 <section class="page-hero compact">
   <p class="eyebrow">Portfólio técnico</p>
   <h1>Projetos PeekSecurity</h1>

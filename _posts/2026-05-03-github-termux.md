@@ -69,7 +69,7 @@ Substitua `usuario/repository` pela URL do repositório que você deseja clonar.
 Agora que você tem o repositório clonado, você pode editar os arquivos diretamente no Termux. Existem várias maneiras de editar arquivos no Termux, mas as mais comuns são usando **Vim** ou **Nano**:
 
 - Para editar com o **Vim**:
-  
+
 <div class="code-box">
 <button onclick="copyCode(this)">Copiar</button>
 <pre><code>vim nome_do_arquivo</code></pre>
@@ -151,7 +151,7 @@ Isso criará uma chave SSH. Em seguida, siga as instruções para adicionar sua 
 ### 9. **Dicas Adicionais**
 
 - **Gerenciar múltiplos repositórios**: Caso trabalhe com múltiplos repositórios ao mesmo tempo, você pode configurar diferentes **SSH Keys** para cada repositório e assim garantir mais segurança e organização no seu fluxo de trabalho.
-  
+
 - **Utilize branches**: Não comite direto na `main`. Crie branches para testar novas funcionalidades ou corrigir erros, garantindo mais organização e controle de versões.
 
 - **Revisões de código**: Para melhorar a colaboração, utilize ferramentas como **pull requests** e faça revisões de código antes de aceitar alterações.
@@ -170,6 +170,6 @@ Se você gostou do tutorial, compartilhe com outros desenvolvedores ou entre em 
 <div class="divider"></div>
 
 
-**PeekSecurity** | *Transformando o Termux em uma ferramenta poderosa para desenvolvedores e hackers*  
-**TikTok**: [@peeksecurity](https://www.tiktok.com/@peeksecurity)  
+**PeekSecurity** | *Transformando o Termux em uma ferramenta poderosa para desenvolvedores e hackers*
+**TikTok**: [@peeksecurity](https://www.tiktok.com/@peeksecurity)
 **YouTube**: [PeekSecurity Channel](https://www.youtube.com/channel/UC...)

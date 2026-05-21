@@ -85,9 +85,9 @@ Ou usando Cloudflare:
 
 Esse tipo de ferramenta deve ser usada para:
 
-✔ aprendizado  
-✔ demonstração  
-✔ testes em ambiente controlado  
+✔ aprendizado
+✔ demonstração
+✔ testes em ambiente controlado
 
 <hr class="divider">
 
@@ -117,7 +117,7 @@ Isso aqui abre a mente pra segurança ofensiva real.
 
 ---
 
-**PeekSecurity**  
-*Fala rapaziada, suavidade? Eu sou o Peek.* 😈  
-TikTok: @peeksecurity  
+**PeekSecurity**
+*Fala rapaziada, suavidade? Eu sou o Peek.* 😈
+TikTok: @peeksecurity
 YouTube: PeekSecurity

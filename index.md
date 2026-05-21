@@ -3,6 +3,7 @@ layout: default
 title: Gilberto Martins - PeekSecurity
 description: Portfólio profissional de Gilberto Martins, criador da PeekSecurity, com apps oficiais, segurança mobile, Termux, Android, automação, ferramentas educacionais e PS.Notes.
 ---
+
 <section class="hero section-glow">
   <div class="hero__content">
     <p class="eyebrow">Portfólio profissional · Segurança mobile · Android · Automação</p>
