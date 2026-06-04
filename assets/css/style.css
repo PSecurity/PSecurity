@@ -1895,3 +1895,250 @@ pre,
     justify-content: start;
   }
 }
+
+/* PeekSecurity Public Site v5.1 — fix row mapping and mobile overlap */
+.info-card,
+.project-card,
+.post-card,
+.category-card,
+.contact-card,
+.project-row,
+.availability-card,
+.ps-action-row {
+  grid-template-columns: 28px minmax(0, 1fr) auto;
+  align-items: center;
+  column-gap: 9px;
+  row-gap: 2px;
+  min-height: 52px;
+  padding: 8px 10px;
+}
+
+.info-card::before,
+.project-card::before,
+.post-card::before,
+.category-card::before,
+.contact-card::before,
+.project-row::before,
+.availability-card::before,
+.ps-action-row::before {
+  content: "";
+  grid-column: 1;
+  grid-row: 1 / span 3;
+  width: 28px;
+  height: 28px;
+  align-self: start;
+  border: 1px solid var(--ps-border-dim);
+  background: var(--ps-surface-soft);
+}
+
+.info-card h3,
+.info-card p,
+.project-card .stack-tags,
+.project-card h3,
+.project-card p,
+.post-card > span,
+.post-card h3,
+.post-card p,
+.category-card strong,
+.category-card span,
+.contact-card span,
+.contact-card strong,
+.project-row > div,
+.availability-card strong,
+.availability-card span,
+.ps-row-copy {
+  grid-column: 2;
+  min-width: 0;
+}
+
+.info-card h3,
+.project-card h3,
+.post-card h3,
+.category-card strong,
+.contact-card strong,
+.availability-card strong,
+.ps-row-title {
+  grid-row: auto;
+  margin: 0;
+  color: var(--ps-text);
+  font-size: 0.82rem;
+  line-height: 1.15;
+  font-weight: 800;
+}
+
+.info-card p,
+.project-card p,
+.post-card p,
+.category-card span,
+.contact-card span,
+.availability-card span,
+.ps-row-subtitle {
+  margin: 2px 0 0;
+  color: var(--ps-text-muted);
+  font-size: 0.66rem;
+  line-height: 1.28;
+}
+
+.project-card .stack-tags,
+.post-card > span {
+  margin: 0 0 4px;
+}
+
+.project-card a,
+.project-row .btn,
+.ps-row-trailing {
+  grid-column: 3;
+  grid-row: 1 / span 3;
+  align-self: center;
+  justify-self: end;
+  white-space: nowrap;
+}
+
+.category-card,
+.contact-card {
+  color: var(--ps-text);
+}
+
+.category-card::after,
+.contact-card::after,
+.project-card a::after,
+.post-card h3 a::after {
+  color: var(--ps-text-muted);
+}
+
+.split-grid .info-card {
+  min-height: 68px;
+}
+
+.skill-cloud {
+  border: 1px solid var(--ps-border-dim);
+  border-radius: 12px;
+  background: var(--ps-surface);
+  padding: 10px;
+  gap: 6px;
+}
+
+.skill-cloud span,
+.stack-tags span,
+.status-list span,
+.post-meta span {
+  min-height: 18px;
+  padding: 3px 5px;
+  border-radius: 0;
+  background: var(--ps-graphite-900);
+  border-color: var(--ps-border-dim);
+  color: var(--ps-text-secondary);
+  font-size: 0.64rem;
+  line-height: 1.1;
+  text-transform: none;
+}
+
+.case-card {
+  display: grid;
+  grid-template-columns: 28px minmax(0, 1fr);
+  align-items: start;
+  min-height: unset;
+}
+
+.case-card::before {
+  content: "";
+  grid-column: 1;
+  grid-row: 1 / span 2;
+  width: 28px;
+  height: 28px;
+  border: 1px solid var(--ps-border-dim);
+  background: var(--ps-surface-soft);
+}
+
+.case-card__head {
+  grid-column: 2;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 10px;
+  margin: 0;
+}
+
+.case-card__head h2 {
+  margin: 0;
+  font-size: 0.86rem;
+  line-height: 1.2;
+}
+
+.case-card__grid {
+  grid-column: 2;
+}
+
+.official-release-panel {
+  grid-template-columns: 28px minmax(0, 1fr) auto;
+  min-height: unset;
+}
+
+.official-release-panel::before {
+  content: "";
+  grid-column: 1;
+  grid-row: 1 / span 2;
+  width: 28px;
+  height: 28px;
+  border: 1px solid var(--ps-border-dim);
+  background: var(--ps-surface-soft);
+}
+
+.official-release-panel__content {
+  grid-column: 2;
+}
+
+.official-release-panel__actions {
+  grid-column: 3;
+  align-self: center;
+}
+
+@media (max-width: 760px) {
+  .info-card,
+  .project-card,
+  .post-card,
+  .category-card,
+  .contact-card,
+  .project-row,
+  .availability-card,
+  .official-release-panel,
+  .ps-action-row {
+    grid-template-columns: 28px minmax(0, 1fr);
+    align-items: start;
+    min-height: unset;
+    padding: 9px 10px;
+  }
+
+  .project-card a,
+  .project-row .btn,
+  .official-release-panel__actions,
+  .ps-row-trailing {
+    grid-column: 2;
+    grid-row: auto;
+    justify-self: start;
+    align-self: start;
+    margin-top: 6px;
+    white-space: normal;
+  }
+
+  .case-card,
+  .official-release-panel {
+    grid-template-columns: 28px minmax(0, 1fr);
+  }
+
+  .case-card__head,
+  .case-card__grid,
+  .official-release-panel__content,
+  .official-release-panel__actions {
+    grid-column: 2;
+  }
+
+  .case-card__head {
+    display: grid;
+    gap: 8px;
+  }
+
+  .skill-cloud {
+    padding: 8px;
+  }
+}
