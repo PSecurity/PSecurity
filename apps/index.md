@@ -44,15 +44,15 @@ permalink: /apps/
   </div>
 </section>
 
-<section class="ps-workspace" data-workspace-block="app-inventory">
+<section class="ps-workspace" data-workspace-block="app-inventory" data-ps-explicit-rows="true">
   <div class="ps-workspace-head">
     <p class="ps-section-label">INVENTÁRIO</p>
     <h2 class="ps-workspace-title">Ferramentas públicas, discretas e documentadas</h2>
   </div>
 
-  <div class="ps-row-list ps-app-inventory">
+  <div class="ps-row-list ps-app-inventory" data-ps-row-list="apps">
     <article class="ps-action-row ps-app-row" data-app-row="pscalc">
-      <div class="ps-row-icon">CALC</div>
+      <div class="ps-row-icon" aria-hidden="true">CALC</div>
       <div class="ps-row-copy">
         <h3 class="ps-row-title">PS.Calc</h3>
         <p class="ps-row-subtitle">Calculadora Android e ferramenta de produtividade local-first, com recursos offline, histórico local, conversões, fórmulas e Secure Notes protegidas localmente.</p>
@@ -66,7 +66,7 @@ permalink: /apps/
     </article>
 
     <article class="ps-action-row ps-app-row" data-app-row="psblock">
-      <div class="ps-row-icon">BLK</div>
+      <div class="ps-row-icon" aria-hidden="true">BLK</div>
       <div class="ps-row-copy">
         <h3 class="ps-row-title">PS.Block</h3>
         <p class="ps-row-subtitle">App Android open source voltado a proteção local, privacidade de sensores, controle defensivo, logs locais e estudo em dispositivos próprios ou autorizados.</p>
@@ -80,7 +80,7 @@ permalink: /apps/
     </article>
 
     <article class="ps-action-row ps-app-row" data-app-row="psnotes">
-      <div class="ps-row-icon">NOTE</div>
+      <div class="ps-row-icon" aria-hidden="true">NOTE</div>
       <div class="ps-row-copy">
         <h3 class="ps-row-title">PS.Notes</h3>
         <p class="ps-row-subtitle">Bloco de notas autoral para comandos, estudos, snippets e organização técnica no navegador, com salvamento local e exportação.</p>
@@ -94,7 +94,7 @@ permalink: /apps/
     </article>
 
     <article class="ps-action-row ps-app-row" data-app-row="psfiles">
-      <div class="ps-row-icon">FILE</div>
+      <div class="ps-row-icon" aria-hidden="true">FILE</div>
       <div class="ps-row-copy">
         <h3 class="ps-row-title">PS.Files</h3>
         <p class="ps-row-subtitle">App do ecossistema PeekSecurity em desenvolvimento, usado como referência visual para superfícies flat, organização técnica e experiência local-first.</p>
@@ -108,7 +108,7 @@ permalink: /apps/
     </article>
 
     <article class="ps-action-row ps-app-row" data-app-row="psgallery">
-      <div class="ps-row-icon">GAL</div>
+      <div class="ps-row-icon" aria-hidden="true">GAL</div>
       <div class="ps-row-copy">
         <h3 class="ps-row-title">PS.Gallery</h3>
         <p class="ps-row-subtitle">App planejado do ecossistema PeekSecurity. Detalhes públicos serão adicionados quando houver escopo validado para publicação.</p>
@@ -122,7 +122,7 @@ permalink: /apps/
     </article>
 
     <article class="ps-action-row ps-app-row" data-app-row="pspass">
-      <div class="ps-row-icon">PASS</div>
+      <div class="ps-row-icon" aria-hidden="true">PASS</div>
       <div class="ps-row-copy">
         <h3 class="ps-row-title">PS.Pass</h3>
         <p class="ps-row-subtitle">App planejado do ecossistema PeekSecurity. A página pública será criada somente com recursos confirmados e linguagem de privacidade revisada.</p>
@@ -136,7 +136,7 @@ permalink: /apps/
     </article>
 
     <article class="ps-action-row ps-app-row" data-app-row="psguardian">
-      <div class="ps-row-icon">GRD</div>
+      <div class="ps-row-icon" aria-hidden="true">GRD</div>
       <div class="ps-row-copy">
         <h3 class="ps-row-title">PS.Guardian</h3>
         <p class="ps-row-subtitle">App em desenvolvimento voltado a auditoria, evidências, relatórios técnicos e apoio a ambientes próprios ou autorizados.</p>
@@ -150,7 +150,7 @@ permalink: /apps/
     </article>
 
     <article class="ps-action-row ps-app-row" data-app-row="pspentester">
-      <div class="ps-row-icon">PENT</div>
+      <div class="ps-row-icon" aria-hidden="true">PENT</div>
       <div class="ps-row-copy">
         <h3 class="ps-row-title">PS.Pentester</h3>
         <p class="ps-row-subtitle">App planejado para laboratório técnico e documentação de segurança aplicada. Nenhum recurso público é anunciado até validação de escopo.</p>

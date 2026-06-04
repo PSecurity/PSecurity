@@ -2525,6 +2525,86 @@ pre,
   color: var(--ps-text);
 }
 
+/* PeekSecurity Public Site v7.2 — enforced explicit PS.Files rows */
+.ps-workspace[data-ps-explicit-rows="true"] .ps-row-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  overflow: hidden;
+  background: transparent;
+  border: 1px solid var(--ps-border-dim);
+  border-radius: 0;
+}
+
+.ps-workspace[data-ps-explicit-rows="true"] .ps-action-row {
+  display: grid;
+  grid-template-columns: 42px minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 12px;
+  min-height: 68px;
+  padding: 10px 12px;
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.ps-workspace[data-ps-explicit-rows="true"] .ps-action-row + .ps-action-row {
+  border-top: 1px solid var(--ps-border-dim);
+}
+
+.ps-workspace[data-ps-explicit-rows="true"] .ps-row-icon {
+  width: 34px;
+  height: 34px;
+  display: grid;
+  place-items: center;
+  align-self: center;
+  background: var(--ps-graphite-900);
+  border: 1px solid var(--ps-border);
+  border-radius: 0;
+  color: var(--ps-purple-action-icon);
+  font-family: "Share Tech Mono", ui-monospace, SFMono-Regular, Consolas, monospace;
+  font-size: 0.62rem;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+}
+
+.ps-workspace[data-ps-explicit-rows="true"] .ps-row-copy {
+  min-width: 0;
+}
+
+.ps-workspace[data-ps-explicit-rows="true"] .ps-row-title {
+  margin: 0;
+  color: var(--ps-text);
+  font-size: 0.82rem;
+  font-weight: 800;
+  line-height: 1.15;
+}
+
+.ps-workspace[data-ps-explicit-rows="true"] .ps-row-subtitle {
+  margin: 4px 0 0;
+  color: var(--ps-text-secondary);
+  font-size: 0.69rem;
+  line-height: 1.35;
+}
+
+.ps-workspace[data-ps-explicit-rows="true"] .ps-row-trailing {
+  align-self: center;
+  white-space: nowrap;
+}
+
+@media (max-width: 720px) {
+  .ps-workspace[data-ps-explicit-rows="true"] .ps-action-row {
+    grid-template-columns: 34px minmax(0, 1fr);
+  }
+
+  .ps-workspace[data-ps-explicit-rows="true"] .ps-row-trailing {
+    grid-column: 2;
+    justify-self: start;
+  }
+}
+
 .ps-nav-toggle {
   display: none;
 }

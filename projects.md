@@ -49,15 +49,15 @@ permalink: /projects/
   </div>
 </section>
 
-<section class="ps-workspace" data-workspace-block="project-cases">
+<section class="ps-workspace" data-workspace-block="project-cases" data-ps-explicit-rows="true">
   <div class="ps-workspace-head">
     <p class="ps-section-label">CASE STUDIES</p>
     <h2 class="ps-workspace-title">Projetos apresentados por problema, solução e stack</h2>
   </div>
 
-  <div class="ps-row-list ps-project-inventory">
+  <div class="ps-row-list ps-project-inventory" data-ps-row-list="projects">
     <article class="ps-action-row ps-project-row" data-project-row="psblock">
-      <div class="ps-row-icon">BLK</div>
+      <div class="ps-row-icon" aria-hidden="true">BLK</div>
       <div class="ps-row-copy">
         <h3 class="ps-row-title">PS.Block</h3>
         <p class="ps-row-subtitle"><strong>Problema:</strong> estudar e organizar proteção local de recursos sensíveis do Android em dispositivos próprios e ambientes autorizados.</p>
@@ -69,7 +69,7 @@ permalink: /projects/
     </article>
 
     <article class="ps-action-row ps-project-row" data-project-row="pschat">
-      <div class="ps-row-icon">CHAT</div>
+      <div class="ps-row-icon" aria-hidden="true">CHAT</div>
       <div class="ps-row-copy">
         <h3 class="ps-row-title">PS.Chat Admin / PS.Chat CLI</h3>
         <p class="ps-row-subtitle"><strong>Problema:</strong> organizar comunicação privada em ambiente local/offline com controle, moderação e foco em segurança.</p>
@@ -81,7 +81,7 @@ permalink: /projects/
     </article>
 
     <article class="ps-action-row ps-project-row" data-project-row="pstoolkit">
-      <div class="ps-row-icon">KIT</div>
+      <div class="ps-row-icon" aria-hidden="true">KIT</div>
       <div class="ps-row-copy">
         <h3 class="ps-row-title">PS.Toolkit v2</h3>
         <p class="ps-row-subtitle"><strong>Problema:</strong> centralizar utilitários técnicos usados em estudos, automação e segurança mobile sem depender de várias interfaces diferentes.</p>
@@ -93,7 +93,7 @@ permalink: /projects/
     </article>
 
     <article class="ps-action-row ps-project-row" data-project-row="psnotes">
-      <div class="ps-row-icon">NOTE</div>
+      <div class="ps-row-icon" aria-hidden="true">NOTE</div>
       <div class="ps-row-copy">
         <h3 class="ps-row-title">PS.Notes</h3>
         <p class="ps-row-subtitle"><strong>Problema:</strong> registrar comandos, snippets, estudos e rascunhos técnicos com rapidez durante fluxos de trabalho em terminal.</p>
@@ -105,7 +105,7 @@ permalink: /projects/
     </article>
 
     <article class="ps-action-row ps-project-row" data-project-row="doomstickc">
-      <div class="ps-row-icon">M5</div>
+      <div class="ps-row-icon" aria-hidden="true">M5</div>
       <div class="ps-row-copy">
         <h3 class="ps-row-title">DoomStickC M5StickC Plus2</h3>
         <p class="ps-row-subtitle"><strong>Problema:</strong> explorar limites de dispositivo embarcado pequeno com renderização, controles físicos, IMU, áudio e lógica interativa.</p>
@@ -117,7 +117,7 @@ permalink: /projects/
     </article>
 
     <article class="ps-action-row ps-project-row" data-project-row="psnmap">
-      <div class="ps-row-icon">NMAP</div>
+      <div class="ps-row-icon" aria-hidden="true">NMAP</div>
       <div class="ps-row-copy">
         <h3 class="ps-row-title">PS.Nmap</h3>
         <p class="ps-row-subtitle"><strong>Problema:</strong> facilitar estudos de reconhecimento de rede em ambientes móveis e autorizados sem exigir memorização de muitos comandos.</p>
@@ -129,7 +129,7 @@ permalink: /projects/
     </article>
 
     <article class="ps-action-row ps-project-row" data-project-row="psguardian">
-      <div class="ps-row-icon">GRD</div>
+      <div class="ps-row-icon" aria-hidden="true">GRD</div>
       <div class="ps-row-copy">
         <h3 class="ps-row-title" id="android">PS.Guardian</h3>
         <p class="ps-row-subtitle"><strong>Problema:</strong> organizar auditorias, evidências, relatórios e fluxos técnicos em uma experiência mobile mais profissional.</p>

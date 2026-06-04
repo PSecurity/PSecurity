@@ -128,15 +128,15 @@ description: Hub público PeekSecurity para local-first apps, security tools, te
   </div>
 </section>
 
-<section class="ps-workspace" data-workspace-block="positioning">
+<section class="ps-workspace" data-workspace-block="positioning" data-ps-explicit-rows="true">
   <div class="ps-workspace-head">
     <p class="ps-section-label">POSICIONAMENTO</p>
     <h2 class="ps-workspace-title">Profissional com base operacional real e portfólio técnico em evolução</h2>
   </div>
 
-  <div class="ps-row-list">
-    <article class="ps-action-row">
-      <div class="ps-row-icon">N3</div>
+  <div class="ps-row-list" data-ps-row-list="positioning">
+    <article class="ps-action-row" data-ps-row="experience">
+      <div class="ps-row-icon" aria-hidden="true">OPS</div>
       <div class="ps-row-copy">
         <h3 class="ps-row-title">Experiência profissional</h3>
         <p class="ps-row-subtitle">Atuação em atendimento especializado, suporte N1/N2/N3, análise de crédito, atualização cadastral, prevenção a fraudes e tratamento de situações sensíveis com foco em qualidade, clareza e responsabilidade.</p>
@@ -144,8 +144,8 @@ description: Hub público PeekSecurity para local-first apps, security tools, te
       <span class="ps-row-trailing">Ops</span>
     </article>
 
-    <article class="ps-action-row">
-      <div class="ps-row-icon">DEV</div>
+    <article class="ps-action-row" data-ps-row="technical-practice">
+      <div class="ps-row-icon" aria-hidden="true">CODE</div>
       <div class="ps-row-copy">
         <h3 class="ps-row-title">Prática técnica</h3>
         <p class="ps-row-subtitle">Desenvolvimento de ferramentas, scripts, aplicações Android, documentação técnica e laboratórios educacionais voltados a segurança, automação e uso autorizado.</p>
@@ -153,8 +153,8 @@ description: Hub público PeekSecurity para local-first apps, security tools, te
       <span class="ps-row-trailing">Build</span>
     </article>
 
-    <article class="ps-action-row">
-      <div class="ps-row-icon">SEC</div>
+    <article class="ps-action-row" data-ps-row="security-view">
+      <div class="ps-row-icon" aria-hidden="true">RISK</div>
       <div class="ps-row-copy">
         <h3 class="ps-row-title">Visão de segurança</h3>
         <p class="ps-row-subtitle">Perfil analítico e investigativo com experiência em prevenção a fraudes, documentoscopia, análise de risco e criação de conteúdo técnico sobre segurança digital.</p>
