@@ -2587,24 +2587,6 @@ pre,
   width: min(980px, calc(100% - 24px));
 }
 
-.ps-site-nav-item {
-  gap: 6px;
-}
-
-.ps-nav-code {
-  min-width: 22px;
-  color: var(--ps-purple-action-icon);
-  font-family: "Share Tech Mono", ui-monospace, SFMono-Regular, Consolas, monospace;
-  font-size: 0.58rem;
-  font-weight: 700;
-  text-align: left;
-}
-
-.ps-site-nav-item.is-active .ps-nav-code,
-.ps-site-nav-item[aria-current="page"] .ps-nav-code {
-  color: var(--ps-purple-light);
-}
-
 .ps-workspace[data-workspace-route],
 .ps-workspace[data-workspace-block] {
   border-radius: 0;
@@ -2646,12 +2628,39 @@ pre,
 }
 
 @media (max-width: 720px) {
-  .ps-nav-code {
-    display: none;
-  }
-
   .ps-workspace[data-workspace-block="public-map"] .ps-row-trailing,
   .ps-workspace[data-workspace-block="project-taxonomy"] .ps-row-trailing {
     grid-column: 2;
   }
+}
+
+/* PeekSecurity Public Site v7.1 — compact PS.Files / PS.Calc nav */
+.ps-site-nav-item {
+  min-height: 32px;
+  display: inline-flex;
+  align-items: center;
+  padding: 0 9px;
+  background: transparent;
+  border: 1px solid transparent;
+  border-radius: 0;
+  color: var(--ps-text-secondary);
+  font-size: 0.72rem;
+  font-weight: 800;
+  text-decoration: none;
+  line-height: 1;
+  box-shadow: none;
+}
+
+.ps-site-nav-item:hover,
+.ps-site-nav-item:focus-visible {
+  background: var(--ps-graphite-900);
+  border-color: var(--ps-graphite-800);
+  color: var(--ps-text);
+}
+
+.ps-site-nav-item.is-active,
+.ps-site-nav-item[aria-current="page"] {
+  background: var(--ps-purple-soft);
+  border-color: var(--ps-purple-hairline);
+  color: var(--ps-text);
 }

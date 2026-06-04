@@ -27,7 +27,7 @@ description: Hub público PeekSecurity para local-first apps, security tools, te
 
   <div class="ps-row-list">
     <article class="ps-action-row">
-      <div class="ps-row-icon">APP</div>
+      <div class="ps-row-icon">MOB</div>
       <div class="ps-row-copy">
         <h3 class="ps-row-title">Aplicativos locais</h3>
         <p class="ps-row-subtitle">PS.Calc, PS.Block e ferramentas Android organizadas como produtos técnicos, com privacidade local, documentação pública e linguagem objetiva.</p>
@@ -45,7 +45,7 @@ description: Hub público PeekSecurity para local-first apps, security tools, te
     </article>
 
     <article class="ps-action-row">
-      <div class="ps-row-icon">PRV</div>
+      <div class="ps-row-icon">LOCK</div>
       <div class="ps-row-copy">
         <h3 class="ps-row-title">Políticas públicas</h3>
         <p class="ps-row-subtitle">Páginas HTML estáticas para Google Play Console e revisão pública, sem PDF, sem login e com contato direto do ecossistema.</p>
@@ -75,7 +75,7 @@ description: Hub público PeekSecurity para local-first apps, security tools, te
 
   <div class="ps-row-list">
     <article class="ps-action-row">
-      <div class="ps-row-icon">APP</div>
+      <div class="ps-row-icon">MOB</div>
       <div class="ps-row-copy">
         <h3 class="ps-row-title">Apps Android</h3>
         <p class="ps-row-subtitle">PS.Calc, PS.Block e apps planejados do ecossistema, com foco em uso local, produtividade, segurança aplicada e documentação pública.</p>
@@ -93,7 +93,7 @@ description: Hub público PeekSecurity para local-first apps, security tools, te
     </article>
 
     <article class="ps-action-row">
-      <div class="ps-row-icon">PRV</div>
+      <div class="ps-row-icon">LOCK</div>
       <div class="ps-row-copy">
         <h3 class="ps-row-title">Privacidade e confiança</h3>
         <p class="ps-row-subtitle">Políticas HTML públicas, linguagem transparente, postura local-first e links claros para contato, GitHub, documentação e revisão.</p>
