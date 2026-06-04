@@ -5,7 +5,7 @@ description: Apps oficiais e ferramentas públicas do ecossistema PeekSecurity.
 permalink: /apps/
 ---
 
-<section class="ps-workspace ps-public-head">
+<section class="ps-workspace ps-public-head" data-workspace-route="apps">
   <div class="ps-workspace-head">
     <p class="ps-section-label">PEEKSECURITY APPS</p>
     <h1>Apps</h1>
@@ -17,14 +17,41 @@ permalink: /apps/
   </div>
 </section>
 
-<section class="ps-workspace">
+<section class="ps-workspace" data-workspace-block="app-modes">
+  <div class="ps-workspace-head">
+    <p class="ps-section-label">APP MODES</p>
+    <h2 class="ps-workspace-title">Da linguagem dos apps para a navegação pública</h2>
+  </div>
+
+  <div class="ps-row-list">
+    <article class="ps-action-row">
+      <div class="ps-row-icon">CALC</div>
+      <div class="ps-row-copy">
+        <h3 class="ps-row-title">PS.Calc como produto local-first</h3>
+        <p class="ps-row-subtitle">Calculadora, produtividade e Secure Notes apresentados com foco em funcionamento offline, dados locais e política pública para revisão da Play Console.</p>
+      </div>
+      <a class="ps-row-trailing" href="{{ '/apps/pscalc/' | relative_url }}">Open</a>
+    </article>
+
+    <article class="ps-action-row">
+      <div class="ps-row-icon">FILE</div>
+      <div class="ps-row-copy">
+        <h3 class="ps-row-title">PS.Files como referência visual</h3>
+        <p class="ps-row-subtitle">Rows compactas, superfícies graphite, títulos curtos, metadados discretos e navegação funcional transportados para o site público.</p>
+      </div>
+      <span class="ps-row-trailing">UI</span>
+    </article>
+  </div>
+</section>
+
+<section class="ps-workspace" data-workspace-block="app-inventory">
   <div class="ps-workspace-head">
     <p class="ps-section-label">INVENTÁRIO</p>
     <h2 class="ps-workspace-title">Ferramentas públicas, discretas e documentadas</h2>
   </div>
 
-  <div class="ps-row-list">
-    <article class="ps-action-row ps-app-row">
+  <div class="ps-row-list ps-app-inventory">
+    <article class="ps-action-row ps-app-row" data-app-row="pscalc">
       <div class="ps-row-icon">CALC</div>
       <div class="ps-row-copy">
         <h3 class="ps-row-title">PS.Calc</h3>
@@ -38,7 +65,7 @@ permalink: /apps/
       <a class="ps-row-trailing" href="{{ '/apps/pscalc/' | relative_url }}">Open</a>
     </article>
 
-    <article class="ps-action-row ps-app-row">
+    <article class="ps-action-row ps-app-row" data-app-row="psblock">
       <div class="ps-row-icon">BLK</div>
       <div class="ps-row-copy">
         <h3 class="ps-row-title">PS.Block</h3>
@@ -52,7 +79,7 @@ permalink: /apps/
       <a class="ps-row-trailing" href="https://github.com/PSecurity/ps.block" target="_blank" rel="noopener">GitHub</a>
     </article>
 
-    <article class="ps-action-row ps-app-row">
+    <article class="ps-action-row ps-app-row" data-app-row="psnotes">
       <div class="ps-row-icon">NOTE</div>
       <div class="ps-row-copy">
         <h3 class="ps-row-title">PS.Notes</h3>
@@ -66,7 +93,7 @@ permalink: /apps/
       <a class="ps-row-trailing" href="{{ '/category/notepad/' | relative_url }}">Open</a>
     </article>
 
-    <article class="ps-action-row ps-app-row">
+    <article class="ps-action-row ps-app-row" data-app-row="psfiles">
       <div class="ps-row-icon">FILE</div>
       <div class="ps-row-copy">
         <h3 class="ps-row-title">PS.Files</h3>
@@ -80,7 +107,7 @@ permalink: /apps/
       <a class="ps-row-trailing" href="{{ '/contact/' | relative_url }}">Details</a>
     </article>
 
-    <article class="ps-action-row ps-app-row">
+    <article class="ps-action-row ps-app-row" data-app-row="psgallery">
       <div class="ps-row-icon">GAL</div>
       <div class="ps-row-copy">
         <h3 class="ps-row-title">PS.Gallery</h3>
@@ -94,7 +121,7 @@ permalink: /apps/
       <a class="ps-row-trailing" href="{{ '/contact/' | relative_url }}">Details</a>
     </article>
 
-    <article class="ps-action-row ps-app-row">
+    <article class="ps-action-row ps-app-row" data-app-row="pspass">
       <div class="ps-row-icon">PASS</div>
       <div class="ps-row-copy">
         <h3 class="ps-row-title">PS.Pass</h3>
@@ -108,7 +135,7 @@ permalink: /apps/
       <a class="ps-row-trailing" href="{{ '/contact/' | relative_url }}">Details</a>
     </article>
 
-    <article class="ps-action-row ps-app-row">
+    <article class="ps-action-row ps-app-row" data-app-row="psguardian">
       <div class="ps-row-icon">GRD</div>
       <div class="ps-row-copy">
         <h3 class="ps-row-title">PS.Guardian</h3>
@@ -122,7 +149,7 @@ permalink: /apps/
       <a class="ps-row-trailing" href="{{ '/projects/' | relative_url }}#android">Context</a>
     </article>
 
-    <article class="ps-action-row ps-app-row">
+    <article class="ps-action-row ps-app-row" data-app-row="pspentester">
       <div class="ps-row-icon">PENT</div>
       <div class="ps-row-copy">
         <h3 class="ps-row-title">PS.Pentester</h3>

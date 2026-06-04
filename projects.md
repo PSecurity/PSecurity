@@ -5,7 +5,7 @@ description: Projetos técnicos da PeekSecurity desenvolvidos por Gilberto Marti
 permalink: /projects/
 ---
 
-<section class="ps-workspace ps-public-head">
+<section class="ps-workspace ps-public-head" data-workspace-route="projects">
   <div class="ps-workspace-head">
     <p class="ps-section-label">PORTFÓLIO TÉCNICO</p>
     <h1>Projetos PeekSecurity</h1>
@@ -13,14 +13,50 @@ permalink: /projects/
   </div>
 </section>
 
-<section class="ps-workspace">
+<section class="ps-workspace" data-workspace-block="project-taxonomy">
+  <div class="ps-workspace-head">
+    <p class="ps-section-label">PROJECT WORKSPACE</p>
+    <h2 class="ps-workspace-title">Inventário funcional em vez de cards promocionais</h2>
+  </div>
+
+  <div class="ps-row-list">
+    <article class="ps-action-row">
+      <div class="ps-row-icon">AND</div>
+      <div class="ps-row-copy">
+        <h3 class="ps-row-title">Android e local-first</h3>
+        <p class="ps-row-subtitle">Apps e protótipos com foco em privacidade local, permissões sensíveis, dados no dispositivo e documentação pública.</p>
+      </div>
+      <span class="ps-row-trailing">Mobile</span>
+    </article>
+
+    <article class="ps-action-row">
+      <div class="ps-row-icon">CLI</div>
+      <div class="ps-row-copy">
+        <h3 class="ps-row-title">Terminal e automação</h3>
+        <p class="ps-row-subtitle">Ferramentas de estudo em Python, Flask, Shell Script, Termux e Linux, sempre com uso responsável em ambientes autorizados.</p>
+      </div>
+      <span class="ps-row-trailing">Tools</span>
+    </article>
+
+    <article class="ps-action-row">
+      <div class="ps-row-icon">LAB</div>
+      <div class="ps-row-copy">
+        <h3 class="ps-row-title">Laboratório e evidências</h3>
+        <p class="ps-row-subtitle">Projetos organizados por problema, solução, demonstração técnica e trilha de aprendizado verificável.</p>
+      </div>
+      <span class="ps-row-trailing">Docs</span>
+    </article>
+  </div>
+</section>
+
+<section class="ps-workspace" data-workspace-block="project-cases">
   <div class="ps-workspace-head">
     <p class="ps-section-label">CASE STUDIES</p>
     <h2 class="ps-workspace-title">Projetos apresentados por problema, solução e stack</h2>
   </div>
 
-  <div class="ps-row-list">
-    <article class="ps-action-row ps-project-row">
+  <div class="ps-row-list ps-project-inventory">
+    <article class="ps-action-row ps-project-row" data-project-row="psblock">
       <div class="ps-row-icon">BLK</div>
       <div class="ps-row-copy">
         <h3 class="ps-row-title">PS.Block</h3>
@@ -32,7 +68,7 @@ permalink: /projects/
       <a class="ps-row-trailing" href="https://github.com/PSecurity/ps.block" target="_blank" rel="noopener">GitHub</a>
     </article>
 
-    <article class="ps-action-row ps-project-row">
+    <article class="ps-action-row ps-project-row" data-project-row="pschat">
       <div class="ps-row-icon">CHAT</div>
       <div class="ps-row-copy">
         <h3 class="ps-row-title">PS.Chat Admin / PS.Chat CLI</h3>
@@ -44,7 +80,7 @@ permalink: /projects/
       <a class="ps-row-trailing" href="https://github.com/PSecurity/ps.chat-cli" target="_blank" rel="noopener">GitHub</a>
     </article>
 
-    <article class="ps-action-row ps-project-row">
+    <article class="ps-action-row ps-project-row" data-project-row="pstoolkit">
       <div class="ps-row-icon">KIT</div>
       <div class="ps-row-copy">
         <h3 class="ps-row-title">PS.Toolkit v2</h3>
@@ -56,7 +92,7 @@ permalink: /projects/
       <a class="ps-row-trailing" href="https://github.com/PSecurity/ps.toolkit-v2" target="_blank" rel="noopener">GitHub</a>
     </article>
 
-    <article class="ps-action-row ps-project-row">
+    <article class="ps-action-row ps-project-row" data-project-row="psnotes">
       <div class="ps-row-icon">NOTE</div>
       <div class="ps-row-copy">
         <h3 class="ps-row-title">PS.Notes</h3>
@@ -68,7 +104,7 @@ permalink: /projects/
       <a class="ps-row-trailing" href="{{ '/category/notepad/' | relative_url }}">Open</a>
     </article>
 
-    <article class="ps-action-row ps-project-row">
+    <article class="ps-action-row ps-project-row" data-project-row="doomstickc">
       <div class="ps-row-icon">M5</div>
       <div class="ps-row-copy">
         <h3 class="ps-row-title">DoomStickC M5StickC Plus2</h3>
@@ -80,7 +116,7 @@ permalink: /projects/
       <a class="ps-row-trailing" href="https://github.com/PSecurity/doomstickc-m5stickc-plus2" target="_blank" rel="noopener">GitHub</a>
     </article>
 
-    <article class="ps-action-row ps-project-row">
+    <article class="ps-action-row ps-project-row" data-project-row="psnmap">
       <div class="ps-row-icon">NMAP</div>
       <div class="ps-row-copy">
         <h3 class="ps-row-title">PS.Nmap</h3>
@@ -92,7 +128,7 @@ permalink: /projects/
       <a class="ps-row-trailing" href="https://github.com/PSecurity/ps.nmap" target="_blank" rel="noopener">GitHub</a>
     </article>
 
-    <article class="ps-action-row ps-project-row">
+    <article class="ps-action-row ps-project-row" data-project-row="psguardian">
       <div class="ps-row-icon">GRD</div>
       <div class="ps-row-copy">
         <h3 class="ps-row-title" id="android">PS.Guardian</h3>
