@@ -1,19 +1,20 @@
 ---
 layout: default
-title: Gilberto Martins - PeekSecurity
-description: Portfólio profissional de Gilberto Martins, criador da PeekSecurity, com projetos em segurança da informação, Android, Termux, automação, apps open source, ferramentas educacionais e PS.Notes.
+title: PeekSecurity
+description: Hub público PeekSecurity para local-first apps, security tools, technical documentation, privacy, projects and professional profile by Gilberto Martins.
 ---
 
 <section class="hero section-glow">
   <div class="hero__content">
-    <p class="eyebrow">Portfólio técnico · Segurança da Informação · Automação</p>
-    <h1>Gilberto Martins</h1>
-    <p class="hero__subtitle">Criador da <strong>PeekSecurity</strong> — projetos em tecnologia, segurança digital, Termux, Android, Linux, automação e ferramentas educacionais.</p>
-    <p class="hero__text">Graduando em Engenharia de Computação, com experiência profissional em suporte especializado, atendimento N3, análise de crédito, prevenção a fraudes e tratamento de casos sensíveis. Minha atuação une visão operacional, análise de risco e desenvolvimento prático de soluções técnicas.</p>
+    <p class="eyebrow">Local-first apps · Security tools · Technical documentation</p>
+    <h1>PeekSecurity</h1>
+    <p class="hero__subtitle">Hub público de apps Android, ferramentas técnicas, privacidade, documentação e projetos autorais criado por <strong>Gilberto Martins</strong>.</p>
+    <p class="hero__text">PeekSecurity reúne desenvolvimento Android, Termux, Linux, automação, segurança aplicada, ferramentas educacionais e documentação técnica com uma abordagem privacy-first, local-first e voltada a ambientes próprios ou autorizados.</p>
     <div class="hero__actions">
+      <a class="btn btn-primary" href="{{ '/apps/' | relative_url }}">Ver Apps</a>
+      <a class="btn btn-secondary" href="{{ '/privacy/' | relative_url }}">Privacy Center</a>
       <a class="btn btn-primary" href="https://github.com/PSecurity" target="_blank" rel="noopener">Ver GitHub</a>
       <a class="btn btn-secondary" href="{{ '/projects/' | relative_url }}">Ver Projetos</a>
-      <a class="btn btn-secondary" href="{{ '/category/notepad/' | relative_url }}">Abrir PS.Notes</a>
       <a class="btn btn-ghost" href="{{ '/assets/cv/curriculo-gilberto-victor-ferreira-martins.pdf' | relative_url }}" target="_blank" rel="noopener">Baixar Currículo</a>
     </div>
   </div>
@@ -29,6 +30,27 @@ description: Portfólio profissional de Gilberto Martins, criador da PeekSecurit
       <p><span class="terminal-label">portfólio</span><span class="terminal-value">Termux, Android, Linux, Python, Shell Script, C++ e ESP32</span></p>
     </div>
   </aside>
+</section>
+
+<section class="section-block">
+  <div class="section-heading">
+    <p class="eyebrow">Ecossistema</p>
+    <h2>Apps locais, ferramentas técnicas e documentação pública</h2>
+  </div>
+  <div class="split-grid">
+    <article class="info-card">
+      <h3>Apps Android</h3>
+      <p>PS.Calc, PS.Block e apps planejados do ecossistema, com foco em uso local, produtividade, segurança aplicada e documentação pública.</p>
+    </article>
+    <article class="info-card">
+      <h3>Ferramentas técnicas</h3>
+      <p>Projetos em Termux, Linux, Python, Shell Script, Kotlin, C++ e ESP32/M5StickC para estudo, automação e ambientes autorizados.</p>
+    </article>
+    <article class="info-card">
+      <h3>Privacidade e confiança</h3>
+      <p>Políticas HTML públicas, linguagem transparente, postura local-first e links claros para contato, GitHub, documentação e revisão.</p>
+    </article>
+  </div>
 </section>
 
 <section class="section-block official-apps-section">
