@@ -13,7 +13,7 @@ description: Hub público PeekSecurity para local-first apps, security tools, te
     <div class="hero__actions">
       <a class="btn btn-primary" href="{{ '/apps/' | relative_url }}">Ver Apps</a>
       <a class="btn btn-secondary" href="{{ '/privacy/' | relative_url }}">Privacy Center</a>
-      <a class="btn btn-primary" href="https://github.com/PSecurity" target="_blank" rel="noopener">Ver GitHub</a>
+      <a class="btn btn-secondary" href="https://github.com/PSecurity" target="_blank" rel="noopener">Ver GitHub</a>
       <a class="btn btn-secondary" href="{{ '/projects/' | relative_url }}">Ver Projetos</a>
       <a class="btn btn-ghost" href="{{ '/assets/cv/curriculo-gilberto-victor-ferreira-martins.pdf' | relative_url }}" target="_blank" rel="noopener">Baixar Currículo</a>
     </div>

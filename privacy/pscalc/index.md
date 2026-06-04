@@ -15,7 +15,7 @@ permalink: /privacy/pscalc/
   <h2>Privacy Policy — PS.Calc</h2>
 
   <p><strong>Developer:</strong> Gilberto Martins / PeekSecurity</p>
-  <p><strong>Contact:</strong> Use the public contact channels listed on the <a href="{{ '/contact/' | relative_url }}">PeekSecurity contact page</a>, including <a href="mailto:gilbertoferreirasp@gmail.com">gilbertoferreirasp@gmail.com</a> and <a href="https://github.com/PSecurity" target="_blank" rel="noopener">github.com/PSecurity</a>.</p>
+  <p><strong>Contact:</strong> <a href="mailto:peeksecurity.dev@gmail.com">peeksecurity.dev@gmail.com</a>. Additional public contact channels are listed on the <a href="{{ '/contact/' | relative_url }}">PeekSecurity contact page</a>, including <a href="mailto:gilbertoferreirasp@gmail.com">gilbertoferreirasp@gmail.com</a> and <a href="https://github.com/PSecurity" target="_blank" rel="noopener">github.com/PSecurity</a>.</p>
 
   <p>PS.Calc is a local-first Android calculator and productivity tool developed by Gilberto Martins / PeekSecurity.</p>
 
@@ -53,7 +53,7 @@ permalink: /privacy/pscalc/
   <h2>Política de Privacidade — PS.Calc</h2>
 
   <p><strong>Desenvolvedor:</strong> Gilberto Martins / PeekSecurity</p>
-  <p><strong>Contato:</strong> Use os canais públicos de contato listados na <a href="{{ '/contact/' | relative_url }}">página de contato da PeekSecurity</a>, incluindo <a href="mailto:gilbertoferreirasp@gmail.com">gilbertoferreirasp@gmail.com</a> e <a href="https://github.com/PSecurity" target="_blank" rel="noopener">github.com/PSecurity</a>.</p>
+  <p><strong>Contato:</strong> <a href="mailto:peeksecurity.dev@gmail.com">peeksecurity.dev@gmail.com</a>. Canais públicos adicionais estão listados na <a href="{{ '/contact/' | relative_url }}">página de contato da PeekSecurity</a>, incluindo <a href="mailto:gilbertoferreirasp@gmail.com">gilbertoferreirasp@gmail.com</a> e <a href="https://github.com/PSecurity" target="_blank" rel="noopener">github.com/PSecurity</a>.</p>
 
   <p>PS.Calc é uma calculadora Android local-first e uma ferramenta de produtividade desenvolvida por Gilberto Martins / PeekSecurity.</p>
 
