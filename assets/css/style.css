@@ -65,7 +65,7 @@ button:focus-visible {
 }
 
 .ps-site-head {
-  background: var(--ps-bg-deep);
+  background: var(--ps-graphite-950);
   border-bottom: 1px solid var(--ps-border-dim);
   box-shadow: none;
   position: sticky;
@@ -80,7 +80,7 @@ button:focus-visible {
 
 .ps-site-head-inner {
   width: min(1120px, calc(100% - 28px));
-  min-height: 56px;
+  min-height: 58px;
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -91,7 +91,9 @@ button:focus-visible {
 .ps-brand-row {
   display: inline-flex;
   align-items: center;
-  gap: 10px;
+  gap: 11px;
+  min-height: 42px;
+  padding: 0 5px 0 0;
   min-width: 0;
   color: var(--ps-text);
   text-decoration: none;
@@ -102,8 +104,8 @@ button:focus-visible {
   height: 30px;
   display: grid;
   place-items: center;
-  background: var(--ps-graphite-900);
-  border: 1px solid var(--ps-graphite-800);
+  background: var(--ps-bg-deep);
+  border: 1px solid var(--ps-border);
   border-radius: 6px;
   color: var(--ps-purple-light);
   box-shadow: none;
@@ -138,15 +140,15 @@ button:focus-visible {
 
 .ps-brand-copy strong {
   color: var(--ps-text);
-  font-size: 0.95rem;
-  font-weight: 800;
+  font-size: 0.98rem;
+  font-weight: 850;
   letter-spacing: 0;
 }
 
 .ps-brand-copy small {
   margin-top: 2px;
   color: var(--ps-text-muted);
-  font-size: 0.64rem;
+  font-size: 0.63rem;
 }
 
 .ps-site-nav {
@@ -155,8 +157,8 @@ button:focus-visible {
   gap: 2px;
   min-height: 38px;
   padding: 3px;
-  background: var(--ps-graphite-950);
-  border: 1px solid var(--ps-border-dim);
+  background: var(--ps-bg-deep);
+  border: 1px solid var(--ps-graphite-800);
 }
 
 .ps-site-nav-item {
@@ -192,11 +194,11 @@ button:focus-visible {
 .ps-shell {
   width: min(1080px, calc(100% - 28px));
   margin: 0 auto;
-  padding: 34px 0 48px;
+  padding: 30px 0 48px;
 }
 
 .ps-public-head {
-  margin: 0 0 34px;
+  margin: 0 0 30px;
   padding: 0;
   background: transparent;
   border: 0;
@@ -205,31 +207,32 @@ button:focus-visible {
 
 .ps-ecosystem-head {
   display: grid;
-  grid-template-columns: minmax(0, 1.15fr) minmax(260px, 0.85fr);
-  align-items: start;
-  gap: 18px;
+  grid-template-columns: minmax(0, 1.2fr) minmax(260px, 0.8fr);
+  align-items: center;
+  gap: 20px;
 }
 
 .ps-ecosystem-copy {
   min-width: 0;
+  padding: 4px 0;
 }
 
 .ps-public-head h1,
 .ps-public-title {
-  max-width: 740px;
+  max-width: 720px;
   margin: 0;
   color: var(--ps-text);
-  font-size: clamp(2rem, 5vw, 3.55rem);
-  line-height: 0.98;
+  font-size: clamp(2.1rem, 4.8vw, 3.35rem);
+  line-height: 1;
   letter-spacing: 0;
   font-weight: 850;
 }
 
 .ps-public-head p {
-  max-width: 720px;
+  max-width: 660px;
   margin: 12px 0 0;
   color: var(--ps-text-secondary);
-  font-size: 0.92rem;
+  font-size: 0.90rem;
   line-height: 1.5;
 }
 
@@ -241,7 +244,7 @@ button:focus-visible {
   min-width: 0;
   background: var(--ps-graphite-900);
   border: 1px solid var(--ps-graphite-800);
-  border-radius: 12px;
+  border-radius: 8px;
   padding: 12px;
   box-shadow: none;
 }
@@ -273,11 +276,11 @@ button:focus-visible {
 }
 
 .ps-workspace {
-  margin: 0 0 26px;
+  margin: 0 0 28px;
 }
 
 .ps-workspace-head {
-  margin: 0 0 9px;
+  margin: 0 0 11px;
 }
 
 .ps-section-label {
@@ -294,38 +297,39 @@ button:focus-visible {
 .ps-workspace-title {
   margin: 0;
   color: var(--ps-text);
-  font-size: 0.98rem;
+  font-size: 1.02rem;
   line-height: 1.25;
-  font-weight: 800;
+  font-weight: 850;
 }
 
 .ps-workspace-subtitle {
   margin: 5px 0 0;
   color: var(--ps-text-secondary);
-  font-size: 0.76rem;
+  font-size: 0.77rem;
   line-height: 1.45;
 }
 
 .ps-row-list {
   display: flex;
   flex-direction: column;
-  gap: 0;
+  gap: 2px;
   background: var(--ps-surface);
   border: 1px solid var(--ps-graphite-800);
   border-radius: 8px;
+  padding: 4px;
   overflow: hidden;
   box-shadow: none;
 }
 
 .ps-action-row {
   display: grid;
-  grid-template-columns: 44px minmax(0, 1fr) auto;
-  column-gap: 12px;
+  grid-template-columns: 46px minmax(0, 1fr) auto;
+  column-gap: 13px;
   align-items: center;
-  min-height: 64px;
-  padding: 12px 14px;
+  min-height: 62px;
+  padding: 11px 12px;
   background: transparent;
-  border: 0;
+  border: 1px solid transparent;
   border-radius: 0;
   box-shadow: none;
   text-decoration: none;
@@ -333,27 +337,29 @@ button:focus-visible {
 }
 
 .ps-action-row + .ps-action-row {
-  border-top: 1px solid var(--ps-border-dim);
+  border-top-color: transparent;
 }
 
 .ps-action-row:hover {
   background: var(--ps-surface-soft);
+  border-color: var(--ps-graphite-800);
 }
 
 .ps-row-icon {
-  width: 38px;
-  height: 38px;
+  width: 40px;
+  height: 40px;
   display: grid;
   place-items: center;
-  background: var(--ps-bg-deep);
-  border: 1px solid var(--ps-graphite-700);
+  background: var(--ps-graphite-950);
+  border: 1px solid var(--ps-graphite-800);
   color: var(--ps-purple-action-icon);
   font-family: var(--ps-mono);
-  font-size: 0.54rem;
+  font-size: 0.52rem;
   line-height: 1;
   font-weight: 800;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.035em;
   text-transform: uppercase;
+  border-radius: 4px;
 }
 
 .ps-action-row:hover .ps-row-icon {
@@ -372,31 +378,31 @@ button:focus-visible {
 .ps-row-title {
   margin: 0;
   color: var(--ps-text);
-  font-size: 0.82rem;
+  font-size: 0.84rem;
   line-height: 1.2;
-  font-weight: 800;
+  font-weight: 850;
 }
 
 .ps-row-subtitle {
   max-width: 760px;
   margin: 0;
   color: var(--ps-text-secondary);
-  font-size: 0.69rem;
-  line-height: 1.38;
+  font-size: 0.70rem;
+  line-height: 1.42;
   font-weight: 400;
 }
 
 .ps-row-trailing {
   align-self: center;
-  min-height: 28px;
+  min-height: 30px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  padding: 0 9px;
-  background: transparent;
-  border: 1px solid transparent;
-  color: var(--ps-text-muted);
-  font-size: 0.68rem;
+  padding: 0 10px;
+  background: var(--ps-bg-deep);
+  border: 1px solid var(--ps-border-dim);
+  color: var(--ps-text-secondary);
+  font-size: 0.66rem;
   font-weight: 800;
   text-decoration: none;
   white-space: nowrap;
@@ -405,7 +411,7 @@ button:focus-visible {
 
 .ps-row-trailing:hover,
 .ps-row-trailing:focus-visible {
-  background: var(--ps-graphite-900);
+  background: var(--ps-purple-soft);
   border-color: var(--ps-graphite-800);
   color: var(--ps-text);
 }
@@ -413,7 +419,7 @@ button:focus-visible {
 .ps-chip-strip {
   display: flex;
   flex-wrap: wrap;
-  gap: 4px;
+  gap: 5px;
   margin-top: 8px;
 }
 
@@ -421,20 +427,20 @@ button:focus-visible {
   background: var(--ps-surface);
   border: 1px solid var(--ps-graphite-800);
   border-radius: 8px;
-  padding: 12px;
+  padding: 10px;
 }
 
 .ps-chip {
   display: inline-flex;
   align-items: center;
-  min-height: 22px;
-  padding: 0 7px;
+  min-height: 23px;
+  padding: 0 8px;
   border-radius: 0;
   background: var(--ps-bg-deep);
   border: 1px solid var(--ps-graphite-800);
   color: var(--ps-text-secondary);
   font-family: var(--ps-mono);
-  font-size: 0.58rem;
+  font-size: 0.57rem;
   line-height: 1;
   font-weight: 800;
   letter-spacing: 0.03em;
@@ -474,7 +480,7 @@ button:focus-visible {
 .ps-command-strip {
   display: flex;
   flex-wrap: wrap;
-  gap: 6px;
+  gap: 7px;
   margin-top: 16px;
 }
 
@@ -482,13 +488,13 @@ button:focus-visible {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-height: 34px;
-  padding: 0 12px;
+  min-height: 36px;
+  padding: 0 13px;
   border-radius: 0;
-  background: var(--ps-surface);
-  border: 1px solid var(--ps-graphite-800);
+  background: var(--ps-graphite-900);
+  border: 1px solid var(--ps-border-dim);
   color: var(--ps-text-secondary);
-  font-size: 0.68rem;
+  font-size: 0.67rem;
   font-weight: 800;
   text-decoration: none;
   box-shadow: none;
@@ -498,8 +504,8 @@ button:focus-visible {
 
 .ps-command:hover,
 .ps-command:focus-visible {
-  background: var(--ps-graphite-850);
-  border-color: var(--ps-graphite-700);
+  background: var(--ps-surface-soft);
+  border-color: var(--ps-graphite-800);
   color: var(--ps-text);
 }
 
@@ -679,7 +685,7 @@ pre {
   }
 
   .ps-action-row {
-    grid-template-columns: 38px minmax(0, 1fr);
+    grid-template-columns: 36px minmax(0, 1fr);
     min-height: 60px;
     padding: 10px 11px;
     align-items: start;
