@@ -331,8 +331,8 @@ button:focus-visible {
 
 .ps-action-row {
   display: grid;
-  grid-template-columns: 44px minmax(0, 1fr) auto;
-  column-gap: 12px;
+  grid-template-columns: 42px minmax(0, 1fr) auto;
+  column-gap: 10px;
   align-items: center;
   min-height: 66px;
   padding: 13px 15px;
@@ -352,32 +352,32 @@ button:focus-visible {
 }
 
 .ps-row-icon {
-  width: 34px;
-  height: 34px;
+  width: 36px;
+  height: 36px;
   display: grid;
   place-items: center;
-  flex: none;
-  background: rgba(18, 23, 34, 0.78);
-  border: 1px solid rgba(53, 64, 84, 0.72);
-  color: var(--ps-purple-action-icon);
-  border-radius: 6px;
+  color: var(--ps-purple-light);
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  flex: 0 0 auto;
 }
 
 .ps-vector-icon {
-  width: 19px;
-  height: 19px;
+  width: 22px;
+  height: 22px;
   display: block;
-  fill: none;
   stroke: currentColor;
-  stroke-width: 1.8;
+  stroke-width: 1.75;
+  fill: none;
   stroke-linecap: round;
   stroke-linejoin: round;
 }
 
 .ps-action-row:hover .ps-row-icon {
-  background: rgba(42, 23, 78, 0.86);
-  border-color: var(--ps-purple-hairline);
-  color: var(--ps-text);
+  background: transparent;
+  border: 0;
+  color: var(--ps-purple-light);
 }
 
 .ps-row-copy {
@@ -706,7 +706,7 @@ pre {
   }
 
   .ps-action-row {
-    grid-template-columns: 48px minmax(0, 1fr) 84px;
+    grid-template-columns: 44px minmax(0, 1fr) 84px;
     min-height: 66px;
     padding: 14px 18px;
   }
@@ -812,8 +812,8 @@ pre {
   }
 
   .ps-row-icon {
-    width: 34px;
-    height: 34px;
+    width: 36px;
+    height: 36px;
   }
 
   .ps-row-trailing {
