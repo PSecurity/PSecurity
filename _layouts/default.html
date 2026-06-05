@@ -12,12 +12,8 @@
     <div class="ps-site-head-inner">
       <a class="ps-brand-row" href="{{ '/' | relative_url }}" aria-label="PeekSecurity home">
         <span class="ps-brand-mark" aria-hidden="true">PS</span>
-        <span class="ps-brand-copy">
-          <strong>PeekSecurity</strong>
-          <small>by Gilberto Martins</small>
-        </span>
+        <span class="ps-brand-copy"><strong>PeekSecurity</strong><small>by Gilberto Martins</small></span>
       </a>
-
       <nav class="ps-site-nav" aria-label="Primary navigation">
         <a class="ps-site-nav-item" href="{{ '/' | relative_url }}">Home</a>
         <a class="ps-site-nav-item" href="{{ '/apps/' | relative_url }}">Apps</a>
@@ -29,23 +25,7 @@
       </nav>
     </div>
   </header>
-
-  <main class="ps-shell">
-    {{ content }}
-  </main>
-
-  <footer class="ps-footer">
-    <div class="ps-footer-inner">
-      <p class="ps-footer-title">PeekSecurity - tecnologia, segurança da informação e ferramentas educacionais para ambientes autorizados.</p>
-      <p class="ps-footer-copy">Uso responsável: conteúdos e ferramentas destinados a estudo, documentação técnica e testes somente em ambientes próprios ou autorizados.</p>
-      <div class="ps-footer-links">
-        <a href="https://github.com/PSecurity">GitHub</a>
-        <a href="{{ '/apps/' | relative_url }}">Apps</a>
-        <a href="{{ '/privacy/' | relative_url }}">Privacy</a>
-        <a href="{{ '/projects/' | relative_url }}">Projects</a>
-        <a href="{{ '/contact/' | relative_url }}">Contato</a>
-      </div>
-    </div>
-  </footer>
+  <main class="ps-shell">{{ content }}</main>
+  <footer class="ps-footer"><div class="ps-footer-inner"><p class="ps-footer-title">PeekSecurity — tecnologia, segurança da informação e ferramentas educacionais para ambientes autorizados.</p><p class="ps-footer-copy">Uso responsável: conteúdos e ferramentas destinados a estudo, documentação técnica e testes somente em ambientes próprios ou autorizados.</p><div class="ps-footer-links"><a href="https://github.com/PSecurity">GitHub</a><a href="{{ '/apps/' | relative_url }}">Apps</a><a href="{{ '/privacy/' | relative_url }}">Privacy</a><a href="{{ '/projects/' | relative_url }}">Projects</a><a href="{{ '/contact/' | relative_url }}">Contato</a></div></div></footer>
 </body>
 </html>
