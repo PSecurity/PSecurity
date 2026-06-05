@@ -42,6 +42,7 @@ html {
   background: var(--ps-bg);
   color: var(--ps-text);
   color-scheme: dark;
+  scroll-padding-top: 72px;
   text-size-adjust: 100%;
 }
 
@@ -51,6 +52,8 @@ body {
   background: var(--ps-bg);
   color: var(--ps-text);
   font-family: var(--ps-font);
+  font-weight: 400;
+  letter-spacing: 0;
   line-height: 1.55;
 }
 
@@ -65,8 +68,8 @@ button:focus-visible {
 }
 
 .ps-site-head {
-  background: rgba(7, 8, 13, 0.98);
-  border-bottom: 1px solid rgba(36, 44, 58, 0.65);
+  background: var(--ps-bg);
+  border-bottom: 1px solid rgba(36, 44, 58, 0.55);
   box-shadow: none;
   position: sticky;
   top: 0;
@@ -79,7 +82,7 @@ button:focus-visible {
 }
 
 .ps-site-head-inner {
-  width: min(1080px, calc(100% - 28px));
+  width: min(1120px, calc(100% - 24px));
   min-height: 54px;
   margin: 0 auto;
   display: flex;
@@ -100,8 +103,8 @@ button:focus-visible {
 }
 
 .ps-brand-mark {
-  width: 32px;
-  height: 32px;
+  width: 30px;
+  height: 30px;
   display: grid;
   place-items: center;
   background: var(--ps-bg-deep);
@@ -140,8 +143,8 @@ button:focus-visible {
 
 .ps-brand-copy strong {
   color: var(--ps-text);
-  font-size: 1rem;
-  font-weight: 850;
+  font-size: 0.96rem;
+  font-weight: 760;
   letter-spacing: 0;
 }
 
@@ -166,13 +169,13 @@ button:focus-visible {
   min-height: 30px;
   display: inline-flex;
   align-items: center;
-  padding: 0 9px;
+  padding: 0 10px;
   background: transparent;
   border: 1px solid transparent;
   border-radius: 0;
   color: var(--ps-text-secondary);
-  font-size: 0.68rem;
-  font-weight: 800;
+  font-size: 0.70rem;
+  font-weight: 720;
   text-decoration: none;
   line-height: 1;
   box-shadow: none;
@@ -196,7 +199,7 @@ button:focus-visible {
 .ps-shell {
   width: min(1080px, calc(100% - 28px));
   margin: 0 auto;
-  padding: 30px 0 48px;
+  padding: 28px 0 48px;
 }
 
 .ps-public-head {
@@ -212,11 +215,12 @@ button:focus-visible {
   grid-template-columns: minmax(0, 1.12fr) minmax(280px, 0.72fr);
   align-items: center;
   gap: 20px;
-  margin-bottom: 30px;
-  padding: 16px;
-  background: var(--ps-surface);
-  border: 1px solid var(--ps-graphite-800);
-  border-radius: 12px;
+  margin: 0 0 30px;
+  padding: 18px;
+  background: linear-gradient(180deg, rgba(13, 16, 23, 0.78), rgba(7, 8, 13, 0.95));
+  border: 1px solid rgba(36, 44, 58, 0.72);
+  border-radius: 14px;
+  box-shadow: none;
 }
 
 .ps-ecosystem-copy {
@@ -229,10 +233,10 @@ button:focus-visible {
   max-width: 720px;
   margin: 0;
   color: var(--ps-text);
-  font-size: clamp(1.45rem, 3.2vw, 2.35rem);
+  font-size: clamp(1.35rem, 3vw, 2.05rem);
   line-height: 1.08;
   letter-spacing: 0;
-  font-weight: 850;
+  font-weight: 760;
 }
 
 .ps-public-head p {
@@ -274,7 +278,7 @@ button:focus-visible {
 .ps-mini-key {
   font-family: var(--ps-mono);
   font-size: 0.58rem;
-  font-weight: 850;
+  font-weight: 760;
   color: var(--ps-purple-light);
   letter-spacing: 0;
 }
@@ -285,6 +289,7 @@ button:focus-visible {
 }
 
 .ps-workspace {
+  scroll-margin-top: 72px;
   margin: 0 0 28px;
 }
 
@@ -299,7 +304,7 @@ button:focus-visible {
   font-family: var(--ps-mono);
   font-size: 0.56rem;
   line-height: 1;
-  font-weight: 800;
+  font-weight: 760;
   letter-spacing: 0;
   text-transform: uppercase;
 }
@@ -307,10 +312,10 @@ button:focus-visible {
 .ps-workspace-title {
   margin: 0;
   color: var(--ps-text);
-  font-size: 0.98rem;
-  line-height: 1.22;
+  font-size: 0.96rem;
+  line-height: 1.24;
   letter-spacing: 0;
-  font-weight: 850;
+  font-weight: 720;
 }
 
 .ps-workspace-subtitle {
@@ -323,11 +328,11 @@ button:focus-visible {
 .ps-row-list {
   display: flex;
   flex-direction: column;
-  gap: 3px;
-  background: var(--ps-surface);
-  border: 1px solid rgba(36, 44, 58, 0.78);
-  border-radius: 12px;
-  padding: 4px;
+  gap: 0;
+  background: var(--ps-graphite-900);
+  border: 1px solid rgba(36, 44, 58, 0.66);
+  border-radius: 14px;
+  padding: 0;
   overflow: hidden;
   box-shadow: none;
 }
@@ -338,9 +343,9 @@ button:focus-visible {
   column-gap: 12px;
   align-items: center;
   min-height: 64px;
-  padding: 12px 13px;
-  background: var(--ps-graphite-900);
-  border: 1px solid transparent;
+  padding: 13px 16px;
+  background: transparent;
+  border: 0;
   border-radius: 0;
   box-shadow: none;
   text-decoration: none;
@@ -348,30 +353,29 @@ button:focus-visible {
 }
 
 .ps-action-row + .ps-action-row {
-  border-top: 1px solid transparent;
+  border-top: 1px solid rgba(36, 44, 58, 0.46);
 }
 
 .ps-action-row:hover {
-  background: rgba(18, 23, 34, 0.62);
-  border-color: rgba(36, 44, 58, 0.78);
+  background: rgba(18, 23, 34, 0.58);
 }
 
 .ps-row-icon {
-  width: 36px;
-  height: 36px;
+  width: 32px;
+  height: 32px;
   display: grid;
   place-items: center;
-  background: linear-gradient(180deg, rgba(18, 23, 34, 0.96), rgba(13, 16, 23, 0.96));
-  border: 1px solid var(--ps-graphite-700);
+  background: var(--ps-graphite-850);
+  border: 1px solid rgba(53, 64, 84, 0.9);
   color: var(--ps-purple-light);
   font-family: var(--ps-mono);
   font-size: 0.54rem;
   line-height: 1;
-  font-weight: 900;
+  font-weight: 760;
   letter-spacing: 0;
   text-transform: uppercase;
-  border-radius: 4px;
-  box-shadow: inset 0 0 0 1px rgba(124, 58, 237, 0.08);
+  border-radius: 5px;
+  box-shadow: inset 0 0 0 1px rgba(124, 58, 237, 0.06);
 }
 
 .ps-action-row:hover .ps-row-icon {
@@ -391,24 +395,25 @@ button:focus-visible {
 .ps-row-title {
   margin: 0;
   color: var(--ps-text);
-  font-size: 0.86rem;
-  line-height: 1.18;
+  font-size: 0.84rem;
+  line-height: 1.22;
   letter-spacing: 0;
-  font-weight: 850;
+  font-weight: 720;
 }
 
 .ps-row-subtitle {
   max-width: 760px;
   margin: 0;
   color: var(--ps-text-secondary);
-  font-size: 0.71rem;
-  line-height: 1.42;
+  font-size: 0.72rem;
+  line-height: 1.46;
   font-weight: 400;
+  letter-spacing: 0;
 }
 
 .ps-row-trailing {
   align-self: center;
-  min-height: 30px;
+  min-height: 28px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -417,7 +422,7 @@ button:focus-visible {
   border: 1px solid transparent;
   color: var(--ps-text-muted);
   font-size: 0.68rem;
-  font-weight: 850;
+  font-weight: 720;
   text-decoration: none;
   white-space: nowrap;
   line-height: 1;
@@ -462,7 +467,7 @@ button:focus-visible {
   font-family: var(--ps-mono);
   font-size: 0.57rem;
   line-height: 1;
-  font-weight: 800;
+  font-weight: 720;
   letter-spacing: 0;
   text-transform: uppercase;
 }
@@ -509,13 +514,13 @@ button:focus-visible {
   align-items: center;
   justify-content: center;
   min-height: 38px;
-  padding: 0 14px;
+  padding: 0 13px;
   border-radius: 0;
-  background: var(--ps-surface);
+  background: var(--ps-graphite-900);
   border: 1px solid var(--ps-graphite-800);
   color: var(--ps-text-secondary);
-  font-size: 0.72rem;
-  font-weight: 850;
+  font-size: 0.70rem;
+  font-weight: 760;
   text-decoration: none;
   box-shadow: none;
   line-height: 1;
@@ -647,9 +652,12 @@ pre {
     height: 30px;
   }
 
+  .ps-brand-mark img,
   .ps-brand-icon {
     width: 22px;
     height: 22px;
+    max-width: 22px;
+    max-height: 22px;
   }
 
   .ps-brand-copy strong {
@@ -694,7 +702,7 @@ pre {
     grid-template-columns: 1fr;
     align-items: stretch;
     gap: 14px;
-    padding: 12px;
+    padding: 14px;
   }
 
   .ps-ecosystem-panel {
@@ -713,8 +721,8 @@ pre {
   }
 
   .ps-row-icon {
-    width: 34px;
-    height: 34px;
+    width: 32px;
+    height: 32px;
     font-size: 0.50rem;
   }
 
