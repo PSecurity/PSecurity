@@ -80,13 +80,14 @@ permalink: /apps/
   </div>
 </section>
 
-<section class="ps-workspace" data-workspace-block="app-inventory" data-ps-explicit-rows="true">
+<section class="ps-workspace">
   <div class="ps-workspace-head">
-    <p class="ps-section-label">INVENTÁRIO</p>
-    <h2 class="ps-workspace-title">Ferramentas públicas, discretas e documentadas</h2>
+    <p class="ps-section-label">APPS</p>
+    <h2 class="ps-workspace-title">Ecossistema PeekSecurity</h2>
+    <p class="ps-workspace-subtitle">Apps locais, técnicos e privacy-first.</p>
   </div>
 
-  <div class="ps-row-list ps-app-inventory" data-ps-row-list="apps">
+  <div class="ps-row-list">
     <article class="ps-action-row ps-app-row" data-app-row="pscalc">
       <div class="ps-row-icon" aria-hidden="true">CALC</div>
       <div class="ps-row-copy">

@@ -85,13 +85,13 @@ permalink: /projects/
   </div>
 </section>
 
-<section class="ps-workspace" data-workspace-block="project-cases" data-ps-explicit-rows="true">
+<section class="ps-workspace">
   <div class="ps-workspace-head">
     <p class="ps-section-label">CASE STUDIES</p>
     <h2 class="ps-workspace-title">Projetos apresentados por problema, solução e stack</h2>
   </div>
 
-  <div class="ps-row-list ps-project-inventory" data-ps-row-list="projects">
+  <div class="ps-row-list">
     <article class="ps-action-row ps-project-row" data-project-row="psblock">
       <div class="ps-row-icon" aria-hidden="true">BLK</div>
       <div class="ps-row-copy">

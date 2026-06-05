@@ -2525,6 +2525,272 @@ pre,
   color: var(--ps-text);
 }
 
+/* PeekSecurity Public Site v8.0 — PS.Files / PS.Calc real workspace patch */
+.ps-site-head {
+  background: var(--ps-bg);
+  border: 0;
+  box-shadow: none;
+  position: sticky;
+  top: 0;
+  z-index: 50;
+}
+
+.ps-site-head::before,
+.ps-site-head::after {
+  content: none;
+}
+
+.ps-site-head-inner {
+  width: min(1120px, calc(100% - 24px));
+  min-height: 56px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+}
+
+.ps-shell {
+  width: min(980px, calc(100% - 24px));
+  margin: 0 auto;
+  padding: 34px 0 54px;
+}
+
+.ps-brand-row {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  min-width: 0;
+  color: var(--ps-text);
+  text-decoration: none;
+}
+
+.ps-brand-mark {
+  width: 28px;
+  height: 28px;
+  display: grid;
+  place-items: center;
+  background: var(--ps-graphite-900);
+  border: 1px solid var(--ps-graphite-800);
+  color: var(--ps-purple-light);
+  box-shadow: none;
+  border-radius: 6px;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.68rem;
+  font-weight: 800;
+}
+
+.ps-brand-copy {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.05;
+}
+
+.ps-brand-copy strong {
+  font-size: 0.86rem;
+  font-weight: 800;
+  color: var(--ps-text);
+}
+
+.ps-brand-copy small {
+  margin-top: 2px;
+  font-size: 0.62rem;
+  color: var(--ps-text-muted);
+}
+
+.ps-site-nav {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.ps-site-nav-item {
+  min-height: 32px;
+  display: inline-flex;
+  align-items: center;
+  padding: 0 9px;
+  background: transparent;
+  border: 1px solid transparent;
+  border-radius: 0;
+  color: var(--ps-text-secondary);
+  font-size: 0.72rem;
+  font-weight: 800;
+  text-decoration: none;
+  line-height: 1;
+}
+
+.ps-site-nav-item:hover,
+.ps-site-nav-item:focus-visible {
+  background: var(--ps-graphite-900);
+  border-color: var(--ps-graphite-800);
+  color: var(--ps-text);
+}
+
+.ps-workspace {
+  margin: 0 0 28px;
+}
+
+.ps-workspace-head {
+  margin: 0 0 10px;
+}
+
+.ps-section-label {
+  margin: 0 0 7px;
+  color: var(--ps-purple-light);
+  font-size: 0.58rem;
+  line-height: 1;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.ps-workspace-title {
+  margin: 0;
+  color: var(--ps-text);
+  font-size: 1rem;
+  line-height: 1.25;
+  font-weight: 800;
+}
+
+.ps-workspace-subtitle {
+  margin: 5px 0 0;
+  color: var(--ps-text-secondary);
+  font-size: 0.78rem;
+  line-height: 1.45;
+}
+
+.ps-row-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  background: var(--ps-graphite-900);
+  border: 1px solid var(--ps-graphite-800);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: none;
+}
+
+.ps-action-row {
+  display: grid;
+  grid-template-columns: 34px minmax(0, 1fr) auto;
+  column-gap: 10px;
+  align-items: center;
+  min-height: 54px;
+  padding: 10px 14px;
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+  text-decoration: none;
+}
+
+.ps-action-row + .ps-action-row {
+  border-top: 1px solid var(--ps-graphite-800);
+}
+
+.ps-row-icon {
+  width: 28px;
+  height: 28px;
+  display: grid;
+  place-items: center;
+  background: var(--ps-graphite-850);
+  border: 1px solid var(--ps-graphite-700);
+  color: var(--ps-purple-light);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.56rem;
+  line-height: 1;
+  font-weight: 800;
+}
+
+.ps-row-copy {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.ps-row-title {
+  margin: 0;
+  color: var(--ps-text);
+  font-size: 0.84rem;
+  line-height: 1.2;
+  font-weight: 800;
+}
+
+.ps-row-subtitle {
+  margin: 0;
+  color: var(--ps-text-secondary);
+  font-size: 0.70rem;
+  line-height: 1.38;
+  font-weight: 400;
+}
+
+.ps-row-trailing {
+  align-self: center;
+  color: var(--ps-text-muted);
+  font-size: 0.72rem;
+  white-space: nowrap;
+}
+
+.ps-chip-strip {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-top: 7px;
+}
+
+.ps-chip {
+  display: inline-flex;
+  align-items: center;
+  min-height: 24px;
+  padding: 0 8px;
+  border-radius: 0;
+  background: var(--ps-graphite-900);
+  border: 1px solid var(--ps-graphite-800);
+  color: var(--ps-text-secondary);
+  font-size: 0.62rem;
+  line-height: 1;
+  font-weight: 800;
+  letter-spacing: 0.035em;
+  text-transform: uppercase;
+}
+
+@media (max-width: 720px) {
+  .ps-site-head-inner {
+    min-height: 52px;
+    gap: 10px;
+  }
+
+  .ps-site-nav {
+    overflow-x: auto;
+    scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
+    max-width: 58vw;
+  }
+
+  .ps-site-nav::-webkit-scrollbar {
+    display: none;
+  }
+
+  .ps-site-nav-item {
+    min-height: 30px;
+    padding: 0 8px;
+    font-size: 0.68rem;
+    white-space: nowrap;
+  }
+
+  .ps-action-row {
+    grid-template-columns: 32px minmax(0, 1fr);
+    padding: 10px 12px;
+  }
+
+  .ps-row-trailing {
+    grid-column: 2;
+    justify-self: start;
+    margin-top: 6px;
+  }
+}
+
 /* PeekSecurity Public Site v7.2 — enforced explicit PS.Files rows */
 .ps-workspace[data-ps-explicit-rows="true"] .ps-row-list {
   display: flex;
