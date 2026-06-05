@@ -45,7 +45,7 @@
 
       <button class="ps-nav-toggle nav-toggle" type="button" aria-label="Abrir menu" data-nav-toggle>Menu</button>
 
-      <nav class="ps-site-nav nav" data-nav aria-label="Primary navigation">
+      <nav class="ps-site-nav nav" data-nav aria-label="PeekSecurity public navigation">
         <a class="ps-site-nav-item{% if page.url == '/' %} is-active{% endif %}" {% if page.url == '/' %}aria-current="page"{% endif %} href="{{ '/' | relative_url }}">Home</a>
         <a class="ps-site-nav-item{% if page.url contains '/apps/' %} is-active{% endif %}" {% if page.url contains '/apps/' %}aria-current="page"{% endif %} href="{{ '/apps/' | relative_url }}">Apps</a>
         <a class="ps-site-nav-item{% if page.url contains '/projects/' %} is-active{% endif %}" {% if page.url contains '/projects/' %}aria-current="page"{% endif %} href="{{ '/projects/' | relative_url }}">Projetos</a>

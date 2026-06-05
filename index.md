@@ -37,6 +37,24 @@ description: Hub público PeekSecurity para local-first apps, security tools, te
   </div>
 </section>
 
+<section class="ps-workspace">
+  <div class="ps-workspace-head">
+    <p class="ps-section-label">VALIDATION ROW</p>
+    <h2 class="ps-workspace-title">Home em HTML explícito</h2>
+  </div>
+
+  <div class="ps-row-list">
+    <article class="ps-action-row">
+      <div class="ps-row-icon">HOME</div>
+      <div class="ps-row-copy">
+        <h3 class="ps-row-title">Estrutura real de workspace</h3>
+        <p class="ps-row-subtitle">Esta linha usa HTML explícito com ícone, cópia, título, subtítulo e trailing dentro da Home pública.</p>
+      </div>
+      <span class="ps-row-trailing">Row</span>
+    </article>
+  </div>
+</section>
+
 <section class="ps-workspace" data-workspace-block="public-map">
   <div class="ps-workspace-head">
     <p class="ps-section-label">PUBLIC WORKSPACE</p>

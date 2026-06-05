@@ -2610,6 +2610,11 @@ pre,
   letter-spacing: 0;
 }
 
+/* PeekSecurity Public Site v7.4 — literal validation rows spacing */
+.ps-section-label + .ps-workspace-title {
+  margin-top: 4px;
+}
+
 .ps-nav-toggle {
   display: none;
 }

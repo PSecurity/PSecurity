@@ -35,6 +35,24 @@ permalink: /apps/
   </div>
 </section>
 
+<section class="ps-workspace">
+  <div class="ps-workspace-head">
+    <p class="ps-section-label">VALIDATION ROW</p>
+    <h2 class="ps-workspace-title">Apps em HTML explícito</h2>
+  </div>
+
+  <div class="ps-row-list">
+    <article class="ps-action-row">
+      <div class="ps-row-icon">APPS</div>
+      <div class="ps-row-copy">
+        <h3 class="ps-row-title">Inventário técnico em row</h3>
+        <p class="ps-row-subtitle">Esta linha usa HTML explícito com a estrutura visual dos apps PS.Files e PS.Calc.</p>
+      </div>
+      <span class="ps-row-trailing">Row</span>
+    </article>
+  </div>
+</section>
+
 <section class="ps-workspace" data-workspace-block="app-modes">
   <div class="ps-workspace-head">
     <p class="ps-section-label">APP MODES</p>

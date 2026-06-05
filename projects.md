@@ -31,6 +31,24 @@ permalink: /projects/
   </div>
 </section>
 
+<section class="ps-workspace">
+  <div class="ps-workspace-head">
+    <p class="ps-section-label">VALIDATION ROW</p>
+    <h2 class="ps-workspace-title">Projects em HTML explícito</h2>
+  </div>
+
+  <div class="ps-row-list">
+    <article class="ps-action-row">
+      <div class="ps-row-icon">PRJ</div>
+      <div class="ps-row-copy">
+        <h3 class="ps-row-title">Projetos em row funcional</h3>
+        <p class="ps-row-subtitle">Esta linha usa HTML explícito para representar projetos como workspace técnico, não como Markdown solto.</p>
+      </div>
+      <span class="ps-row-trailing">Row</span>
+    </article>
+  </div>
+</section>
+
 <section class="ps-workspace" data-workspace-block="project-taxonomy">
   <div class="ps-workspace-head">
     <p class="ps-section-label">PROJECT WORKSPACE</p>
