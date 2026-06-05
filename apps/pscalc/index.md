@@ -5,8 +5,81 @@ description: Offline calculator with scientific tools, converters, formulas, ses
 permalink: /apps/pscalc/
 ---
 
-<section class="ps-public-head"><p class="ps-section-label">PEEKSECURITY APP</p><h1>PS.Calc</h1><p>Offline calculator with scientific tools, developer utilities, converters, formulas, session history and protected local notes.</p><div class="ps-command-strip"><a class="ps-command ps-command-primary" href="{{ '/privacy/pscalc/' | relative_url }}">Privacy Policy</a><a class="ps-command" href="{{ '/apps/' | relative_url }}">All apps</a></div></section>
+<section class="ps-public-head">
+  <p class="ps-section-label">PEEKSECURITY APP</p>
+  <h1>PS.Calc</h1>
+  <p>Offline calculator with scientific tools, developer utilities, converters, formulas, session history and protected local notes.</p>
+  <div class="ps-command-strip">
+    <a class="ps-command ps-command-primary" href="{{ '/privacy/pscalc/' | relative_url }}">Privacy Policy</a>
+    <a class="ps-command" href="{{ '/apps/' | relative_url }}">All apps</a>
+  </div>
+</section>
 
-<section class="ps-workspace"><div class="ps-workspace-head"><p class="ps-section-label">PRODUCT SURFACE</p><h2 class="ps-workspace-title">Calculator, tools and local privacy</h2><p class="ps-workspace-subtitle">PS.Calc is built as a local-first productivity tool with no cloud account, no ads and no analytics.</p></div><div class="ps-row-list"><article class="ps-action-row"><div class="ps-row-icon">CALC</div><div class="ps-row-copy"><h3 class="ps-row-title">Calculator workflow</h3><p class="ps-row-subtitle">Everyday calculation, scientific tools, developer utilities, converters, formulas and session history in one offline workspace.</p></div></article><article class="ps-action-row"><div class="ps-row-icon">DEV</div><div class="ps-row-copy"><h3 class="ps-row-title">Developer utilities</h3><p class="ps-row-subtitle">Base, bytes, bits, time and network helpers for practical technical work.</p></div></article><article class="ps-action-row"><div class="ps-row-icon">NOTE</div><div class="ps-row-copy"><h3 class="ps-row-title">Secure Notes</h3><p class="ps-row-subtitle">Protected local notes with PIN and optional Android biometric authentication, designed for offline use.</p></div></article></div></section>
+<section class="ps-workspace">
+  <div class="ps-workspace-head">
+    <p class="ps-section-label">PRODUCT SURFACE</p>
+    <h2 class="ps-workspace-title">Calculator, tools and local privacy</h2>
+    <p class="ps-workspace-subtitle">PS.Calc is built as a local-first productivity tool with no cloud account, no ads and no analytics.</p>
+  </div>
 
-<section class="ps-workspace"><div class="ps-workspace-head"><p class="ps-section-label">PRIVACY</p><h2 class="ps-workspace-title">Local-first by design</h2></div><div class="ps-row-list"><article class="ps-action-row"><div class="ps-row-icon">OFF</div><div class="ps-row-copy"><h3 class="ps-row-title">No cloud account</h3><p class="ps-row-subtitle">The app does not require online accounts or cloud synchronization for its core features.</p></div></article><article class="ps-action-row"><div class="ps-row-icon">ADS</div><div class="ps-row-copy"><h3 class="ps-row-title">No ads or analytics</h3><p class="ps-row-subtitle">PS.Calc does not use advertising SDKs, analytics SDKs, telemetry or external tracking services.</p></div></article><article class="ps-action-row"><div class="ps-row-icon">PIN</div><div class="ps-row-copy"><h3 class="ps-row-title">Protected local notes</h3><p class="ps-row-subtitle">Secure Notes content remains local to the user device unless the user deletes app data or uninstalls the app.</p></div><a class="ps-row-trailing" href="{{ '/privacy/pscalc/' | relative_url }}">Policy</a></article></div></section>
+  <div class="ps-row-list">
+    <article class="ps-action-row">
+      <div class="ps-row-icon">CALC</div>
+      <div class="ps-row-copy">
+        <h3 class="ps-row-title">Calculator workflow</h3>
+        <p class="ps-row-subtitle">Everyday calculation, scientific tools, developer utilities, converters, formulas and session history in one offline workspace.</p>
+      </div>
+    </article>
+
+    <article class="ps-action-row">
+      <div class="ps-row-icon">DEV</div>
+      <div class="ps-row-copy">
+        <h3 class="ps-row-title">Developer utilities</h3>
+        <p class="ps-row-subtitle">Base, bytes, bits, time and network helpers for practical technical work.</p>
+      </div>
+    </article>
+
+    <article class="ps-action-row">
+      <div class="ps-row-icon">NOTE</div>
+      <div class="ps-row-copy">
+        <h3 class="ps-row-title">Secure Notes</h3>
+        <p class="ps-row-subtitle">Protected local notes with PIN and optional Android biometric authentication, designed for offline use.</p>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section class="ps-workspace">
+  <div class="ps-workspace-head">
+    <p class="ps-section-label">PRIVACY</p>
+    <h2 class="ps-workspace-title">Local-first by design</h2>
+    <p class="ps-workspace-subtitle">The public policy remains available as a static HTML page for Google Play review and user access.</p>
+  </div>
+
+  <div class="ps-row-list">
+    <article class="ps-action-row">
+      <div class="ps-row-icon">OFF</div>
+      <div class="ps-row-copy">
+        <h3 class="ps-row-title">No cloud account</h3>
+        <p class="ps-row-subtitle">The app does not require online accounts or cloud synchronization for its core features.</p>
+      </div>
+    </article>
+
+    <article class="ps-action-row">
+      <div class="ps-row-icon">ADS</div>
+      <div class="ps-row-copy">
+        <h3 class="ps-row-title">No ads or analytics</h3>
+        <p class="ps-row-subtitle">PS.Calc does not use advertising SDKs, analytics SDKs, telemetry or external tracking services.</p>
+      </div>
+    </article>
+
+    <article class="ps-action-row">
+      <div class="ps-row-icon">PIN</div>
+      <div class="ps-row-copy">
+        <h3 class="ps-row-title">Protected local notes</h3>
+        <p class="ps-row-subtitle">Secure Notes content remains local to the user device unless the user deletes app data or uninstalls the app.</p>
+      </div>
+      <a class="ps-row-trailing" href="{{ '/privacy/pscalc/' | relative_url }}">Policy</a>
+    </article>
+  </div>
+</section>
