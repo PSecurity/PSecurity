@@ -17,6 +17,24 @@ permalink: /apps/
   </div>
 </section>
 
+<section class="ps-workspace">
+  <div class="ps-workspace-head">
+    <p class="ps-section-label">APP ROWS</p>
+    <h2 class="ps-workspace-title">Inventário de apps em rows reais</h2>
+  </div>
+
+  <div class="ps-row-list">
+    <article class="ps-action-row">
+      <div class="ps-row-icon">CALC</div>
+      <div class="ps-row-copy">
+        <h3 class="ps-row-title">PS.Calc</h3>
+        <p class="ps-row-subtitle">App Android local-first com privacidade, uso offline e política pública estática.</p>
+      </div>
+      <a class="ps-row-trailing" href="{{ '/apps/pscalc/' | relative_url }}">Open</a>
+    </article>
+  </div>
+</section>
+
 <section class="ps-workspace" data-workspace-block="app-modes">
   <div class="ps-workspace-head">
     <p class="ps-section-label">APP MODES</p>

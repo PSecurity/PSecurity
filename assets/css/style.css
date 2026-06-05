@@ -2605,6 +2605,11 @@ pre,
   }
 }
 
+/* PeekSecurity Public Site v7.3 — literal validation workspace rows */
+.ps-workspace .ps-row-list .ps-action-row .ps-row-copy .ps-row-title {
+  letter-spacing: 0;
+}
+
 .ps-nav-toggle {
   display: none;
 }

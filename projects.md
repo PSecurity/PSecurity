@@ -13,6 +13,24 @@ permalink: /projects/
   </div>
 </section>
 
+<section class="ps-workspace">
+  <div class="ps-workspace-head">
+    <p class="ps-section-label">PROJECT ROWS</p>
+    <h2 class="ps-workspace-title">Projetos em rows técnicas</h2>
+  </div>
+
+  <div class="ps-row-list">
+    <article class="ps-action-row">
+      <div class="ps-row-icon">LAB</div>
+      <div class="ps-row-copy">
+        <h3 class="ps-row-title">Portfólio técnico PeekSecurity</h3>
+        <p class="ps-row-subtitle">Projetos apresentados como inventário funcional, com problema, solução, stack e uso responsável.</p>
+      </div>
+      <span class="ps-row-trailing">Docs</span>
+    </article>
+  </div>
+</section>
+
 <section class="ps-workspace" data-workspace-block="project-taxonomy">
   <div class="ps-workspace-head">
     <p class="ps-section-label">PROJECT WORKSPACE</p>

@@ -19,6 +19,24 @@ description: Hub público PeekSecurity para local-first apps, security tools, te
   </div>
 </section>
 
+<section class="ps-workspace">
+  <div class="ps-workspace-head">
+    <p class="ps-section-label">PUBLIC ROWS</p>
+    <h2 class="ps-workspace-title">Workspace público PeekSecurity</h2>
+  </div>
+
+  <div class="ps-row-list">
+    <article class="ps-action-row">
+      <div class="ps-row-icon">PS</div>
+      <div class="ps-row-copy">
+        <h3 class="ps-row-title">Local-first apps e ferramentas técnicas</h3>
+        <p class="ps-row-subtitle">Estrutura pública em rows compactas, inspirada nas superfícies de PS.Files e PS.Calc.</p>
+      </div>
+      <a class="ps-row-trailing" href="{{ '/apps/' | relative_url }}">Apps</a>
+    </article>
+  </div>
+</section>
+
 <section class="ps-workspace" data-workspace-block="public-map">
   <div class="ps-workspace-head">
     <p class="ps-section-label">PUBLIC WORKSPACE</p>
