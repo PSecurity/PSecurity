@@ -102,35 +102,31 @@ button:focus-visible {
 }
 
 .ps-brand-mark {
-  width: 32px;
-  height: 32px;
+  width: 28px;
+  height: 28px;
   display: grid;
   place-items: center;
-  background: var(--ps-bg-deep);
-  border: 1px solid rgba(53, 64, 84, 0.68);
-  border-radius: 6px;
   color: var(--ps-purple-light);
-  font-family: var(--ps-mono);
-  font-size: 0.68rem;
-  line-height: 1;
-  font-weight: 800;
-  overflow: hidden;
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  overflow: visible;
+  flex: 0 0 auto;
 }
 
-.ps-brand-icon {
+.ps-brand-vector {
   width: 22px;
   height: 22px;
-  object-fit: contain;
   display: block;
+  stroke: currentColor;
+  stroke-width: 1.8;
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
 }
 
-.ps-brand-mark img {
-  width: 22px;
-  height: 22px;
-  object-fit: contain;
-  display: block;
-  max-width: 22px;
-  max-height: 22px;
+.ps-brand-vector-inner {
+  opacity: 0.36;
 }
 
 .ps-brand-copy {
@@ -636,6 +632,16 @@ pre {
     font-size: 0.92rem;
   }
 
+  .ps-brand-mark {
+    width: 30px;
+    height: 30px;
+  }
+
+  .ps-brand-vector {
+    width: 23px;
+    height: 23px;
+  }
+
   .ps-site-nav {
     gap: 3px;
   }
@@ -738,17 +744,9 @@ pre {
     gap: 9px;
   }
 
-  .ps-brand-mark {
-    width: 30px;
-    height: 30px;
-  }
-
-  .ps-brand-mark img,
-  .ps-brand-icon {
+  .ps-brand-vector {
     width: 22px;
     height: 22px;
-    max-width: 22px;
-    max-height: 22px;
   }
 
   .ps-brand-copy strong {
