@@ -21,6 +21,24 @@ description: Hub público PeekSecurity para local-first apps, security tools, te
 
 <section class="ps-workspace">
   <div class="ps-workspace-head">
+    <p class="ps-section-label">STRUCTURE PATCH</p>
+    <h2 class="ps-workspace-title">Home estruturada como workspace real</h2>
+  </div>
+
+  <div class="ps-row-list">
+    <article class="ps-action-row">
+      <div class="ps-row-icon">ROW</div>
+      <div class="ps-row-copy">
+        <h3 class="ps-row-title">Linha funcional em HTML</h3>
+        <p class="ps-row-subtitle">Bloco público renderizado com a estrutura real dos apps: ícone, conteúdo principal e ação lateral.</p>
+      </div>
+      <a class="ps-row-trailing" href="{{ '/projects/' | relative_url }}">Open</a>
+    </article>
+  </div>
+</section>
+
+<section class="ps-workspace">
+  <div class="ps-workspace-head">
     <p class="ps-section-label">PUBLIC ROWS</p>
     <h2 class="ps-workspace-title">Workspace público PeekSecurity</h2>
   </div>

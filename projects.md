@@ -15,6 +15,24 @@ permalink: /projects/
 
 <section class="ps-workspace">
   <div class="ps-workspace-head">
+    <p class="ps-section-label">STRUCTURE PATCH</p>
+    <h2 class="ps-workspace-title">Projetos estruturados como workspace real</h2>
+  </div>
+
+  <div class="ps-row-list">
+    <article class="ps-action-row">
+      <div class="ps-row-icon">ROW</div>
+      <div class="ps-row-copy">
+        <h3 class="ps-row-title">Inventário funcional de projetos</h3>
+        <p class="ps-row-subtitle">Projetos permanecem preservados, agora dentro de uma estrutura pública de rows técnicas.</p>
+      </div>
+      <span class="ps-row-trailing">Open</span>
+    </article>
+  </div>
+</section>
+
+<section class="ps-workspace">
+  <div class="ps-workspace-head">
     <p class="ps-section-label">PROJECT ROWS</p>
     <h2 class="ps-workspace-title">Projetos em rows técnicas</h2>
   </div>

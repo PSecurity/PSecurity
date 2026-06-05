@@ -19,6 +19,24 @@ permalink: /apps/
 
 <section class="ps-workspace">
   <div class="ps-workspace-head">
+    <p class="ps-section-label">STRUCTURE PATCH</p>
+    <h2 class="ps-workspace-title">Apps estruturados como workspace real</h2>
+  </div>
+
+  <div class="ps-row-list">
+    <article class="ps-action-row">
+      <div class="ps-row-icon">ROW</div>
+      <div class="ps-row-copy">
+        <h3 class="ps-row-title">Inventário funcional de apps</h3>
+        <p class="ps-row-subtitle">Cada app é apresentado como uma row técnica, com conteúdo agrupado e ação clara.</p>
+      </div>
+      <a class="ps-row-trailing" href="{{ '/apps/pscalc/' | relative_url }}">Open</a>
+    </article>
+  </div>
+</section>
+
+<section class="ps-workspace">
+  <div class="ps-workspace-head">
     <p class="ps-section-label">APP ROWS</p>
     <h2 class="ps-workspace-title">Inventário de apps em rows reais</h2>
   </div>

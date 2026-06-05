@@ -2791,6 +2791,15 @@ pre,
   }
 }
 
+/* PeekSecurity Public Site v8.1 — reinforced literal workspace rows */
+.ps-workspace .ps-row-list .ps-action-row {
+  outline: 0;
+}
+
+.ps-workspace .ps-row-list .ps-action-row:hover {
+  background: var(--ps-surface-soft);
+}
+
 /* PeekSecurity Public Site v7.2 — enforced explicit PS.Files rows */
 .ps-workspace[data-ps-explicit-rows="true"] .ps-row-list {
   display: flex;
