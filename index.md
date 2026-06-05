@@ -8,53 +8,221 @@ description: Hub público PeekSecurity para local-first apps, security tools, te
   <p class="ps-section-label">PEEKSECURITY</p>
   <h1>PeekSecurity</h1>
   <p>Local-first apps, security tools and technical documentation. By Gilberto Martins.</p>
-  <div class="ps-command-strip"><a class="ps-command ps-command-primary" href="{{ '/apps/' | relative_url }}">Apps</a><a class="ps-command" href="{{ '/privacy/' | relative_url }}">Privacy</a><a class="ps-command" href="{{ '/projects/' | relative_url }}">Projects</a><a class="ps-command" href="https://github.com/PSecurity">GitHub</a></div>
-</section>
-
-<section class="ps-workspace">
-  <div class="ps-workspace-head"><p class="ps-section-label">PUBLIC WORKSPACE</p><h2 class="ps-workspace-title">Superfícies públicas do ecossistema PeekSecurity</h2><p class="ps-workspace-subtitle">Uma base pública para apps, documentação, políticas e projetos técnicos com postura local-first e uso responsável.</p></div>
-  <div class="ps-row-list">
-    <article class="ps-action-row"><div class="ps-row-icon">MOB</div><div class="ps-row-copy"><h3 class="ps-row-title">Aplicativos locais</h3><p class="ps-row-subtitle">PS.Calc, PS.Files, PS.Block e ferramentas Android organizadas como produtos técnicos, com privacidade local, documentação pública e linguagem objetiva.</p></div><a class="ps-row-trailing" href="{{ '/apps/' | relative_url }}">Open</a></article>
-    <article class="ps-action-row"><div class="ps-row-icon">DOC</div><div class="ps-row-copy"><h3 class="ps-row-title">Conteúdo e laboratório</h3><p class="ps-row-subtitle">Projetos, posts e scripts apresentados como inventário funcional, sem hero inflado, cards promocionais ou layout genérico de portfólio.</p></div><a class="ps-row-trailing" href="{{ '/projects/' | relative_url }}">Open</a></article>
-    <article class="ps-action-row"><div class="ps-row-icon">LOCK</div><div class="ps-row-copy"><h3 class="ps-row-title">Políticas públicas</h3><p class="ps-row-subtitle">Páginas HTML estáticas para Google Play Console e revisão pública, sem PDF, sem login e com contato direto do ecossistema.</p></div><a class="ps-row-trailing" href="{{ '/privacy/' | relative_url }}">Open</a></article>
+  <div class="ps-command-strip">
+    <a class="ps-command ps-command-primary" href="{{ '/apps/' | relative_url }}">Apps</a>
+    <a class="ps-command" href="{{ '/privacy/' | relative_url }}">Privacy</a>
+    <a class="ps-command" href="{{ '/projects/' | relative_url }}">Projects</a>
+    <a class="ps-command" href="https://github.com/PSecurity">GitHub</a>
   </div>
 </section>
 
 <section class="ps-workspace">
-  <div class="ps-workspace-head"><p class="ps-section-label">POSICIONAMENTO</p><h2 class="ps-workspace-title">Profissional com base operacional real e portfólio técnico em evolução</h2></div>
+  <div class="ps-workspace-head">
+    <p class="ps-section-label">PUBLIC WORKSPACE</p>
+    <h2 class="ps-workspace-title">Superfícies públicas do ecossistema PeekSecurity</h2>
+    <p class="ps-workspace-subtitle">Uma base pública para apps, documentação, políticas e projetos técnicos com postura local-first e uso responsável.</p>
+  </div>
+
   <div class="ps-row-list">
-    <article class="ps-action-row"><div class="ps-row-icon">N3</div><div class="ps-row-copy"><h3 class="ps-row-title">Experiência profissional</h3><p class="ps-row-subtitle">Atuação em atendimento especializado, suporte N1/N2/N3, análise de crédito, atualização cadastral, prevenção a fraudes e tratamento de situações sensíveis com foco em qualidade, clareza e responsabilidade.</p></div></article>
-    <article class="ps-action-row"><div class="ps-row-icon">DEV</div><div class="ps-row-copy"><h3 class="ps-row-title">Prática técnica</h3><p class="ps-row-subtitle">Desenvolvimento de ferramentas, scripts, aplicações Android, documentação técnica e laboratórios educacionais voltados a segurança, automação e uso autorizado.</p></div></article>
-    <article class="ps-action-row"><div class="ps-row-icon">SEC</div><div class="ps-row-copy"><h3 class="ps-row-title">Visão de segurança</h3><p class="ps-row-subtitle">Perfil analítico e investigativo com experiência em prevenção a fraudes, documentoscopia, análise de risco e criação de conteúdo técnico sobre segurança digital.</p></div></article>
+    <article class="ps-action-row">
+      <div class="ps-row-icon">MOB</div>
+      <div class="ps-row-copy">
+        <h3 class="ps-row-title">Aplicativos locais</h3>
+        <p class="ps-row-subtitle">PS.Calc, PS.Files, PS.Block e ferramentas Android organizadas como produtos técnicos, com privacidade local, documentação pública e linguagem objetiva.</p>
+      </div>
+      <a class="ps-row-trailing" href="{{ '/apps/' | relative_url }}">Open</a>
+    </article>
+
+    <article class="ps-action-row">
+      <div class="ps-row-icon">DOC</div>
+      <div class="ps-row-copy">
+        <h3 class="ps-row-title">Conteúdo e laboratório</h3>
+        <p class="ps-row-subtitle">Projetos, posts e scripts apresentados como inventário funcional, sem hero inflado, cards promocionais ou layout genérico de portfólio.</p>
+      </div>
+      <a class="ps-row-trailing" href="{{ '/projects/' | relative_url }}">Open</a>
+    </article>
+
+    <article class="ps-action-row">
+      <div class="ps-row-icon">LOCK</div>
+      <div class="ps-row-copy">
+        <h3 class="ps-row-title">Políticas públicas</h3>
+        <p class="ps-row-subtitle">Páginas HTML estáticas para Google Play Console e revisão pública, sem PDF, sem login e com contato direto do ecossistema.</p>
+      </div>
+      <a class="ps-row-trailing" href="{{ '/privacy/' | relative_url }}">Open</a>
+    </article>
   </div>
 </section>
 
 <section class="ps-workspace">
-  <div class="ps-workspace-head"><p class="ps-section-label">STACK E ÁREAS</p><h2 class="ps-workspace-title">Habilidades em destaque</h2></div>
-  <div class="ps-chip-strip ps-chip-strip-block"><span class="ps-chip ps-chip-success">Segurança da Informação</span><span class="ps-chip ps-chip-success">Prevenção a Fraudes</span><span class="ps-chip">Termux</span><span class="ps-chip">Kali Linux</span><span class="ps-chip">Python</span><span class="ps-chip">Flask</span><span class="ps-chip">Shell Script</span><span class="ps-chip">Android / Kotlin</span><span class="ps-chip">Git / GitHub</span><span class="ps-chip">Nmap</span><span class="ps-chip">C++</span><span class="ps-chip">ESP32 / M5StickC</span><span class="ps-chip">CLI Tools</span><span class="ps-chip">Documentação Técnica</span><span class="ps-chip">Automação</span></div>
-</section>
+  <div class="ps-workspace-head">
+    <p class="ps-section-label">POSICIONAMENTO</p>
+    <h2 class="ps-workspace-title">Profissional com base operacional real e portfólio técnico em evolução</h2>
+  </div>
 
-<section class="ps-workspace">
-  <div class="ps-workspace-head"><p class="ps-section-label">DISPONÍVEL PARA</p><h2 class="ps-workspace-title">Onde experiência operacional e prática técnica geram valor</h2></div>
   <div class="ps-row-list">
-    <article class="ps-action-row"><div class="ps-row-icon">SUP</div><div class="ps-row-copy"><h3 class="ps-row-title">Suporte Técnico</h3><p class="ps-row-subtitle">N1, N2, N3, atendimento especializado, análise de demandas e resolução de problemas.</p></div></article>
-    <article class="ps-action-row"><div class="ps-row-icon">RISK</div><div class="ps-row-copy"><h3 class="ps-row-title">Prevenção a Fraudes</h3><p class="ps-row-subtitle">Análise de risco, casos sensíveis, documentoscopia e visão investigativa aplicada.</p></div></article>
-    <article class="ps-action-row"><div class="ps-row-icon">AUTO</div><div class="ps-row-copy"><h3 class="ps-row-title">Desenvolvimento e Automação</h3><p class="ps-row-subtitle">Python, Flask, Shell Script, Android/Kotlin, Termux, Linux, C++ e ferramentas autorais.</p></div></article>
+    <article class="ps-action-row">
+      <div class="ps-row-icon">N3</div>
+      <div class="ps-row-copy">
+        <h3 class="ps-row-title">Experiência profissional</h3>
+        <p class="ps-row-subtitle">Atuação em atendimento especializado, suporte N1/N2/N3, análise de crédito, atualização cadastral, prevenção a fraudes e tratamento de situações sensíveis com foco em qualidade, clareza e responsabilidade.</p>
+      </div>
+    </article>
+
+    <article class="ps-action-row">
+      <div class="ps-row-icon">DEV</div>
+      <div class="ps-row-copy">
+        <h3 class="ps-row-title">Prática técnica</h3>
+        <p class="ps-row-subtitle">Desenvolvimento de ferramentas, scripts, aplicações Android, documentação técnica e laboratórios educacionais voltados a segurança, automação e uso autorizado.</p>
+      </div>
+    </article>
+
+    <article class="ps-action-row">
+      <div class="ps-row-icon">SEC</div>
+      <div class="ps-row-copy">
+        <h3 class="ps-row-title">Visão de segurança</h3>
+        <p class="ps-row-subtitle">Perfil analítico e investigativo com experiência em prevenção a fraudes, documentoscopia, análise de risco e criação de conteúdo técnico sobre segurança digital.</p>
+      </div>
+    </article>
   </div>
 </section>
 
 <section class="ps-workspace">
-  <div class="ps-workspace-head"><p class="ps-section-label">PROJETOS EM DESTAQUE</p><h2 class="ps-workspace-title">Portfólio técnico</h2></div>
-  <div class="ps-row-list">
-    <article class="ps-action-row"><div class="ps-row-icon">BLK</div><div class="ps-row-copy"><h3 class="ps-row-title">PS.Block</h3><p class="ps-row-subtitle">App Android open source focado em proteção local, privacidade de sensores, Device Admin, watchdog, app lock, logs locais e uso responsável.</p><div class="ps-chip-strip"><span class="ps-chip">Android</span><span class="ps-chip">Kotlin</span><span class="ps-chip ps-chip-success">Publicado</span></div></div><a class="ps-row-trailing" href="https://github.com/PSecurity/PSBlock">GitHub</a></article>
-    <article class="ps-action-row"><div class="ps-row-icon">CHAT</div><div class="ps-row-copy"><h3 class="ps-row-title">PS.Chat Admin / CLI</h3><p class="ps-row-subtitle">Comunicação privada/offline com cliente terminal, painel administrativo, moderação, descoberta em rede local, histórico local criptografado e recursos de E2EE.</p><div class="ps-chip-strip"><span class="ps-chip">Python</span><span class="ps-chip">CLI</span><span class="ps-chip">Segurança</span></div></div><a class="ps-row-trailing" href="https://github.com/PSecurity/PS.Chat">GitHub</a></article>
-    <article class="ps-action-row"><div class="ps-row-icon">KIT</div><div class="ps-row-copy"><h3 class="ps-row-title">PS.Toolkit v2</h3><p class="ps-row-subtitle">Toolkit web educacional para Termux, com módulos de automação, Nmap, DNS, hash, senhas, notas, túneis, Linux manager e apoio técnico.</p><div class="ps-chip-strip"><span class="ps-chip">Python</span><span class="ps-chip">Flask</span><span class="ps-chip">Termux</span></div></div><a class="ps-row-trailing" href="https://github.com/PSecurity/PS.Toolkit">GitHub</a></article>
-    <article class="ps-action-row"><div class="ps-row-icon">NOTE</div><div class="ps-row-copy"><h3 class="ps-row-title">PS.Notes</h3><p class="ps-row-subtitle">Bloco de notas autoral com editor, split view, snippets, salvamento no navegador, copiar, exportar e organização rápida para comandos e estudos.</p><div class="ps-chip-strip"><span class="ps-chip">HTML</span><span class="ps-chip">CSS</span><span class="ps-chip">JavaScript</span></div></div><a class="ps-row-trailing" href="{{ '/psnotes/' | relative_url }}">Open</a></article>
+  <div class="ps-workspace-head">
+    <p class="ps-section-label">STACK E ÁREAS</p>
+    <h2 class="ps-workspace-title">Habilidades em destaque</h2>
   </div>
-  <div class="ps-command-strip"><a class="ps-command ps-command-primary" href="{{ '/projects/' | relative_url }}">Ver todos os projetos</a></div>
+
+  <div class="ps-chip-strip ps-chip-strip-block">
+    <span class="ps-chip ps-chip-success">Segurança da Informação</span>
+    <span class="ps-chip ps-chip-success">Prevenção a Fraudes</span>
+    <span class="ps-chip">Termux</span>
+    <span class="ps-chip">Kali Linux</span>
+    <span class="ps-chip">Python</span>
+    <span class="ps-chip">Flask</span>
+    <span class="ps-chip">Shell Script</span>
+    <span class="ps-chip">Android / Kotlin</span>
+    <span class="ps-chip">Git / GitHub</span>
+    <span class="ps-chip">Nmap</span>
+    <span class="ps-chip">C++</span>
+    <span class="ps-chip">ESP32 / M5StickC</span>
+    <span class="ps-chip">CLI Tools</span>
+    <span class="ps-chip">Documentação Técnica</span>
+    <span class="ps-chip">Automação</span>
+  </div>
 </section>
 
 <section class="ps-workspace">
-  <div class="ps-workspace-head"><p class="ps-section-label">CONTATO PROFISSIONAL</p><h2 class="ps-workspace-title">Tecnologia, segurança da informação, suporte técnico, prevenção a fraudes e desenvolvimento de ferramentas.</h2><p class="ps-workspace-subtitle">Este portfólio reúne projetos, conteúdos e ferramentas criadas para aprendizado, documentação técnica e uso responsável em ambientes autorizados.</p></div>
-  <div class="ps-command-strip"><a class="ps-command ps-command-primary" href="{{ '/curriculo/' | relative_url }}">Currículo</a><a class="ps-command" href="mailto:peeksecurity.dev@gmail.com">E-mail</a><a class="ps-command" href="{{ '/contact/' | relative_url }}">Contato</a></div>
+  <div class="ps-workspace-head">
+    <p class="ps-section-label">DISPONÍVEL PARA</p>
+    <h2 class="ps-workspace-title">Onde experiência operacional e prática técnica geram valor</h2>
+  </div>
+
+  <div class="ps-row-list">
+    <article class="ps-action-row">
+      <div class="ps-row-icon">SUP</div>
+      <div class="ps-row-copy">
+        <h3 class="ps-row-title">Suporte Técnico</h3>
+        <p class="ps-row-subtitle">N1, N2, N3, atendimento especializado, análise de demandas e resolução de problemas.</p>
+      </div>
+    </article>
+
+    <article class="ps-action-row">
+      <div class="ps-row-icon">RISK</div>
+      <div class="ps-row-copy">
+        <h3 class="ps-row-title">Prevenção a Fraudes</h3>
+        <p class="ps-row-subtitle">Análise de risco, casos sensíveis, documentoscopia e visão investigativa aplicada.</p>
+      </div>
+    </article>
+
+    <article class="ps-action-row">
+      <div class="ps-row-icon">AUTO</div>
+      <div class="ps-row-copy">
+        <h3 class="ps-row-title">Desenvolvimento e Automação</h3>
+        <p class="ps-row-subtitle">Python, Flask, Shell Script, Android/Kotlin, Termux, Linux, C++ e ferramentas autorais.</p>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section class="ps-workspace">
+  <div class="ps-workspace-head">
+    <p class="ps-section-label">PROJETOS EM DESTAQUE</p>
+    <h2 class="ps-workspace-title">Portfólio técnico</h2>
+  </div>
+
+  <div class="ps-row-list">
+    <article class="ps-action-row">
+      <div class="ps-row-icon">BLK</div>
+      <div class="ps-row-copy">
+        <h3 class="ps-row-title">PS.Block</h3>
+        <p class="ps-row-subtitle">App Android open source focado em proteção local, privacidade de sensores, Device Admin, watchdog, app lock, logs locais e uso responsável.</p>
+        <div class="ps-chip-strip">
+          <span class="ps-chip">Android</span>
+          <span class="ps-chip">Kotlin</span>
+          <span class="ps-chip ps-chip-success">Publicado</span>
+        </div>
+      </div>
+      <a class="ps-row-trailing" href="https://github.com/PSecurity/PSBlock">GitHub</a>
+    </article>
+
+    <article class="ps-action-row">
+      <div class="ps-row-icon">CHAT</div>
+      <div class="ps-row-copy">
+        <h3 class="ps-row-title">PS.Chat Admin / CLI</h3>
+        <p class="ps-row-subtitle">Comunicação privada/offline com cliente terminal, painel administrativo, moderação, descoberta em rede local, histórico local criptografado e recursos de E2EE.</p>
+        <div class="ps-chip-strip">
+          <span class="ps-chip">Python</span>
+          <span class="ps-chip">CLI</span>
+          <span class="ps-chip">Segurança</span>
+        </div>
+      </div>
+      <a class="ps-row-trailing" href="https://github.com/PSecurity/PS.Chat">GitHub</a>
+    </article>
+
+    <article class="ps-action-row">
+      <div class="ps-row-icon">KIT</div>
+      <div class="ps-row-copy">
+        <h3 class="ps-row-title">PS.Toolkit v2</h3>
+        <p class="ps-row-subtitle">Toolkit web educacional para Termux, com módulos de automação, Nmap, DNS, hash, senhas, notas, túneis, Linux manager e apoio técnico.</p>
+        <div class="ps-chip-strip">
+          <span class="ps-chip">Python</span>
+          <span class="ps-chip">Flask</span>
+          <span class="ps-chip">Termux</span>
+        </div>
+      </div>
+      <a class="ps-row-trailing" href="https://github.com/PSecurity/PS.Toolkit">GitHub</a>
+    </article>
+
+    <article class="ps-action-row">
+      <div class="ps-row-icon">NOTE</div>
+      <div class="ps-row-copy">
+        <h3 class="ps-row-title">PS.Notes</h3>
+        <p class="ps-row-subtitle">Bloco de notas autoral com editor, split view, snippets, salvamento no navegador, copiar, exportar e organização rápida para comandos e estudos.</p>
+        <div class="ps-chip-strip">
+          <span class="ps-chip">HTML</span>
+          <span class="ps-chip">CSS</span>
+          <span class="ps-chip">JavaScript</span>
+        </div>
+      </div>
+      <a class="ps-row-trailing" href="{{ '/psnotes/' | relative_url }}">Open</a>
+    </article>
+  </div>
+
+  <div class="ps-command-strip">
+    <a class="ps-command ps-command-primary" href="{{ '/projects/' | relative_url }}">Ver todos os projetos</a>
+  </div>
+</section>
+
+<section class="ps-workspace">
+  <div class="ps-workspace-head">
+    <p class="ps-section-label">CONTATO PROFISSIONAL</p>
+    <h2 class="ps-workspace-title">Tecnologia, segurança da informação, suporte técnico, prevenção a fraudes e desenvolvimento de ferramentas.</h2>
+    <p class="ps-workspace-subtitle">Este portfólio reúne projetos, conteúdos e ferramentas criadas para aprendizado, documentação técnica e uso responsável em ambientes autorizados.</p>
+  </div>
+
+  <div class="ps-command-strip">
+    <a class="ps-command ps-command-primary" href="{{ '/curriculo/' | relative_url }}">Currículo</a>
+    <a class="ps-command" href="mailto:peeksecurity.dev@gmail.com">E-mail</a>
+    <a class="ps-command" href="{{ '/contact/' | relative_url }}">Contato</a>
+  </div>
 </section>
