@@ -27,7 +27,7 @@ source_format: html
 
   <div class="ps-row-list">
     <article class="ps-action-row">
-      <div class="ps-row-icon"><svg class="ps-vector-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h8l4 4v14H6z"></path><path d="M14 3v5h5"></path><circle cx="11" cy="12" r="2"></circle><path d="M8 18a3.5 3.5 0 0 1 7 0"></path></svg></div>
+      <div class="ps-row-icon"><svg class="ps-vector-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4h7l4 4v13H7z"></path><path d="M14 4v5h5"></path><circle cx="11" cy="12.2" r="1.8"></circle><path d="M8.2 18a3.2 3.2 0 0 1 6.4 0"></path></svg></div>
       <div class="ps-row-copy">
         <h3 class="ps-row-title">Resumo profissional</h3>
         <p class="ps-row-subtitle">Profissional com experiência em suporte especializado, atendimento N3, prevenção a fraudes, análise de crédito e tratamento de casos sensíveis.</p>

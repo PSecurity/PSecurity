@@ -30,7 +30,7 @@ source_format: html
     </article>
 
     <article class="ps-action-row">
-      <div class="ps-row-icon"><svg class="ps-vector-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l7 3v5c0 5-3 8-7 10-4-2-7-5-7-10V6z"></path><path d="M9 12l2 2 4-5"></path></svg></div>
+      <div class="ps-row-icon"><svg class="ps-vector-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4l6.2 2.8v4.3c0 4.2-2.5 6.8-6.2 8.7-3.7-1.9-6.2-4.5-6.2-8.7V6.8z"></path><path d="M9.2 12l1.8 1.8 3.8-4.6"></path></svg></div>
       <div class="ps-row-copy">
         <h3 class="ps-row-title">Responsabilidade com dados</h3>
         <p class="ps-row-subtitle">Essa vivência me deu visão analítica, responsabilidade com dados, comunicação clara e atenção a detalhes.</p>
@@ -38,7 +38,7 @@ source_format: html
     </article>
 
     <article class="ps-action-row">
-      <div class="ps-row-icon"><svg class="ps-vector-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="5" width="16" height="14" rx="2"></rect><path d="M7 10l3 2-3 2"></path><path d="M12 15h5"></path></svg></div>
+      <div class="ps-row-icon"><svg class="ps-vector-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="6" width="14" height="12" rx="2"></rect><path d="M8 10l3 2-3 2"></path><path d="M13 15h4"></path></svg></div>
       <div class="ps-row-copy">
         <h3 class="ps-row-title">Projetos técnicos autorais</h3>
         <p class="ps-row-subtitle">Em paralelo, desenvolvo projetos técnicos com foco em segurança digital, Termux, Kali Linux, Android, automação, ferramentas CLI, aplicações web locais e documentação técnica.</p>
@@ -63,7 +63,7 @@ source_format: html
     </article>
 
     <article class="ps-action-row">
-      <div class="ps-row-icon"><svg class="ps-vector-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h8l4 4v14H6z"></path><path d="M14 3v5h5"></path><path d="M9 12h6"></path><path d="M9 16h6"></path></svg></div>
+      <div class="ps-row-icon"><svg class="ps-vector-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4h7l4 4v13H7z"></path><path d="M14 4v5h5"></path><path d="M10 12h5"></path><path d="M10 16h5"></path></svg></div>
       <div class="ps-row-copy">
         <h3 class="ps-row-title">Como trabalho</h3>
         <p class="ps-row-subtitle">Busco clareza, documentação, responsabilidade e evolução incremental. Prefiro construir com segurança, validar e melhorar continuamente.</p>

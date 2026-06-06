@@ -23,7 +23,7 @@ source_format: html
 
   <div class="ps-row-list">
     <article class="ps-action-row">
-      <div class="ps-row-icon"><svg class="ps-vector-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="3" width="10" height="18" rx="2"></rect><path d="M7 7h6"></path><path d="M8 11h1"></path><path d="M12 11h1"></path><rect x="13" y="13" width="7" height="6" rx="1.5"></rect><path d="M15 13v-1.5a2.5 2.5 0 0 1 5 0V13"></path></svg></div>
+      <div class="ps-row-icon"><svg class="ps-vector-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="5.5" y="4" width="9" height="16" rx="2"></rect><path d="M7.5 7h5"></path><path d="M8.3 11h.8"></path><path d="M11.8 11h.8"></path><rect x="12.8" y="13" width="6.7" height="5.6" rx="1.4"></rect><path d="M14.2 13v-1.2a2.1 2.1 0 0 1 4.2 0V13"></path></svg></div>
       <div class="ps-row-copy">
         <h3 class="ps-row-title">PS.Calc Privacy Policy</h3>
         <p class="ps-row-subtitle">Public policy for the PS.Calc Android app, covering local-first design, offline behavior, Secure Notes, biometric handling, data sharing and deletion.</p>
@@ -33,7 +33,7 @@ source_format: html
     </article>
 
     <article class="ps-action-row">
-      <div class="ps-row-icon"><svg class="ps-vector-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l7 3v5c0 5-3 8-7 10-4-2-7-5-7-10V6z"></path><path d="M9 12l2 2 4-5"></path></svg></div>
+      <div class="ps-row-icon"><svg class="ps-vector-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4l6.2 2.8v4.3c0 4.2-2.5 6.8-6.2 8.7-3.7-1.9-6.2-4.5-6.2-8.7V6.8z"></path><path d="M9.2 12l1.8 1.8 3.8-4.6"></path></svg></div>
       <div class="ps-row-copy">
         <h3 class="ps-row-title">Privacy-first approach</h3>
         <p class="ps-row-subtitle">PeekSecurity projects prioritize local control, responsible documentation and transparent public information for users, reviewers and collaborators.</p>

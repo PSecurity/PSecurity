@@ -31,7 +31,7 @@ source_format: html
     </article>
 
     <article class="ps-action-row">
-      <div class="ps-row-icon"><svg class="ps-vector-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l7 3v5c0 5-3 8-7 10-4-2-7-5-7-10V6z"></path><path d="M9 8h5l2 2v6H9z"></path><path d="M14 8v3h3"></path><path d="M11 13h4"></path></svg></div>
+      <div class="ps-row-icon"><svg class="ps-vector-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4l6.2 2.8v4.3c0 4.2-2.5 6.8-6.2 8.7-3.7-1.9-6.2-4.5-6.2-8.7V6.8z"></path><path d="M9 8.5h4.6l1.9 1.9V16H9z"></path><path d="M13.6 8.5v2.7h2.7"></path><path d="M10.8 13.2h3.8"></path></svg></div>
       <div class="ps-row-copy">
         <h3 class="ps-row-title">Privacy e app review</h3>
         <p class="ps-row-subtitle">Canal público para perguntas de privacidade, revisão de políticas e solicitações relacionadas aos apps PeekSecurity.</p>

@@ -385,6 +385,8 @@ button:focus-visible {
   fill: none;
   stroke-linecap: round;
   stroke-linejoin: round;
+  vector-effect: non-scaling-stroke;
+  overflow: visible;
 }
 
 .ps-vector-icon {
@@ -817,8 +819,8 @@ pre {
   }
 
   .ps-brand-vector {
-    width: 22px;
-    height: 22px;
+    width: 23px;
+    height: 23px;
   }
 
   .ps-site-nav {
@@ -1012,8 +1014,8 @@ pre {
   }
 
   .ps-brand-vector {
-    width: 21px;
-    height: 21px;
+    width: 23px;
+    height: 23px;
   }
 
   .ps-brand-copy strong {
@@ -1124,8 +1126,8 @@ pre {
   }
 
   .ps-vector-icon {
-    width: 20px;
-    height: 20px;
+    width: var(--ps-icon-size);
+    height: var(--ps-icon-size);
   }
 
   .ps-row-trailing {
