@@ -241,7 +241,20 @@ button:focus-visible {
 }
 
 .ps-inventory-head {
-  max-width: 780px;
+  max-width: var(--ps-content-max, 940px);
+}
+
+.ps-inventory-head .ps-command-strip {
+  margin-top: 14px;
+}
+
+.ps-inventory-list .ps-row-copy {
+  gap: 4px;
+}
+
+.ps-inventory-list .ps-chip-strip {
+  gap: 6px;
+  margin-top: 4px;
 }
 
 .ps-ecosystem-panel {
@@ -646,10 +659,6 @@ pre {
   overflow-x: auto;
 }
 
-.hero,
-.project-card,
-.post-card,
-.category-card,
 .contact-card,
 .info-card,
 .case-card,
@@ -657,10 +666,10 @@ pre {
 .availability-card,
 .official-release-panel,
 .terminal-card {
-  background: var(--ps-graphite-900);
+  background: transparent;
   background-image: none;
-  border: 1px solid var(--ps-graphite-800);
-  border-radius: 12px;
+  border: 0;
+  border-radius: 0;
 }
 
 .btn-primary,
@@ -1053,6 +1062,11 @@ pre {
 
   .ps-skill-row .ps-chip-strip {
     gap: 6px;
+  }
+
+  .ps-inventory-list .ps-chip-strip {
+    gap: 6px;
+    margin-top: 4px;
   }
 
   .ps-command-strip {
