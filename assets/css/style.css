@@ -31,7 +31,7 @@
   --ps-danger: #A33A4A;
   --ps-danger-soft: #35141C;
   --ps-font-ui: Roboto, "Segoe UI", system-ui, -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
-  --ps-font-mono: "Cascadia Mono", "Roboto Mono", "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+  --ps-font-mono: "Roboto Mono", "Cascadia Mono", "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
   --ps-font: var(--ps-font-ui);
   --ps-mono: var(--ps-font-mono);
   --ps-shell-max: 1080px;
@@ -85,8 +85,8 @@ button:focus-visible {
 }
 
 .ps-site-head {
-  background: rgba(7, 8, 13, 0.98);
-  border-bottom: 1px solid rgba(36, 44, 58, 0.46);
+  background: rgba(7, 8, 13, 0.97);
+  border-bottom: 1px solid rgba(36, 44, 58, 0.42);
   position: sticky;
   top: 0;
   z-index: 50;
@@ -104,7 +104,7 @@ button:focus-visible {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 12px;
+  gap: 10px;
 }
 
 .ps-brand-row {
@@ -159,7 +159,7 @@ button:focus-visible {
 .ps-site-nav {
   display: flex;
   align-items: center;
-  gap: 2px;
+  gap: 1px;
   min-height: 32px;
   padding: 0;
   background: transparent;
@@ -167,15 +167,15 @@ button:focus-visible {
 }
 
 .ps-site-nav-item {
-  min-height: 30px;
+  min-height: 29px;
   display: inline-flex;
   align-items: center;
-  padding: 0 10px;
+  padding: 0 9px;
   background: transparent;
   border: 1px solid transparent;
   border-radius: 0;
   color: var(--ps-text-secondary);
-  font-size: 0.70rem;
+  font-size: 0.69rem;
   font-weight: 680;
   text-decoration: none;
   line-height: 1;
@@ -247,31 +247,32 @@ button:focus-visible {
   line-height: 1.44;
 }
 
-.ps-family-dock {
+.ps-family-strip {
   display: flex;
   flex-wrap: wrap;
-  gap: 8px 14px;
+  gap: 10px 16px;
   margin-top: 14px;
   align-items: center;
 }
 
-.ps-family-module {
+.ps-family-link {
   display: inline-flex;
   align-items: center;
   gap: 6px;
   min-height: 24px;
   color: var(--ps-text-secondary);
-  font-size: 0.70rem;
-  font-weight: 680;
+  font-family: var(--ps-font-ui);
+  font-size: 0.73rem;
+  font-weight: 600;
   line-height: 1;
   text-decoration: none;
 }
 
-.ps-family-module span {
+.ps-family-link span {
   white-space: nowrap;
 }
 
-.ps-family-module .ps-mini-vector,
+.ps-family-link .ps-mini-vector,
 .ps-mini-vector {
   width: 15px;
   height: 15px;
@@ -283,10 +284,10 @@ button:focus-visible {
   stroke-linejoin: round;
 }
 
-.ps-family-module:hover,
-.ps-family-module:focus-visible,
-.ps-family-module.is-active,
-.ps-family-module[aria-current="page"] {
+.ps-family-link:hover,
+.ps-family-link:focus-visible,
+.ps-family-link.is-active,
+.ps-family-link[aria-current="page"] {
   color: var(--ps-purple-light);
 }
 
@@ -828,12 +829,12 @@ pre {
 
 @media (prefers-reduced-motion: no-preference) {
   .ps-public-identity-head .ps-public-head,
-  .ps-public-identity-head .ps-family-dock,
+  .ps-public-identity-head .ps-family-strip,
   .ps-public-identity-head .ps-command-strip {
     animation: ps-subtle-rise 180ms ease-out both;
   }
 
-  .ps-public-identity-head .ps-family-dock {
+  .ps-public-identity-head .ps-family-strip {
     animation-delay: 45ms;
   }
 
@@ -843,7 +844,7 @@ pre {
 
   .ps-command,
   .ps-site-nav-item,
-  .ps-family-module {
+  .ps-family-link {
     transition:
       color 120ms ease,
       background-color 120ms ease,
@@ -877,7 +878,7 @@ pre {
 
   .ps-site-head-inner {
     width: min(var(--ps-shell-max), calc(100% - 72px));
-    min-height: 54px;
+    min-height: 52px;
   }
 
   .ps-brand-copy strong {
@@ -895,12 +896,12 @@ pre {
   }
 
   .ps-site-nav {
-    gap: 2px;
+    gap: 1px;
   }
 
   .ps-site-nav-item {
-    min-height: 30px;
-    padding: 0 10px;
+    min-height: 29px;
+    padding: 0 9px;
   }
 
   .ps-shell {
@@ -955,6 +956,10 @@ pre {
     max-width: 660px;
     font-size: 0.86rem;
     line-height: 1.48;
+  }
+
+  .ps-family-strip {
+    max-width: 720px;
   }
 
   .ps-workspace {
@@ -1152,16 +1157,16 @@ pre {
     line-height: 1.42;
   }
 
-  .ps-family-dock {
+  .ps-family-strip {
     gap: 8px 12px;
     margin-top: 12px;
   }
 
-  .ps-family-module {
+  .ps-family-link {
     font-size: 0.66rem;
   }
 
-  .ps-family-module .ps-mini-vector,
+  .ps-family-link .ps-mini-vector,
   .ps-mini-vector {
     width: 14px;
     height: 14px;
