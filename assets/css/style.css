@@ -554,6 +554,75 @@ button:focus-visible {
   margin-top: 2px;
 }
 
+.ps-legal-workspace {
+  max-width: var(--ps-content-max, 940px);
+}
+
+.ps-legal-workspace .ps-workspace-subtitle {
+  max-width: 720px;
+  margin: 6px 0 0;
+  color: var(--ps-text-secondary);
+  font-size: 0.82rem;
+  line-height: 1.45;
+}
+
+.ps-legal-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 12px;
+}
+
+.ps-legal-body {
+  max-width: 760px;
+  color: var(--ps-text-secondary);
+}
+
+.ps-legal-body h2 {
+  margin: 22px 0 8px;
+  color: var(--ps-text);
+  font-size: 0.96rem;
+  line-height: 1.25;
+  font-weight: 720;
+  letter-spacing: 0;
+}
+
+.ps-legal-body h2:first-child {
+  margin-top: 0;
+}
+
+.ps-legal-body h3 {
+  margin: 18px 0 7px;
+  color: var(--ps-text);
+  font-size: 0.84rem;
+  line-height: 1.25;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+
+.ps-legal-body p,
+.ps-legal-body li {
+  color: var(--ps-text-secondary);
+  font-size: 0.78rem;
+  line-height: 1.55;
+}
+
+.ps-legal-body ul,
+.ps-legal-body ol {
+  margin: 8px 0 14px;
+  padding-left: 18px;
+}
+
+.ps-legal-body a {
+  color: var(--ps-purple-light);
+  text-decoration: none;
+}
+
+.ps-legal-body a:hover,
+.ps-legal-body a:focus-visible {
+  color: var(--ps-text);
+}
+
 .ps-command-strip {
   display: flex;
   flex-wrap: wrap;
@@ -1062,6 +1131,22 @@ pre {
 
   .ps-skill-row .ps-chip-strip {
     gap: 6px;
+  }
+
+  .ps-legal-workspace .ps-workspace-subtitle {
+    font-size: 0.76rem;
+    line-height: 1.45;
+  }
+
+  .ps-legal-body h2 {
+    margin-top: 18px;
+    font-size: 0.90rem;
+  }
+
+  .ps-legal-body p,
+  .ps-legal-body li {
+    font-size: 0.74rem;
+    line-height: 1.5;
   }
 
   .ps-inventory-list .ps-chip-strip {
