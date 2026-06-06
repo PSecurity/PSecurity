@@ -24,7 +24,7 @@ source_format: html
 <section class="ps-workspace ps-legal-workspace">
   <div class="ps-row-list">
     <article class="ps-action-row">
-      <div class="ps-row-icon" aria-hidden="true"><svg class="ps-vector-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l7 3v5c0 5-3 8-7 10-4-2-7-5-7-10V6z"></path><path d="M9 12l2 2 4-5"></path></svg></div>
+      <div class="ps-row-icon" aria-hidden="true"><svg class="ps-vector-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h8l4 4v14H6z"></path><path d="M14 3v5h5"></path><circle cx="11" cy="12" r="2"></circle><path d="M8 18a3.5 3.5 0 0 1 7 0"></path></svg></div>
       <div class="ps-row-copy">
         <h2 class="ps-row-title">Developer</h2>
         <p class="ps-row-subtitle">Gilberto Martins / PeekSecurity.</p>
@@ -32,7 +32,7 @@ source_format: html
     </article>
 
     <article class="ps-action-row">
-      <div class="ps-row-icon" aria-hidden="true"><svg class="ps-vector-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="6" y="10" width="12" height="10" rx="2"></rect><path d="M9 10V7a3 3 0 0 1 6 0v3"></path><path d="M12 14v3"></path></svg></div>
+      <div class="ps-row-icon" aria-hidden="true"><svg class="ps-vector-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="7" y="3" width="10" height="18" rx="2"></rect><path d="M10 6h4"></path><path d="M10 18h4"></path><rect x="11" y="11" width="8" height="7" rx="1.5"></rect><path d="M13 11V9.5a2.5 2.5 0 0 1 5 0V11"></path></svg></div>
       <div class="ps-row-copy">
         <h2 class="ps-row-title">Local-first policy</h2>
         <p class="ps-row-subtitle">PS.Calc is documented as offline, local-first, without cloud synchronization, advertising SDKs, analytics SDKs or external tracking services.</p>

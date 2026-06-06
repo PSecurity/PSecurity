@@ -31,7 +31,7 @@ source_format: html
     </article>
 
     <article class="ps-action-row">
-      <div class="ps-row-icon" aria-hidden="true"><svg class="ps-vector-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l7 3v5c0 5-3 8-7 10-4-2-7-5-7-10V6z"></path><path d="M9 12l2 2 4-5"></path></svg></div>
+      <div class="ps-row-icon" aria-hidden="true"><svg class="ps-vector-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l7 3v5c0 5-3 8-7 10-4-2-7-5-7-10V6z"></path><path d="M9 8h5l2 2v6H9z"></path><path d="M14 8v3h3"></path><path d="M11 13h4"></path></svg></div>
       <div class="ps-row-copy">
         <h3 class="ps-row-title">Privacy e app review</h3>
         <p class="ps-row-subtitle">Canal público para perguntas de privacidade, revisão de políticas e solicitações relacionadas aos apps PeekSecurity.</p>
@@ -40,7 +40,7 @@ source_format: html
     </article>
 
     <article class="ps-action-row">
-      <div class="ps-row-icon" aria-hidden="true"><svg class="ps-vector-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 18c-2-1.2-3-3-3-6a8 8 0 0 1 16 0c0 3-1 4.8-3 6"></path><path d="M9 19v-3c0-1 .8-2 3-2s3 1 3 2v3"></path><path d="M8 9l-1-3"></path><path d="M16 9l1-3"></path></svg></div>
+      <div class="ps-row-icon" aria-hidden="true"><svg class="ps-vector-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 5a2 2 0 1 0 0 4 2 2 0 0 0 0-4z"></path><path d="M18 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4z"></path><path d="M6 9v3a4 4 0 0 0 4 4h4"></path><path d="M14 16h4"></path><path d="M14 13h4"></path></svg></div>
       <div class="ps-row-copy">
         <h3 class="ps-row-title">GitHub</h3>
         <p class="ps-row-subtitle">Repositórios, código público, documentação técnica e trilhas de evolução dos projetos.</p>
@@ -49,7 +49,7 @@ source_format: html
     </article>
 
     <article class="ps-action-row">
-      <div class="ps-row-icon" aria-hidden="true"><svg class="ps-vector-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M14 4v10a4 4 0 1 1-4-4"></path><path d="M14 4c1 3 3 4 5 4"></path></svg></div>
+      <div class="ps-row-icon" aria-hidden="true"><svg class="ps-vector-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="6" width="16" height="12" rx="3"></rect><path d="M10 9l5 3-5 3z"></path></svg></div>
       <div class="ps-row-copy">
         <h3 class="ps-row-title">TikTok</h3>
         <p class="ps-row-subtitle">Conteúdos rápidos, bastidores e publicações curtas da PeekSecurity.</p>

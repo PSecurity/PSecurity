@@ -23,7 +23,7 @@ source_format: html
 
   <div class="ps-row-list">
     <article class="ps-action-row">
-      <div class="ps-row-icon" aria-hidden="true"><svg class="ps-vector-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="6" y="3" width="12" height="18" rx="2"></rect><path d="M8 7h8"></path><path d="M9 11h1"></path><path d="M14 11h1"></path><path d="M9 15h1"></path><path d="M14 15h1"></path></svg></div>
+      <div class="ps-row-icon" aria-hidden="true"><svg class="ps-vector-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="3" width="10" height="18" rx="2"></rect><path d="M7 7h6"></path><path d="M8 11h1"></path><path d="M12 11h1"></path><rect x="13" y="13" width="7" height="6" rx="1.5"></rect><path d="M15 13v-1.5a2.5 2.5 0 0 1 5 0V13"></path></svg></div>
       <div class="ps-row-copy">
         <h3 class="ps-row-title">PS.Calc Privacy Policy</h3>
         <p class="ps-row-subtitle">Public policy for the PS.Calc Android app, covering local-first design, offline behavior, Secure Notes, biometric handling, data sharing and deletion.</p>

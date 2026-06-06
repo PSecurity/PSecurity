@@ -71,7 +71,7 @@ source_format: html
     </article>
 
     <article class="ps-action-row">
-      <div class="ps-row-icon" aria-hidden="true"><svg class="ps-vector-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="7" y="3" width="10" height="18" rx="2"></rect><path d="M10 6h4"></path><path d="M10 18h4"></path></svg></div>
+      <div class="ps-row-icon" aria-hidden="true"><svg class="ps-vector-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="7" width="16" height="11" rx="2"></rect><path d="M9 7V5h6v2"></path><path d="M12 11v4"></path><path d="M10 13h4"></path></svg></div>
       <div class="ps-row-copy">
         <h3 class="ps-row-title">Onde quero atuar</h3>
         <p class="ps-row-subtitle">Tecnologia, segurança da informação, suporte técnico, prevenção a fraudes, análise de risco, automação, desenvolvimento Android e ferramentas técnicas.</p>
