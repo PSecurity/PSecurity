@@ -516,30 +516,29 @@ button:focus-visible {
   max-width: var(--ps-content-max, 940px);
 }
 
-.ps-skill-groups {
+.ps-skill-list {
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.ps-skill-row {
+  cursor: default;
+}
+
+.ps-skill-row .ps-row-copy {
   display: grid;
-  gap: 13px;
+  gap: 5px;
 }
 
-.ps-skill-group {
-  display: grid;
-  gap: 6px;
-}
-
-.ps-skill-label {
-  margin: 0;
-  color: var(--ps-text-muted);
-  font-family: var(--ps-mono);
-  font-size: 0.56rem;
-  font-weight: 760;
-  letter-spacing: 0.13em;
-  line-height: 1.1;
-  text-transform: uppercase;
-}
-
-.ps-skill-group .ps-chip-strip {
-  gap: 6px;
+.ps-skill-row .ps-row-subtitle {
   margin-top: 0;
+}
+
+.ps-skill-row .ps-chip-strip {
+  gap: 6px;
+  margin-top: 2px;
 }
 
 .ps-command-strip {
@@ -821,10 +820,13 @@ pre {
     border-color: rgba(53, 64, 84, 0.52);
   }
 
-  .ps-skill-groups {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    column-gap: 22px;
-    row-gap: 14px;
+  .ps-skill-row {
+    grid-template-columns: 44px minmax(0, 1fr);
+    padding-right: 0;
+  }
+
+  .ps-skill-row .ps-row-subtitle {
+    max-width: 720px;
   }
 
   .ps-row-trailing {
@@ -1045,15 +1047,11 @@ pre {
     white-space: normal;
   }
 
-  .ps-skill-groups {
-    gap: 12px;
+  .ps-skill-row {
+    grid-template-columns: 36px minmax(0, 1fr);
   }
 
-  .ps-skill-label {
-    font-size: 0.54rem;
-  }
-
-  .ps-skill-group .ps-chip-strip {
+  .ps-skill-row .ps-chip-strip {
     gap: 6px;
   }
 
