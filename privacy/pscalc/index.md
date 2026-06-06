@@ -3,6 +3,7 @@ layout: default
 title: Privacy Policy — PS.Calc
 description: Privacy Policy for the PS.Calc Android app by Gilberto Martins / PeekSecurity.
 permalink: /privacy/pscalc/
+source_format: html
 ---
 
 <section class="ps-workspace ps-legal-workspace">
@@ -17,6 +18,35 @@ permalink: /privacy/pscalc/
     <span class="ps-chip">Local-first</span>
     <span class="ps-chip">No ads</span>
     <span class="ps-chip">No analytics</span>
+  </div>
+</section>
+
+<section class="ps-workspace ps-legal-workspace">
+  <div class="ps-row-list">
+    <article class="ps-action-row">
+      <div class="ps-row-icon" aria-hidden="true"><svg class="ps-vector-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l7 3v5c0 5-3 8-7 10-4-2-7-5-7-10V6z"></path><path d="M9 12l2 2 4-5"></path></svg></div>
+      <div class="ps-row-copy">
+        <h2 class="ps-row-title">Developer</h2>
+        <p class="ps-row-subtitle">Gilberto Martins / PeekSecurity.</p>
+      </div>
+    </article>
+
+    <article class="ps-action-row">
+      <div class="ps-row-icon" aria-hidden="true"><svg class="ps-vector-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="6" y="10" width="12" height="10" rx="2"></rect><path d="M9 10V7a3 3 0 0 1 6 0v3"></path><path d="M12 14v3"></path></svg></div>
+      <div class="ps-row-copy">
+        <h2 class="ps-row-title">Local-first policy</h2>
+        <p class="ps-row-subtitle">PS.Calc is documented as offline, local-first, without cloud synchronization, advertising SDKs, analytics SDKs or external tracking services.</p>
+      </div>
+    </article>
+
+    <article class="ps-action-row">
+      <div class="ps-row-icon" aria-hidden="true"><svg class="ps-vector-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16v12H4z"></path><path d="M4 7l8 6 8-6"></path></svg></div>
+      <div class="ps-row-copy">
+        <h2 class="ps-row-title">Contact</h2>
+        <p class="ps-row-subtitle">Use the public PeekSecurity contact channel for privacy questions and review requests.</p>
+      </div>
+      <a class="ps-row-trailing" href="mailto:peeksecurity.dev@gmail.com">E-mail</a>
+    </article>
   </div>
 </section>
 

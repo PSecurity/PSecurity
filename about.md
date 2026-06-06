@@ -3,6 +3,7 @@ layout: default
 title: Sobre
 description: Sobre Gilberto Martins e a trajetória por trás da PeekSecurity.
 permalink: /about/
+source_format: html
 ---
 
 <section class="ps-workspace ps-public-head ps-profile-workspace">

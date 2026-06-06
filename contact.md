@@ -3,6 +3,7 @@ layout: default
 title: Contato
 description: Contato profissional de Gilberto Martins e PeekSecurity.
 permalink: /contact/
+source_format: html
 ---
 
 <section class="ps-workspace ps-public-head ps-contact-workspace">

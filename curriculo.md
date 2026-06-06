@@ -3,6 +3,7 @@ layout: default
 title: Currículo - Gilberto Victor Ferreira Martins
 description: Currículo profissional de Gilberto Victor Ferreira Martins.
 permalink: /curriculo/
+source_format: html
 ---
 
 <section class="ps-workspace ps-public-head ps-profile-workspace">

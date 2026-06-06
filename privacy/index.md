@@ -3,6 +3,7 @@ layout: default
 title: Privacy
 description: Privacy Center for PeekSecurity apps and public policies.
 permalink: /privacy/
+source_format: html
 ---
 
 <section class="ps-workspace ps-public-head">
