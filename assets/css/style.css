@@ -243,6 +243,44 @@ button:focus-visible {
   line-height: 1.44;
 }
 
+.ps-family-strip {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 14px;
+  margin-top: 14px;
+  align-items: center;
+}
+
+.ps-family-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--ps-text-secondary);
+  font-size: 0.68rem;
+  font-weight: 680;
+  line-height: 1;
+}
+
+.ps-family-item span {
+  white-space: nowrap;
+}
+
+.ps-mini-vector {
+  width: 15px;
+  height: 15px;
+  display: block;
+  stroke: currentColor;
+  fill: none;
+  stroke-width: 1.75;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.ps-family-item:first-child,
+.ps-family-item:hover {
+  color: var(--ps-purple-light);
+}
+
 .ps-inventory-head {
   max-width: var(--ps-content-max, 940px);
 }
@@ -775,6 +813,49 @@ pre {
   border-radius: 0;
 }
 
+@media (prefers-reduced-motion: no-preference) {
+  .ps-public-identity-head .ps-ecosystem-copy,
+  .ps-public-identity-head .ps-family-strip,
+  .ps-public-identity-head .ps-command-strip {
+    animation: ps-subtle-rise 180ms ease-out both;
+  }
+
+  .ps-public-identity-head .ps-family-strip {
+    animation-delay: 45ms;
+  }
+
+  .ps-public-identity-head .ps-command-strip {
+    animation-delay: 75ms;
+  }
+
+  .ps-command,
+  .ps-site-nav-item,
+  .ps-family-item {
+    transition:
+      color 120ms ease,
+      background-color 120ms ease,
+      border-color 120ms ease,
+      transform 120ms ease;
+  }
+
+  .ps-command:hover,
+  .ps-site-nav-item:hover {
+    transform: translateY(-1px);
+  }
+}
+
+@keyframes ps-subtle-rise {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 @media (min-width: 960px) {
   :root {
     --ps-shell-max: 1040px;
@@ -823,6 +904,19 @@ pre {
     border-radius: 0;
   }
 
+  .ps-public-identity-head {
+    max-width: var(--ps-content-max, 940px);
+    padding: 4px 0 24px;
+    margin: 0 0 28px;
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+  }
+
+  .ps-public-identity-head .ps-ecosystem-copy {
+    max-width: 700px;
+  }
+
   .ps-public-head,
   .ps-inventory-head,
   .ps-workspace,
@@ -835,6 +929,12 @@ pre {
   .ps-public-title {
     font-size: 1.72rem;
     line-height: 1.08;
+  }
+
+  .ps-public-identity-head .ps-public-title {
+    font-size: 1.90rem;
+    line-height: 1.06;
+    letter-spacing: 0;
   }
 
   .ps-public-head p {
@@ -1036,6 +1136,20 @@ pre {
     margin-top: 9px;
     font-size: 0.86rem;
     line-height: 1.42;
+  }
+
+  .ps-family-strip {
+    gap: 8px 12px;
+    margin-top: 12px;
+  }
+
+  .ps-family-item {
+    font-size: 0.64rem;
+  }
+
+  .ps-mini-vector {
+    width: 14px;
+    height: 14px;
   }
 
   .ps-workspace {
