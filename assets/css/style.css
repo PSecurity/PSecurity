@@ -648,33 +648,11 @@ button:focus-visible {
   letter-spacing: 0;
 }
 
-.ps-legal-heading {
-  margin: 22px 0 8px;
-  color: var(--ps-text);
-  font-size: 0.96rem;
-  line-height: 1.25;
-  font-weight: 720;
-  letter-spacing: 0;
-}
-
 .ps-legal-body h2:first-child {
   margin-top: 0;
 }
 
-.ps-legal-heading:first-child {
-  margin-top: 0;
-}
-
 .ps-legal-body h3 {
-  margin: 18px 0 7px;
-  color: var(--ps-text);
-  font-size: 0.84rem;
-  line-height: 1.25;
-  font-weight: 700;
-  letter-spacing: 0;
-}
-
-.ps-legal-subheading {
   margin: 18px 0 7px;
   color: var(--ps-text);
   font-size: 0.84rem;
