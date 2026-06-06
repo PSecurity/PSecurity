@@ -10,14 +10,14 @@ source_format: html
   <div class="ps-workspace-head">
     <p class="ps-section-label">PRIVACY POLICY</p>
     <h1 class="ps-workspace-title">Privacy Policy — PS.Calc</h1>
-    <p class="ps-workspace-subtitle">Local-first calculator tools and Secure Notes. No ads, no analytics and no cloud sync.</p>
+    <p class="ps-workspace-subtitle">Local-first calculator tools and Secure Notes, with transparent offline privacy behavior.</p>
   </div>
 
   <div class="ps-legal-meta">
     <span class="ps-chip">PS.Calc</span>
     <span class="ps-chip">Local-first</span>
-    <span class="ps-chip">No ads</span>
-    <span class="ps-chip">No analytics</span>
+    <span class="ps-chip">Offline</span>
+    <span class="ps-chip">Local storage</span>
   </div>
 </section>
 

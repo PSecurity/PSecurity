@@ -30,8 +30,10 @@
   --ps-amber-soft: #241B10;
   --ps-danger: #A33A4A;
   --ps-danger-soft: #35141C;
-  --ps-font: Inter, Roboto, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  --ps-mono: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
+  --ps-font-ui: Roboto, "Segoe UI", system-ui, -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+  --ps-font-mono: "Cascadia Mono", "Roboto Mono", "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+  --ps-font: var(--ps-font-ui);
+  --ps-mono: var(--ps-font-mono);
   --ps-shell-max: 1080px;
   --ps-shell-pad-mobile: 16px;
   --ps-shell-pad-desktop: 56px;
@@ -67,6 +69,9 @@ body {
   font-weight: 400;
   letter-spacing: 0;
   line-height: 1.55;
+  text-rendering: geometricPrecision;
+  -webkit-font-smoothing: antialiased;
+  font-synthesis-weight: none;
 }
 
 a {
@@ -81,7 +86,7 @@ button:focus-visible {
 
 .ps-site-head {
   background: rgba(7, 8, 13, 0.98);
-  border-bottom: 1px solid rgba(36, 44, 58, 0.52);
+  border-bottom: 1px solid rgba(36, 44, 58, 0.46);
   position: sticky;
   top: 0;
   z-index: 50;
@@ -105,7 +110,7 @@ button:focus-visible {
 .ps-brand-row {
   display: inline-flex;
   align-items: center;
-  gap: 9px;
+  gap: 8px;
   min-height: 40px;
   padding: 0 5px 0 0;
   min-width: 0;
@@ -114,8 +119,8 @@ button:focus-visible {
 }
 
 .ps-brand-mark {
-  width: 30px;
-  height: 30px;
+  width: 28px;
+  height: 28px;
   display: grid;
   place-items: center;
   color: var(--ps-purple-light);
@@ -140,7 +145,7 @@ button:focus-visible {
   color: var(--ps-text);
   font-size: 0.88rem;
   line-height: 1.05;
-  font-weight: 740;
+  font-weight: 700;
   letter-spacing: 0;
 }
 
@@ -162,16 +167,16 @@ button:focus-visible {
 }
 
 .ps-site-nav-item {
-  min-height: 32px;
+  min-height: 30px;
   display: inline-flex;
   align-items: center;
-  padding: 0 9px;
+  padding: 0 10px;
   background: transparent;
   border: 1px solid transparent;
   border-radius: 0;
   color: var(--ps-text-secondary);
   font-size: 0.70rem;
-  font-weight: 760;
+  font-weight: 680;
   text-decoration: none;
   line-height: 1;
   transition: background-color 120ms ease, border-color 120ms ease, color 120ms ease;
@@ -227,7 +232,7 @@ button:focus-visible {
   font-size: 1.38rem;
   line-height: 1.08;
   letter-spacing: 0;
-  font-weight: 740;
+  font-weight: 700;
 }
 
 .ps-public-head p {
@@ -283,7 +288,7 @@ button:focus-visible {
   font-family: var(--ps-mono);
   font-size: 0.56rem;
   line-height: 1.1;
-  font-weight: 760;
+  font-weight: 680;
   letter-spacing: 0;
   text-transform: uppercase;
 }
@@ -294,7 +299,7 @@ button:focus-visible {
   font-size: 0.96rem;
   line-height: 1.24;
   letter-spacing: 0;
-  font-weight: 720;
+  font-weight: 700;
 }
 
 .ps-workspace-subtitle {
@@ -369,8 +374,8 @@ button:focus-visible {
 }
 
 .ps-brand-vector {
-  width: 23px;
-  height: 23px;
+  width: 22px;
+  height: 22px;
   stroke-width: 1.8;
 }
 
@@ -393,7 +398,7 @@ button:focus-visible {
   font-size: 0.84rem;
   line-height: 1.22;
   letter-spacing: 0;
-  font-weight: 720;
+  font-weight: 680;
 }
 
 .ps-row-title a {
@@ -428,7 +433,7 @@ button:focus-visible {
   border: 1px solid transparent;
   color: var(--ps-text-muted);
   font-size: 0.68rem;
-  font-weight: 720;
+  font-weight: 680;
   text-decoration: none;
   white-space: nowrap;
   line-height: 1;
@@ -474,7 +479,7 @@ button:focus-visible {
   font-family: var(--ps-mono);
   font-size: 0.58rem;
   line-height: 1;
-  font-weight: 720;
+  font-weight: 680;
   letter-spacing: 0;
   text-transform: uppercase;
   white-space: nowrap;
@@ -518,7 +523,6 @@ button:focus-visible {
   background: transparent;
   border: 0;
   border-radius: 0;
-  box-shadow: none;
 }
 
 .ps-skill-row {
@@ -619,7 +623,7 @@ button:focus-visible {
   color: var(--ps-text);
   font-size: 0.96rem;
   line-height: 1.25;
-  font-weight: 720;
+  font-weight: 700;
   letter-spacing: 0;
 }
 
@@ -670,14 +674,14 @@ button:focus-visible {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-height: 38px;
-  padding: 0 13px;
+  min-height: 34px;
+  padding: 0 12px;
   border-radius: 0;
-  background: var(--ps-graphite-900);
-  border: 1px solid var(--ps-graphite-800);
+  background: rgba(13, 16, 23, 0.72);
+  border: 1px solid rgba(53, 64, 84, 0.70);
   color: var(--ps-text-secondary);
-  font-size: 0.70rem;
-  font-weight: 760;
+  font-size: 0.68rem;
+  font-weight: 680;
   text-decoration: none;
   line-height: 1;
   transition: background-color 120ms ease, border-color 120ms ease, color 120ms ease;
@@ -731,7 +735,7 @@ button:focus-visible {
 .ps-footer-links a {
   color: var(--ps-text-muted);
   font-size: 0.68rem;
-  font-weight: 800;
+  font-weight: 680;
   text-decoration: none;
 }
 
@@ -779,7 +783,7 @@ pre {
 
   .ps-site-head-inner {
     width: min(var(--ps-shell-max), calc(100% - 72px));
-    min-height: 56px;
+    min-height: 54px;
   }
 
   .ps-brand-copy strong {
@@ -792,12 +796,12 @@ pre {
   }
 
   .ps-brand-vector {
-    width: 23px;
-    height: 23px;
+    width: 22px;
+    height: 22px;
   }
 
   .ps-site-nav {
-    gap: 3px;
+    gap: 2px;
   }
 
   .ps-site-nav-item {
@@ -829,7 +833,7 @@ pre {
 
   .ps-public-head h1,
   .ps-public-title {
-    font-size: 1.58rem;
+    font-size: 1.72rem;
     line-height: 1.08;
   }
 
@@ -974,8 +978,8 @@ pre {
   }
 
   .ps-brand-vector {
-    width: 23px;
-    height: 23px;
+    width: 22px;
+    height: 22px;
   }
 
   .ps-brand-copy strong {
@@ -1024,7 +1028,7 @@ pre {
 
   .ps-public-head h1,
   .ps-public-title {
-    font-size: 1.55rem;
+    font-size: 1.62rem;
     line-height: 1.04;
   }
 
