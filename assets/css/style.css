@@ -224,6 +224,10 @@ button:focus-visible {
   padding: 0;
 }
 
+.ps-public-identity-head .ps-public-head {
+  margin: 0;
+}
+
 .ps-public-head h1,
 .ps-public-title {
   max-width: 720px;
@@ -814,7 +818,7 @@ pre {
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .ps-public-identity-head .ps-ecosystem-copy,
+  .ps-public-identity-head .ps-public-head,
   .ps-public-identity-head .ps-family-strip,
   .ps-public-identity-head .ps-command-strip {
     animation: ps-subtle-rise 180ms ease-out both;
@@ -913,7 +917,7 @@ pre {
     border-radius: 0;
   }
 
-  .ps-public-identity-head .ps-ecosystem-copy {
+  .ps-public-identity-head .ps-public-head {
     max-width: 700px;
   }
 
