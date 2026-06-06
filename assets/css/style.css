@@ -479,6 +479,7 @@ button:focus-visible {
   font-weight: 720;
   letter-spacing: 0;
   text-transform: uppercase;
+  white-space: nowrap;
 }
 
 .ps-chip-active {
@@ -509,6 +510,36 @@ button:focus-visible {
   background: var(--ps-graphite-850);
   border-color: var(--ps-graphite-800);
   color: var(--ps-text-muted);
+}
+
+.ps-skills-workspace {
+  max-width: var(--ps-content-max, 940px);
+}
+
+.ps-skill-groups {
+  display: grid;
+  gap: 13px;
+}
+
+.ps-skill-group {
+  display: grid;
+  gap: 6px;
+}
+
+.ps-skill-label {
+  margin: 0;
+  color: var(--ps-text-muted);
+  font-family: var(--ps-mono);
+  font-size: 0.56rem;
+  font-weight: 760;
+  letter-spacing: 0.13em;
+  line-height: 1.1;
+  text-transform: uppercase;
+}
+
+.ps-skill-group .ps-chip-strip {
+  gap: 6px;
+  margin-top: 0;
 }
 
 .ps-command-strip {
@@ -790,6 +821,12 @@ pre {
     border-color: rgba(53, 64, 84, 0.52);
   }
 
+  .ps-skill-groups {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: 22px;
+    row-gap: 14px;
+  }
+
   .ps-row-trailing {
     justify-self: end;
     min-width: 72px;
@@ -1005,6 +1042,19 @@ pre {
     min-height: 21px;
     padding: 0 7px;
     font-size: 0.56rem;
+    white-space: normal;
+  }
+
+  .ps-skill-groups {
+    gap: 12px;
+  }
+
+  .ps-skill-label {
+    font-size: 0.54rem;
+  }
+
+  .ps-skill-group .ps-chip-strip {
+    gap: 6px;
   }
 
   .ps-command-strip {
