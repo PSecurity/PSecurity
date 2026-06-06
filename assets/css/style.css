@@ -280,9 +280,48 @@ button:focus-visible {
   stroke-linejoin: round;
 }
 
-.ps-family-item:first-child,
-.ps-family-item:hover {
+.ps-family-item:hover,
+.ps-family-item:focus-visible,
+.ps-family-item.is-active,
+.ps-family-item[aria-current="page"] {
   color: var(--ps-purple-light);
+}
+
+.ps-hub-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 18px;
+  margin-top: 12px;
+  align-items: center;
+}
+
+.ps-hub-meta-item {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 6px;
+  min-width: 0;
+}
+
+.ps-hub-meta-label {
+  color: var(--ps-purple-light);
+  font-family: var(--ps-mono);
+  font-size: 0.56rem;
+  font-weight: 680;
+  letter-spacing: 0;
+  line-height: 1;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.ps-hub-meta-value {
+  color: var(--ps-text-secondary);
+  font-size: 0.72rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.ps-public-identity-head .ps-command-strip {
+  margin-top: 14px;
 }
 
 .ps-inventory-head {
@@ -820,6 +859,7 @@ pre {
 @media (prefers-reduced-motion: no-preference) {
   .ps-public-identity-head .ps-public-head,
   .ps-public-identity-head .ps-family-strip,
+  .ps-public-identity-head .ps-hub-meta,
   .ps-public-identity-head .ps-command-strip {
     animation: ps-subtle-rise 180ms ease-out both;
   }
@@ -828,8 +868,12 @@ pre {
     animation-delay: 45ms;
   }
 
+  .ps-public-identity-head .ps-hub-meta {
+    animation-delay: 65ms;
+  }
+
   .ps-public-identity-head .ps-command-strip {
-    animation-delay: 75ms;
+    animation-delay: 90ms;
   }
 
   .ps-command,
@@ -1154,6 +1198,23 @@ pre {
   .ps-mini-vector {
     width: 14px;
     height: 14px;
+  }
+
+  .ps-hub-meta {
+    gap: 8px 12px;
+    margin-top: 10px;
+  }
+
+  .ps-hub-meta-item {
+    gap: 5px;
+  }
+
+  .ps-hub-meta-label {
+    font-size: 0.52rem;
+  }
+
+  .ps-hub-meta-value {
+    font-size: 0.66rem;
   }
 
   .ps-workspace {
