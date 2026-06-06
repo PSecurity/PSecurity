@@ -421,6 +421,16 @@ button:focus-visible {
   font-weight: 720;
 }
 
+.ps-row-title a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.ps-row-title a:hover,
+.ps-row-title a:focus-visible {
+  color: var(--ps-text);
+}
+
 .ps-row-subtitle {
   max-width: 760px;
   margin: 3px 0 0;
@@ -556,6 +566,57 @@ button:focus-visible {
 
 .ps-legal-workspace {
   max-width: var(--ps-content-max, 940px);
+}
+
+.ps-contact-workspace,
+.ps-profile-workspace,
+.ps-directory-workspace,
+.ps-post-head,
+.ps-post-workspace,
+.ps-post-footer {
+  max-width: var(--ps-content-max, 940px);
+}
+
+.ps-post-meta {
+  margin-top: 12px;
+}
+
+.ps-post-body {
+  max-width: 780px;
+}
+
+.ps-post-body img,
+.ps-post-body video {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid var(--ps-border);
+  border-radius: var(--ps-radius-surface);
+}
+
+.ps-post-body blockquote {
+  margin: 18px 0;
+  padding: 0 0 0 14px;
+  border-left: 1px solid var(--ps-purple-hairline);
+  color: var(--ps-text-secondary);
+}
+
+.ps-post-body table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 18px 0;
+  font-size: 0.74rem;
+}
+
+.ps-post-body th,
+.ps-post-body td {
+  border: 1px solid var(--ps-border);
+  padding: 8px;
+  text-align: left;
+}
+
+.ps-post-body th {
+  color: var(--ps-text);
+  background: var(--ps-graphite-900);
 }
 
 .ps-legal-workspace .ps-workspace-subtitle {
@@ -726,19 +787,6 @@ pre {
   border-radius: 12px;
   padding: 12px;
   overflow-x: auto;
-}
-
-.contact-card,
-.info-card,
-.case-card,
-.project-row,
-.availability-card,
-.official-release-panel,
-.terminal-card {
-  background: transparent;
-  background-image: none;
-  border: 0;
-  border-radius: 0;
 }
 
 .btn-primary,

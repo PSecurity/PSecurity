@@ -22,7 +22,7 @@ permalink: /privacy/
 
   <div class="ps-row-list">
     <article class="ps-action-row">
-      <div class="ps-row-icon">CALC</div>
+      <div class="ps-row-icon" aria-hidden="true"><svg class="ps-vector-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="6" y="3" width="12" height="18" rx="2"></rect><path d="M8 7h8"></path><path d="M9 11h1"></path><path d="M14 11h1"></path><path d="M9 15h1"></path><path d="M14 15h1"></path></svg></div>
       <div class="ps-row-copy">
         <h3 class="ps-row-title">PS.Calc Privacy Policy</h3>
         <p class="ps-row-subtitle">Public policy for the PS.Calc Android app, covering local-first design, offline behavior, Secure Notes, biometric handling, data sharing and deletion.</p>
@@ -32,7 +32,7 @@ permalink: /privacy/
     </article>
 
     <article class="ps-action-row">
-      <div class="ps-row-icon">USE</div>
+      <div class="ps-row-icon" aria-hidden="true"><svg class="ps-vector-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l7 3v5c0 5-3 8-7 10-4-2-7-5-7-10V6z"></path><path d="M9 12l2 2 4-5"></path></svg></div>
       <div class="ps-row-copy">
         <h3 class="ps-row-title">Privacy-first approach</h3>
         <p class="ps-row-subtitle">PeekSecurity projects prioritize local control, responsible documentation and transparent public information for users, reviewers and collaborators.</p>
@@ -40,7 +40,7 @@ permalink: /privacy/
     </article>
 
     <article class="ps-action-row">
-      <div class="ps-row-icon">MAIL</div>
+      <div class="ps-row-icon" aria-hidden="true"><svg class="ps-vector-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16v12H4z"></path><path d="M4 7l8 6 8-6"></path></svg></div>
       <div class="ps-row-copy">
         <h3 class="ps-row-title">Contact</h3>
         <p class="ps-row-subtitle">Use the public contact channels for privacy questions and review requests.</p>

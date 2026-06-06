@@ -7,10 +7,24 @@ notepad: true
 wide: true
 ---
 
-<section class="page-hero compact notes-intro">
-  <p class="eyebrow">Ferramenta autoral</p>
-  <h1>PS.Notes</h1>
-  <p>Bloco de notas estilo terminal/cyberpunk desenvolvido do zero para organizar comandos, scripts, ideias, estudos e snippets rápidos dentro da identidade PeekSecurity.</p>
+<section class="ps-workspace ps-public-head ps-directory-workspace notes-intro">
+  <div class="ps-workspace-head">
+    <p class="ps-section-label">FERRAMENTA AUTORAL</p>
+    <h1>PS.Notes</h1>
+    <p class="ps-workspace-subtitle">Bloco de notas estilo terminal desenvolvido do zero para organizar comandos, scripts, ideias, estudos e snippets rápidos dentro da identidade PeekSecurity.</p>
+  </div>
+</section>
+
+<section class="ps-workspace ps-directory-workspace">
+  <div class="ps-row-list">
+    <article class="ps-action-row">
+      <div class="ps-row-icon" aria-hidden="true"><svg class="ps-vector-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h8l4 4v14H6z"></path><path d="M14 3v5h5"></path><path d="M9 12h6"></path><path d="M9 16h6"></path></svg></div>
+      <div class="ps-row-copy">
+        <h2 class="ps-row-title">Notas locais para comandos e snippets</h2>
+        <p class="ps-row-subtitle">Interface pública de rascunho técnico, pensada para estudo, organização rápida e uso local no navegador.</p>
+      </div>
+    </article>
+  </div>
 </section>
 
 <section class="ps-notes-app" id="ps-notes-app" aria-label="PS.Notes editor">
@@ -19,10 +33,10 @@ wide: true
     <div class="header-controls">
       <span class="split-badge" id="mode-badge">◼ SINGLE</span>
       <button class="btn btn-split btn-primary" onclick="toggleSplit()" id="split-btn" type="button">⫿ SPLIT VIEW</button>
-      <button class="btn btn-split btn-success" onclick="openSaveModal()" type="button">💾 NOTAS</button>
+      <button class="btn btn-split btn-success" onclick="openSaveModal()" type="button">NOTAS</button>
       <button class="btn btn-split" onclick="saveCurrentNote()" type="button">SALVAR</button>
       <button class="btn btn-split btn-danger" onclick="clearActive()" type="button">LIMPAR</button>
-      <button class="btn btn-split" onclick="exportNote()" type="button">⬇ EXPORT</button>
+      <button class="btn btn-split" onclick="exportNote()" type="button">EXPORT</button>
     </div>
   </div>
 
@@ -65,7 +79,7 @@ wide: true
           <option value="yaml">yaml</option>
         </select>
         <div class="tool-sep"></div>
-        <button class="btn" type="button" onclick="copyPanel('a')">📋 COPIAR</button>
+        <button class="btn" type="button" onclick="copyPanel('a')">COPIAR</button>
       </div>
 
       <div class="editor-wrap" onclick="setActive('a')">
@@ -112,7 +126,7 @@ wide: true
           <option value="yaml">yaml</option>
         </select>
         <div class="tool-sep"></div>
-        <button class="btn" type="button" onclick="copyPanel('b')">📋 COPIAR</button>
+        <button class="btn" type="button" onclick="copyPanel('b')">COPIAR</button>
       </div>
 
       <div class="editor-wrap" onclick="setActive('b')">
@@ -133,7 +147,7 @@ wide: true
 
   <div id="modal-overlay">
     <div class="modal" role="dialog" aria-modal="true" aria-labelledby="notes-modal-title">
-      <h2 id="notes-modal-title">💾 NOTAS SALVAS</h2>
+      <h2 id="notes-modal-title">NOTAS SALVAS</h2>
       <ul class="modal-list" id="modal-list"></ul>
       <div class="modal-actions">
         <button class="btn btn-primary" onclick="saveCurrentNote(); closeModal()" type="button">SALVAR ATUAL</button>
@@ -143,7 +157,14 @@ wide: true
   </div>
 </section>
 
-<section class="section-block notice-card notes-disclaimer">
-  <h2>Sobre a ferramenta</h2>
-  <p>O PS.Notes salva notas localmente no navegador via <code>localStorage</code>. Ele é ideal para comandos, snippets e rascunhos técnicos rápidos, mas não substitui backup externo ou armazenamento de informações sensíveis.</p>
+<section class="ps-workspace ps-directory-workspace notes-disclaimer">
+  <div class="ps-row-list">
+    <article class="ps-action-row">
+      <div class="ps-row-icon" aria-hidden="true"><svg class="ps-vector-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l7 3v5c0 5-3 8-7 10-4-2-7-5-7-10V6z"></path><path d="M9 12l2 2 4-5"></path></svg></div>
+      <div class="ps-row-copy">
+        <h2 class="ps-row-title">Sobre a ferramenta</h2>
+        <p class="ps-row-subtitle">O PS.Notes salva notas localmente no navegador via <code>localStorage</code>. Ele é ideal para comandos, snippets e rascunhos técnicos rápidos, mas não substitui backup externo ou armazenamento de informações sensíveis.</p>
+      </div>
+    </article>
+  </div>
 </section>

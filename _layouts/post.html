@@ -1,23 +1,34 @@
 ---
 layout: default
 ---
-<article class="post-layout">
-  <header class="post-hero">
-    <p class="eyebrow">Conteúdo técnico{% if page.category %} · {{ page.category }}{% endif %}</p>
-    <h1>{{ page.title }}</h1>
-    <div class="post-meta">
-      {% if page.date %}<span>{{ page.date | date: "%d/%m/%Y" }}</span>{% endif %}
-      {% if page.author %}<span>{{ page.author }}</span>{% endif %}
-      {% if page.tags %}<span>{{ page.tags | join: " · " }}</span>{% endif %}
+<article class="ps-post-layout">
+  <section class="ps-workspace ps-public-head ps-post-head">
+    <div class="ps-workspace-head">
+      <p class="ps-section-label">CONTEÚDO TÉCNICO{% if page.category %} / {{ page.category }}{% endif %}</p>
+      <h1>{{ page.title }}</h1>
+      <div class="ps-chip-strip ps-post-meta">
+        {% if page.date %}<span class="ps-chip">{{ page.date | date: "%d/%m/%Y" }}</span>{% endif %}
+        {% if page.author %}<span class="ps-chip">{{ page.author }}</span>{% endif %}
+        {% if page.tags %}<span class="ps-chip">{{ page.tags | join: " / " }}</span>{% endif %}
+      </div>
     </div>
-  </header>
-
-  <section class="post-content">
-    {{ content }}
   </section>
 
-  <footer class="post-footer notice-card">
-    <h2>Uso responsável</h2>
-    <p>Este conteúdo é educacional e deve ser utilizado apenas em ambientes próprios ou com autorização explícita.</p>
+  <section class="ps-workspace ps-post-workspace">
+    <div class="ps-legal-body ps-post-body">
+      {{ content }}
+    </div>
+  </section>
+
+  <footer class="ps-workspace ps-post-footer">
+    <div class="ps-row-list">
+      <article class="ps-action-row">
+        <div class="ps-row-icon" aria-hidden="true"><svg class="ps-vector-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l7 3v5c0 5-3 8-7 10-4-2-7-5-7-10V6z"></path><path d="M9 12l2 2 4-5"></path></svg></div>
+        <div class="ps-row-copy">
+          <h2 class="ps-row-title">Uso responsável</h2>
+          <p class="ps-row-subtitle">Este conteúdo é educacional e deve ser utilizado apenas em ambientes próprios ou com autorização explícita.</p>
+        </div>
+      </article>
+    </div>
   </footer>
 </article>
