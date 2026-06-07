@@ -30,8 +30,8 @@
   --ps-amber-soft: #241B10;
   --ps-danger: #A33A4A;
   --ps-danger-soft: #35141C;
-  --ps-font-ui: Roboto, "Segoe UI", system-ui, -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
-  --ps-font-mono: "Roboto Mono", "Cascadia Mono", "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+  --ps-font-ui: Inter, Roboto, "Segoe UI", system-ui, -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+  --ps-font-mono: "Roboto Mono", "Cascadia Mono", "IBM Plex Mono", "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
   --ps-font: var(--ps-font-ui);
   --ps-mono: var(--ps-font-mono);
   --ps-shell-max: 1080px;
@@ -1345,5 +1345,239 @@ pre {
 
   .ps-footer-links a {
     font-size: 0.68rem;
+  }
+}
+
+
+/* PeekSecurity product identity recovery pass - source-guided, no external fonts */
+.ps-system-line {
+  margin: 12px 0 0;
+  color: var(--ps-text-muted);
+  font-family: var(--ps-font-mono);
+  font-size: 0.62rem;
+  line-height: 1.4;
+  letter-spacing: 0.04em;
+}
+
+.ps-public-identity-head {
+  max-width: var(--ps-content-max, 940px);
+}
+
+.ps-ecosystem-map,
+.ps-public-surfaces {
+  max-width: var(--ps-content-max, 940px);
+}
+
+.ps-app-grid,
+.ps-surface-grid {
+  display: grid;
+  gap: 0;
+}
+
+.ps-app-module,
+.ps-surface-module {
+  display: grid;
+  grid-template-columns: 24px minmax(0, 1fr);
+  gap: 10px;
+  align-items: start;
+  padding: 11px 0;
+  color: inherit;
+  text-decoration: none;
+  border-top: 1px solid rgba(36, 44, 58, 0.42);
+}
+
+.ps-app-module:first-child,
+.ps-surface-module:first-child {
+  border-top: 0;
+}
+
+.ps-app-module .ps-mini-vector,
+.ps-surface-module .ps-mini-vector {
+  width: 18px;
+  height: 18px;
+  margin-top: 1px;
+  color: var(--ps-purple-light);
+  stroke: currentColor;
+  fill: none;
+  stroke-width: 1.7;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.ps-app-module-copy,
+.ps-surface-module span {
+  min-width: 0;
+}
+
+.ps-app-module-copy strong,
+.ps-surface-module strong {
+  display: block;
+  color: var(--ps-text);
+  font-family: var(--ps-font-ui);
+  font-size: 0.86rem;
+  line-height: 1.2;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+
+.ps-app-module-copy small,
+.ps-surface-module small {
+  display: block;
+  margin-top: 3px;
+  color: var(--ps-text-secondary);
+  font-size: 0.72rem;
+  line-height: 1.36;
+  font-weight: 400;
+}
+
+.ps-app-module:hover .ps-app-module-copy strong,
+.ps-app-module:focus-visible .ps-app-module-copy strong,
+.ps-surface-module:hover strong,
+.ps-surface-module:focus-visible strong {
+  color: var(--ps-text);
+}
+
+.ps-family-strip {
+  align-items: center;
+}
+
+.ps-family-link {
+  font-weight: 600;
+  letter-spacing: 0;
+}
+
+.ps-section-label,
+.ps-chip,
+.ps-system-line,
+.ps-legal-meta,
+code,
+pre {
+  font-family: var(--ps-font-mono);
+}
+
+.ps-chip {
+  background: rgba(13, 16, 23, 0.42);
+  border-color: rgba(53, 64, 84, 0.62);
+  font-weight: 650;
+  letter-spacing: 0.035em;
+}
+
+.ps-chip-success {
+  background: rgba(20, 41, 29, 0.34);
+  border-color: rgba(56, 178, 107, 0.42);
+}
+
+@media (min-width: 960px) {
+  .ps-public-identity-head .ps-public-head {
+    max-width: 740px;
+  }
+
+  .ps-app-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: 28px;
+  }
+
+  .ps-surface-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    column-gap: 24px;
+  }
+
+  .ps-surface-module {
+    border-top: 0;
+  }
+}
+
+@media (max-width: 720px) {
+  body {
+    line-height: 1.48;
+  }
+
+  .ps-shell {
+    width: calc(100% - 28px);
+  }
+
+  .ps-public-head h1,
+  .ps-public-title {
+    font-size: 1.64rem;
+    line-height: 1.05;
+    font-weight: 760;
+  }
+
+  .ps-public-lead,
+  .ps-public-head p,
+  .ps-workspace-subtitle {
+    font-size: 0.80rem;
+    line-height: 1.42;
+    font-weight: 400;
+  }
+
+  .ps-system-line {
+    font-size: 0.56rem;
+    line-height: 1.45;
+  }
+
+  .ps-family-strip {
+    gap: 8px 12px;
+  }
+
+  .ps-family-link {
+    font-size: 0.62rem;
+    min-height: 22px;
+  }
+
+  .ps-workspace-title {
+    font-size: 0.98rem;
+    line-height: 1.18;
+    font-weight: 700;
+  }
+
+  .ps-row-list {
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+    overflow: visible;
+  }
+
+  .ps-action-row {
+    padding: 14px 0;
+    grid-template-columns: 36px minmax(0, 1fr);
+    column-gap: 12px;
+  }
+
+  .ps-action-row + .ps-action-row {
+    border-top: 1px solid rgba(36, 44, 58, 0.42);
+  }
+
+  .ps-row-title {
+    font-size: 0.90rem;
+    line-height: 1.20;
+    font-weight: 680;
+  }
+
+  .ps-row-subtitle {
+    font-size: 0.76rem;
+    line-height: 1.42;
+    font-weight: 400;
+  }
+
+  .ps-chip {
+    min-height: 22px;
+    padding: 0 8px;
+    font-size: 0.54rem;
+  }
+
+  .ps-app-module,
+  .ps-surface-module {
+    padding: 12px 0;
+  }
+
+  .ps-app-module-copy strong,
+  .ps-surface-module strong {
+    font-size: 0.86rem;
+  }
+
+  .ps-app-module-copy small,
+  .ps-surface-module small {
+    font-size: 0.72rem;
   }
 }

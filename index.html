@@ -12,6 +12,7 @@ source_format: html
     <p class="ps-section-label">PEEKSECURITY PUBLIC HUB</p>
     <h1 class="ps-public-title">PeekSecurity</h1>
     <p class="ps-public-lead">Local-first apps, security tools and technical documentation by Gilberto Martins.</p>
+    <p class="ps-system-line">Local-first · privacy-aware · offline-capable · public documentation</p>
 
     <nav class="ps-family-strip" aria-label="PeekSecurity app family">
       <a class="ps-family-link" href="{{ '/apps/pscalc/' | relative_url }}">
@@ -45,40 +46,57 @@ source_format: html
   </div>
 </section>
 
-<section class="ps-workspace">
+<section class="ps-workspace ps-ecosystem-map">
+  <div class="ps-workspace-head">
+    <p class="ps-section-label">APP ECOSYSTEM</p>
+    <h2 class="ps-workspace-title">PeekSecurity apps</h2>
+    <p class="ps-workspace-subtitle">Ferramentas locais para cálculo, arquivos, privacidade, galeria e fluxos seguros.</p>
+  </div>
+
+  <div class="ps-app-grid">
+    <a class="ps-app-module" href="{{ '/apps/pscalc/' | relative_url }}">
+      <svg class="ps-mini-vector" viewBox="0 0 24 24" aria-hidden="true"><rect x="7" y="4" width="10" height="16" rx="2"></rect><path d="M9.5 8h5"></path><path d="M10 12h.1"></path><path d="M14 12h.1"></path><path d="M10 16h.1"></path><path d="M14 16h.1"></path></svg>
+      <span class="ps-app-module-copy"><strong>PS.Calc</strong><small>Calculator · formulas · secure notes</small></span>
+    </a>
+    <a class="ps-app-module" href="{{ '/apps/' | relative_url }}">
+      <svg class="ps-mini-vector" viewBox="0 0 24 24" aria-hidden="true"><path d="M4.5 7.5h6l1.6 2H19a1.5 1.5 0 0 1 1.5 1.5v5.5A1.5 1.5 0 0 1 19 18H5a1.5 1.5 0 0 1-1.5-1.5v-8A1.5 1.5 0 0 1 5 7.5z"></path><path d="M4.5 10h16"></path></svg>
+      <span class="ps-app-module-copy"><strong>PS.Files</strong><small>File manager · tools · local operations</small></span>
+    </a>
+    <a class="ps-app-module" href="{{ '/apps/' | relative_url }}">
+      <svg class="ps-mini-vector" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4l7 3v5c0 4.1-2.7 6.7-7 8-4.3-1.3-7-3.9-7-8V7z"></path><path d="M9 12h6"></path></svg>
+      <span class="ps-app-module-copy"><strong>PS.Block</strong><small>Local protection · privacy controls</small></span>
+    </a>
+    <a class="ps-app-module" href="{{ '/apps/' | relative_url }}">
+      <svg class="ps-mini-vector" viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="5" width="14" height="14" rx="2"></rect><path d="M8 15l2.5-2.5L13 15l1.5-1.5L17 16"></path><circle cx="9" cy="9" r="1"></circle></svg>
+      <span class="ps-app-module-copy"><strong>PS.Gallery</strong><small>Media viewer · clean share · private access</small></span>
+    </a>
+    <a class="ps-app-module" href="{{ '/apps/' | relative_url }}">
+      <svg class="ps-mini-vector" viewBox="0 0 24 24" aria-hidden="true"><rect x="6" y="10" width="12" height="9" rx="2"></rect><path d="M9 10V7a3 3 0 0 1 6 0v3"></path><path d="M12 14v2"></path></svg>
+      <span class="ps-app-module-copy"><strong>PS.Pass</strong><small>Credential vault · local-first security</small></span>
+    </a>
+  </div>
+</section>
+
+<section class="ps-workspace ps-public-surfaces">
   <div class="ps-workspace-head">
     <p class="ps-section-label">PUBLIC WORKSPACE</p>
     <h2 class="ps-workspace-title">Superfícies públicas do ecossistema PeekSecurity</h2>
     <p class="ps-workspace-subtitle">Uma base pública para apps, documentação, políticas e projetos técnicos com postura local-first e uso responsável.</p>
   </div>
 
-  <div class="ps-row-list">
-    <article class="ps-action-row">
-      <div class="ps-row-icon"><svg class="ps-vector-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="7" y="4" width="10" height="16" rx="2"></rect><path d="M10 7h4"></path><path d="M10 17h4"></path></svg></div>
-      <div class="ps-row-copy">
-        <h3 class="ps-row-title">Aplicativos locais</h3>
-        <p class="ps-row-subtitle">PS.Calc, PS.Files, PS.Block e ferramentas Android organizadas como produtos técnicos, com privacidade local, documentação pública e linguagem objetiva.</p>
-      </div>
-      <a class="ps-row-trailing" href="{{ '/apps/' | relative_url }}">Open</a>
-    </article>
-
-    <article class="ps-action-row">
-      <div class="ps-row-icon"><svg class="ps-vector-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4h7l4 4v13H7z"></path><path d="M14 4v5h5"></path><path d="M10 12h5"></path><path d="M10 16h5"></path></svg></div>
-      <div class="ps-row-copy">
-        <h3 class="ps-row-title">Conteúdo e laboratório</h3>
-        <p class="ps-row-subtitle">Projetos, posts e scripts apresentados como inventário funcional, sem topo promocional inflado, cards promocionais ou layout genérico de portfólio.</p>
-      </div>
-      <a class="ps-row-trailing" href="{{ '/projects/' | relative_url }}">Open</a>
-    </article>
-
-    <article class="ps-action-row">
-      <div class="ps-row-icon"><svg class="ps-vector-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="6" y="10" width="12" height="10" rx="2"></rect><path d="M9 10V7a3 3 0 0 1 6 0v3"></path><path d="M12 14v3"></path></svg></div>
-      <div class="ps-row-copy">
-        <h3 class="ps-row-title">Políticas públicas</h3>
-        <p class="ps-row-subtitle">Páginas HTML estáticas para Google Play Console e revisão pública, sem PDF, sem login e com contato direto do ecossistema.</p>
-      </div>
-      <a class="ps-row-trailing" href="{{ '/privacy/' | relative_url }}">Open</a>
-    </article>
+  <div class="ps-surface-grid">
+    <a class="ps-surface-module" href="{{ '/apps/' | relative_url }}">
+      <svg class="ps-mini-vector" viewBox="0 0 24 24" aria-hidden="true"><rect x="7" y="4" width="10" height="16" rx="2"></rect><path d="M10 7h4"></path><path d="M10 17h4"></path></svg>
+      <span><strong>Aplicativos locais</strong><small>Produtos Android com privacidade local, documentação pública e linguagem objetiva.</small></span>
+    </a>
+    <a class="ps-surface-module" href="{{ '/projects/' | relative_url }}">
+      <svg class="ps-mini-vector" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4h7l4 4v13H7z"></path><path d="M14 4v5h5"></path><path d="M10 12h5"></path><path d="M10 16h5"></path></svg>
+      <span><strong>Conteúdo e laboratório</strong><small>Projetos, posts e scripts como inventário funcional, sem layout promocional.</small></span>
+    </a>
+    <a class="ps-surface-module" href="{{ '/privacy/' | relative_url }}">
+      <svg class="ps-mini-vector" viewBox="0 0 24 24" aria-hidden="true"><rect x="6" y="10" width="12" height="10" rx="2"></rect><path d="M9 10V7a3 3 0 0 1 6 0v3"></path><path d="M12 14v3"></path></svg>
+      <span><strong>Políticas públicas</strong><small>Páginas estáticas para revisão pública, Play Console e contato do ecossistema.</small></span>
+    </a>
   </div>
 </section>
 
