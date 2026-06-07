@@ -7,142 +7,71 @@ source_format: html
 ---
 
 <!-- HTML workspace page. Do not convert this file to Markdown. -->
-<section class="ps-public-head ps-inventory-head">
-  <p class="ps-section-label">PEEKSECURITY APPS</p>
-  <div class="ps-public-title" role="heading" aria-level="1">Apps</div>
-  <p>Inventário técnico de aplicativos e ferramentas do ecossistema PeekSecurity, com foco em privacidade local, produtividade, segurança aplicada, documentação técnica e uso responsável.</p>
-  <div class="ps-command-strip">
-    <a class="ps-command ps-command-primary" href="{{ '/apps/pscalc/' | relative_url }}">PS.Calc</a>
-    <a class="ps-command" href="{{ '/privacy/' | relative_url }}">Privacy Center</a>
+<section class="ps-workspace ps-v6-page-console" aria-labelledby="apps-title">
+  <div>
+    <p class="ps-section-label">PEEKSECURITY APPS</p>
+    <h1 id="apps-title" class="ps-public-title">Apps</h1>
+    <p class="ps-public-lead">Inventário técnico de aplicativos e ferramentas locais do ecossistema PeekSecurity.</p>
+    <div class="ps-v6-command-row">
+      <a class="ps-command ps-command-primary" href="{{ '/apps/pscalc/' | relative_url }}">PS.Calc</a>
+      <a class="ps-command" href="{{ '/privacy/' | relative_url }}">Privacy Center</a>
+    </div>
+  </div>
+  <div class="ps-v6-page-panel" aria-label="Apps inventory model">
+    <span>Inventory</span><strong>Local-first tools</strong>
+    <span class="ps-v6-panel-subkey">Status</span><strong>Published · alpha · planned</strong>
   </div>
 </section>
 
-<section class="ps-workspace">
-  <div class="ps-workspace-head">
-    <p class="ps-section-label">INVENTÁRIO</p>
-    <div class="ps-workspace-title" role="heading" aria-level="2">Ferramentas públicas, discretas e documentadas</div>
-    <p class="ps-workspace-subtitle">Cada item é apresentado como uma row técnica, sem cards promocionais e sem prometer recursos não validados.</p>
+<section class="ps-workspace ps-v6-page-section" aria-labelledby="apps-inventory-title">
+  <div class="ps-v6-section-head">
+    <div>
+      <p class="ps-section-label">PRODUCT LEDGER</p>
+      <h2 id="apps-inventory-title" class="ps-workspace-title">Ferramentas públicas, discretas e documentadas</h2>
+      <p class="ps-workspace-subtitle">Cada app é apresentado como módulo técnico, sem cards promocionais e sem prometer recursos não validados.</p>
+    </div>
   </div>
 
-  <div class="ps-row-list ps-inventory-list">
-    <article class="ps-action-row">
-      <div class="ps-row-icon"><svg class="ps-vector-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="6.5" y="4" width="11" height="16" rx="2"></rect><path d="M8.5 7.5h7"></path><path d="M9.4 11h.8"></path><path d="M13.8 11h.8"></path><path d="M9.4 15h.8"></path><path d="M13.8 15h.8"></path></svg></div>
-      <div class="ps-row-copy">
-        <div class="ps-row-title" role="heading" aria-level="3">PS.Calc</div>
-        <p class="ps-row-subtitle">Calculadora Android e ferramenta de produtividade local-first, com recursos offline, histórico local, conversões, fórmulas e Secure Notes protegidas localmente.</p>
-        <div class="ps-chip-strip">
-          <span class="ps-chip ps-chip-success">Local-first</span>
-          <span class="ps-chip">Android</span>
-          <span class="ps-chip ps-chip-warning">Alpha</span>
-        </div>
-      </div>
-      <a class="ps-row-trailing" href="{{ '/apps/pscalc/' | relative_url }}">Open</a>
+  <div class="ps-v6-page-grid">
+    <a class="ps-v6-page-module" href="{{ '/apps/pscalc/' | relative_url }}">
+      <svg class="ps-mini-vector" viewBox="0 0 24 24" aria-hidden="true"><rect x="6.5" y="4" width="11" height="16" rx="2"></rect><path d="M8.5 7.5h7"></path><path d="M9.4 11h.8"></path><path d="M13.8 11h.8"></path><path d="M9.4 15h.8"></path><path d="M13.8 15h.8"></path></svg>
+      <span><strong>PS.Calc</strong><small>Calculadora Android local-first com histórico local, conversões, fórmulas e Secure Notes protegidas localmente.</small><span class="ps-v6-page-chips"><b class="ps-chip ps-chip-success">Local-first</b><b class="ps-chip">Android</b><b class="ps-chip ps-chip-warning">Alpha</b></span></span>
+      <em>Open</em>
+    </a>
+    <article class="ps-v6-page-module">
+      <svg class="ps-mini-vector" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 8h7l2 2h7v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2z"></path><path d="M4 8V6a2 2 0 0 1 2-2h4l2 4"></path></svg>
+      <span><strong>PS.Files</strong><small>Referência visual do ecossistema para superfícies flat, organização técnica e experiência local-first.</small><span class="ps-v6-page-chips"><b class="ps-chip">Android</b><b class="ps-chip ps-chip-warning">In progress</b><b class="ps-chip">Files</b></span></span>
+      <em>Core</em>
     </article>
-
-    <article class="ps-action-row">
-      <div class="ps-row-icon"><svg class="ps-vector-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 8h7l2 2h7v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2z"></path><path d="M4 8V6a2 2 0 0 1 2-2h4l2 4"></path></svg></div>
-      <div class="ps-row-copy">
-        <div class="ps-row-title" role="heading" aria-level="3">PS.Files</div>
-        <p class="ps-row-subtitle">App do ecossistema PeekSecurity em desenvolvimento, usado como referência visual para superfícies flat, organização técnica e experiência local-first.</p>
-        <div class="ps-chip-strip">
-          <span class="ps-chip">Android</span>
-          <span class="ps-chip ps-chip-warning">In progress</span>
-          <span class="ps-chip">Files</span>
-        </div>
-      </div>
-      <span class="ps-row-trailing">Details</span>
+    <a class="ps-v6-page-module" href="https://github.com/PSecurity/PSBlock">
+      <svg class="ps-mini-vector" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4l6.2 2.8v4.3c0 4.2-2.5 6.8-6.2 8.7-3.7-1.9-6.2-4.5-6.2-8.7V6.8z"></path><path d="M8.3 8.5l7.4 7"></path></svg>
+      <span><strong>PS.Block</strong><small>Proteção local, privacidade de sensores, controle defensivo, logs locais e estudo responsável.</small><span class="ps-v6-page-chips"><b class="ps-chip">Android</b><b class="ps-chip">Kotlin</b><b class="ps-chip ps-chip-success">Released</b></span></span>
+      <em>GitHub</em>
+    </a>
+    <article class="ps-v6-page-module">
+      <svg class="ps-mini-vector" viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="6" width="14" height="12" rx="2"></rect><path d="M8 14l2-2 3 3 2-2 3 3"></path><path d="M9.2 9.5h.01"></path></svg>
+      <span><strong>PS.Gallery</strong><small>Visualizador de mídia, clean share e acesso protegido em consolidação dentro da família PeekSecurity.</small><span class="ps-v6-page-chips"><b class="ps-chip">Android</b><b class="ps-chip ps-chip-warning">Early base</b><b class="ps-chip">Gallery</b></span></span>
+      <em>Alpha</em>
     </article>
-
-    <article class="ps-action-row">
-      <div class="ps-row-icon"><svg class="ps-vector-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4l6.2 2.8v4.3c0 4.2-2.5 6.8-6.2 8.7-3.7-1.9-6.2-4.5-6.2-8.7V6.8z"></path><path d="M8.3 8.5l7.4 7"></path></svg></div>
-      <div class="ps-row-copy">
-        <div class="ps-row-title" role="heading" aria-level="3">PS.Block</div>
-        <p class="ps-row-subtitle">App Android open source voltado a proteção local, privacidade de sensores, controle defensivo, logs locais e estudo em dispositivos próprios ou autorizados.</p>
-        <div class="ps-chip-strip">
-          <span class="ps-chip">Android</span>
-          <span class="ps-chip">Kotlin</span>
-          <span class="ps-chip ps-chip-success">Released</span>
-        </div>
-      </div>
-      <a class="ps-row-trailing" href="https://github.com/PSecurity/PSBlock">GitHub</a>
+    <article class="ps-v6-page-module">
+      <svg class="ps-mini-vector" viewBox="0 0 24 24" aria-hidden="true"><circle cx="8" cy="12" r="2.7"></circle><path d="M10.7 12h8.3"></path><path d="M15.5 12v2.6"></path><path d="M18.5 12v2"></path></svg>
+      <span><strong>PS.Pass</strong><small>Workspace de credenciais planejado com vault local criptografado e documentação pública futura.</small><span class="ps-v6-page-chips"><b class="ps-chip">Android</b><b class="ps-chip ps-chip-muted">Planned</b><b class="ps-chip">Passwords</b></span></span>
+      <em>Planned</em>
     </article>
-
-    <article class="ps-action-row">
-      <div class="ps-row-icon"><svg class="ps-vector-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="6" width="14" height="12" rx="2"></rect><path d="M8 14l2-2 3 3 2-2 3 3"></path><path d="M9.2 9.5h.01"></path></svg></div>
-      <div class="ps-row-copy">
-        <div class="ps-row-title" role="heading" aria-level="3">PS.Gallery</div>
-        <p class="ps-row-subtitle">App em fase inicial do ecossistema PeekSecurity. Detalhes públicos serão adicionados conforme houver escopo validado para publicação.</p>
-        <div class="ps-chip-strip">
-          <span class="ps-chip">Android</span>
-          <span class="ps-chip ps-chip-warning">Early base</span>
-          <span class="ps-chip">Gallery</span>
-        </div>
-      </div>
-      <span class="ps-row-trailing">Details</span>
-    </article>
-
-    <article class="ps-action-row">
-      <div class="ps-row-icon"><svg class="ps-vector-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="8" cy="12" r="2.7"></circle><path d="M10.7 12h8.3"></path><path d="M15.5 12v2.6"></path><path d="M18.5 12v2"></path></svg></div>
-      <div class="ps-row-copy">
-        <div class="ps-row-title" role="heading" aria-level="3">PS.Pass</div>
-        <p class="ps-row-subtitle">App planejado do ecossistema PeekSecurity. A página pública será criada somente com recursos confirmados e linguagem de privacidade revisada.</p>
-        <div class="ps-chip-strip">
-          <span class="ps-chip">Android</span>
-          <span class="ps-chip ps-chip-muted">Planned</span>
-          <span class="ps-chip">Passwords</span>
-        </div>
-      </div>
-      <span class="ps-row-trailing">Planned</span>
-    </article>
-
-    <article class="ps-action-row">
-      <div class="ps-row-icon"><svg class="ps-vector-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4l6.2 2.8v4.3c0 4.2-2.5 6.8-6.2 8.7-3.7-1.9-6.2-4.5-6.2-8.7V6.8z"></path><path d="M9.2 12l1.8 1.8 3.8-4.6"></path></svg></div>
-      <div class="ps-row-copy">
-        <div class="ps-row-title" role="heading" aria-level="3">PS.Guardian</div>
-        <p class="ps-row-subtitle">App em desenvolvimento voltado a auditoria, evidências, relatórios técnicos e apoio a ambientes próprios ou autorizados.</p>
-        <div class="ps-chip-strip">
-          <span class="ps-chip">Android</span>
-          <span class="ps-chip ps-chip-warning">In progress</span>
-          <span class="ps-chip">Audit</span>
-        </div>
-      </div>
-      <span class="ps-row-trailing">Context</span>
-    </article>
-
-    <article class="ps-action-row">
-      <div class="ps-row-icon"><svg class="ps-vector-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="6" width="14" height="12" rx="2"></rect><path d="M8 10l3 2-3 2"></path><path d="M13 15h3"></path><circle cx="16" cy="9.5" r="1.6"></circle></svg></div>
-      <div class="ps-row-copy">
-        <div class="ps-row-title" role="heading" aria-level="3">PS.Pentester</div>
-        <p class="ps-row-subtitle">App planejado para laboratório técnico e documentação de segurança aplicada. Nenhum recurso público é anunciado até validação de escopo.</p>
-        <div class="ps-chip-strip">
-          <span class="ps-chip">Android</span>
-          <span class="ps-chip ps-chip-muted">Planned</span>
-          <span class="ps-chip">Security Lab</span>
-        </div>
-      </div>
-      <span class="ps-row-trailing">Planned</span>
-    </article>
-
-    <article class="ps-action-row">
-      <div class="ps-row-icon"><svg class="ps-vector-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4h7l4 4v13H7z"></path><path d="M14 4v5h5"></path><path d="M10 12h5"></path><path d="M10 16h5"></path></svg></div>
-      <div class="ps-row-copy">
-        <div class="ps-row-title" role="heading" aria-level="3">PS.Notes</div>
-        <p class="ps-row-subtitle">Bloco de notas autoral para comandos, estudos, snippets e organização técnica no navegador, com salvamento local e exportação.</p>
-        <div class="ps-chip-strip">
-          <span class="ps-chip">Web</span>
-          <span class="ps-chip ps-chip-success">Local</span>
-          <span class="ps-chip">Notes</span>
-        </div>
-      </div>
-      <a class="ps-row-trailing" href="{{ '/psnotes/' | relative_url }}">Open</a>
+    <article class="ps-v6-page-module">
+      <svg class="ps-mini-vector" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4l6.2 2.8v4.3c0 4.2-2.5 6.8-6.2 8.7-3.7-1.9-6.2-4.5-6.2-8.7V6.8z"></path><path d="M9.2 12l1.8 1.8 3.8-4.6"></path></svg>
+      <span><strong>PS.Guardian</strong><small>Auditoria, evidências, relatórios técnicos e apoio a ambientes próprios ou autorizados.</small><span class="ps-v6-page-chips"><b class="ps-chip">Android</b><b class="ps-chip ps-chip-warning">In progress</b><b class="ps-chip">Audit</b></span></span>
+      <em>Context</em>
     </article>
   </div>
 </section>
 
-<section class="ps-workspace">
-  <div class="ps-workspace-head">
-    <p class="ps-section-label">USO RESPONSÁVEL</p>
-    <div class="ps-workspace-title" role="heading" aria-level="2">Study before executing. Understand before automating.</div>
-    <p class="ps-workspace-subtitle">Document before publishing. Validate before scaling. Use only in owned or authorized environments.</p>
+<section class="ps-workspace ps-v6-page-section">
+  <div class="ps-v6-section-head">
+    <div>
+      <p class="ps-section-label">USO RESPONSÁVEL</p>
+      <h2 class="ps-workspace-title">Study before executing. Understand before automating.</h2>
+      <p class="ps-workspace-subtitle">Document before publishing. Validate before scaling. Use only in owned or authorized environments.</p>
+    </div>
   </div>
 </section>
