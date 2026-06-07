@@ -1,0 +1,10 @@
+# PeekSecurity internal continuity docs — local only, do not publish
+_peeksecurity_internal/
+*.local.md
+*.internal.md
+
+# Local development / OS noise
+.DS_Store
+Thumbs.db
+*.tmp
+*.log
