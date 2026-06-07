@@ -2966,3 +2966,89 @@ pre {
     margin-bottom: 24px;
   }
 }
+
+/* PeekSecurity v6.4.1 Semantic Grid & Surface Legibility Hotfix
+   Scope: Home semantic/grid legibility only. Keeps v6.4 Jekyll structure and visual identity.
+   Root cause fixed: Public Surfaces reused the platform row grid without the icon slot, forcing copy into a narrow column.
+*/
+.ps-v63-module-copy strong,
+.ps-v63-module-copy small,
+.ps-v63-platform-module em,
+.ps-v63-product-module em,
+.ps-v63-catalog-module em {
+  word-break: normal;
+  overflow-wrap: normal;
+  hyphens: none;
+}
+
+.ps-v63-products,
+.ps-v63-model,
+.ps-v63-surfaces {
+  scroll-margin-top: 86px;
+}
+
+.ps-v63-model {
+  margin-top: clamp(28px, 4vw, 46px);
+}
+
+.ps-v63-surfaces {
+  margin-top: clamp(30px, 4.4vw, 52px);
+  padding-bottom: 34px;
+}
+
+.ps-v641-surface-map .ps-v63-platform-module {
+  grid-template-columns: 22px minmax(0, 1fr);
+  column-gap: 12px;
+}
+
+.ps-v641-surface-map .ps-v63-platform-module em {
+  grid-column: 2;
+  margin-top: 6px;
+}
+
+.ps-v641-surface-map .ps-v63-module-copy strong {
+  white-space: normal;
+}
+
+.ps-v641-surface-map .ps-v63-module-copy small {
+  max-width: 28ch;
+}
+
+@media (min-width: 1080px) {
+  .ps-v641-surface-map {
+    grid-template-columns: repeat(4, minmax(205px, 1fr));
+    gap: 18px;
+  }
+
+  .ps-v641-surface-map .ps-v63-platform-module {
+    min-height: 110px;
+    padding: 16px 0;
+  }
+}
+
+@media (min-width: 960px) and (max-width: 1079px) {
+  .ps-v641-surface-map {
+    grid-template-columns: repeat(2, minmax(240px, 1fr));
+    gap: 16px 22px;
+  }
+
+  .ps-v641-surface-map .ps-v63-platform-module:nth-child(3),
+  .ps-v641-surface-map .ps-v63-platform-module:nth-child(4) {
+    border-top: 1px solid rgba(36, 44, 58, 0.46);
+  }
+}
+
+@media (max-width: 720px) {
+  .ps-v63-model {
+    margin-top: 24px;
+  }
+
+  .ps-v63-surfaces {
+    margin-top: 26px;
+    padding-bottom: 28px;
+  }
+
+  .ps-v641-surface-map .ps-v63-module-copy small {
+    max-width: none;
+  }
+}

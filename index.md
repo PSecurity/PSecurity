@@ -143,10 +143,22 @@ source_format: html
       <h2 id="surfaces-title" class="ps-workspace-title">Páginas públicas por função</h2>
     </div>
   </div>
-  <div class="ps-v63-platform-map">
-    <a class="ps-v63-platform-module" href="{{ '/apps/' | relative_url }}"><span class="ps-v63-module-copy"><strong>Apps</strong><small>Catálogo de produtos Android e Windows.</small></span><em>Catalog</em></a>
-    <a class="ps-v63-platform-module" href="{{ '/projects/' | relative_url }}"><span class="ps-v63-module-copy"><strong>Projects</strong><small>Projetos técnicos, scripts e posts públicos.</small></span><em>Inventory</em></a>
-    <a class="ps-v63-platform-module" href="{{ '/privacy/' | relative_url }}"><span class="ps-v63-module-copy"><strong>Privacy</strong><small>Policy center e revisão pública.</small></span><em>Trust</em></a>
-    <a class="ps-v63-platform-module" href="{{ '/contact/' | relative_url }}"><span class="ps-v63-module-copy"><strong>Contact</strong><small>Canal profissional, suporte e colaboração.</small></span><em>Channel</em></a>
+  <div class="ps-v63-platform-map ps-v641-surface-map">
+    <a class="ps-v63-platform-module" href="{{ '/apps/' | relative_url }}">
+      <svg class="ps-mini-vector" viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="5" width="6" height="6" rx="1.2"></rect><rect x="13" y="5" width="6" height="6" rx="1.2"></rect><rect x="5" y="13" width="6" height="6" rx="1.2"></rect><rect x="13" y="13" width="6" height="6" rx="1.2"></rect></svg>
+      <span class="ps-v63-module-copy"><strong>Apps</strong><small>Catálogo de produtos Android e Windows.</small></span><em>Catalog</em>
+    </a>
+    <a class="ps-v63-platform-module" href="{{ '/projects/' | relative_url }}">
+      <svg class="ps-mini-vector" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4h7l4 4v12H7z"></path><path d="M14 4v5h5"></path><path d="M10 12h5"></path><path d="M10 16h4"></path></svg>
+      <span class="ps-v63-module-copy"><strong>Projects</strong><small>Projetos técnicos, scripts e posts públicos.</small></span><em>Inventory</em>
+    </a>
+    <a class="ps-v63-platform-module" href="{{ '/privacy/' | relative_url }}">
+      <svg class="ps-mini-vector" viewBox="0 0 24 24" aria-hidden="true"><rect x="6" y="10" width="12" height="10" rx="2"></rect><path d="M9 10V7a3 3 0 0 1 6 0v3"></path><path d="M12 14v3"></path></svg>
+      <span class="ps-v63-module-copy"><strong>Privacy</strong><small>Policy center e revisão pública.</small></span><em>Trust</em>
+    </a>
+    <a class="ps-v63-platform-module" href="{{ '/contact/' | relative_url }}">
+      <svg class="ps-mini-vector" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 6h14v10H8l-3 3z"></path><path d="M9 10h6"></path><path d="M9 13h4"></path></svg>
+      <span class="ps-v63-module-copy"><strong>Contact</strong><small>Canal profissional, suporte e colaboração.</small></span><em>Channel</em>
+    </a>
   </div>
 </section>
