@@ -7,7 +7,7 @@ source_format: html
 ---
 
 <!-- HTML workspace page. Do not convert this file to Markdown. -->
-<section class="ps-workspace ps-v63-console" aria-labelledby="ps-console-title">
+<section class="ps-workspace ps-v63-console ps-v64-hero" aria-labelledby="ps-console-title">
   <div class="ps-v63-console-copy">
     <p class="ps-section-label">PEEKSECURITY PUBLIC CONSOLE</p>
     <h1 id="ps-console-title" class="ps-public-title">PeekSecurity</h1>
@@ -19,8 +19,14 @@ source_format: html
       <a class="ps-command" href="{{ '/privacy/' | relative_url }}">Privacy</a>
       <a class="ps-command" href="https://github.com/PSecurity">GitHub</a>
     </nav>
+    <div class="ps-v64-signal-row" aria-label="PeekSecurity validated design basis">
+      <span>PS.Files workspace</span>
+      <span>PS.Calc shell</span>
+      <span>Android + Windows</span>
+      <span>Static GitHub Pages</span>
+    </div>
   </div>
-  <div class="ps-v63-console-state" aria-label="PeekSecurity operating state">
+  <div class="ps-v63-console-state ps-v64-console-state" aria-label="PeekSecurity operating state">
     <p class="ps-section-label">SYSTEM MAP</p>
     <div class="ps-v63-state-grid">
       <span><b>Android</b><small>apps locais e ferramentas mobile</small></span>
@@ -36,7 +42,7 @@ source_format: html
     <div>
       <p class="ps-section-label">PLATFORM MAP</p>
       <h2 id="platform-map-title" class="ps-workspace-title">Android, Windows, projetos e políticas no mesmo ecossistema</h2>
-      <p class="ps-workspace-subtitle">O site precisa refletir a suíte real da PeekSecurity: produtos locais, software desktop, documentação técnica e superfícies públicas de confiança.</p>
+      <p class="ps-workspace-subtitle">A superfície pública organiza a suíte real da PeekSecurity: apps Android, softwares Windows, documentação técnica e canais públicos de confiança.</p>
     </div>
   </div>
   <div class="ps-v63-platform-map">
