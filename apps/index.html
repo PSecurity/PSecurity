@@ -1,76 +1,104 @@
 ---
 layout: default
 title: Apps
-description: Apps oficiais e ferramentas públicas do ecossistema PeekSecurity.
+description: Product Catalog for PeekSecurity Android apps and Windows desktop software.
 permalink: /apps/
 source_format: html
 ---
 
 <!-- HTML workspace page. Do not convert this file to Markdown. -->
-<section class="ps-workspace ps-v6-page-console" aria-labelledby="apps-title">
-  <div>
-    <p class="ps-section-label">PEEKSECURITY APPS</p>
-    <h1 id="apps-title" class="ps-public-title">Apps</h1>
-    <p class="ps-public-lead">Inventário técnico de aplicativos e ferramentas locais do ecossistema PeekSecurity.</p>
-    <div class="ps-v6-command-row">
-      <a class="ps-command ps-command-primary" href="{{ '/apps/pscalc/' | relative_url }}">PS.Calc</a>
-      <a class="ps-command" href="{{ '/privacy/' | relative_url }}">Privacy Center</a>
-    </div>
+<section class="ps-workspace ps-v63-page-console" aria-labelledby="apps-title">
+  <div class="ps-v63-console-copy">
+    <p class="ps-section-label">PRODUCT CATALOG</p>
+    <h1 id="apps-title" class="ps-public-title">PeekSecurity apps and desktop software</h1>
+    <p class="ps-public-lead">Catálogo público multi-plataforma para apps Android, softwares Windows e ferramentas locais em desenvolvimento.</p>
+    <nav class="ps-v63-command-strip" aria-label="Product catalog sections">
+      <a class="ps-command ps-command-primary" href="#android-apps">Android</a>
+      <a class="ps-command" href="#windows-software">Windows</a>
+      <a class="ps-command" href="{{ '/privacy/' | relative_url }}">Privacy</a>
+      <a class="ps-command" href="https://github.com/PSecurity">GitHub</a>
+    </nav>
   </div>
-  <div class="ps-v6-page-panel" aria-label="Apps inventory model">
-    <span>Inventory</span><strong>Local-first tools</strong>
-    <span class="ps-v6-panel-subkey">Status</span><strong>Published · alpha · planned</strong>
+  <div class="ps-v63-console-state" aria-label="Catalog state">
+    <p class="ps-section-label">CATALOG STATE</p>
+    <div class="ps-v63-state-grid ps-v63-state-grid-compact">
+      <span><b>Android</b><small>apps e módulos protegidos</small></span>
+      <span><b>Windows</b><small>desktop software local</small></span>
+      <span><b>Docs</b><small>políticas e revisão pública</small></span>
+      <span><b>Source</b><small>GitHub e projetos abertos</small></span>
+    </div>
   </div>
 </section>
 
-<section class="ps-workspace ps-v6-page-section" aria-labelledby="apps-inventory-title">
-  <div class="ps-v6-section-head">
+<section id="android-apps" class="ps-workspace ps-v63-products" aria-labelledby="android-apps-title">
+  <div class="ps-v63-section-head">
     <div>
-      <p class="ps-section-label">PRODUCT LEDGER</p>
-      <h2 id="apps-inventory-title" class="ps-workspace-title">Ferramentas públicas, discretas e documentadas</h2>
-      <p class="ps-workspace-subtitle">Cada app é apresentado como módulo técnico, sem cards promocionais e sem prometer recursos não validados.</p>
+      <p class="ps-section-label">ANDROID APPS</p>
+      <h2 id="android-apps-title" class="ps-workspace-title">Aplicativos locais da suíte mobile</h2>
+      <p class="ps-workspace-subtitle">Produtos Android com foco em privacidade local, produtividade técnica, mídia, arquivos e proteção.</p>
     </div>
   </div>
-
-  <div class="ps-v6-page-grid">
-    <a class="ps-v6-page-module" href="{{ '/apps/pscalc/' | relative_url }}">
-      <svg class="ps-mini-vector" viewBox="0 0 24 24" aria-hidden="true"><rect x="6.5" y="4" width="11" height="16" rx="2"></rect><path d="M8.5 7.5h7"></path><path d="M9.4 11h.8"></path><path d="M13.8 11h.8"></path><path d="M9.4 15h.8"></path><path d="M13.8 15h.8"></path></svg>
-      <span><strong>PS.Calc</strong><small>Calculadora Android local-first com histórico local, conversões, fórmulas e Secure Notes protegidas localmente.</small><span class="ps-v6-page-chips"><b class="ps-chip ps-chip-success">Local-first</b><b class="ps-chip">Android</b><b class="ps-chip ps-chip-warning">Alpha</b></span></span>
+  <div class="ps-v63-catalog-grid">
+    <a class="ps-v63-catalog-module" href="{{ '/apps/pscalc/' | relative_url }}">
+      <svg class="ps-mini-vector" viewBox="0 0 24 24" aria-hidden="true"><rect x="7" y="4" width="10" height="16" rx="2"></rect><path d="M9.5 8h5"></path><path d="M10 12h.1"></path><path d="M14 12h.1"></path><path d="M10 16h.1"></path><path d="M14 16h.1"></path></svg>
+      <span class="ps-v63-module-copy"><strong>PS.Calc Android</strong><small>Calculadora técnica com CALC, SCI, DEV, CONV, fórmulas, histórico local e Secure Notes protegido.</small><span class="ps-chip-strip"><b class="ps-chip">Android</b><b class="ps-chip ps-chip-warning">Alpha</b><b class="ps-chip ps-chip-success">Local-first</b></span></span>
       <em>Open</em>
     </a>
-    <article class="ps-v6-page-module">
+    <article class="ps-v63-catalog-module">
       <svg class="ps-mini-vector" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 8h7l2 2h7v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2z"></path><path d="M4 8V6a2 2 0 0 1 2-2h4l2 4"></path></svg>
-      <span><strong>PS.Files</strong><small>Referência visual do ecossistema para superfícies flat, organização técnica e experiência local-first.</small><span class="ps-v6-page-chips"><b class="ps-chip">Android</b><b class="ps-chip ps-chip-warning">In progress</b><b class="ps-chip">Files</b></span></span>
-      <em>Core</em>
+      <span class="ps-v63-module-copy"><strong>PS.Files Android</strong><small>Workspace de arquivos com operações locais, ZIP/TAR/GZ, hash, Clean Share, Recent e Operation Console.</small><span class="ps-chip-strip"><b class="ps-chip">Android</b><b class="ps-chip">Files</b><b class="ps-chip">Core reference</b></span></span>
+      <em>In progress</em>
     </article>
-    <a class="ps-v6-page-module" href="https://github.com/PSecurity/PSBlock">
-      <svg class="ps-mini-vector" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4l6.2 2.8v4.3c0 4.2-2.5 6.8-6.2 8.7-3.7-1.9-6.2-4.5-6.2-8.7V6.8z"></path><path d="M8.3 8.5l7.4 7"></path></svg>
-      <span><strong>PS.Block</strong><small>Proteção local, privacidade de sensores, controle defensivo, logs locais e estudo responsável.</small><span class="ps-v6-page-chips"><b class="ps-chip">Android</b><b class="ps-chip">Kotlin</b><b class="ps-chip ps-chip-success">Released</b></span></span>
-      <em>GitHub</em>
-    </a>
-    <article class="ps-v6-page-module">
-      <svg class="ps-mini-vector" viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="6" width="14" height="12" rx="2"></rect><path d="M8 14l2-2 3 3 2-2 3 3"></path><path d="M9.2 9.5h.01"></path></svg>
-      <span><strong>PS.Gallery</strong><small>Visualizador de mídia, clean share e acesso protegido em consolidação dentro da família PeekSecurity.</small><span class="ps-v6-page-chips"><b class="ps-chip">Android</b><b class="ps-chip ps-chip-warning">Early base</b><b class="ps-chip">Gallery</b></span></span>
+    <article class="ps-v63-catalog-module">
+      <svg class="ps-mini-vector" viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="5" width="14" height="14" rx="2"></rect><path d="M8 15l2.5-2.5L13 15l1.5-1.5L17 16"></path><circle cx="9" cy="9" r="1"></circle></svg>
+      <span class="ps-v63-module-copy"><strong>PS.Gallery Android</strong><small>Galeria pública com viewer, video engine, Clean Share e acesso protegido invisível para mídia local.</small><span class="ps-chip-strip"><b class="ps-chip">Android</b><b class="ps-chip ps-chip-warning">Early base</b><b class="ps-chip">Media</b></span></span>
       <em>Alpha</em>
     </article>
-    <article class="ps-v6-page-module">
-      <svg class="ps-mini-vector" viewBox="0 0 24 24" aria-hidden="true"><circle cx="8" cy="12" r="2.7"></circle><path d="M10.7 12h8.3"></path><path d="M15.5 12v2.6"></path><path d="M18.5 12v2"></path></svg>
-      <span><strong>PS.Pass</strong><small>Workspace de credenciais planejado com vault local criptografado e documentação pública futura.</small><span class="ps-v6-page-chips"><b class="ps-chip">Android</b><b class="ps-chip ps-chip-muted">Planned</b><b class="ps-chip">Passwords</b></span></span>
+    <a class="ps-v63-catalog-module" href="https://github.com/PSecurity/PSBlock">
+      <svg class="ps-mini-vector" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4l6.2 2.8v4.3c0 4.2-2.5 6.8-6.2 8.7-3.7-1.9-6.2-4.5-6.2-8.7V6.8z"></path><path d="M8.3 8.5l7.4 7"></path></svg>
+      <span class="ps-v63-module-copy"><strong>PS.Block Android</strong><small>Proteção local, privacidade de sensores, Device Admin, watchdog, logs locais e uso responsável.</small><span class="ps-chip-strip"><b class="ps-chip">Android</b><b class="ps-chip">Kotlin</b><b class="ps-chip ps-chip-success">Released</b></span></span>
+      <em>GitHub</em>
+    </a>
+    <article class="ps-v63-catalog-module">
+      <svg class="ps-mini-vector" viewBox="0 0 24 24" aria-hidden="true"><rect x="6" y="10" width="12" height="9" rx="2"></rect><path d="M9 10V7a3 3 0 0 1 6 0v3"></path><path d="M12 14v2"></path></svg>
+      <span class="ps-v63-module-copy"><strong>PS.Pass Android</strong><small>Workspace de credenciais planejado com vault local criptografado e identidade visual da suíte.</small><span class="ps-chip-strip"><b class="ps-chip">Android</b><b class="ps-chip ps-chip-muted">Planned</b><b class="ps-chip">Credentials</b></span></span>
       <em>Planned</em>
-    </article>
-    <article class="ps-v6-page-module">
-      <svg class="ps-mini-vector" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4l6.2 2.8v4.3c0 4.2-2.5 6.8-6.2 8.7-3.7-1.9-6.2-4.5-6.2-8.7V6.8z"></path><path d="M9.2 12l1.8 1.8 3.8-4.6"></path></svg>
-      <span><strong>PS.Guardian</strong><small>Auditoria, evidências, relatórios técnicos e apoio a ambientes próprios ou autorizados.</small><span class="ps-v6-page-chips"><b class="ps-chip">Android</b><b class="ps-chip ps-chip-warning">In progress</b><b class="ps-chip">Audit</b></span></span>
-      <em>Context</em>
     </article>
   </div>
 </section>
 
-<section class="ps-workspace ps-v6-page-section">
-  <div class="ps-v6-section-head">
+<section id="windows-software" class="ps-workspace ps-v63-products" aria-labelledby="windows-software-title">
+  <div class="ps-v63-section-head">
+    <div>
+      <p class="ps-section-label">WINDOWS SOFTWARE</p>
+      <h2 id="windows-software-title" class="ps-workspace-title">Softwares desktop locais</h2>
+      <p class="ps-workspace-subtitle">A suíte Windows amplia a PeekSecurity para workspaces desktop, overlays, arquivos e notas locais.</p>
+    </div>
+  </div>
+  <div class="ps-v63-catalog-grid">
+    <article class="ps-v63-catalog-module">
+      <svg class="ps-mini-vector" viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="5" width="16" height="12" rx="2"></rect><path d="M8 9h8"></path><path d="M8 13h3"></path><path d="M13 13h3"></path><path d="M9 20h6"></path></svg>
+      <span class="ps-v63-module-copy"><strong>PS.Calc Desktop</strong><small>WinUI shell, Desk overlay, tray lifecycle, hotkey, Control Center e session log local.</small><span class="ps-chip-strip"><b class="ps-chip">Windows</b><b class="ps-chip ps-chip-warning">Active development</b><b class="ps-chip">Local session</b></span></span>
+      <em>Desktop</em>
+    </article>
+    <article class="ps-v63-catalog-module">
+      <svg class="ps-mini-vector" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 8h7l2 2h7v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2z"></path><path d="M8 14h8"></path><path d="M8 17h5"></path></svg>
+      <span class="ps-v63-module-copy"><strong>PS.Files Desktop</strong><small>WinUI file workspace, archive/extract, hash, integrity reports and local operation console.</small><span class="ps-chip-strip"><b class="ps-chip">Windows</b><b class="ps-chip">File workspace</b><b class="ps-chip">Free foundation</b></span></span>
+      <em>Desktop</em>
+    </article>
+    <article class="ps-v63-catalog-module">
+      <svg class="ps-mini-vector" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 5h10v14H7z"></path><path d="M10 9h4"></path><path d="M10 12h4"></path><path d="M10 15h2"></path></svg>
+      <span class="ps-v63-module-copy"><strong>PS.Notes Desktop</strong><small>WinUI host, WPF QuickOverlay, NativeDockOverlay, encrypted local notes and project workspace.</small><span class="ps-chip-strip"><b class="ps-chip">Windows</b><b class="ps-chip">Overlay</b><b class="ps-chip ps-chip-success">Local encrypted</b></span></span>
+      <em>Desktop</em>
+    </article>
+  </div>
+</section>
+
+<section class="ps-workspace ps-v63-model" aria-labelledby="apps-use-title">
+  <div class="ps-v63-section-head">
     <div>
       <p class="ps-section-label">USO RESPONSÁVEL</p>
-      <h2 class="ps-workspace-title">Study before executing. Understand before automating.</h2>
+      <h2 id="apps-use-title" class="ps-workspace-title">Study before executing. Understand before automating.</h2>
       <p class="ps-workspace-subtitle">Document before publishing. Validate before scaling. Use only in owned or authorized environments.</p>
     </div>
   </div>
