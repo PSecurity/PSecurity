@@ -1350,14 +1350,6 @@ pre {
 
 
 /* PeekSecurity product identity recovery pass - source-guided, no external fonts */
-.ps-system-line {
-  margin: 12px 0 0;
-  color: var(--ps-text-muted);
-  font-family: var(--ps-font-mono);
-  font-size: 0.62rem;
-  line-height: 1.4;
-  letter-spacing: 0.04em;
-}
 
 .ps-public-identity-head {
   max-width: var(--ps-content-max, 940px);
@@ -1448,7 +1440,6 @@ pre {
 
 .ps-section-label,
 .ps-chip,
-.ps-system-line,
 .ps-legal-meta,
 code,
 pre {
@@ -1509,11 +1500,6 @@ pre {
     font-size: 0.80rem;
     line-height: 1.42;
     font-weight: 400;
-  }
-
-  .ps-system-line {
-    font-size: 0.56rem;
-    line-height: 1.45;
   }
 
   .ps-family-strip {
@@ -1579,5 +1565,373 @@ pre {
   .ps-app-module-copy small,
   .ps-surface-module small {
     font-size: 0.72rem;
+  }
+}
+
+/* PeekSecurity Product Console Home Rebuild - variants of validated workspace/action-row language */
+.ps-product-console,
+.ps-console-family,
+.ps-console-workspace,
+.ps-profile-console,
+.ps-stack-console,
+.ps-project-console,
+.ps-contact-console {
+  max-width: var(--ps-content-max, 940px);
+}
+
+.ps-product-console {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(220px, 0.42fr);
+  gap: 28px;
+  align-items: end;
+  margin-bottom: 28px;
+}
+
+.ps-console-main {
+  min-width: 0;
+}
+
+.ps-product-console .ps-public-title {
+  max-width: 680px;
+  font-size: clamp(2.18rem, 5vw, 4rem);
+  line-height: 0.98;
+  font-weight: 780;
+  letter-spacing: -0.045em;
+}
+
+.ps-product-console .ps-public-lead {
+  max-width: 700px;
+  margin-top: 14px;
+  color: var(--ps-text-secondary);
+  font-size: clamp(0.88rem, 1.7vw, 1.02rem);
+  line-height: 1.48;
+}
+
+.ps-console-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 18px;
+  align-items: center;
+}
+
+.ps-console-status {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 2px 0 2px 18px;
+  background: transparent;
+  border-left: 1px solid rgba(85, 59, 36, 0.43);
+}
+
+.ps-console-status-row {
+  display: grid;
+  gap: 2px;
+}
+
+.ps-console-key,
+.ps-stack-name {
+  color: var(--ps-purple-light);
+  font-family: var(--ps-font-mono);
+  font-size: 0.58rem;
+  line-height: 1.12;
+  font-weight: 720;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.ps-console-value {
+  color: var(--ps-text-secondary);
+  font-size: 0.75rem;
+  line-height: 1.28;
+  font-weight: 520;
+}
+
+.ps-console-head-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  align-items: end;
+}
+
+.ps-console-more {
+  align-self: end;
+  margin-bottom: 1px;
+}
+
+.ps-product-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.ps-product-module {
+  min-width: 0;
+  display: grid;
+  grid-template-rows: auto minmax(0, 1fr);
+  gap: 10px;
+  padding: 12px 0 0;
+  color: inherit;
+  text-decoration: none;
+  background: transparent;
+}
+
+.ps-product-module .ps-mini-vector {
+  width: 20px;
+  height: 20px;
+  color: var(--ps-purple-light);
+  stroke: currentColor;
+  fill: none;
+  stroke-width: 1.75;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.ps-product-copy {
+  display: block;
+  min-width: 0;
+}
+
+.ps-product-copy strong,
+.ps-console-lane strong,
+.ps-project-item strong {
+  display: block;
+  color: var(--ps-text);
+  font-family: var(--ps-font-ui);
+  font-size: 0.88rem;
+  line-height: 1.18;
+  font-weight: 720;
+  letter-spacing: -0.01em;
+}
+
+.ps-product-copy small,
+.ps-console-lane small,
+.ps-project-item small {
+  display: block;
+  margin-top: 4px;
+  color: var(--ps-text-secondary);
+  font-size: 0.70rem;
+  line-height: 1.36;
+  font-weight: 430;
+}
+
+.ps-product-module:hover .ps-product-copy strong,
+.ps-product-module:focus-visible .ps-product-copy strong,
+.ps-console-lane:hover strong,
+.ps-console-lane:focus-visible strong,
+.ps-project-item:hover strong,
+.ps-project-item:focus-visible strong {
+  color: var(--ps-text);
+}
+
+.ps-product-module:hover .ps-mini-vector,
+.ps-product-module:focus-visible .ps-mini-vector,
+.ps-console-lane:hover .ps-mini-vector,
+.ps-console-lane:focus-visible .ps-mini-vector {
+  color: var(--ps-purple-action-icon);
+}
+
+.ps-console-lanes {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 20px;
+}
+
+.ps-console-lanes-profile {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.ps-console-lane {
+  min-width: 0;
+  display: grid;
+  grid-template-columns: 22px minmax(0, 1fr);
+  gap: 12px;
+  align-items: start;
+  color: inherit;
+  text-decoration: none;
+  background: transparent;
+}
+
+.ps-console-lane .ps-mini-vector {
+  width: 20px;
+  height: 20px;
+  margin-top: 1px;
+  color: var(--ps-purple-light);
+  stroke: currentColor;
+  fill: none;
+  stroke-width: 1.75;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.ps-stack-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px 28px;
+}
+
+.ps-stack-module {
+  min-width: 0;
+}
+
+.ps-stack-module .ps-chip-strip {
+  margin-top: 8px;
+}
+
+.ps-project-strip {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.ps-project-item {
+  min-width: 0;
+  color: inherit;
+  text-decoration: none;
+  background: transparent;
+}
+
+.ps-contact-console {
+  margin-bottom: 8px;
+}
+
+.ps-contact-console .ps-workspace-title {
+  max-width: 760px;
+}
+
+@media (min-width: 960px) {
+  .ps-product-console {
+    padding-top: 10px;
+  }
+
+  .ps-product-console .ps-command,
+  .ps-console-actions .ps-command {
+    min-height: 34px;
+    padding-inline: 14px;
+  }
+}
+
+@media (max-width: 900px) {
+  .ps-product-console {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+
+  .ps-console-status {
+    max-width: 520px;
+    padding-left: 14px;
+  }
+
+  .ps-product-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 14px 20px;
+  }
+
+  .ps-console-lanes,
+  .ps-console-lanes-profile,
+  .ps-stack-grid,
+  .ps-project-strip {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+}
+
+@media (max-width: 720px) {
+  .ps-product-console {
+    margin-bottom: 24px;
+  }
+
+  .ps-product-console .ps-public-title {
+    font-size: 2.12rem;
+    line-height: 1.02;
+    letter-spacing: -0.042em;
+  }
+
+  .ps-product-console .ps-public-lead {
+    max-width: 96%;
+    font-size: 0.88rem;
+    line-height: 1.44;
+  }
+
+  .ps-console-status {
+    display: none;
+  }
+
+  .ps-console-actions {
+    gap: 8px;
+    margin-top: 16px;
+  }
+
+  .ps-console-actions .ps-command,
+  .ps-product-console .ps-command {
+    min-height: 34px;
+    padding: 0 13px;
+    font-size: 0.70rem;
+  }
+
+  .ps-product-grid {
+    grid-template-columns: 1fr;
+    gap: 11px;
+  }
+
+  .ps-product-module {
+    grid-template-columns: 24px minmax(0, 1fr);
+    grid-template-rows: auto;
+    gap: 11px;
+    padding: 0;
+    align-items: start;
+  }
+
+  .ps-product-module .ps-mini-vector,
+  .ps-console-lane .ps-mini-vector {
+    width: 19px;
+    height: 19px;
+  }
+
+  .ps-product-copy strong,
+  .ps-console-lane strong,
+  .ps-project-item strong {
+    font-size: 0.88rem;
+    line-height: 1.18;
+  }
+
+  .ps-product-copy small,
+  .ps-console-lane small,
+  .ps-project-item small {
+    font-size: 0.72rem;
+    line-height: 1.34;
+  }
+
+  .ps-console-lane {
+    grid-template-columns: 24px minmax(0, 1fr);
+    gap: 11px;
+  }
+
+  .ps-stack-module .ps-chip-strip {
+    margin-top: 7px;
+  }
+
+  .ps-console-head-row {
+    display: block;
+  }
+
+  .ps-console-more {
+    margin-top: 10px;
+  }
+
+  .ps-workspace-title {
+    font-size: 1.02rem;
+    line-height: 1.2;
+  }
+
+  .ps-workspace-subtitle {
+    font-size: 0.78rem;
+    line-height: 1.42;
+  }
+
+  .ps-chip {
+    min-height: 22px;
+    padding: 0 8px;
+    font-size: 0.56rem;
   }
 }
