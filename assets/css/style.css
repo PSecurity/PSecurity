@@ -2399,3 +2399,48 @@ pre {
 .ps-v6-panel-subkey {
   margin-top: 12px;
 }
+
+/* PeekSecurity v6.1 Inline Layout Breakage Hotfix - defensive block ownership */
+.ps-v6-product > span,
+.ps-v6-operation > span,
+.ps-v6-page-module > span,
+.ps-v6-page-contact > span,
+.ps-v6-privacy-module > span {
+  display: block;
+  min-width: 0;
+}
+
+.ps-v6-product strong,
+.ps-v6-product small,
+.ps-v6-product em,
+.ps-v6-operation strong,
+.ps-v6-operation small,
+.ps-v6-page-module strong,
+.ps-v6-page-module small,
+.ps-v6-page-module em,
+.ps-v6-page-contact strong,
+.ps-v6-page-contact small,
+.ps-v6-page-contact em,
+.ps-v6-privacy-module strong,
+.ps-v6-privacy-module small,
+.ps-v6-privacy-module em,
+.ps-v6-page-panel span,
+.ps-v6-page-panel strong,
+.ps-v6-system-grid span,
+.ps-v6-system-grid strong {
+  display: block;
+}
+
+.ps-v6-page-chips {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.ps-v6-page-module,
+.ps-v6-page-contact,
+.ps-v6-privacy-module,
+.ps-v6-product,
+.ps-v6-operation {
+  text-decoration: none;
+}
