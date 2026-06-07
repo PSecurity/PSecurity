@@ -3052,3 +3052,106 @@ pre {
     max-width: none;
   }
 }
+
+/* PeekSecurity v6.5 Android Testing Program Form Page
+   Scope: static GitHub Pages/Jekyll testing intake surface only.
+   Decision basis: Google Play tester access requires controlled tester-list flow; Google Forms keeps the site static and avoids custom backend/storage on GitHub Pages.
+*/
+.ps-v65-testers-console {
+  align-items: stretch;
+}
+
+.ps-v65-testers-state .ps-v63-state-grid small {
+  max-width: 26ch;
+}
+
+.ps-v65-testers-section {
+  scroll-margin-top: 86px;
+}
+
+.ps-v65-test-track-grid {
+  gap: 16px 22px;
+}
+
+.ps-v65-test-track {
+  min-height: 112px;
+}
+
+.ps-v65-flow-grid article {
+  min-height: 118px;
+}
+
+.ps-v65-request-panel {
+  margin-top: clamp(30px, 4.2vw, 52px);
+  padding-bottom: 34px;
+}
+
+.ps-v65-request-console {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 18px;
+  align-items: center;
+  padding: 16px 0;
+  border-top: 1px solid rgba(36, 44, 58, 0.52);
+  border-bottom: 1px solid rgba(36, 44, 58, 0.52);
+}
+
+.ps-v65-request-copy {
+  min-width: 0;
+}
+
+.ps-v65-request-copy strong,
+.ps-v65-request-copy small {
+  display: block;
+}
+
+.ps-v65-request-copy strong {
+  margin-top: 6px;
+  color: var(--ps-text);
+  font-size: 0.96rem;
+  line-height: 1.26;
+  font-weight: 740;
+  letter-spacing: -0.008em;
+}
+
+.ps-v65-request-copy small {
+  max-width: 70ch;
+  margin-top: 6px;
+  color: var(--ps-text-secondary);
+  font-size: 0.76rem;
+  line-height: 1.48;
+}
+
+.ps-v65-form-command {
+  min-height: 38px;
+  white-space: nowrap;
+}
+
+@media (min-width: 1180px) {
+  .ps-v641-surface-map {
+    grid-template-columns: repeat(5, minmax(170px, 1fr));
+  }
+}
+
+@media (max-width: 840px) {
+  .ps-v65-request-console {
+    grid-template-columns: 1fr;
+    align-items: start;
+  }
+
+  .ps-v65-form-command {
+    justify-self: start;
+  }
+}
+
+@media (max-width: 720px) {
+  .ps-v65-test-track,
+  .ps-v65-flow-grid article {
+    min-height: 0;
+  }
+
+  .ps-v65-request-panel {
+    margin-top: 26px;
+    padding-bottom: 28px;
+  }
+}

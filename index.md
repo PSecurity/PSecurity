@@ -14,6 +14,7 @@ source_format: html
     <p class="ps-public-lead">Ecossistema local-first de apps Android, softwares Windows, projetos técnicos e documentação pública para privacidade, produtividade e uso responsável.</p>
     <nav class="ps-v63-command-strip" aria-label="Primary public surfaces">
       <a class="ps-command ps-command-primary" href="{{ '/apps/' | relative_url }}">Product Catalog</a>
+      <a class="ps-command" href="{{ '/testers/' | relative_url }}">Testing</a>
       <a class="ps-command" href="{{ '/apps/#windows-software' | relative_url }}">Windows</a>
       <a class="ps-command" href="{{ '/projects/' | relative_url }}">Projects</a>
       <a class="ps-command" href="{{ '/privacy/' | relative_url }}">Privacy</a>
@@ -155,6 +156,10 @@ source_format: html
     <a class="ps-v63-platform-module" href="{{ '/privacy/' | relative_url }}">
       <svg class="ps-mini-vector" viewBox="0 0 24 24" aria-hidden="true"><rect x="6" y="10" width="12" height="10" rx="2"></rect><path d="M9 10V7a3 3 0 0 1 6 0v3"></path><path d="M12 14v3"></path></svg>
       <span class="ps-v63-module-copy"><strong>Privacy</strong><small>Policy center e revisão pública.</small></span><em>Trust</em>
+    </a>
+    <a class="ps-v63-platform-module" href="{{ '/testers/' | relative_url }}">
+      <svg class="ps-mini-vector" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 7h14v10H5z"></path><path d="M8 10h4"></path><path d="M8 14h8"></path><path d="M15 10h2"></path></svg>
+      <span class="ps-v63-module-copy"><strong>Testing</strong><small>Inscrição para testes Android do PS.Calc e PS.Files.</small></span><em>Program</em>
     </a>
     <a class="ps-v63-platform-module" href="{{ '/contact/' | relative_url }}">
       <svg class="ps-mini-vector" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 6h14v10H8l-3 3z"></path><path d="M9 10h6"></path><path d="M9 13h4"></path></svg>
