@@ -3440,3 +3440,56 @@ pre {
     grid-template-columns: 1fr;
   }
 }
+
+/* v6.7.1 - Internal Page Layout Collapse Hotfix
+   Classification: CIRURGICA. The PS.Files privacy policy uses text-only action rows;
+   the global ps-action-row grid reserves an icon column by default, so rows without
+   icons collapsed into the narrow first track. Scope the correction to the policy
+   surface instead of redesigning the global component system. */
+.ps-v67-policy-surface,
+.ps-v67-privacy-console {
+  width: 100%;
+  max-width: 1040px;
+}
+
+.ps-v67-policy-list .ps-action-row {
+  grid-template-columns: minmax(0, 1fr) auto;
+  min-width: 0;
+}
+
+.ps-v67-policy-list .ps-action-row > .ps-row-copy {
+  grid-column: 1;
+  min-width: 0;
+}
+
+.ps-v67-policy-list .ps-action-row > .ps-row-trailing {
+  grid-column: 2;
+}
+
+.ps-v67-policy-list .ps-row-title,
+.ps-v67-policy-list .ps-row-subtitle,
+.ps-v67-policy-ledger article,
+.ps-v67-policy-row,
+.ps-v67-policy-row strong,
+.ps-v67-policy-row small,
+.ps-v67-policy-ledger article strong,
+.ps-v67-policy-ledger article small {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.ps-v67-policy-list .ps-row-subtitle {
+  max-width: none;
+}
+
+@media (max-width: 720px) {
+  .ps-v67-policy-list .ps-action-row {
+    grid-template-columns: 1fr;
+  }
+
+  .ps-v67-policy-list .ps-action-row > .ps-row-trailing {
+    grid-column: 1;
+    justify-self: start;
+    margin-top: 8px;
+  }
+}

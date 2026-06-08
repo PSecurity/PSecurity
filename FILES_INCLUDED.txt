@@ -1,17 +1,9 @@
-PSecurity v6.7 package
+PSecurity v6.7.1 - Internal Page Layout Collapse Hotfix
 
-Public changed/new files:
-- privacy/psfiles/index.md
-- privacy/index.md
-- apps/index.html
+Public files included:
 - assets/css/style.css
+- privacy/psfiles/index.md
+- existing site files preserved from v6.7
 
-Inherited from previous package:
-- index.md
-- testers/index.md
-- _layouts/default.html
-- _config.yml
-- existing pages/assets
-
-Local-only continuity:
+Internal continuity files included but protected by .gitignore:
 - _peeksecurity_internal/
