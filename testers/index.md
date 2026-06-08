@@ -14,9 +14,9 @@ source_format: html
     <p class="ps-public-lead">Solicite participação nos testes Android do PS.Calc e PS.Files pela Google Play. O acesso depende do e-mail Google ser adicionado à lista de testadores antes do link oficial funcionar.</p>
     <nav class="ps-v63-command-strip" aria-label="Testing program actions">
       <a class="ps-command ps-command-primary" href="https://forms.gle/R4kAaAKybL858oKD6">Open tester request form</a>
-      <a class="ps-command" href="#active-tracks">Active tracks</a>
-      <a class="ps-command" href="#testing-flow">Process</a>
-      <a class="ps-command" href="{{ '/privacy/' | relative_url }}">Privacy</a>
+      <a class="ps-command ps-command-secondary" href="#active-tracks">Active tracks</a>
+      <a class="ps-command ps-command-secondary" href="#testing-flow">Process</a>
+      <a class="ps-command ps-command-ghost" href="{{ '/privacy/' | relative_url }}">Privacy</a>
     </nav>
   </div>
   <div class="ps-v63-console-state ps-v65-testers-state" aria-label="Testing state">

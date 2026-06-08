@@ -13,8 +13,8 @@ source_format: html
     <p class="ps-public-lead">Canal público para tecnologia, segurança da informação, suporte técnico, prevenção a fraudes, desenvolvimento de ferramentas e revisão dos produtos PeekSecurity.</p>
     <nav class="ps-v63-command-strip" aria-label="Contact actions">
       <a class="ps-command ps-command-primary" href="mailto:gilbertoferreirasp@gmail.com">Professional e-mail</a>
-      <a class="ps-command" href="mailto:peeksecurity.dev@gmail.com">App review</a>
-      <a class="ps-command" href="https://github.com/PSecurity">GitHub</a>
+      <a class="ps-command ps-command-ghost" href="mailto:peeksecurity.dev@gmail.com">App review</a>
+      <a class="ps-command ps-command-external" href="https://github.com/PSecurity">GitHub</a>
     </nav>
   </div>
   <div class="ps-v63-console-state" aria-label="Contact scope">
@@ -75,6 +75,6 @@ source_format: html
   </div>
   <div class="ps-v63-command-strip">
     <a class="ps-command ps-command-primary" href="{{ '/assets/cv/curriculo-gilberto-victor-ferreira-martins.pdf' | relative_url }}" target="_blank" rel="noopener">Baixar currículo</a>
-    <a class="ps-command" href="mailto:gilbertoferreirasp@gmail.com">Enviar e-mail</a>
+    <a class="ps-command ps-command-ghost" href="mailto:gilbertoferreirasp@gmail.com">Enviar e-mail</a>
   </div>
 </section>

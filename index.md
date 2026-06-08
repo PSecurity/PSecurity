@@ -14,11 +14,11 @@ source_format: html
     <p class="ps-public-lead">Ecossistema local-first de apps Android, softwares Windows, projetos técnicos e documentação pública para privacidade, produtividade e uso responsável.</p>
     <nav class="ps-v63-command-strip" aria-label="Primary public surfaces">
       <a class="ps-command ps-command-primary" href="{{ '/apps/' | relative_url }}">Product Catalog</a>
-      <a class="ps-command" href="{{ '/testers/' | relative_url }}">Testing</a>
-      <a class="ps-command" href="{{ '/apps/#windows-software' | relative_url }}">Windows</a>
-      <a class="ps-command" href="{{ '/projects/' | relative_url }}">Projects</a>
-      <a class="ps-command" href="{{ '/privacy/' | relative_url }}">Privacy</a>
-      <a class="ps-command" href="https://github.com/PSecurity">GitHub</a>
+      <a class="ps-command ps-command-secondary" href="{{ '/testers/' | relative_url }}">Testing</a>
+      <a class="ps-command ps-command-secondary" href="{{ '/apps/#windows-software' | relative_url }}">Windows</a>
+      <a class="ps-command ps-command-ghost" href="{{ '/projects/' | relative_url }}">Projects</a>
+      <a class="ps-command ps-command-secondary" href="{{ '/privacy/' | relative_url }}">Privacy</a>
+      <a class="ps-command ps-command-external" href="https://github.com/PSecurity">GitHub</a>
     </nav>
     <div class="ps-v64-signal-row" aria-label="PeekSecurity validated design basis">
       <span>PS.Files workspace</span>

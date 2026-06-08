@@ -1,13 +1,17 @@
-PeekSecurity Portfolio v3.1 Stable + PS.Block Update
+PSecurity v6.7 package
 
-Base: v3.0 Final Quality Pass aprovada visualmente.
-
-Arquivos incluídos:
-- index.md
-- projects.md
-- README.md
-- _config.yml
-- category/android.md
-- _posts/2026-05-20-ps-block-v1.md
+Public changed/new files:
+- privacy/psfiles/index.md
+- privacy/index.md
+- apps/index.html
 - assets/css/style.css
-- demais arquivos preservados da base v3.0
+
+Inherited from previous package:
+- index.md
+- testers/index.md
+- _layouts/default.html
+- _config.yml
+- existing pages/assets
+
+Local-only continuity:
+- _peeksecurity_internal/

@@ -13,7 +13,8 @@ source_format: html
     <p class="ps-public-lead">Centro público de políticas, postura de privacidade e revisão para apps Android, softwares Windows e páginas do ecossistema PeekSecurity.</p>
     <nav class="ps-v63-command-strip" aria-label="Privacy navigation">
       <a class="ps-command ps-command-primary" href="{{ '/privacy/pscalc/' | relative_url }}">PS.Calc Policy</a>
-      <a class="ps-command" href="mailto:peeksecurity.dev@gmail.com">Privacy contact</a>
+      <a class="ps-command ps-command-secondary" href="{{ '/privacy/psfiles/' | relative_url }}">PS.Files Policy</a>
+      <a class="ps-command ps-command-ghost" href="mailto:peeksecurity.support@gmail.com">Privacy contact</a>
     </nav>
   </div>
   <div class="ps-v63-console-state" aria-label="Privacy posture">
@@ -41,12 +42,17 @@ source_format: html
       <span class="ps-v63-module-copy"><strong>PS.Calc Privacy Policy</strong><small>Política pública do app Android, cobrindo design local-first, Secure Notes, biometria, compartilhamento e exclusão de dados.</small><span class="ps-chip-strip"><b class="ps-chip ps-chip-success">Published</b><b class="ps-chip">Android</b><b class="ps-chip ps-chip-success">Local-first</b></span></span>
       <em>Open</em>
     </a>
+    <a class="ps-v63-catalog-module" href="{{ '/privacy/psfiles/' | relative_url }}">
+      <svg class="ps-mini-vector" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 8h7l2 2h7v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2z"></path><path d="M4 8V6a2 2 0 0 1 2-2h4l2 4"></path><path d="M8 14h8"></path><path d="M8 17h5"></path></svg>
+      <span class="ps-v63-module-copy"><strong>PS.Files Privacy Policy</strong><small>Política pública do app Android, cobrindo arquivos locais, permissões de armazenamento, Clean Share, hashes, relatórios e Secure Space.</small><span class="ps-chip-strip"><b class="ps-chip ps-chip-success">Published</b><b class="ps-chip">Android</b><b class="ps-chip">Files</b></span></span>
+      <em>Open</em>
+    </a>
     <article class="ps-v63-catalog-module">
       <svg class="ps-mini-vector" viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="5" width="16" height="12" rx="2"></rect><path d="M8 9h8"></path><path d="M8 13h3"></path><path d="M9 20h6"></path></svg>
       <span class="ps-v63-module-copy"><strong>Windows policy surfaces</strong><small>Políticas desktop serão publicadas conforme cada produto Windows avançar para uma superfície pública própria.</small><span class="ps-chip-strip"><b class="ps-chip">Windows</b><b class="ps-chip ps-chip-muted">Planned docs</b></span></span>
       <em>Planned</em>
     </article>
-    <a class="ps-v63-catalog-module" href="mailto:peeksecurity.dev@gmail.com">
+    <a class="ps-v63-catalog-module" href="mailto:peeksecurity.support@gmail.com">
       <svg class="ps-mini-vector" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16v12H4z"></path><path d="M4 7l8 6 8-6"></path></svg>
       <span class="ps-v63-module-copy"><strong>Privacy contact</strong><small>Canal público para dúvidas, revisão de políticas e solicitações relacionadas aos produtos PeekSecurity.</small><span class="ps-chip-strip"><b class="ps-chip">Public channel</b><b class="ps-chip">Review</b></span></span>
       <em>E-mail</em>

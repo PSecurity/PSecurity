@@ -30,6 +30,7 @@
         <a class="ps-site-nav-item{% if page.url == '/' %} is-active{% endif %}" href="{{ '/' | relative_url }}"{% if page.url == '/' %} aria-current="page"{% endif %}>Home</a>
         <a class="ps-site-nav-item{% if page.url contains '/apps/' %} is-active{% endif %}" href="{{ '/apps/' | relative_url }}"{% if page.url contains '/apps/' %} aria-current="page"{% endif %}>Apps</a>
         <a class="ps-site-nav-item{% if page.url contains '/projects/' %} is-active{% endif %}" href="{{ '/projects/' | relative_url }}"{% if page.url contains '/projects/' %} aria-current="page"{% endif %}>Projetos</a>
+        <a class="ps-site-nav-item{% if page.url contains '/testers/' %} is-active{% endif %}" href="{{ '/testers/' | relative_url }}"{% if page.url contains '/testers/' %} aria-current="page"{% endif %}>Testing</a>
         <a class="ps-site-nav-item{% if page.url contains '/privacy/' %} is-active{% endif %}" href="{{ '/privacy/' | relative_url }}"{% if page.url contains '/privacy/' %} aria-current="page"{% endif %}>Privacy</a>
         <a class="ps-site-nav-item{% if page.url contains '/about/' %} is-active{% endif %}" href="{{ '/about/' | relative_url }}"{% if page.url contains '/about/' %} aria-current="page"{% endif %}>Sobre</a>
         <a class="ps-site-nav-item{% if page.url contains '/curriculo/' %} is-active{% endif %}" href="{{ '/curriculo/' | relative_url }}"{% if page.url contains '/curriculo/' %} aria-current="page"{% endif %}>Currículo</a>
@@ -50,6 +51,7 @@
         <a href="https://github.com/PSecurity">GitHub</a>
         <a href="{{ '/apps/' | relative_url }}">Apps</a>
         <a href="{{ '/privacy/' | relative_url }}">Privacy</a>
+        <a href="{{ '/testers/' | relative_url }}">Testing</a>
         <a href="{{ '/projects/' | relative_url }}">Projects</a>
         <a href="{{ '/contact/' | relative_url }}">Contato</a>
       </div>
